@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<define>
+<block name ="public" > 
+<escaped lang ="en" > New Fuction</escaped>
+<case> %word...%+( </case>
+</block>
+
+<block name ="int" >
+	<type> type </type>
+</block >
+
+<block name ="new" >
+<escaped lang ="en" > Create</escaped>
+</block>
+</define>
