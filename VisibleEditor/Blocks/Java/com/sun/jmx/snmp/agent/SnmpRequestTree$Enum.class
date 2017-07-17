@@ -1,0 +1,13 @@
+com.sun.jmx.snmp.agent.SnmpRequestTree$Enum
+hasMoreElements()
+nextElement()
+nextElement()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,8 @@
+java.security.interfaces.DSAPrivateKey
+getX()
+getParams()
+getEncoded()
+getFormat()
+getAlgorithm()
+destroy()
+isDestroyed()

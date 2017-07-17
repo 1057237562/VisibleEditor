@@ -1,0 +1,2 @@
+com.sun.org.apache.xpath.internal.patterns.NodeTestFilter
+setNodeTest(com.sun.org.apache.xpath.internal.patterns.NodeTest)

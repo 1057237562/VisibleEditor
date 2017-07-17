@@ -1,0 +1,5 @@
+javax.management.NotificationEmitter
+removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+removeNotificationListener(javax.management.NotificationListener)
+getNotificationInfo()

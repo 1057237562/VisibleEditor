@@ -1,0 +1,5 @@
+org.w3c.dom.ls.DOMImplementationLS
+createLSSerializer()
+createLSInput()
+createLSOutput()
+createLSParser(short,java.lang.String)

@@ -1,0 +1,12 @@
+org.w3c.dom.css.CSSPrimitiveValue
+setStringValue(short,java.lang.String)
+getStringValue()
+getPrimitiveType()
+getFloatValue(short)
+getCounterValue()
+getRGBColorValue()
+getRectValue()
+setFloatValue(short,float)
+getCssText()
+setCssText(java.lang.String)
+getCssValueType()

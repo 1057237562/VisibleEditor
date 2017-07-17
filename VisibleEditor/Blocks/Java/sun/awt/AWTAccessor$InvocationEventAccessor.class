@@ -1,0 +1,2 @@
+sun.awt.AWTAccessor$InvocationEventAccessor
+dispose(java.awt.event.InvocationEvent)

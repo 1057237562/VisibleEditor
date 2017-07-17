@@ -1,0 +1,5 @@
+javax.annotation.processing.Filer
+getResource(javax.tools.JavaFileManager$Location,java.lang.CharSequence,java.lang.CharSequence)
+createClassFile(java.lang.CharSequence,[Ljavax.lang.model.element.Element;)
+createResource(javax.tools.JavaFileManager$Location,java.lang.CharSequence,java.lang.CharSequence,[Ljavax.lang.model.element.Element;)
+createSourceFile(java.lang.CharSequence,[Ljavax.lang.model.element.Element;)

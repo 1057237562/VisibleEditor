@@ -1,0 +1,12 @@
+java.security.AccessControlContext
+equals(java.lang.Object)
+hashCode()
+checkPermission(java.security.Permission)
+getDomainCombiner()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

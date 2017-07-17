@@ -1,0 +1,3 @@
+com.sun.xml.internal.ws.assembler.dev.TubelineAssemblyContextUpdater
+prepareContext(com.sun.xml.internal.ws.assembler.dev.ClientTubelineAssemblyContext)
+prepareContext(com.sun.xml.internal.ws.assembler.dev.ServerTubelineAssemblyContext)

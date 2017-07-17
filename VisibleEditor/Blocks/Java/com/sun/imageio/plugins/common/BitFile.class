@@ -1,0 +1,12 @@
+com.sun.imageio.plugins.common.BitFile
+flush()
+writeBits(int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

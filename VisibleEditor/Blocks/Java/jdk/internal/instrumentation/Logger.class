@@ -1,0 +1,7 @@
+jdk.internal.instrumentation.Logger
+debug(java.lang.String)
+error(java.lang.String,java.lang.Throwable)
+error(java.lang.String)
+trace(java.lang.String)
+info(java.lang.String)
+warn(java.lang.String)

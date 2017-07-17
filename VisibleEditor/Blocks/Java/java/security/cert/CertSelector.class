@@ -1,0 +1,3 @@
+java.security.cert.CertSelector
+clone()
+match(java.security.cert.Certificate)

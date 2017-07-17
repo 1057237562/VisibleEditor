@@ -1,0 +1,12 @@
+java.rmi.server.ObjID
+equals(java.lang.Object)
+toString()
+hashCode()
+write(java.io.ObjectOutput)
+read(java.io.ObjectInput)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

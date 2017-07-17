@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.impl.xs.identity.Selector
+toString()
+createMatcher(com.sun.org.apache.xerces.internal.impl.xs.identity.FieldActivator,int)
+getXPath()
+getIDConstraint()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

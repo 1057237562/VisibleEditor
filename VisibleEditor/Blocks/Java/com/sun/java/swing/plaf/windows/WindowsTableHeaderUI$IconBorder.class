@@ -1,0 +1,13 @@
+com.sun.java.swing.plaf.windows.WindowsTableHeaderUI$IconBorder
+isBorderOpaque()
+paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)
+getBorderInsets(java.awt.Component)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

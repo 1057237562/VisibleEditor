@@ -1,0 +1,5 @@
+java.util.stream.Stream$Builder
+add(java.lang.Object)
+accept(java.lang.Object)
+build()
+andThen(java.util.function.Consumer)

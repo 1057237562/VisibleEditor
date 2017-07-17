@@ -1,0 +1,8 @@
+java.security.interfaces.RSAPrivateKey
+getPrivateExponent()
+getEncoded()
+getFormat()
+getAlgorithm()
+destroy()
+isDestroyed()
+getModulus()

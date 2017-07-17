@@ -1,0 +1,6 @@
+com.sun.media.sound.ModelOscillatorStream
+read([[F,int,int)
+close()
+noteOff(int)
+noteOn(javax.sound.midi.MidiChannel,javax.sound.midi.VoiceStatus,int,int)
+setPitch(float)

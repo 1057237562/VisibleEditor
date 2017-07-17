@@ -1,0 +1,6 @@
+com.oracle.webservices.internal.api.databinding.DatabindingMode
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

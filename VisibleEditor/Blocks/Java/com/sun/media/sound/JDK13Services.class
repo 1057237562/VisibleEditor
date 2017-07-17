@@ -1,0 +1,13 @@
+com.sun.media.sound.JDK13Services
+getDefaultInstanceName(java.lang.Class)
+getDefaultProviderClassName(java.lang.Class)
+getProviders(java.lang.Class)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

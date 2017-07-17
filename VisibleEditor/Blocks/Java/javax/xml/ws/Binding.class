@@ -1,0 +1,4 @@
+javax.xml.ws.Binding
+getHandlerChain()
+getBindingID()
+setHandlerChain(java.util.List)

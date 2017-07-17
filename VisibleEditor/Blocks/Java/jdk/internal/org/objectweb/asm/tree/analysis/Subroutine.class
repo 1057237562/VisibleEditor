@@ -1,0 +1,12 @@
+jdk.internal.org.objectweb.asm.tree.analysis.Subroutine
+merge(jdk.internal.org.objectweb.asm.tree.analysis.Subroutine)
+copy()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

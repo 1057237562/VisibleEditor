@@ -1,0 +1,3 @@
+java.beans.AppletInitializer
+initialize(java.applet.Applet,java.beans.beancontext.BeanContext)
+activate(java.applet.Applet)

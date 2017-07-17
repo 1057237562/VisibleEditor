@@ -1,0 +1,8 @@
+javax.jws.WebMethod
+action()
+exclude()
+operationName()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

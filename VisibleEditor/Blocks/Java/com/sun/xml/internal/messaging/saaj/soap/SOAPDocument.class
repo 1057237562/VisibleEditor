@@ -1,0 +1,3 @@
+com.sun.xml.internal.messaging.saaj.soap.SOAPDocument
+getDocument()
+getSOAPPart()

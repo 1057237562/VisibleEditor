@@ -1,0 +1,12 @@
+com.sun.org.apache.regexp.internal.REDebugCompiler
+dumpProgram(java.io.PrintWriter)
+compile(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,6 @@
+java.nio.channels.ScatteringByteChannel
+read([Ljava.nio.ByteBuffer;,int,int)
+read([Ljava.nio.ByteBuffer;)
+read(java.nio.ByteBuffer)
+close()
+isOpen()

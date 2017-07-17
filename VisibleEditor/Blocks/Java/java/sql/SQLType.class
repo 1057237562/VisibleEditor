@@ -1,0 +1,4 @@
+java.sql.SQLType
+getName()
+getVendor()
+getVendorTypeNumber()

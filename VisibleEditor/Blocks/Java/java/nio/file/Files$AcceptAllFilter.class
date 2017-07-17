@@ -1,0 +1,12 @@
+java.nio.file.Files$AcceptAllFilter
+accept(java.nio.file.Path)
+accept(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

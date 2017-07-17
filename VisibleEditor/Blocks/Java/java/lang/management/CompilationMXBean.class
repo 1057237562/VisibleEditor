@@ -1,0 +1,5 @@
+java.lang.management.CompilationMXBean
+getName()
+getTotalCompilationTime()
+isCompilationTimeMonitoringSupported()
+getObjectName()

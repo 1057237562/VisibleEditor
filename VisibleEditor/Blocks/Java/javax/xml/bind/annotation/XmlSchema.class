@@ -1,0 +1,10 @@
+javax.xml.bind.annotation.XmlSchema
+location()
+elementFormDefault()
+namespace()
+xmlns()
+attributeFormDefault()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

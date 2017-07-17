@@ -1,0 +1,11 @@
+javax.jws.WebService
+name()
+portName()
+serviceName()
+targetNamespace()
+endpointInterface()
+wsdlLocation()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

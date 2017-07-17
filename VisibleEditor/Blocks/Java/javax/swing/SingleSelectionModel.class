@@ -1,0 +1,7 @@
+javax.swing.SingleSelectionModel
+addChangeListener(javax.swing.event.ChangeListener)
+clearSelection()
+isSelected()
+removeChangeListener(javax.swing.event.ChangeListener)
+getSelectedIndex()
+setSelectedIndex(int)

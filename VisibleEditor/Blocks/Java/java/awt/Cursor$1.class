@@ -1,0 +1,13 @@
+java.awt.Cursor$1
+getType(java.awt.Cursor)
+setPData(java.awt.Cursor,long)
+getPData(java.awt.Cursor)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,5 @@
+java.security.cert.X509Extension
+getExtensionValue(java.lang.String)
+getCriticalExtensionOIDs()
+getNonCriticalExtensionOIDs()
+hasUnsupportedCriticalExtension()

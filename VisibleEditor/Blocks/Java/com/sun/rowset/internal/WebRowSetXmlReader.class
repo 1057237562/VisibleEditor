@@ -1,0 +1,13 @@
+com.sun.rowset.internal.WebRowSetXmlReader
+readData(javax.sql.RowSetInternal)
+readXML(javax.sql.rowset.WebRowSet,java.io.Reader)
+readXML(javax.sql.rowset.WebRowSet,java.io.InputStream)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,9 @@
+javax.print.MultiDocPrintJob
+print(javax.print.MultiDoc,javax.print.attribute.PrintRequestAttributeSet)
+print(javax.print.Doc,javax.print.attribute.PrintRequestAttributeSet)
+getAttributes()
+getPrintService()
+addPrintJobAttributeListener(javax.print.event.PrintJobAttributeListener,javax.print.attribute.PrintJobAttributeSet)
+addPrintJobListener(javax.print.event.PrintJobListener)
+removePrintJobAttributeListener(javax.print.event.PrintJobAttributeListener)
+removePrintJobListener(javax.print.event.PrintJobListener)

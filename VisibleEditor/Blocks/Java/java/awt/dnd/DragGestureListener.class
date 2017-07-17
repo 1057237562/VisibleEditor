@@ -1,0 +1,2 @@
+java.awt.dnd.DragGestureListener
+dragGestureRecognized(java.awt.dnd.DragGestureEvent)

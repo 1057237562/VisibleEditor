@@ -1,0 +1,13 @@
+javax.xml.ws.wsaddressing.W3CEndpointReference
+writeTo(javax.xml.transform.Result)
+toString()
+getPort(java.lang.Class,[Ljavax.xml.ws.WebServiceFeature;)
+readFrom(javax.xml.transform.Source)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

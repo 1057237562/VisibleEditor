@@ -1,0 +1,12 @@
+javax.swing.text.html.Map$DefaultRegionContainment
+contains(int,int,int,int)
+sharedInstance()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

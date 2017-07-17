@@ -1,0 +1,13 @@
+javax.naming.ldap.StartTlsRequest
+getID()
+createExtendedResponse(java.lang.String,[B,int,int)
+getEncodedValue()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

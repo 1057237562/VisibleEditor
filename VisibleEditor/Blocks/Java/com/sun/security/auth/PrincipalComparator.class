@@ -1,0 +1,2 @@
+com.sun.security.auth.PrincipalComparator
+implies(javax.security.auth.Subject)

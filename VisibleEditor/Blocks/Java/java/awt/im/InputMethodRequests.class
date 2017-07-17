@@ -1,0 +1,8 @@
+java.awt.im.InputMethodRequests
+cancelLatestCommittedText([Ljava.text.AttributedCharacterIterator$Attribute;)
+getCommittedText(int,int,[Ljava.text.AttributedCharacterIterator$Attribute;)
+getCommittedTextLength()
+getInsertPositionOffset()
+getLocationOffset(int,int)
+getSelectedText([Ljava.text.AttributedCharacterIterator$Attribute;)
+getTextLocation(java.awt.font.TextHitInfo)

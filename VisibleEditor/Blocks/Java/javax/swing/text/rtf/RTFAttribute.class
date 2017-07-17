@@ -1,0 +1,9 @@
+javax.swing.text.rtf.RTFAttribute
+write(javax.swing.text.AttributeSet,javax.swing.text.rtf.RTFGenerator,boolean)
+domain()
+set(javax.swing.text.MutableAttributeSet)
+set(javax.swing.text.MutableAttributeSet,int)
+setDefault(javax.swing.text.MutableAttributeSet)
+writeValue(java.lang.Object,javax.swing.text.rtf.RTFGenerator,boolean)
+rtfName()
+swingName()

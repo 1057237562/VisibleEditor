@@ -1,0 +1,6 @@
+com.sun.org.apache.xml.internal.security.encryption.Serializer
+deserialize([B,org.w3c.dom.Node)
+canonSerializeToByteArray(org.w3c.dom.Node)
+serializeToByteArray(org.w3c.dom.NodeList)
+serializeToByteArray(org.w3c.dom.Element)
+setCanonicalizer(com.sun.org.apache.xml.internal.security.c14n.Canonicalizer)

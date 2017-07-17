@@ -1,0 +1,6 @@
+javax.naming.NamingEnumeration
+next()
+close()
+hasMore()
+hasMoreElements()
+nextElement()

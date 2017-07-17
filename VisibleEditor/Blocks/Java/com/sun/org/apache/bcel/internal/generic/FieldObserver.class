@@ -1,0 +1,2 @@
+com.sun.org.apache.bcel.internal.generic.FieldObserver
+notify(com.sun.org.apache.bcel.internal.generic.FieldGen)

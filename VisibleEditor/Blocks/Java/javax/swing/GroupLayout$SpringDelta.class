@@ -1,0 +1,12 @@
+javax.swing.GroupLayout$SpringDelta
+toString()
+compareTo(javax.swing.GroupLayout$SpringDelta)
+compareTo(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

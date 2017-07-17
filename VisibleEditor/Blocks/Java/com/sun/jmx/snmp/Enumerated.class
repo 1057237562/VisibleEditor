@@ -1,0 +1,13 @@
+com.sun.jmx.snmp.Enumerated
+equals(java.lang.Object)
+toString()
+hashCode()
+intValue()
+valueIndexes()
+valueStrings()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

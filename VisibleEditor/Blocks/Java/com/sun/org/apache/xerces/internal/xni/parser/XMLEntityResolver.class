@@ -1,0 +1,2 @@
+com.sun.org.apache.xerces.internal.xni.parser.XMLEntityResolver
+resolveEntity(com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier)

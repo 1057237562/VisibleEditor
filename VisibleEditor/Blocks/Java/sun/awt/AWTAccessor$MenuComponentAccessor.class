@@ -1,0 +1,6 @@
+sun.awt.AWTAccessor$MenuComponentAccessor
+getParent(java.awt.MenuComponent)
+getPeer(java.awt.MenuComponent)
+getAppContext(java.awt.MenuComponent)
+getFont_NoClientCode(java.awt.MenuComponent)
+setAppContext(java.awt.MenuComponent,sun.awt.AppContext)

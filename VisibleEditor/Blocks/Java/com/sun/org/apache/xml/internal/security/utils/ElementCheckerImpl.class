@@ -1,0 +1,12 @@
+com.sun.org.apache.xml.internal.security.utils.ElementCheckerImpl
+isNamespaceElement(org.w3c.dom.Node,java.lang.String,java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()
+guaranteeThatElementInCorrectSpace(com.sun.org.apache.xml.internal.security.utils.ElementProxy,org.w3c.dom.Element)

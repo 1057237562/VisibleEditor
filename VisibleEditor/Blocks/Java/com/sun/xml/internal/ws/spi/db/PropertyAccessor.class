@@ -1,0 +1,3 @@
+com.sun.xml.internal.ws.spi.db.PropertyAccessor
+get(java.lang.Object)
+set(java.lang.Object,java.lang.Object)

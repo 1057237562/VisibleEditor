@@ -1,0 +1,10 @@
+javax.sound.sampled.Line
+close()
+open()
+isOpen()
+getControl(javax.sound.sampled.Control$Type)
+addLineListener(javax.sound.sampled.LineListener)
+removeLineListener(javax.sound.sampled.LineListener)
+getControls()
+getLineInfo()
+isControlSupported(javax.sound.sampled.Control$Type)

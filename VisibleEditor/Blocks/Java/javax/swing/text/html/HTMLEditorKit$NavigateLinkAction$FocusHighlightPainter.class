@@ -1,0 +1,13 @@
+javax.swing.text.html.HTMLEditorKit$NavigateLinkAction$FocusHighlightPainter
+paintLayer(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent,javax.swing.text.View)
+paint(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent)
+getColor()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,7 @@
+javax.rmi.CORBA.StubDelegate
+equals(javax.rmi.CORBA.Stub,java.lang.Object)
+toString(javax.rmi.CORBA.Stub)
+hashCode(javax.rmi.CORBA.Stub)
+readObject(javax.rmi.CORBA.Stub,java.io.ObjectInputStream)
+writeObject(javax.rmi.CORBA.Stub,java.io.ObjectOutputStream)
+connect(javax.rmi.CORBA.Stub,org.omg.CORBA.ORB)

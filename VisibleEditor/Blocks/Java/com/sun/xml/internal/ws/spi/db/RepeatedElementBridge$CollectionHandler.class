@@ -1,0 +1,4 @@
+com.sun.xml.internal.ws.spi.db.RepeatedElementBridge$CollectionHandler
+iterator(java.lang.Object)
+getSize(java.lang.Object)
+convert(java.util.List)

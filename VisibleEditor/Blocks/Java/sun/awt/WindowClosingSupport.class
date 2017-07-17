@@ -1,0 +1,3 @@
+sun.awt.WindowClosingSupport
+getWindowClosingListener()
+setWindowClosingListener(sun.awt.WindowClosingListener)

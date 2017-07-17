@@ -1,0 +1,2 @@
+org.omg.CORBA.DomainManagerOperations
+get_domain_policy(int)

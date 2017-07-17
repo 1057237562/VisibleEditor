@@ -1,0 +1,11 @@
+java.awt.LayoutManager2
+addLayoutComponent(java.awt.Component,java.lang.Object)
+getLayoutAlignmentX(java.awt.Container)
+getLayoutAlignmentY(java.awt.Container)
+invalidateLayout(java.awt.Container)
+maximumLayoutSize(java.awt.Container)
+addLayoutComponent(java.lang.String,java.awt.Component)
+layoutContainer(java.awt.Container)
+minimumLayoutSize(java.awt.Container)
+preferredLayoutSize(java.awt.Container)
+removeLayoutComponent(java.awt.Component)

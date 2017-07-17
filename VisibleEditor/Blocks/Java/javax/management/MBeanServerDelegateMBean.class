@@ -1,0 +1,8 @@
+javax.management.MBeanServerDelegateMBean
+getImplementationName()
+getImplementationVendor()
+getImplementationVersion()
+getMBeanServerId()
+getSpecificationName()
+getSpecificationVendor()
+getSpecificationVersion()

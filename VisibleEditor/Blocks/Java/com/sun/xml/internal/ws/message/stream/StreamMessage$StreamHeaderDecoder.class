@@ -1,0 +1,2 @@
+com.sun.xml.internal.ws.message.stream.StreamMessage$StreamHeaderDecoder
+decodeHeader(javax.xml.stream.XMLStreamReader,com.sun.xml.internal.stream.buffer.XMLStreamBuffer)

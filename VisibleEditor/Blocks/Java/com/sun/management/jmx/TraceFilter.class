@@ -1,0 +1,13 @@
+com.sun.management.jmx.TraceFilter
+getLevels()
+isNotificationEnabled(javax.management.Notification)
+getTypes()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

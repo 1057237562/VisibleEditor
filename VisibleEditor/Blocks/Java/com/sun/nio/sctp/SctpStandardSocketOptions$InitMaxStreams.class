@@ -1,0 +1,13 @@
+com.sun.nio.sctp.SctpStandardSocketOptions$InitMaxStreams
+equals(java.lang.Object)
+toString()
+hashCode()
+create(int,int)
+maxInStreams()
+maxOutStreams()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

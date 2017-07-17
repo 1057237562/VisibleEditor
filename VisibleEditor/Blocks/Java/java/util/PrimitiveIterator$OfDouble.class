@@ -1,0 +1,9 @@
+java.util.PrimitiveIterator$OfDouble
+next()
+next()
+nextDouble()
+forEachRemaining(java.util.function.DoubleConsumer)
+forEachRemaining(java.lang.Object)
+forEachRemaining(java.util.function.Consumer)
+remove()
+hasNext()

@@ -1,0 +1,7 @@
+java.net.CookieStore
+add(java.net.URI,java.net.HttpCookie)
+remove(java.net.URI,java.net.HttpCookie)
+get(java.net.URI)
+removeAll()
+getCookies()
+getURIs()

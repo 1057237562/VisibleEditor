@@ -1,0 +1,12 @@
+java.util.Spliterator$OfPrimitive
+forEachRemaining(java.lang.Object)
+tryAdvance(java.lang.Object)
+trySplit()
+trySplit()
+forEachRemaining(java.util.function.Consumer)
+getComparator()
+tryAdvance(java.util.function.Consumer)
+characteristics()
+estimateSize()
+getExactSizeIfKnown()
+hasCharacteristics(int)

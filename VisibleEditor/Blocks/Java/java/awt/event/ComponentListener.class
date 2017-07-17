@@ -1,0 +1,5 @@
+java.awt.event.ComponentListener
+componentHidden(java.awt.event.ComponentEvent)
+componentMoved(java.awt.event.ComponentEvent)
+componentResized(java.awt.event.ComponentEvent)
+componentShown(java.awt.event.ComponentEvent)

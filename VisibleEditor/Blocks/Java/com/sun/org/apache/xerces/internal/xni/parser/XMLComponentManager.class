@@ -1,0 +1,7 @@
+com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager
+getProperty(java.lang.String,java.lang.Object)
+getProperty(java.lang.String)
+getFeature(java.lang.String)
+getFeature(java.lang.String,boolean)
+getFeatureState(java.lang.String)
+getPropertyState(java.lang.String)

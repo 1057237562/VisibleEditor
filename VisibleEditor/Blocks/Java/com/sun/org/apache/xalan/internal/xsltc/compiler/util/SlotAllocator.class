@@ -1,0 +1,13 @@
+com.sun.org.apache.xalan.internal.xsltc.compiler.util.SlotAllocator
+initialize([Lcom.sun.org.apache.bcel.internal.generic.LocalVariableGen;)
+allocateSlot(com.sun.org.apache.bcel.internal.generic.Type)
+releaseSlot(com.sun.org.apache.bcel.internal.generic.LocalVariableGen)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

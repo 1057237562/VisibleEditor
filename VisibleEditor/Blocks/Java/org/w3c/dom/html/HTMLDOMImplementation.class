@@ -1,0 +1,6 @@
+org.w3c.dom.html.HTMLDOMImplementation
+createHTMLDocument(java.lang.String)
+createDocument(java.lang.String,java.lang.String,org.w3c.dom.DocumentType)
+createDocumentType(java.lang.String,java.lang.String,java.lang.String)
+hasFeature(java.lang.String,java.lang.String)
+getFeature(java.lang.String,java.lang.String)

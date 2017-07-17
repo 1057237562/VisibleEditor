@@ -1,0 +1,12 @@
+com.sun.org.apache.xml.internal.utils.res.LongArrayWrapper
+getLength()
+getLong(int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

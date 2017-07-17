@@ -1,0 +1,8 @@
+javax.annotation.processing.ProcessingEnvironment
+getLocale()
+getOptions()
+getMessager()
+getElementUtils()
+getFiler()
+getSourceVersion()
+getTypeUtils()

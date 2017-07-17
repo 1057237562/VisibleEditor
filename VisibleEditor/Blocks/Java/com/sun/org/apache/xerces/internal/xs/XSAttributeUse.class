@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.xs.XSAttributeUse
+getAnnotations()
+getRequired()
+getConstraintValue()
+getAttrDeclaration()
+getItemValueTypes()
+getActualVC()
+getActualVCType()
+getConstraintType()
+getName()
+getType()
+getNamespace()
+getNamespaceItem()

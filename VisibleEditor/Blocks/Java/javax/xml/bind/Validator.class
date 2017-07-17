@@ -1,0 +1,7 @@
+javax.xml.bind.Validator
+setProperty(java.lang.String,java.lang.Object)
+getProperty(java.lang.String)
+validate(java.lang.Object)
+getEventHandler()
+validateRoot(java.lang.Object)
+setEventHandler(javax.xml.bind.ValidationEventHandler)

@@ -1,0 +1,3 @@
+javax.security.sasl.SaslServerFactory
+getMechanismNames(java.util.Map)
+createSaslServer(java.lang.String,java.lang.String,java.lang.String,java.util.Map,javax.security.auth.callback.CallbackHandler)

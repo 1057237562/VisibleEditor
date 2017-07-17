@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.impl.dtd.XMLEntityDecl
+clear()
+setValues(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,boolean)
+setValues(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,boolean)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

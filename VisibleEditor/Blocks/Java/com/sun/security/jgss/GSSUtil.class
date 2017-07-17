@@ -1,0 +1,11 @@
+com.sun.security.jgss.GSSUtil
+createSubject(org.ietf.jgss.GSSName,org.ietf.jgss.GSSCredential)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,12 @@
+com.sun.corba.se.impl.util.IdentityHashtableEnumerator
+hasMoreElements()
+nextElement()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,4 @@
+java.lang.Iterable
+iterator()
+spliterator()
+forEach(java.util.function.Consumer)

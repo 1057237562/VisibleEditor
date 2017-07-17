@@ -1,0 +1,11 @@
+com.sun.java.util.jar.pack.UnpackerImpl$DoUnpack
+run(java.io.BufferedInputStream,java.util.jar.JarOutputStream)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

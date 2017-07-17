@@ -1,0 +1,8 @@
+org.omg.PortableInterceptor.ClientRequestInterceptorOperations
+receive_exception(org.omg.PortableInterceptor.ClientRequestInfo)
+receive_other(org.omg.PortableInterceptor.ClientRequestInfo)
+receive_reply(org.omg.PortableInterceptor.ClientRequestInfo)
+send_request(org.omg.PortableInterceptor.ClientRequestInfo)
+send_poll(org.omg.PortableInterceptor.ClientRequestInfo)
+name()
+destroy()

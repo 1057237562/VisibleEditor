@@ -1,0 +1,13 @@
+com.sun.xml.internal.txw2.DatatypeWriter$1$3
+print(java.lang.Object,com.sun.xml.internal.txw2.NamespaceResolver,java.lang.StringBuilder)
+print(java.lang.Float,com.sun.xml.internal.txw2.NamespaceResolver,java.lang.StringBuilder)
+getType()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

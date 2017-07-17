@@ -1,0 +1,11 @@
+javax.swing.plaf.synth.ColorType
+toString()
+getID()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

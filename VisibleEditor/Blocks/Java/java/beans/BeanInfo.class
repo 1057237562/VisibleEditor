@@ -1,0 +1,9 @@
+java.beans.BeanInfo
+getPropertyDescriptors()
+getIcon(int)
+getBeanDescriptor()
+getMethodDescriptors()
+getAdditionalBeanInfo()
+getDefaultEventIndex()
+getDefaultPropertyIndex()
+getEventSetDescriptors()

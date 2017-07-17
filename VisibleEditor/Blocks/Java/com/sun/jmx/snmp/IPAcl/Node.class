@@ -1,0 +1,8 @@
+com.sun.jmx.snmp.IPAcl.Node
+jjtGetParent()
+jjtAddChild(com.sun.jmx.snmp.IPAcl.Node,int)
+jjtClose()
+jjtGetChild(int)
+jjtGetNumChildren()
+jjtOpen()
+jjtSetParent(com.sun.jmx.snmp.IPAcl.Node)

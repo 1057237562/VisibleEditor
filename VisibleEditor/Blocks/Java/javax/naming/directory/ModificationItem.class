@@ -1,0 +1,12 @@
+javax.naming.directory.ModificationItem
+toString()
+getAttribute()
+getModificationOp()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

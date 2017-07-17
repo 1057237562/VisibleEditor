@@ -1,0 +1,12 @@
+com.sun.xml.internal.stream.dtd.nonvalidating.XMLAttributeDecl
+clear()
+setValues(com.sun.org.apache.xerces.internal.xni.QName,com.sun.xml.internal.stream.dtd.nonvalidating.XMLSimpleType,boolean)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

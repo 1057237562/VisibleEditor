@@ -1,0 +1,2 @@
+com.sun.xml.internal.bind.v2.model.impl.DummyPropertyInfo
+addType(com.sun.xml.internal.bind.v2.model.impl.PropertyInfoImpl)

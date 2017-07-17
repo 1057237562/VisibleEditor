@@ -1,0 +1,11 @@
+java.text.CharacterIterator
+clone()
+next()
+first()
+previous()
+current()
+getIndex()
+last()
+getBeginIndex()
+getEndIndex()
+setIndex(int)

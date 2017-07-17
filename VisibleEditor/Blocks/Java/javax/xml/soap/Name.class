@@ -1,0 +1,5 @@
+javax.xml.soap.Name
+getPrefix()
+getLocalName()
+getURI()
+getQualifiedName()

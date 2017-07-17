@@ -1,0 +1,10 @@
+com.sun.org.apache.xerces.internal.xni.parser.XMLDTDScanner
+scanDTDExternalSubset(boolean)
+scanDTDInternalSubset(boolean,boolean,boolean)
+setInputSource(com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource)
+setLimitAnalyzer(com.sun.org.apache.xerces.internal.utils.XMLLimitAnalyzer)
+skipDTD(boolean)
+getDTDHandler()
+setDTDHandler(com.sun.org.apache.xerces.internal.xni.XMLDTDHandler)
+getDTDContentModelHandler()
+setDTDContentModelHandler(com.sun.org.apache.xerces.internal.xni.XMLDTDContentModelHandler)

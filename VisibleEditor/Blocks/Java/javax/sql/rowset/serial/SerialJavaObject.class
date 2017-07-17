@@ -1,0 +1,13 @@
+javax.sql.rowset.serial.SerialJavaObject
+equals(java.lang.Object)
+hashCode()
+clone()
+getObject()
+getFields()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

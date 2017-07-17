@@ -1,0 +1,3 @@
+javax.sql.rowset.spi.XmlWriter
+writeXML(javax.sql.rowset.WebRowSet,java.io.Writer)
+writeData(javax.sql.RowSetInternal)

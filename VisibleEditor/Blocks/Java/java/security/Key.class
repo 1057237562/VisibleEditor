@@ -1,0 +1,4 @@
+java.security.Key
+getEncoded()
+getFormat()
+getAlgorithm()

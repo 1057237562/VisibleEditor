@@ -1,0 +1,2 @@
+java.util.function.ToIntBiFunction
+applyAsInt(java.lang.Object,java.lang.Object)

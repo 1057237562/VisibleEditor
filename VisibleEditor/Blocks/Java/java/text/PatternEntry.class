@@ -1,0 +1,12 @@
+java.text.PatternEntry
+equals(java.lang.Object)
+toString()
+hashCode()
+appendQuotedChars(java.lang.StringBuffer)
+appendQuotedExtension(java.lang.StringBuffer)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

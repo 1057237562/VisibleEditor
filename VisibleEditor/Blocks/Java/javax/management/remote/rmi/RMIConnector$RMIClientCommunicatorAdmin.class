@@ -1,0 +1,13 @@
+javax.management.remote.rmi.RMIConnector$RMIClientCommunicatorAdmin
+gotIOException(java.io.IOException)
+reconnectNotificationListeners([Lcom.sun.jmx.remote.internal.ClientListenerInfo;)
+terminate()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

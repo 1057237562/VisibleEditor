@@ -1,0 +1,7 @@
+com.sun.corba.se.spi.presentation.rmi.PresentationManager
+getStubFactoryFactory(boolean)
+setStubFactoryFactory(boolean,com.sun.corba.se.spi.presentation.rmi.PresentationManager$StubFactoryFactory)
+useDynamicStubs()
+getTie()
+getClassData(java.lang.Class)
+getDynamicMethodMarshaller(java.lang.reflect.Method)

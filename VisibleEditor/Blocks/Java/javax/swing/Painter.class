@@ -1,0 +1,2 @@
+javax.swing.Painter
+paint(java.awt.Graphics2D,java.lang.Object,int,int)

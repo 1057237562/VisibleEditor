@@ -1,0 +1,13 @@
+javax.print.attribute.standard.Destination
+equals(java.lang.Object)
+getName()
+getCategory()
+toString()
+hashCode()
+getURI()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

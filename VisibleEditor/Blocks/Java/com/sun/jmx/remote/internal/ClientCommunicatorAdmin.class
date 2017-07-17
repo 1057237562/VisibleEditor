@@ -1,0 +1,12 @@
+com.sun.jmx.remote.internal.ClientCommunicatorAdmin
+gotIOException(java.io.IOException)
+terminate()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

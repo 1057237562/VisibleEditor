@@ -1,0 +1,13 @@
+java.lang.invoke.SwitchPoint
+guardWithTest(java.lang.invoke.MethodHandle,java.lang.invoke.MethodHandle)
+hasBeenInvalidated()
+invalidateAll([Ljava.lang.invoke.SwitchPoint;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

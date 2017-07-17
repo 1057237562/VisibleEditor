@@ -1,0 +1,3 @@
+org.omg.PortableServer.CurrentOperations
+get_POA()
+get_object_id()

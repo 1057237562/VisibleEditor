@@ -1,0 +1,5 @@
+javax.xml.transform.SourceLocator
+getLineNumber()
+getSystemId()
+getPublicId()
+getColumnNumber()

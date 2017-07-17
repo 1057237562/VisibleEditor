@@ -1,0 +1,3 @@
+org.omg.PortableInterceptor.ORBInitializerOperations
+post_init(org.omg.PortableInterceptor.ORBInitInfo)
+pre_init(org.omg.PortableInterceptor.ORBInitInfo)

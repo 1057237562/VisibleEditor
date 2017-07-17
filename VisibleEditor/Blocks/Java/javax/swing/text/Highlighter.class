@@ -1,0 +1,9 @@
+javax.swing.text.Highlighter
+paint(java.awt.Graphics)
+install(javax.swing.text.JTextComponent)
+deinstall(javax.swing.text.JTextComponent)
+addHighlight(int,int,javax.swing.text.Highlighter$HighlightPainter)
+changeHighlight(java.lang.Object,int,int)
+removeHighlight(java.lang.Object)
+getHighlights()
+removeAllHighlights()

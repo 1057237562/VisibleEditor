@@ -1,0 +1,4 @@
+org.w3c.dom.ls.LSParserFilter
+startElement(org.w3c.dom.Element)
+getWhatToShow()
+acceptNode(org.w3c.dom.Node)

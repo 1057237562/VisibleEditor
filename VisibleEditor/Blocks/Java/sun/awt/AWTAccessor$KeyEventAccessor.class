@@ -1,0 +1,5 @@
+sun.awt.AWTAccessor$KeyEventAccessor
+getOriginalSource(java.awt.event.KeyEvent)
+setExtendedKeyCode(java.awt.event.KeyEvent,long)
+setPrimaryLevelUnicode(java.awt.event.KeyEvent,long)
+setRawCode(java.awt.event.KeyEvent,long)

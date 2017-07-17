@@ -1,0 +1,2 @@
+javax.print.event.PrintServiceAttributeListener
+attributeUpdate(javax.print.event.PrintServiceAttributeEvent)

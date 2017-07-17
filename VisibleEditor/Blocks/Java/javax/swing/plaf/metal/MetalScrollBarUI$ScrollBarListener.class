@@ -1,0 +1,12 @@
+javax.swing.plaf.metal.MetalScrollBarUI$ScrollBarListener
+handlePropertyChange(java.lang.Object)
+propertyChange(java.beans.PropertyChangeEvent)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

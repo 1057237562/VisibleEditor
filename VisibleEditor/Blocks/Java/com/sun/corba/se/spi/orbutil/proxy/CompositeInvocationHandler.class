@@ -1,0 +1,4 @@
+com.sun.corba.se.spi.orbutil.proxy.CompositeInvocationHandler
+addInvocationHandler(java.lang.Class,java.lang.reflect.InvocationHandler)
+setDefaultHandler(java.lang.reflect.InvocationHandler)
+invoke(java.lang.Object,java.lang.reflect.Method,[Ljava.lang.Object;)

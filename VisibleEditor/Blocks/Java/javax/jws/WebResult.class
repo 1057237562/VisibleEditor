@@ -1,0 +1,9 @@
+javax.jws.WebResult
+name()
+header()
+targetNamespace()
+partName()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

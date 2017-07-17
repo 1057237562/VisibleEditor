@@ -1,0 +1,12 @@
+javax.swing.RepaintManager$DisplayChangedHandler
+displayChanged()
+paletteChanged()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

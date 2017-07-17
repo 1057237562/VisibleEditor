@@ -1,0 +1,2 @@
+javax.imageio.metadata.IIOMetadataController
+activate(javax.imageio.metadata.IIOMetadata)

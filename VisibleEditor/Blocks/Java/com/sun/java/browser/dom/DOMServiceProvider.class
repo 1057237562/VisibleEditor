@@ -1,0 +1,13 @@
+com.sun.java.browser.dom.DOMServiceProvider
+getDOMImplementation()
+canHandle(java.lang.Object)
+getDocument(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

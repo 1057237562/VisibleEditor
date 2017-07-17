@@ -1,0 +1,2 @@
+com.sun.corba.se.spi.activation.InitialNameServiceOperations
+bind(java.lang.String,org.omg.CORBA.Object,boolean)

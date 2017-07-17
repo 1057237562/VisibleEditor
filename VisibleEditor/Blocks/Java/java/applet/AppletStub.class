@@ -1,0 +1,7 @@
+java.applet.AppletStub
+getCodeBase()
+getAppletContext()
+appletResize(int,int)
+getDocumentBase()
+isActive()
+getParameter(java.lang.String)

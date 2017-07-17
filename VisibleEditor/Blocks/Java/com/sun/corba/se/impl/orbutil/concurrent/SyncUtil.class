@@ -1,0 +1,11 @@
+com.sun.corba.se.impl.orbutil.concurrent.SyncUtil
+acquire(com.sun.corba.se.impl.orbutil.concurrent.Sync)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

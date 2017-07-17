@@ -1,0 +1,4 @@
+com.sun.corba.se.pept.encoding.OutputObject
+close()
+getMessageMediator()
+setMessageMediator(com.sun.corba.se.pept.protocol.MessageMediator)

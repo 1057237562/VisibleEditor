@@ -1,0 +1,3 @@
+org.w3c.dom.stylesheets.StyleSheetList
+getLength()
+item(int)

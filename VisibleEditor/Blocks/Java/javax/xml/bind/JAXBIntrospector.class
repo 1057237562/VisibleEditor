@@ -1,0 +1,13 @@
+javax.xml.bind.JAXBIntrospector
+getValue(java.lang.Object)
+getElementName(java.lang.Object)
+isElement(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

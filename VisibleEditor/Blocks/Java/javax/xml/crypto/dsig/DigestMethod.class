@@ -1,0 +1,4 @@
+javax.xml.crypto.dsig.DigestMethod
+getParameterSpec()
+isFeatureSupported(java.lang.String)
+getAlgorithm()

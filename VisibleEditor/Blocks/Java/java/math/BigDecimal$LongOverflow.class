@@ -1,0 +1,11 @@
+java.math.BigDecimal$LongOverflow
+check(java.math.BigDecimal)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

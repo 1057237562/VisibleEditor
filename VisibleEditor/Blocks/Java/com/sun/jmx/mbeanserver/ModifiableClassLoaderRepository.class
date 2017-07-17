@@ -1,0 +1,9 @@
+com.sun.jmx.mbeanserver.ModifiableClassLoaderRepository
+getClassLoader(javax.management.ObjectName)
+addClassLoader(java.lang.ClassLoader)
+addClassLoader(javax.management.ObjectName,java.lang.ClassLoader)
+removeClassLoader(javax.management.ObjectName)
+removeClassLoader(java.lang.ClassLoader)
+loadClass(java.lang.String)
+loadClassBefore(java.lang.ClassLoader,java.lang.String)
+loadClassWithout(java.lang.ClassLoader,java.lang.String)

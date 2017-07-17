@@ -1,0 +1,8 @@
+com.sun.tracing.dtrace.Attributes
+name()
+data()
+dependency()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

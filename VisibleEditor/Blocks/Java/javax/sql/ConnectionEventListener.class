@@ -1,0 +1,3 @@
+javax.sql.ConnectionEventListener
+connectionClosed(javax.sql.ConnectionEvent)
+connectionErrorOccurred(javax.sql.ConnectionEvent)

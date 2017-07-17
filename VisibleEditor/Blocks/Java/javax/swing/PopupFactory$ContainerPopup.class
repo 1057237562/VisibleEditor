@@ -1,0 +1,13 @@
+javax.swing.PopupFactory$ContainerPopup
+hide()
+pack()
+show()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.assembler.jaxws.MustUnderstandTubeFactory
+createTube(com.sun.xml.internal.ws.assembler.dev.ClientTubelineAssemblyContext)
+createTube(com.sun.xml.internal.ws.assembler.dev.ServerTubelineAssemblyContext)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

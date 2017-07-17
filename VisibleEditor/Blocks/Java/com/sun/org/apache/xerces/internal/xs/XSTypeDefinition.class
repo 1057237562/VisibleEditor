@@ -1,0 +1,12 @@
+com.sun.org.apache.xerces.internal.xs.XSTypeDefinition
+isFinal(short)
+getBaseType()
+derivedFrom(java.lang.String,java.lang.String,short)
+derivedFromType(com.sun.org.apache.xerces.internal.xs.XSTypeDefinition,short)
+getAnonymous()
+getFinal()
+getTypeCategory()
+getName()
+getType()
+getNamespace()
+getNamespaceItem()

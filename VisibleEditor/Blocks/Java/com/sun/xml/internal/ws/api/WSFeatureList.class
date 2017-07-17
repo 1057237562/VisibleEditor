@@ -1,0 +1,9 @@
+com.sun.xml.internal.ws.api.WSFeatureList
+get(java.lang.Class)
+toArray()
+isEnabled(java.lang.Class)
+mergeFeatures([Ljavax.xml.ws.WebServiceFeature;,boolean)
+mergeFeatures(java.lang.Iterable,boolean)
+iterator()
+spliterator()
+forEach(java.util.function.Consumer)

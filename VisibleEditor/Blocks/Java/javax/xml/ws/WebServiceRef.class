@@ -1,0 +1,11 @@
+javax.xml.ws.WebServiceRef
+name()
+type()
+value()
+lookup()
+wsdlLocation()
+mappedName()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

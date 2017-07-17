@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.server.MonitorBase
+createManagedObjectManager(com.sun.xml.internal.ws.api.server.WSEndpoint)
+createManagedObjectManager(com.sun.xml.internal.ws.client.Stub)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

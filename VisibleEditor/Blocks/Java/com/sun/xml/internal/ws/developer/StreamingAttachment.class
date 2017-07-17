@@ -1,0 +1,8 @@
+com.sun.xml.internal.ws.developer.StreamingAttachment
+dir()
+memoryThreshold()
+parseEagerly()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

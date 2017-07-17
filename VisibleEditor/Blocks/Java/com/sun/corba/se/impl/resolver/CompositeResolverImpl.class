@@ -1,0 +1,12 @@
+com.sun.corba.se.impl.resolver.CompositeResolverImpl
+resolve(java.lang.String)
+list()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

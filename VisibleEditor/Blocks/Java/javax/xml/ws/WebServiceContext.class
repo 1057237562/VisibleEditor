@@ -1,0 +1,6 @@
+javax.xml.ws.WebServiceContext
+getEndpointReference(java.lang.Class,[Lorg.w3c.dom.Element;)
+getEndpointReference([Lorg.w3c.dom.Element;)
+getMessageContext()
+getUserPrincipal()
+isUserInRole(java.lang.String)

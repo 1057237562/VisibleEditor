@@ -1,0 +1,13 @@
+com.sun.xml.internal.ws.message.AttachmentUnmarshallerImpl
+getAttachmentAsByteArray(java.lang.String)
+getAttachmentAsDataHandler(java.lang.String)
+isXOPPackage()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

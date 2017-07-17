@@ -1,0 +1,7 @@
+org.w3c.dom.DOMLocator
+getLineNumber()
+getColumnNumber()
+getByteOffset()
+getRelatedNode()
+getUri()
+getUtf16Offset()

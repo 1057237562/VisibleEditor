@@ -1,0 +1,11 @@
+com.sun.org.apache.xml.internal.utils.Hashtree2Node
+appendHashToNode(java.util.Hashtable,java.lang.String,org.w3c.dom.Node,org.w3c.dom.Document)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

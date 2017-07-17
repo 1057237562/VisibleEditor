@@ -1,0 +1,10 @@
+org.w3c.dom.xpath.XPathResult
+getStringValue()
+getBooleanValue()
+getInvalidIteratorState()
+getNumberValue()
+getResultType()
+getSingleNodeValue()
+getSnapshotLength()
+iterateNext()
+snapshotItem(int)

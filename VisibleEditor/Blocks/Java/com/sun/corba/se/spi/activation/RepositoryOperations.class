@@ -1,0 +1,10 @@
+com.sun.corba.se.spi.activation.RepositoryOperations
+uninstall(int)
+install(int)
+getServerID(java.lang.String)
+getServer(int)
+getApplicationNames()
+listRegisteredServers()
+registerServer(com.sun.corba.se.spi.activation.RepositoryPackage.ServerDef)
+isInstalled(int)
+unregisterServer(int)

@@ -1,0 +1,9 @@
+org.w3c.dom.ls.LSSerializer
+write(org.w3c.dom.Node,org.w3c.dom.ls.LSOutput)
+getDomConfig()
+getFilter()
+setFilter(org.w3c.dom.ls.LSSerializerFilter)
+writeToString(org.w3c.dom.Node)
+getNewLine()
+setNewLine(java.lang.String)
+writeToURI(org.w3c.dom.Node,java.lang.String)

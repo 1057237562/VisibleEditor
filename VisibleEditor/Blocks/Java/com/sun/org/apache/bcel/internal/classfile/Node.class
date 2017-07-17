@@ -1,0 +1,2 @@
+com.sun.org.apache.bcel.internalfile.Node
+accept(com.sun.org.apache.bcel.internal.classfile.Visitor)

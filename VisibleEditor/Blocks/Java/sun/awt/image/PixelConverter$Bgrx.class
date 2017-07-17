@@ -1,0 +1,13 @@
+sun.awt.image.PixelConverter$Bgrx
+pixelToRgb(int,java.awt.image.ColorModel)
+rgbToPixel(int,java.awt.image.ColorModel)
+getAlphaMask()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

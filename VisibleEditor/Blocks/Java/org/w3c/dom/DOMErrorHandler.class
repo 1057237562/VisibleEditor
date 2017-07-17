@@ -1,0 +1,2 @@
+org.w3c.dom.DOMErrorHandler
+handleError(org.w3c.dom.DOMError)

@@ -1,0 +1,12 @@
+javax.swing.PopupFactory$HeavyWeightPopup
+hide()
+show()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

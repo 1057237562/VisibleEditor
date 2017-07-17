@@ -1,0 +1,2 @@
+java.awt.Composite
+createContext(java.awt.image.ColorModel,java.awt.image.ColorModel,java.awt.RenderingHints)

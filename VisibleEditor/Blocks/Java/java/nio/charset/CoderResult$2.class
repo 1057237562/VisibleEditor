@@ -1,0 +1,11 @@
+java.nio.charset.CoderResult$2
+create(int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

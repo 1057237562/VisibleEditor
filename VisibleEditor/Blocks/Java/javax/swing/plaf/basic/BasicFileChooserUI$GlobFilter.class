@@ -1,0 +1,13 @@
+javax.swing.plaf.basic.BasicFileChooserUI$GlobFilter
+accept(java.io.File)
+getDescription()
+setPattern(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

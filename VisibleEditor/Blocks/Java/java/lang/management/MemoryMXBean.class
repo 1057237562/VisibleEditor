@@ -1,0 +1,8 @@
+java.lang.management.MemoryMXBean
+gc()
+isVerbose()
+setVerbose(boolean)
+getHeapMemoryUsage()
+getNonHeapMemoryUsage()
+getObjectPendingFinalizationCount()
+getObjectName()

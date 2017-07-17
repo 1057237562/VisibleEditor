@@ -1,0 +1,6 @@
+com.sun.corba.se.spi.copyobject.CopierManager
+getDefaultId()
+getDefaultObjectCopierFactory()
+getObjectCopierFactory(int)
+registerObjectCopierFactory(com.sun.corba.se.spi.copyobject.ObjectCopierFactory,int)
+setDefaultId(int)

@@ -1,0 +1,6 @@
+javax.xml.crypto.dsig.XMLObject
+getId()
+getContent()
+getEncoding()
+getMimeType()
+isFeatureSupported(java.lang.String)

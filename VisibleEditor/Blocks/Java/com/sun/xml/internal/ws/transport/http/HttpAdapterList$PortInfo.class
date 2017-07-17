@@ -1,0 +1,10 @@
+com.sun.xml.internal.ws.transport.http.HttpAdapterList$PortInfo
+equals(java.lang.Object)
+hashCode()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

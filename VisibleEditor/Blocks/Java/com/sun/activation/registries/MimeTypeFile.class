@@ -1,0 +1,13 @@
+com.sun.activation.registries.MimeTypeFile
+appendToRegistry(java.lang.String)
+getMIMETypeString(java.lang.String)
+getMimeTypeEntry(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

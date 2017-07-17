@@ -1,0 +1,5 @@
+java.beans.Visibility
+avoidingGui()
+dontUseGui()
+needsGui()
+okToUseGui()

@@ -1,0 +1,12 @@
+javax.swing.text.html.parser.Parser
+parse(java.io.Reader)
+parseDTDMarkup()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

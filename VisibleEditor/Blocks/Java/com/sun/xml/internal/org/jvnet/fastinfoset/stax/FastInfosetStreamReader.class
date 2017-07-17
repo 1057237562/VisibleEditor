@@ -1,0 +1,9 @@
+com.sun.xml.internal.org.jvnet.fastinfoset.stax.FastInfosetStreamReader
+accessPrefix()
+accessTextCharacters()
+accessTextLength()
+accessTextStart()
+accessLocalName()
+accessNamespaceCount()
+accessNamespaceURI()
+peekNext()

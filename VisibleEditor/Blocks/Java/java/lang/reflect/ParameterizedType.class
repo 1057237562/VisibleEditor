@@ -1,0 +1,5 @@
+java.lang.reflect.ParameterizedType
+getActualTypeArguments()
+getRawType()
+getOwnerType()
+getTypeName()

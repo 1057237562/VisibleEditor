@@ -1,0 +1,3 @@
+com.sun.jndi.ldap.pool.PoolCallback
+releasePooledConnection(com.sun.jndi.ldap.pool.PooledConnection)
+removePooledConnection(com.sun.jndi.ldap.pool.PooledConnection)

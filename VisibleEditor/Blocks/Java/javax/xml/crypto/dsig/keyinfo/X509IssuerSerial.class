@@ -1,0 +1,4 @@
+javax.xml.crypto.dsig.keyinfo.X509IssuerSerial
+getSerialNumber()
+getIssuerName()
+isFeatureSupported(java.lang.String)

@@ -1,0 +1,13 @@
+javax.swing.text.TabStop
+equals(java.lang.Object)
+toString()
+hashCode()
+getAlignment()
+getPosition()
+getLeader()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

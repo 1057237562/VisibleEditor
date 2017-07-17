@@ -1,0 +1,3 @@
+org.omg.CORBA.CustomMarshal
+marshal(org.omg.CORBA.DataOutputStream)
+unmarshal(org.omg.CORBA.DataInputStream)

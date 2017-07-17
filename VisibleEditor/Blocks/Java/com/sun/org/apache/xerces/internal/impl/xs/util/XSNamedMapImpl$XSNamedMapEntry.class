@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.impl.xs.util.XSNamedMapImpl$XSNamedMapEntry
+equals(java.lang.Object)
+toString()
+hashCode()
+getValue()
+getKey()
+setValue(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

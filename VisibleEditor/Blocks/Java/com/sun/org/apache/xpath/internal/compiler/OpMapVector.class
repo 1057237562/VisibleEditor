@@ -1,0 +1,13 @@
+com.sun.org.apache.xpath.internal.compiler.OpMapVector
+elementAt(int)
+setElementAt(int,int)
+setToSize(int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

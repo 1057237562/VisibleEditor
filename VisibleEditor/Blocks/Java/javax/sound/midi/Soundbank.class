@@ -1,0 +1,8 @@
+javax.sound.midi.Soundbank
+getName()
+getResources()
+getDescription()
+getVersion()
+getInstrument(javax.sound.midi.Patch)
+getInstruments()
+getVendor()

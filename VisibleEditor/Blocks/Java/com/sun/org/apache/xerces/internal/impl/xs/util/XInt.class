@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.impl.xs.util.XInt
+equals(com.sun.org.apache.xerces.internal.impl.xs.util.XInt)
+toString()
+shortValue()
+intValue()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

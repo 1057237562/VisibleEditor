@@ -1,0 +1,13 @@
+com.sun.corba.se.spi.activation.ServerManagerOperations
+shutdown(int)
+activate(int)
+active(int,com.sun.corba.se.spi.activation.Server)
+uninstall(int)
+install(int)
+getActiveServers()
+getORBNames(int)
+registerEndpoints(int,java.lang.String,[Lcom.sun.corba.se.spi.activation.EndPointInfo;)
+locateServer(int,java.lang.String)
+locateServerForORB(int,java.lang.String)
+getEndpoint(java.lang.String)
+getServerPortForType(com.sun.corba.se.spi.activation.LocatorPackage.ServerLocationPerORB,java.lang.String)

@@ -1,0 +1,10 @@
+com.sun.xml.internal.bind.v2.model.core.BuiltinLeafInfo
+getTypeName()
+getElementName()
+isElement()
+asElement()
+isSimpleType()
+getType()
+canBeReferencedByIDREF()
+getLocation()
+getUpstream()

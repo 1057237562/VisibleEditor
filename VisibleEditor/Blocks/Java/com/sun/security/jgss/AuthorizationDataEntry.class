@@ -1,0 +1,12 @@
+com.sun.security.jgss.AuthorizationDataEntry
+toString()
+getType()
+getData()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

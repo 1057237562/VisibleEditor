@@ -1,0 +1,12 @@
+java.security.CodeSigner
+equals(java.lang.Object)
+toString()
+hashCode()
+getSignerCertPath()
+getTimestamp()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

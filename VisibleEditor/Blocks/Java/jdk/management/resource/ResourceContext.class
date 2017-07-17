@@ -1,0 +1,12 @@
+jdk.management.resource.ResourceContext
+getName()
+close()
+addResourceMeter(jdk.management.resource.ResourceMeter)
+bindThreadContext()
+boundThreads()
+getMeter(jdk.management.resource.ResourceType)
+getResourceRequest(jdk.management.resource.ResourceType)
+meters()
+removeResourceMeter(jdk.management.resource.ResourceMeter)
+requestAccurateUpdate(jdk.management.resource.ResourceAccuracy)
+unbindThreadContext()

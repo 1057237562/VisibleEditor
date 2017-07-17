@@ -1,0 +1,13 @@
+javax.swing.TimerQueue$DelayedTimer
+compareTo(java.util.concurrent.Delayed)
+compareTo(java.lang.Object)
+getDelay(java.util.concurrent.TimeUnit)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

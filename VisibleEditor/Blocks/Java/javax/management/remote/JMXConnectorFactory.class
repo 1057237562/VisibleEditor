@@ -1,0 +1,13 @@
+javax.management.remote.JMXConnectorFactory
+connect(javax.management.remote.JMXServiceURL)
+connect(javax.management.remote.JMXServiceURL,java.util.Map)
+newJMXConnector(javax.management.remote.JMXServiceURL,java.util.Map)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

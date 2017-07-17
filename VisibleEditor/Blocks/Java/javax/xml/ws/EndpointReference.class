@@ -1,0 +1,13 @@
+javax.xml.ws.EndpointReference
+toString()
+getPort(java.lang.Class,[Ljavax.xml.ws.WebServiceFeature;)
+writeTo(javax.xml.transform.Result)
+readFrom(javax.xml.transform.Source)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

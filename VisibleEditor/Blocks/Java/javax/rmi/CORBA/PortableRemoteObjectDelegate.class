@@ -1,0 +1,6 @@
+javax.rmi.CORBA.PortableRemoteObjectDelegate
+connect(java.rmi.Remote,java.rmi.Remote)
+narrow(java.lang.Object,java.lang.Class)
+unexportObject(java.rmi.Remote)
+exportObject(java.rmi.Remote)
+toStub(java.rmi.Remote)

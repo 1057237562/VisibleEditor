@@ -1,0 +1,12 @@
+com.sun.corba.se.spi.protocol.RequestDispatcherRegistry
+getLocalClientRequestDispatcherFactory(int)
+getObjectAdapterFactory(int)
+getClientRequestDispatcher(int)
+registerClientRequestDispatcher(com.sun.corba.se.pept.protocol.ClientRequestDispatcher,int)
+registerLocalClientRequestDispatcherFactory(com.sun.corba.se.spi.protocol.LocalClientRequestDispatcherFactory,int)
+registerObjectAdapterFactory(com.sun.corba.se.spi.oa.ObjectAdapterFactory,int)
+registerServerRequestDispatcher(com.sun.corba.se.spi.protocol.CorbaServerRequestDispatcher,java.lang.String)
+registerServerRequestDispatcher(com.sun.corba.se.spi.protocol.CorbaServerRequestDispatcher,int)
+getObjectAdapterFactories()
+getServerRequestDispatcher(java.lang.String)
+getServerRequestDispatcher(int)

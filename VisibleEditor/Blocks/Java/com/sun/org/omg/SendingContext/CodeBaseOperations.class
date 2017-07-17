@@ -1,0 +1,7 @@
+com.sun.org.omg.SendingContext.CodeBaseOperations
+meta(java.lang.String)
+bases(java.lang.String)
+get_ir()
+implementation(java.lang.String)
+implementations([Ljava.lang.String;)
+metas([Ljava.lang.String;)

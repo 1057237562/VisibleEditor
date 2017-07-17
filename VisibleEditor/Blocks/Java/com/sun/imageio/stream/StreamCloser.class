@@ -1,0 +1,13 @@
+com.sun.imageio.stream.StreamCloser
+addToQueue(com.sun.imageio.stream.StreamCloser$CloseAction)
+createCloseAction(javax.imageio.stream.ImageInputStream)
+removeFromQueue(com.sun.imageio.stream.StreamCloser$CloseAction)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

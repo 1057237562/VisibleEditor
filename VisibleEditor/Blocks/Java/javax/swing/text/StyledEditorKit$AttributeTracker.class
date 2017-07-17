@@ -1,0 +1,12 @@
+javax.swing.text.StyledEditorKit$AttributeTracker
+propertyChange(java.beans.PropertyChangeEvent)
+caretUpdate(javax.swing.event.CaretEvent)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

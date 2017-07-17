@@ -1,0 +1,12 @@
+javax.net.ssl.SNIServerName
+equals(java.lang.Object)
+toString()
+hashCode()
+getType()
+getEncoded()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,2 @@
+org.omg.CORBA.portable.InvokeHandler
+_invoke(java.lang.String,org.omg.CORBA.portable.InputStream,org.omg.CORBA.portable.ResponseHandler)

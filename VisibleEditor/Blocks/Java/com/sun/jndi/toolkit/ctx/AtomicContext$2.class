@@ -1,0 +1,12 @@
+com.sun.jndi.toolkit.ctx.AtomicContext$2
+getContent()
+equals(java.lang.Object)
+toString()
+hashCode()
+getType()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

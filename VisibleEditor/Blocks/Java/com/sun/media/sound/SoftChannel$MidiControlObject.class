@@ -1,0 +1,11 @@
+com.sun.media.sound.SoftChannel$MidiControlObject
+get(int,java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

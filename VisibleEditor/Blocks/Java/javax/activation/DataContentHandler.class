@@ -1,0 +1,5 @@
+javax.activation.DataContentHandler
+getContent(javax.activation.DataSource)
+getTransferData(java.awt.datatransfer.DataFlavor,javax.activation.DataSource)
+getTransferDataFlavors()
+writeTo(java.lang.Object,java.lang.String,java.io.OutputStream)

@@ -1,0 +1,12 @@
+javax.sql.rowset.RowSetProvider
+newFactory(java.lang.String,java.lang.ClassLoader)
+newFactory()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

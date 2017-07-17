@@ -1,0 +1,7 @@
+com.sun.xml.internal.messaging.saaj.packaging.mime.MultipartDataSource
+getCount()
+getBodyPart(int)
+getName()
+getInputStream()
+getContentType()
+getOutputStream()

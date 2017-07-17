@@ -1,0 +1,3 @@
+com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentSource
+getDocumentHandler()
+setDocumentHandler(com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler)

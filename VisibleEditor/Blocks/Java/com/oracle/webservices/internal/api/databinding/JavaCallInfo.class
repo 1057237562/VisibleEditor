@@ -1,0 +1,7 @@
+com.oracle.webservices.internal.api.databinding.JavaCallInfo
+getMethod()
+getException()
+getParameters()
+setException(java.lang.Throwable)
+getReturnValue()
+setReturnValue(java.lang.Object)

@@ -1,0 +1,11 @@
+javax.swing.ClientPropertyKey$1
+getJComponent_TRANSFER_HANDLER()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

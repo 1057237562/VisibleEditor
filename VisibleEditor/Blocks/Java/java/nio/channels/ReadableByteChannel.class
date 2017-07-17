@@ -1,0 +1,4 @@
+java.nio.channels.ReadableByteChannel
+read(java.nio.ByteBuffer)
+close()
+isOpen()

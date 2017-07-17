@@ -1,0 +1,5 @@
+org.omg.PortableServer.IdUniquenessPolicyOperations
+value()
+destroy()
+copy()
+policy_type()

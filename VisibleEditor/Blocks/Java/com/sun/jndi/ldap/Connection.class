@@ -1,0 +1,12 @@
+com.sun.jndi.ldap.Connection
+run()
+replaceStreams(java.io.InputStream,java.io.OutputStream)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

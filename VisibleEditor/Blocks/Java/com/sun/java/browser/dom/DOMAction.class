@@ -1,0 +1,2 @@
+com.sun.java.browser.dom.DOMAction
+run(com.sun.java.browser.dom.DOMAccessor)

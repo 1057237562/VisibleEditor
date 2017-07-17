@@ -1,0 +1,7 @@
+javax.net.ssl.SSLSessionContext
+getSession([B)
+getIds()
+getSessionCacheSize()
+getSessionTimeout()
+setSessionCacheSize(int)
+setSessionTimeout(int)

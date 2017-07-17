@@ -1,0 +1,13 @@
+javax.xml.bind.attachment.AttachmentUnmarshaller
+isXOPPackage()
+getAttachmentAsByteArray(java.lang.String)
+getAttachmentAsDataHandler(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

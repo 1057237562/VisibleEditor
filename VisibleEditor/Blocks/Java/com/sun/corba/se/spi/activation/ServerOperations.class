@@ -1,0 +1,4 @@
+com.sun.corba.se.spi.activation.ServerOperations
+shutdown()
+uninstall()
+install()

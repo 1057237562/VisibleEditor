@@ -1,0 +1,2 @@
+com.sun.jndi.rmi.registry.RemoteReference
+getReference()

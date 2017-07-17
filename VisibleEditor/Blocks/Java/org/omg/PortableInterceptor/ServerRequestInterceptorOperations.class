@@ -1,0 +1,8 @@
+org.omg.PortableInterceptor.ServerRequestInterceptorOperations
+receive_request(org.omg.PortableInterceptor.ServerRequestInfo)
+receive_request_service_contexts(org.omg.PortableInterceptor.ServerRequestInfo)
+send_exception(org.omg.PortableInterceptor.ServerRequestInfo)
+send_other(org.omg.PortableInterceptor.ServerRequestInfo)
+send_reply(org.omg.PortableInterceptor.ServerRequestInfo)
+name()
+destroy()

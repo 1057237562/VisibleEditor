@@ -1,0 +1,10 @@
+com.sun.java.util.jar.pack.PackerImpl$DoPack$InFile
+toString()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

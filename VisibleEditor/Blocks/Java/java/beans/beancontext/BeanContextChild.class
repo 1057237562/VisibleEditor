@@ -1,0 +1,7 @@
+java.beans.beancontext.BeanContextChild
+addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)
+removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)
+addVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)
+removeVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)
+getBeanContext()
+setBeanContext(java.beans.beancontext.BeanContext)

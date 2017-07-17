@@ -1,0 +1,5 @@
+java.lang.reflect.Member
+getModifiers()
+getName()
+getDeclaringClass()
+isSynthetic()

@@ -1,0 +1,13 @@
+com.sun.jndi.rmi.registry.ReferenceWrapper_Stub
+getReference()
+equals(java.lang.Object)
+toString()
+hashCode()
+getRef()
+toStub(java.rmi.Remote)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

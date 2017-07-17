@@ -1,0 +1,12 @@
+com.sun.xml.internal.messaging.saaj.util.SAAJUtil
+getSystemProperty(java.lang.String)
+getSystemBoolean(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

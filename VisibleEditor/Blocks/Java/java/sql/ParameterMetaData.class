@@ -1,0 +1,12 @@
+java.sql.ParameterMetaData
+getParameterCount()
+isSigned(int)
+getScale(int)
+getPrecision(int)
+isNullable(int)
+getParameterClassName(int)
+getParameterMode(int)
+getParameterType(int)
+getParameterTypeName(int)
+unwrap(java.lang.Class)
+isWrapperFor(java.lang.Class)

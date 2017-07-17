@@ -1,0 +1,4 @@
+javax.lang.model.element.AnnotationValue
+toString()
+getValue()
+accept(javax.lang.model.element.AnnotationValueVisitor,java.lang.Object)

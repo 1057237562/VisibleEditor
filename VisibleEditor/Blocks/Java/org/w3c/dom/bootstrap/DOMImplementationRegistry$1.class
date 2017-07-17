@@ -1,0 +1,12 @@
+org.w3c.dom.bootstrap.DOMImplementationRegistry$1
+getLength()
+item(int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,13 @@
+javax.activation.CommandInfo
+getCommandName()
+getCommandClass()
+getCommandObject(javax.activation.DataHandler,java.lang.ClassLoader)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

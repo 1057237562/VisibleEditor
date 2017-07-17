@@ -1,0 +1,4 @@
+com.sun.xml.internal.ws.wsdl.writer.WSDLResolver
+getAbstractWSDL(javax.xml.ws.Holder)
+getSchemaOutput(java.lang.String,javax.xml.ws.Holder)
+getWSDL(java.lang.String)

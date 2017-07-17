@@ -1,0 +1,12 @@
+com.sun.jndi.ldap.pool.Connections
+releasePooledConnection(com.sun.jndi.ldap.pool.PooledConnection)
+removePooledConnection(com.sun.jndi.ldap.pool.PooledConnection)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

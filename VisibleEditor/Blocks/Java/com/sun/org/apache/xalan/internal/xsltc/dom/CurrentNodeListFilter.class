@@ -1,0 +1,2 @@
+com.sun.org.apache.xalan.internal.xsltc.dom.CurrentNodeListFilter
+test(int,int,int,int,com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet,com.sun.org.apache.xml.internal.dtm.DTMAxisIterator)

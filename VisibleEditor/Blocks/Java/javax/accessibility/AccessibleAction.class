@@ -1,0 +1,4 @@
+javax.accessibility.AccessibleAction
+doAccessibleAction(int)
+getAccessibleActionCount()
+getAccessibleActionDescription(int)

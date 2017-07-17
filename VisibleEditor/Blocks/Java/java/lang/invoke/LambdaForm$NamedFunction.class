@@ -1,0 +1,13 @@
+java.lang.invoke.LambdaForm$NamedFunction
+equals(java.lang.Object)
+toString()
+hashCode()
+intrinsicName()
+isConstantZero()
+isIdentity()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

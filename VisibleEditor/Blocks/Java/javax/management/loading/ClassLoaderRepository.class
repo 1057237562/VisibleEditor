@@ -1,0 +1,4 @@
+javax.management.loading.ClassLoaderRepository
+loadClass(java.lang.String)
+loadClassBefore(java.lang.ClassLoader,java.lang.String)
+loadClassWithout(java.lang.ClassLoader,java.lang.String)

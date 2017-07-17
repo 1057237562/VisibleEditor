@@ -1,0 +1,13 @@
+javax.swing.text.DefaultHighlighter$LayeredHighlightInfo
+getPainter()
+getStartOffset()
+getEndOffset()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

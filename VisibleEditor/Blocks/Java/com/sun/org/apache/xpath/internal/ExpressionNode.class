@@ -1,0 +1,10 @@
+com.sun.org.apache.xpath.internal.ExpressionNode
+exprAddChild(com.sun.org.apache.xpath.internal.ExpressionNode,int)
+exprGetChild(int)
+exprGetNumChildren()
+exprGetParent()
+exprSetParent(com.sun.org.apache.xpath.internal.ExpressionNode)
+getLineNumber()
+getSystemId()
+getPublicId()
+getColumnNumber()

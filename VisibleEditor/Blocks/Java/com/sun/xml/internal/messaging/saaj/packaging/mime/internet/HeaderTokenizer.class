@@ -1,0 +1,13 @@
+com.sun.xml.internal.messaging.saaj.packaging.mime.internet.HeaderTokenizer
+next()
+peek()
+getRemainder()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

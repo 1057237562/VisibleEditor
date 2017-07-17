@@ -1,0 +1,10 @@
+java.util.Map$Entry
+equals(java.lang.Object)
+hashCode()
+getValue()
+getKey()
+setValue(java.lang.Object)
+comparingByKey(java.util.Comparator)
+comparingByKey()
+comparingByValue()
+comparingByValue(java.util.Comparator)

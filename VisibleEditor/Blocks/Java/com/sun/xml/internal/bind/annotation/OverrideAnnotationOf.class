@@ -1,0 +1,6 @@
+com.sun.xml.internal.bind.annotation.OverrideAnnotationOf
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

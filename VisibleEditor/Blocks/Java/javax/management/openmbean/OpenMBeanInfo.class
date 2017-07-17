@@ -1,0 +1,10 @@
+javax.management.openmbean.OpenMBeanInfo
+equals(java.lang.Object)
+toString()
+hashCode()
+getConstructors()
+getAttributes()
+getClassName()
+getDescription()
+getNotifications()
+getOperations()

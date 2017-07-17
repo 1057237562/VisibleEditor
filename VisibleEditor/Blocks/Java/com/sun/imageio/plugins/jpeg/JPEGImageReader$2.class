@@ -1,0 +1,12 @@
+com.sun.imageio.plugins.jpeg.JPEGImageReader$2
+getType()
+getTypeProducer(int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

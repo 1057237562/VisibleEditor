@@ -1,0 +1,13 @@
+com.sun.org.apache.xml.internal.dtm.ref.DTMNodeList
+getLength()
+item(int)
+getDTMIterator()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

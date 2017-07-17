@@ -1,0 +1,13 @@
+com.sun.xml.internal.stream.StaxEntityResolverWrapper
+resolveEntity(com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier)
+getStaxEntityResolver()
+setStaxEntityResolver(javax.xml.stream.XMLResolver)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

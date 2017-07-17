@@ -1,0 +1,2 @@
+com.sun.xml.internal.ws.wsdl.parser.ErrorHandler
+error(java.lang.Throwable)

@@ -1,0 +1,6 @@
+com.sun.tracing.dtrace.FunctionAttributes
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

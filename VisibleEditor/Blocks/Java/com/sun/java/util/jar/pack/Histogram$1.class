@@ -1,0 +1,11 @@
+com.sun.java.util.jar.pack.Histogram$1
+getBitLength(int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

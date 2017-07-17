@@ -1,0 +1,13 @@
+com.sun.security.auth.UnixNumericUserPrincipal
+equals(java.lang.Object)
+toString()
+hashCode()
+longValue()
+getName()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()
+implies(javax.security.auth.Subject)

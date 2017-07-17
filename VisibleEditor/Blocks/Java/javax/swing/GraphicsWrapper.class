@@ -1,0 +1,7 @@
+javax.swing.GraphicsWrapper
+getClipHeight()
+getClipWidth()
+getClipX()
+getClipY()
+isClipIntersecting(java.awt.Rectangle)
+subGraphics()

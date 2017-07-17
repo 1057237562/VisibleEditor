@@ -1,0 +1,10 @@
+javax.tools.FileObject
+getName()
+delete()
+toUri()
+getLastModified()
+getCharContent(boolean)
+openInputStream()
+openOutputStream()
+openReader(boolean)
+openWriter()

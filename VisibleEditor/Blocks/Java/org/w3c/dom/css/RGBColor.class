@@ -1,0 +1,4 @@
+org.w3c.dom.css.RGBColor
+getBlue()
+getGreen()
+getRed()

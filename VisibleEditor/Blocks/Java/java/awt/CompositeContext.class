@@ -1,0 +1,3 @@
+java.awt.CompositeContext
+compose(java.awt.image.Raster,java.awt.image.Raster,java.awt.image.WritableRaster)
+dispose()

@@ -1,0 +1,9 @@
+com.sun.org.apache.xerces.internal.xs.XSModelGroup
+getAnnotation()
+getAnnotations()
+getCompositor()
+getParticles()
+getName()
+getType()
+getNamespace()
+getNamespaceItem()

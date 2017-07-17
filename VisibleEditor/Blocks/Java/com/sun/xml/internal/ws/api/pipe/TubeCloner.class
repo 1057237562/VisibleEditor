@@ -1,0 +1,13 @@
+com.sun.xml.internal.ws.api.pipe.TubeCloner
+add(com.sun.xml.internal.ws.api.pipe.Tube,com.sun.xml.internal.ws.api.pipe.Tube)
+clone(com.sun.xml.internal.ws.api.pipe.Tube)
+copy(com.sun.xml.internal.ws.api.pipe.Tube)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

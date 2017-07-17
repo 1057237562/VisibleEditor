@@ -1,0 +1,10 @@
+org.ietf.jgss.GSSName
+equals(org.ietf.jgss.GSSName)
+equals(java.lang.Object)
+toString()
+hashCode()
+canonicalize(org.ietf.jgss.Oid)
+export()
+getStringNameType()
+isAnonymous()
+isMN()

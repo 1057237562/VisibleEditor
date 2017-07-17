@@ -1,0 +1,13 @@
+jdk.internal.org.objectweb.asm.tree.analysis.Analyzer
+getFrames()
+getHandlers(int)
+analyze(java.lang.String,jdk.internal.org.objectweb.asm.tree.MethodNode)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

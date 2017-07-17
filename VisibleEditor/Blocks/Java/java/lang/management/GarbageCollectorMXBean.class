@@ -1,0 +1,7 @@
+java.lang.management.GarbageCollectorMXBean
+getCollectionCount()
+getCollectionTime()
+getName()
+isValid()
+getMemoryPoolNames()
+getObjectName()

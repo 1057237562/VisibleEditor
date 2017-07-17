@@ -1,0 +1,5 @@
+java.util.stream.IntStream$Builder
+add(int)
+accept(int)
+build()
+andThen(java.util.function.IntConsumer)

@@ -1,0 +1,7 @@
+com.sun.net.ssl.X509KeyManager
+getCertificateChain(java.lang.String)
+chooseClientAlias(java.lang.String,[Ljava.security.Principal;)
+chooseServerAlias(java.lang.String,[Ljava.security.Principal;)
+getClientAliases(java.lang.String,[Ljava.security.Principal;)
+getPrivateKey(java.lang.String)
+getServerAliases(java.lang.String,[Ljava.security.Principal;)

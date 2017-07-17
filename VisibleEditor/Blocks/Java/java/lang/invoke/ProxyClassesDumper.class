@@ -1,0 +1,13 @@
+java.lang.invoke.ProxyClassesDumper
+getInstance(java.lang.String)
+dumpClass(java.lang.String,[B)
+encodeForFilename(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

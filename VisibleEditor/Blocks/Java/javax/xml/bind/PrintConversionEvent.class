@@ -1,0 +1,5 @@
+javax.xml.bind.PrintConversionEvent
+getMessage()
+getLocator()
+getSeverity()
+getLinkedException()

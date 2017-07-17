@@ -1,0 +1,4 @@
+com.sun.java.util.jar.pack.CodingMethod
+getMetaCoding(com.sun.java.util.jar.pack.Coding)
+readArrayFrom(java.io.InputStream,[I,int,int)
+writeArrayTo(java.io.OutputStream,[I,int,int)

@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.api.server.Module
+getBoundEndpoints()
+getSPI(java.lang.Class)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,7 @@
+com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarPool
+clear()
+cacheGrammars(java.lang.String,[Lcom.sun.org.apache.xerces.internal.xni.grammars.Grammar;)
+retrieveGrammar(com.sun.org.apache.xerces.internal.xni.grammars.XMLGrammarDescription)
+retrieveInitialGrammarSet(java.lang.String)
+lockPool()
+unlockPool()

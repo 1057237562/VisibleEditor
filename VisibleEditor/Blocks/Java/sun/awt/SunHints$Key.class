@@ -1,0 +1,12 @@
+sun.awt.SunHints$Key
+toString()
+getIndex()
+isCompatibleValue(java.lang.Object)
+equals(java.lang.Object)
+hashCode()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

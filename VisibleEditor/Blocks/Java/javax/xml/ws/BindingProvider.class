@@ -1,0 +1,6 @@
+javax.xml.ws.BindingProvider
+getBinding()
+getEndpointReference()
+getEndpointReference(java.lang.Class)
+getRequestContext()
+getResponseContext()

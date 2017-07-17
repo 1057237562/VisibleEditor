@@ -1,0 +1,6 @@
+com.sun.xml.internal.bind.v2.runtime.NamespaceContext2
+force(java.lang.String,java.lang.String)
+declareNamespace(java.lang.String,java.lang.String,boolean)
+getNamespaceURI(java.lang.String)
+getPrefix(java.lang.String)
+getPrefixes(java.lang.String)

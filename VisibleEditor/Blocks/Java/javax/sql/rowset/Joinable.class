@@ -1,0 +1,11 @@
+javax.sql.rowset.Joinable
+getMatchColumnIndexes()
+getMatchColumnNames()
+setMatchColumn(int)
+setMatchColumn([Ljava.lang.String;)
+setMatchColumn(java.lang.String)
+setMatchColumn([I)
+unsetMatchColumn(java.lang.String)
+unsetMatchColumn([Ljava.lang.String;)
+unsetMatchColumn([I)
+unsetMatchColumn(int)

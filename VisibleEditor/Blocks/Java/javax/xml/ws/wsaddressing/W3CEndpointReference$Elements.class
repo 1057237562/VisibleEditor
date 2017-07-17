@@ -1,0 +1,10 @@
+javax.xml.ws.wsaddressing.W3CEndpointReference$Elements
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

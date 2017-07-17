@@ -1,0 +1,5 @@
+java.util.function.IntPredicate
+test(int)
+and(java.util.function.IntPredicate)
+or(java.util.function.IntPredicate)
+negate()

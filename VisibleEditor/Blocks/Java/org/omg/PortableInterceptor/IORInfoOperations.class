@@ -1,0 +1,9 @@
+org.omg.PortableInterceptor.IORInfoOperations
+state()
+adapter_template()
+add_ior_component(org.omg.IOP.TaggedComponent)
+add_ior_component_to_profile(org.omg.IOP.TaggedComponent,int)
+current_factory()
+current_factory(org.omg.PortableInterceptor.ObjectReferenceFactory)
+get_effective_policy(int)
+manager_id()

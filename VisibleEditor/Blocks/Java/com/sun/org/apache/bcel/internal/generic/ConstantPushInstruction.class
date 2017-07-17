@@ -1,0 +1,4 @@
+com.sun.org.apache.bcel.internal.generic.ConstantPushInstruction
+getValue()
+produceStack(com.sun.org.apache.bcel.internal.generic.ConstantPoolGen)
+getType(com.sun.org.apache.bcel.internal.generic.ConstantPoolGen)

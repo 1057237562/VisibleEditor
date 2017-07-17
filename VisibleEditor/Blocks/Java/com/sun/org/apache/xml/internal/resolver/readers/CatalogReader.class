@@ -1,0 +1,3 @@
+com.sun.org.apache.xml.internal.resolver.readers.CatalogReader
+readCatalog(com.sun.org.apache.xml.internal.resolver.Catalog,java.lang.String)
+readCatalog(com.sun.org.apache.xml.internal.resolver.Catalog,java.io.InputStream)

@@ -1,0 +1,4 @@
+com.sun.jmx.snmp.SnmpOidTable
+resolveVarName(java.lang.String)
+getAllEntries()
+resolveVarOid(java.lang.String)

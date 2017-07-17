@@ -1,0 +1,12 @@
+jdk.management.resource.ResourceType
+equals(java.lang.Object)
+toString()
+hashCode()
+getName()
+of(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,9 @@
+javax.xml.ws.WebFault
+name()
+targetNamespace()
+faultBean()
+messageName()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

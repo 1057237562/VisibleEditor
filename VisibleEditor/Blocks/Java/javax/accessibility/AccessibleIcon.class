@@ -1,0 +1,5 @@
+javax.accessibility.AccessibleIcon
+getAccessibleIconDescription()
+getAccessibleIconHeight()
+getAccessibleIconWidth()
+setAccessibleIconDescription(java.lang.String)

@@ -1,0 +1,6 @@
+java.awt.peer.MenuBarPeer
+addHelpMenu(java.awt.Menu)
+addMenu(java.awt.Menu)
+delMenu(int)
+dispose()
+setFont(java.awt.Font)

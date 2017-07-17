@@ -1,0 +1,11 @@
+javax.swing.text.StyleContext$FontKey
+equals(java.lang.Object)
+hashCode()
+setValue(java.lang.String,int,int)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

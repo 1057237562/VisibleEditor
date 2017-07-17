@@ -1,0 +1,12 @@
+javax.swing.RepaintManager$1
+addRepaintListener(javax.swing.RepaintManager,sun.swing.SwingUtilities2$RepaintListener)
+removeRepaintListener(javax.swing.RepaintManager,sun.swing.SwingUtilities2$RepaintListener)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

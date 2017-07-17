@@ -1,0 +1,8 @@
+com.sun.org.apache.xerces.internal.xni.parser.XMLComponent
+setProperty(java.lang.String,java.lang.Object)
+reset(com.sun.org.apache.xerces.internal.xni.parser.XMLComponentManager)
+setFeature(java.lang.String,boolean)
+getRecognizedFeatures()
+getRecognizedProperties()
+getFeatureDefault(java.lang.String)
+getPropertyDefault(java.lang.String)

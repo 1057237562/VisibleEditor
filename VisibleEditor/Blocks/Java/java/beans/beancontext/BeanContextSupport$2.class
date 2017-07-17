@@ -1,0 +1,11 @@
+java.beans.beancontext.BeanContextSupport$2
+vetoableChange(java.beans.PropertyChangeEvent)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

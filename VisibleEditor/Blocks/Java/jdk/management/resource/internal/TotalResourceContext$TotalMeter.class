@@ -1,0 +1,13 @@
+jdk.management.resource.internal.TotalResourceContext$TotalMeter
+toString()
+getValue()
+getType()
+getAllocated()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

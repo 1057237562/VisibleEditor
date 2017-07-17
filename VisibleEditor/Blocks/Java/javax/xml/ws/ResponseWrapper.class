@@ -1,0 +1,9 @@
+javax.xml.ws.ResponseWrapper
+className()
+targetNamespace()
+localName()
+partName()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

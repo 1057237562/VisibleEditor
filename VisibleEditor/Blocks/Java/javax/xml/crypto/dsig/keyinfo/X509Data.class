@@ -1,0 +1,3 @@
+javax.xml.crypto.dsig.keyinfo.X509Data
+getContent()
+isFeatureSupported(java.lang.String)

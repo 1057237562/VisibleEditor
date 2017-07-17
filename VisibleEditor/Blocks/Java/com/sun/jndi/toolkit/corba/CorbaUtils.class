@@ -1,0 +1,13 @@
+com.sun.jndi.toolkit.corba.CorbaUtils
+getOrb(java.lang.String,int,java.util.Hashtable)
+isObjectFactoryTrusted(java.lang.Object)
+remoteToCorba(java.rmi.Remote,org.omg.CORBA.ORB)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

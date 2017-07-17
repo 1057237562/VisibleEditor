@@ -1,0 +1,13 @@
+org.w3c.dom.ls.LSLoadEvent
+getInput()
+getNewDocument()
+getType()
+getTarget()
+getTimeStamp()
+getBubbles()
+getCancelable()
+getCurrentTarget()
+getEventPhase()
+initEvent(java.lang.String,boolean,boolean)
+preventDefault()
+stopPropagation()

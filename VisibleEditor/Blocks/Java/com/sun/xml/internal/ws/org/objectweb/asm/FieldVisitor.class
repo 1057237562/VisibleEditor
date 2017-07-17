@@ -1,0 +1,4 @@
+com.sun.xml.internal.ws.org.objectweb.asm.FieldVisitor
+visitAttribute(com.sun.xml.internal.ws.org.objectweb.asm.Attribute)
+visitAnnotation(java.lang.String,boolean)
+visitEnd()

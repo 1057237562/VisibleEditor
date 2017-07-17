@@ -1,0 +1,5 @@
+org.xml.sax.ext.DeclHandler
+attributeDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+elementDecl(java.lang.String,java.lang.String)
+externalEntityDecl(java.lang.String,java.lang.String,java.lang.String)
+internalEntityDecl(java.lang.String,java.lang.String)

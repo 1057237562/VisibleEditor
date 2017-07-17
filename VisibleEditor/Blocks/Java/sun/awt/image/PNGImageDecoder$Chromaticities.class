@@ -1,0 +1,10 @@
+sun.awt.image.PNGImageDecoder$Chromaticities
+toString()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,5 @@
+java.util.function.Function
+apply(java.lang.Object)
+identity()
+andThen(java.util.function.Function)
+compose(java.util.function.Function)

@@ -1,0 +1,8 @@
+javax.swing.text.rtf.RTFReader$Destination
+close()
+handleText(java.lang.String)
+begingroup()
+endgroup(java.util.Dictionary)
+handleBinaryBlob([B)
+handleKeyword(java.lang.String)
+handleKeyword(java.lang.String,int)

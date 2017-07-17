@@ -1,0 +1,5 @@
+java.lang.annotation.Native
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

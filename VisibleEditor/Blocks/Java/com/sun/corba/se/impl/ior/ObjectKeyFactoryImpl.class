@@ -1,0 +1,12 @@
+com.sun.corba.se.impl.ior.ObjectKeyFactoryImpl
+create([B)
+createTemplate(org.omg.CORBA_2_3.portable.InputStream)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

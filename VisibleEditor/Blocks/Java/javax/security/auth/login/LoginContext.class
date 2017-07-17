@@ -1,0 +1,13 @@
+javax.security.auth.login.LoginContext
+login()
+logout()
+getSubject()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

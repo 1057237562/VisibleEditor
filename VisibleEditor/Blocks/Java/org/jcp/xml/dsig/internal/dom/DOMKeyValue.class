@@ -1,0 +1,13 @@
+org.jcp.xml.dsig.internal.dom.DOMKeyValue
+equals(java.lang.Object)
+hashCode()
+getPublicKey()
+marshal(org.w3c.dom.Node,java.lang.String,javax.xml.crypto.dom.DOMCryptoContext)
+isFeatureSupported(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

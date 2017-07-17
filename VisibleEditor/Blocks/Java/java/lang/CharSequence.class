@@ -1,0 +1,7 @@
+java.lang.CharSequence
+toString()
+charAt(int)
+length()
+subSequence(int,int)
+chars()
+codePoints()

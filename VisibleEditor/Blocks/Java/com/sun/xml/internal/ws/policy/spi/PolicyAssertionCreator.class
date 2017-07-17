@@ -1,0 +1,3 @@
+com.sun.xml.internal.ws.policy.spi.PolicyAssertionCreator
+createAssertion(com.sun.xml.internal.ws.policy.sourcemodel.AssertionData,java.util.Collection,com.sun.xml.internal.ws.policy.AssertionSet,com.sun.xml.internal.ws.policy.spi.PolicyAssertionCreator)
+getSupportedDomainNamespaceURIs()

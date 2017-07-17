@@ -1,0 +1,8 @@
+com.sun.xml.internal.ws.api.model.wsdl.editable.EditableWSDLPart
+setIndex(int)
+setBinding(com.sun.xml.internal.ws.api.model.ParameterBinding)
+getName()
+getDescriptor()
+getIndex()
+getBinding()
+getLocation()

@@ -1,0 +1,13 @@
+com.sun.rowset.internal.WebRowSetXmlWriter
+writeData(javax.sql.RowSetInternal)
+writeXML(javax.sql.rowset.WebRowSet,java.io.OutputStream)
+writeXML(javax.sql.rowset.WebRowSet,java.io.Writer)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

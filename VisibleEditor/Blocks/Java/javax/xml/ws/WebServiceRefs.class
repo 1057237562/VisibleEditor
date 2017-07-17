@@ -1,0 +1,6 @@
+javax.xml.ws.WebServiceRefs
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

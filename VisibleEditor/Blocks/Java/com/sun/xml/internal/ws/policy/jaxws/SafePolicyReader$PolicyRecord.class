@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.policy.jaxws.SafePolicyReader$PolicyRecord
+toString()
+getUri()
+setUri(java.lang.String,java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

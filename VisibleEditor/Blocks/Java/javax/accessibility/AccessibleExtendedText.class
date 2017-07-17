@@ -1,0 +1,6 @@
+javax.accessibility.AccessibleExtendedText
+getTextRange(int,int)
+getTextBounds(int,int)
+getTextSequenceAfter(int,int)
+getTextSequenceAt(int,int)
+getTextSequenceBefore(int,int)

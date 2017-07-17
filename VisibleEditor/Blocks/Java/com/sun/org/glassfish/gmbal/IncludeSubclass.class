@@ -1,0 +1,6 @@
+com.sun.org.glassfish.gmbal.IncludeSubclass
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

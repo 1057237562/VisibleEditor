@@ -1,0 +1,3 @@
+com.sun.xml.internal.ws.assembler.dev.TubeFactory
+createTube(com.sun.xml.internal.ws.assembler.dev.ClientTubelineAssemblyContext)
+createTube(com.sun.xml.internal.ws.assembler.dev.ServerTubelineAssemblyContext)

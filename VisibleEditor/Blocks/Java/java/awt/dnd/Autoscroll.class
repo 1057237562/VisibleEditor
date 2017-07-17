@@ -1,0 +1,3 @@
+java.awt.dnd.Autoscroll
+autoscroll(java.awt.Point)
+getAutoscrollInsets()

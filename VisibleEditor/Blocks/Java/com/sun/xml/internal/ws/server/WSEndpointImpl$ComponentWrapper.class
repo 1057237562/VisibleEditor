@@ -1,0 +1,11 @@
+com.sun.xml.internal.ws.server.WSEndpointImpl$ComponentWrapper
+equals(java.lang.Object)
+hashCode()
+getSPI(java.lang.Class)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

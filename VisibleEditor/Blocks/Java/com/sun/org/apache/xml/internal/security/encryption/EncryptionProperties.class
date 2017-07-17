@@ -1,0 +1,6 @@
+com.sun.org.apache.xml.internal.security.encryption.EncryptionProperties
+getId()
+setId(java.lang.String)
+getEncryptionProperties()
+addEncryptionProperty(com.sun.org.apache.xml.internal.security.encryption.EncryptionProperty)
+removeEncryptionProperty(com.sun.org.apache.xml.internal.security.encryption.EncryptionProperty)

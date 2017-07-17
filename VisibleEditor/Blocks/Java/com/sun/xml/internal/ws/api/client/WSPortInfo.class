@@ -1,0 +1,9 @@
+com.sun.xml.internal.ws.api.client.WSPortInfo
+getPort()
+getOwner()
+getBindingId()
+getEndpointAddress()
+getPolicyMap()
+getPortName()
+getServiceName()
+getBindingID()

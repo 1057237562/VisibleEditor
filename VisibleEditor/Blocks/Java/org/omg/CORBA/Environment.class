@@ -1,0 +1,13 @@
+org.omg.CORBA.Environment
+clear()
+exception()
+exception(java.lang.Exception)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

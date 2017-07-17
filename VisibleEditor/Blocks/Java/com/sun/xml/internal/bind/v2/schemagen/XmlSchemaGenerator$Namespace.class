@@ -1,0 +1,12 @@
+com.sun.xml.internal.bind.v2.schemagen.XmlSchemaGenerator$Namespace
+toString()
+addGlobalAttribute(com.sun.xml.internal.bind.v2.model.core.AttributePropertyInfo)
+addGlobalElement(com.sun.xml.internal.bind.v2.model.core.TypeRef)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

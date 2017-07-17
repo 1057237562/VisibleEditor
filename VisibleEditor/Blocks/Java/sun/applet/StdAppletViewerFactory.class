@@ -1,0 +1,13 @@
+sun.applet.StdAppletViewerFactory
+isStandalone()
+createAppletViewer(int,int,java.net.URL,java.util.Hashtable)
+getBaseMenuBar()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,3 @@
+sun.awt.SubRegionShowable
+show(int,int,int,int)
+showIfNotLost(int,int,int,int)

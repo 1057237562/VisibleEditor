@@ -1,0 +1,13 @@
+com.sun.xml.internal.bind.v2.model.core.EnumLeafInfo
+getClazz()
+getBaseType()
+getConstants()
+getElementName()
+isElement()
+asElement()
+getTypeName()
+isSimpleType()
+getType()
+canBeReferencedByIDREF()
+getLocation()
+getUpstream()

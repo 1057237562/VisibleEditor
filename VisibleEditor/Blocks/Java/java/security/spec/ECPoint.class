@@ -1,0 +1,12 @@
+java.security.spec.ECPoint
+equals(java.lang.Object)
+hashCode()
+getAffineX()
+getAffineY()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

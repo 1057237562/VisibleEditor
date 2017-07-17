@@ -1,0 +1,12 @@
+javax.swing.plaf.InsetsUIResource
+equals(java.lang.Object)
+toString()
+hashCode()
+clone()
+set(int,int,int,int)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

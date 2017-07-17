@@ -1,0 +1,12 @@
+com.sun.corba.se.impl.orb.ParserActionFactory
+makeNormalAction(java.lang.String,com.sun.corba.se.spi.orb.Operation,java.lang.String)
+makePrefixAction(java.lang.String,com.sun.corba.se.spi.orb.Operation,java.lang.String,java.lang.Class)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

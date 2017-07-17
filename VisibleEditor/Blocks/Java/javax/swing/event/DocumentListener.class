@@ -1,0 +1,4 @@
+javax.swing.event.DocumentListener
+changedUpdate(javax.swing.event.DocumentEvent)
+insertUpdate(javax.swing.event.DocumentEvent)
+removeUpdate(javax.swing.event.DocumentEvent)

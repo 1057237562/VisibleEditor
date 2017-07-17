@@ -1,0 +1,8 @@
+java.security.cert.PolicyNode
+getParent()
+getDepth()
+getChildren()
+isCritical()
+getExpectedPolicies()
+getPolicyQualifiers()
+getValidPolicy()

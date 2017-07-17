@@ -1,0 +1,5 @@
+java.util.Iterator
+remove()
+hasNext()
+next()
+forEachRemaining(java.util.function.Consumer)

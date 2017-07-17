@@ -1,0 +1,6 @@
+javax.xml.ws.BindingType
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

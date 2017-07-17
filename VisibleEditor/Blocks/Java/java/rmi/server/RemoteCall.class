@@ -1,0 +1,8 @@
+java.rmi.server.RemoteCall
+getInputStream()
+getOutputStream()
+done()
+executeCall()
+getResultStream(boolean)
+releaseInputStream()
+releaseOutputStream()

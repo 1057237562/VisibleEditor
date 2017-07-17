@@ -1,0 +1,6 @@
+java.util.PrimitiveIterator
+forEachRemaining(java.lang.Object)
+remove()
+hasNext()
+next()
+forEachRemaining(java.util.function.Consumer)

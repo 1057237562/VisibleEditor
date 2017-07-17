@@ -1,0 +1,12 @@
+jdk.internal.org.objectweb.asm.signature.SignatureReader
+accept(jdk.internal.org.objectweb.asm.signature.SignatureVisitor)
+acceptType(jdk.internal.org.objectweb.asm.signature.SignatureVisitor)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,11 @@
+com.sun.xml.internal.ws.util.MetadataUtil
+getMetadataClosure(java.lang.String,com.sun.xml.internal.ws.wsdl.SDDocumentResolver,boolean)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

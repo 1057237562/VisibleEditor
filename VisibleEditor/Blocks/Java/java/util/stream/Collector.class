@@ -1,0 +1,8 @@
+java.util.stream.Collector
+combiner()
+of(java.util.function.Supplier,java.util.function.BiConsumer,java.util.function.BinaryOperator,java.util.function.Function,[Ljava.util.stream.Collector$Characteristics;)
+of(java.util.function.Supplier,java.util.function.BiConsumer,java.util.function.BinaryOperator,[Ljava.util.stream.Collector$Characteristics;)
+characteristics()
+supplier()
+accumulator()
+finisher()

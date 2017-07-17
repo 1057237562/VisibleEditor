@@ -1,0 +1,13 @@
+com.sun.xml.internal.bind.v2.runtime.reflect.PrimitiveArrayListerDouble$1
+hasNext()
+next()
+next()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,6 @@
+java.awt.peer.KeyboardFocusManagerPeer
+clearGlobalFocusOwner(java.awt.Window)
+getCurrentFocusOwner()
+getCurrentFocusedWindow()
+setCurrentFocusOwner(java.awt.Component)
+setCurrentFocusedWindow(java.awt.Window)

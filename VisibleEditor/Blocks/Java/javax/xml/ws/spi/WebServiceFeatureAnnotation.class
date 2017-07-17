@@ -1,0 +1,7 @@
+javax.xml.ws.spi.WebServiceFeatureAnnotation
+id()
+bean()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

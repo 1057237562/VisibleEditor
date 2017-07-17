@@ -1,0 +1,10 @@
+javax.jws.soap.SOAPMessageHandler
+name()
+className()
+headers()
+initParams()
+roles()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

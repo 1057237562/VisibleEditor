@@ -1,0 +1,8 @@
+com.sun.management.GarbageCollectorMXBean
+getLastGcInfo()
+getCollectionCount()
+getCollectionTime()
+getName()
+isValid()
+getMemoryPoolNames()
+getObjectName()

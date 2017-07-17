@@ -1,0 +1,13 @@
+com.sun.nio.sctp.Association
+associationID()
+maxInboundStreams()
+maxOutboundStreams()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

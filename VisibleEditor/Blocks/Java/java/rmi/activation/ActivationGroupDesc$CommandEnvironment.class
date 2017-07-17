@@ -1,0 +1,12 @@
+java.rmi.activation.ActivationGroupDesc$CommandEnvironment
+equals(java.lang.Object)
+hashCode()
+getCommandOptions()
+getCommandPath()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,7 @@
+javax.xml.ws.Response
+getContext()
+get(long,java.util.concurrent.TimeUnit)
+get()
+isDone()
+cancel(boolean)
+isCancelled()

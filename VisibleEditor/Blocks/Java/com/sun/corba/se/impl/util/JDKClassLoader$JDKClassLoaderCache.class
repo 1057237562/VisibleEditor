@@ -1,0 +1,13 @@
+com.sun.corba.se.impl.util.JDKClassLoader$JDKClassLoaderCache
+createKey(java.lang.String,java.lang.ClassLoader)
+knownToFail(java.lang.Object)
+recordFailure(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,7 @@
+com.sun.media.sound.SoftResamplerStreamer
+open(com.sun.media.sound.ModelWavetable,float)
+read([[F,int,int)
+close()
+noteOff(int)
+noteOn(javax.sound.midi.MidiChannel,javax.sound.midi.VoiceStatus,int,int)
+setPitch(float)

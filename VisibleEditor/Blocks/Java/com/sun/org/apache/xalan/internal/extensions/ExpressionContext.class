@@ -1,0 +1,8 @@
+com.sun.org.apache.xalan.internal.extensions.ExpressionContext
+toString(org.w3c.dom.Node)
+getContextNode()
+getContextNodes()
+getErrorListener()
+getVariableOrParam(com.sun.org.apache.xml.internal.utils.QName)
+getXPathContext()
+toNumber(org.w3c.dom.Node)

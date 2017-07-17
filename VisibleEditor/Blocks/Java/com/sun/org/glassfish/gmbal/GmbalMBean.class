@@ -1,0 +1,11 @@
+com.sun.org.glassfish.gmbal.GmbalMBean
+invoke(java.lang.String,[Ljava.lang.Object;,[Ljava.lang.String;)
+getAttributes([Ljava.lang.String;)
+getAttribute(java.lang.String)
+setAttributes(javax.management.AttributeList)
+setAttribute(javax.management.Attribute)
+getMBeanInfo()
+removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+removeNotificationListener(javax.management.NotificationListener)
+getNotificationInfo()

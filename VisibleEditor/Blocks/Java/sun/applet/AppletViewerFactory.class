@@ -1,0 +1,4 @@
+sun.applet.AppletViewerFactory
+isStandalone()
+createAppletViewer(int,int,java.net.URL,java.util.Hashtable)
+getBaseMenuBar()

@@ -1,0 +1,6 @@
+java.rmi.registry.Registry
+list()
+rebind(java.lang.String,java.rmi.Remote)
+lookup(java.lang.String)
+bind(java.lang.String,java.rmi.Remote)
+unbind(java.lang.String)

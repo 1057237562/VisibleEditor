@@ -1,0 +1,11 @@
+org.w3c.dom.events.Event
+getType()
+getTarget()
+getTimeStamp()
+getBubbles()
+getCancelable()
+getCurrentTarget()
+getEventPhase()
+initEvent(java.lang.String,boolean,boolean)
+preventDefault()
+stopPropagation()

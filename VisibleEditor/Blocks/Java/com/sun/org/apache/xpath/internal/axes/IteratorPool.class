@@ -1,0 +1,13 @@
+com.sun.org.apache.xpath.internal.axes.IteratorPool
+getInstance()
+freeInstance(com.sun.org.apache.xml.internal.dtm.DTMIterator)
+getInstanceOrThrow()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,5 @@
+com.sun.corba.se.spi.ior.ObjectAdapterId
+iterator()
+getAdapterName()
+getNumLevels()
+write(org.omg.CORBA_2_3.portable.OutputStream)

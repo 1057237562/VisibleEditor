@@ -1,0 +1,11 @@
+java.net.HttpCookie$6
+assign(java.net.HttpCookie,java.lang.String,java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

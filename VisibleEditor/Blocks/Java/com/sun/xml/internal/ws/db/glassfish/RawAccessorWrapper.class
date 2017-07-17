@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.db.glassfish.RawAccessorWrapper
+get(java.lang.Object)
+equals(java.lang.Object)
+toString()
+hashCode()
+set(java.lang.Object,java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,2 @@
+jdk.management.resource.ResourceRequest
+request(long,jdk.management.resource.ResourceId)

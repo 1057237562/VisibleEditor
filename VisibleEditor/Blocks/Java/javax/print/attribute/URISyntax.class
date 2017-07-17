@@ -1,0 +1,11 @@
+javax.print.attribute.URISyntax
+equals(java.lang.Object)
+toString()
+hashCode()
+getURI()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

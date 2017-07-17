@@ -1,0 +1,3 @@
+java.awt.peer.MouseInfoPeer
+isWindowUnderMouse(java.awt.Window)
+fillPointWithCoords(java.awt.Point)

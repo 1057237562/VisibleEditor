@@ -1,0 +1,7 @@
+com.sun.xml.internal.txw2.annotation.XmlElement
+value()
+ns()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

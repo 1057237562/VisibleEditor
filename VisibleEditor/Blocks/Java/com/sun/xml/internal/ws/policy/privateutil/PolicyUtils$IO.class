@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.policy.privateutil.PolicyUtils$IO
+closeResource(java.io.Closeable)
+closeResource(javax.xml.stream.XMLStreamReader)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,4 @@
+org.w3c.dom.xpath.XPathEvaluator
+evaluate(java.lang.String,org.w3c.dom.Node,org.w3c.dom.xpath.XPathNSResolver,short,java.lang.Object)
+createExpression(java.lang.String,org.w3c.dom.xpath.XPathNSResolver)
+createNSResolver(org.w3c.dom.Node)

@@ -1,0 +1,12 @@
+javax.xml.ws.WebServiceFeature
+getID()
+isEnabled()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

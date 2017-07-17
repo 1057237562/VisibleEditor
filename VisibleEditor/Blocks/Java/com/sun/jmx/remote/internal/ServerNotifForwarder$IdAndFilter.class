@@ -1,0 +1,10 @@
+com.sun.jmx.remote.internal.ServerNotifForwarder$IdAndFilter
+equals(java.lang.Object)
+hashCode()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,6 @@
+com.sun.corba.se.spi.monitoring.MonitoredAttribute
+getName()
+getValue()
+setValue(java.lang.Object)
+clearState()
+getAttributeInfo()

@@ -1,0 +1,13 @@
+com.sun.org.apache.xpath.internal.axes.ContextNodeList
+clone()
+size()
+reset()
+getLast()
+cloneWithReset()
+getCurrentNode()
+getCurrentPos()
+isFresh()
+runTo(int)
+setCurrentPos(int)
+setLast(int)
+setShouldCacheNodes(boolean)

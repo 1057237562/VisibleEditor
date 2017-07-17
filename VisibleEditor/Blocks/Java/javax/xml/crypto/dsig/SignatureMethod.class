@@ -1,0 +1,4 @@
+javax.xml.crypto.dsig.SignatureMethod
+getParameterSpec()
+isFeatureSupported(java.lang.String)
+getAlgorithm()

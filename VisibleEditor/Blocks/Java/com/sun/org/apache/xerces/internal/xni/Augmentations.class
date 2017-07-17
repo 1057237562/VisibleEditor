@@ -1,0 +1,6 @@
+com.sun.org.apache.xerces.internal.xni.Augmentations
+keys()
+getItem(java.lang.String)
+removeAllItems()
+removeItem(java.lang.String)
+putItem(java.lang.String,java.lang.Object)

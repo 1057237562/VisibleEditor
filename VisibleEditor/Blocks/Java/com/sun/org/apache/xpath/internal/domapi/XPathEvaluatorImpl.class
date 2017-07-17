@@ -1,0 +1,13 @@
+com.sun.org.apache.xpath.internal.domapi.XPathEvaluatorImpl
+evaluate(java.lang.String,org.w3c.dom.Node,org.w3c.dom.xpath.XPathNSResolver,short,java.lang.Object)
+createExpression(java.lang.String,org.w3c.dom.xpath.XPathNSResolver)
+createNSResolver(org.w3c.dom.Node)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,3 @@
+java.awt.Paint
+createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)
+getTransparency()

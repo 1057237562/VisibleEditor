@@ -1,0 +1,4 @@
+javax.transaction.xa.Xid
+getBranchQualifier()
+getFormatId()
+getGlobalTransactionId()

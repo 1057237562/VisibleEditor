@@ -1,0 +1,6 @@
+javax.management.MXBean
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

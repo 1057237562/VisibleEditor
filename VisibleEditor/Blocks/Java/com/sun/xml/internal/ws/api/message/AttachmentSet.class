@@ -1,0 +1,7 @@
+com.sun.xml.internal.ws.api.message.AttachmentSet
+add(com.sun.xml.internal.ws.api.message.Attachment)
+get(java.lang.String)
+isEmpty()
+iterator()
+spliterator()
+forEach(java.util.function.Consumer)

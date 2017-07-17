@@ -1,0 +1,11 @@
+com.sun.corba.se.impl.orb.ParserTable$6
+operate(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

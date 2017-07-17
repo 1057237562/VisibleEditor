@@ -1,0 +1,6 @@
+javax.swing.JTable$Resizable3
+getMidPointAt(int)
+getLowerBoundAt(int)
+getUpperBoundAt(int)
+setSizeAt(int,int)
+getElementCount()

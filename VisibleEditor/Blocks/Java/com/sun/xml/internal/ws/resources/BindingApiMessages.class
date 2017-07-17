@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.resources.BindingApiMessages
+BINDING_API_NO_FAULT_MESSAGE_NAME()
+localizableBINDING_API_NO_FAULT_MESSAGE_NAME()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

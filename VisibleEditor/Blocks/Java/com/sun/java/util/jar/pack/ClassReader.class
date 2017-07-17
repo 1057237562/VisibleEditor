@@ -1,0 +1,12 @@
+com.sun.java.util.jar.pack.ClassReader
+setAttrCommands(java.util.Map)
+setAttrDefs(java.util.Map)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

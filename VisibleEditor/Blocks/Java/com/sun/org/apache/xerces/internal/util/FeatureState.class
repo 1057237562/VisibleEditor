@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.util.FeatureState
+of(com.sun.org.apache.xerces.internal.util.Status)
+is(boolean)
+isExceptional()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

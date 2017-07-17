@@ -1,0 +1,10 @@
+com.sun.jndi.cosnaming.IiopUrl$Address
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

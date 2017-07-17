@@ -1,0 +1,4 @@
+javax.xml.namespace.NamespaceContext
+getNamespaceURI(java.lang.String)
+getPrefix(java.lang.String)
+getPrefixes(java.lang.String)

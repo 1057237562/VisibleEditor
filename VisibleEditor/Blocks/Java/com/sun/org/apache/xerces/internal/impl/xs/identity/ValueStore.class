@@ -1,0 +1,3 @@
+com.sun.org.apache.xerces.internal.impl.xs.identity.ValueStore
+addValue(com.sun.org.apache.xerces.internal.impl.xs.identity.Field,java.lang.Object,short,com.sun.org.apache.xerces.internal.xs.ShortList)
+reportError(java.lang.String,[Ljava.lang.Object;)

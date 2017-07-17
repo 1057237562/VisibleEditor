@@ -1,0 +1,12 @@
+java.util.stream.Collectors$1OptionalBox
+accept(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()
+andThen(java.util.function.Consumer)

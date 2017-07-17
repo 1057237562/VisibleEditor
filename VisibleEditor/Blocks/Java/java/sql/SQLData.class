@@ -1,0 +1,4 @@
+java.sql.SQLData
+getSQLTypeName()
+readSQL(java.sql.SQLInput,java.lang.String)
+writeSQL(java.sql.SQLOutput)

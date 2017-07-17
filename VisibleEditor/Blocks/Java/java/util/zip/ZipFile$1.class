@@ -1,0 +1,11 @@
+java.util.zip.ZipFile$1
+startsWithLocHeader(java.util.zip.ZipFile)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

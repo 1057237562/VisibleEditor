@@ -1,0 +1,13 @@
+com.sun.org.apache.xml.internal.resolver.helpers.PublicId
+normalize(java.lang.String)
+decodeURN(java.lang.String)
+encodeURN(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,13 @@
+com.sun.xml.internal.messaging.saaj.util.ParserPool
+get()
+put(javax.xml.parsers.SAXParser)
+returnParser(javax.xml.parsers.SAXParser)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

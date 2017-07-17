@@ -1,0 +1,12 @@
+jdk.internal.util.xml.BasicXmlPropertiesProvider
+load(java.util.Properties,java.io.InputStream)
+store(java.util.Properties,java.io.OutputStream,java.lang.String,java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

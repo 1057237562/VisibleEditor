@@ -1,0 +1,12 @@
+java.awt.im.spi.InputMethodContext
+createInputMethodJFrame(java.lang.String,boolean)
+dispatchInputMethodEvent(int,java.text.AttributedCharacterIterator,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo)
+enableClientWindowNotification(java.awt.im.spi.InputMethod,boolean)
+createInputMethodWindow(java.lang.String,boolean)
+cancelLatestCommittedText([Ljava.text.AttributedCharacterIterator$Attribute;)
+getCommittedText(int,int,[Ljava.text.AttributedCharacterIterator$Attribute;)
+getCommittedTextLength()
+getInsertPositionOffset()
+getLocationOffset(int,int)
+getSelectedText([Ljava.text.AttributedCharacterIterator$Attribute;)
+getTextLocation(java.awt.font.TextHitInfo)

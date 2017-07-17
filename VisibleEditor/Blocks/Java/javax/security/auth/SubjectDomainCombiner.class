@@ -1,0 +1,12 @@
+javax.security.auth.SubjectDomainCombiner
+combine([Ljava.security.ProtectionDomain;,[Ljava.security.ProtectionDomain;)
+getSubject()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

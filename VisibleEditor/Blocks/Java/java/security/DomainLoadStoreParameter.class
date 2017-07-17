@@ -1,0 +1,13 @@
+java.security.DomainLoadStoreParameter
+getConfiguration()
+getProtectionParameter()
+getProtectionParams()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

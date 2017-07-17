@@ -1,0 +1,2 @@
+java.awt.event.HierarchyListener
+hierarchyChanged(java.awt.event.HierarchyEvent)

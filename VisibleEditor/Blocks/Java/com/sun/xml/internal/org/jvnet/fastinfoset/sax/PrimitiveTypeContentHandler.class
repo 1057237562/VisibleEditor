@@ -1,0 +1,9 @@
+com.sun.xml.internal.org.jvnet.fastinfoset.sax.PrimitiveTypeContentHandler
+bytes([B,int,int)
+doubles([D,int,int)
+ints([I,int,int)
+longs([J,int,int)
+floats([F,int,int)
+shorts([S,int,int)
+uuids([J,int,int)
+booleans([Z,int,int)

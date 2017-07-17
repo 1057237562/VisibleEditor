@@ -1,0 +1,4 @@
+com.sun.org.apache.xml.internal.security.utils.XPathAPI
+clear()
+evaluate(org.w3c.dom.Node,org.w3c.dom.Node,java.lang.String,org.w3c.dom.Node)
+selectNodeList(org.w3c.dom.Node,org.w3c.dom.Node,java.lang.String,org.w3c.dom.Node)

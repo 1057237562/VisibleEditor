@@ -1,0 +1,9 @@
+com.sun.xml.internal.ws.api.databinding.MetadataReader
+getAnnotation(java.lang.Class,java.lang.Class)
+getAnnotation(java.lang.Class,java.lang.reflect.Method)
+getAnnotations(java.lang.Class)
+getAnnotations(java.lang.reflect.Method)
+getProperties(java.util.Map,java.lang.reflect.Method)
+getProperties(java.util.Map,java.lang.reflect.Method,int)
+getProperties(java.util.Map,java.lang.Class)
+getParameterAnnotations(java.lang.reflect.Method)

@@ -1,0 +1,9 @@
+javax.swing.tree.TreeModel
+getRoot()
+valueForPathChanged(javax.swing.tree.TreePath,java.lang.Object)
+getChildCount(java.lang.Object)
+isLeaf(java.lang.Object)
+addTreeModelListener(javax.swing.event.TreeModelListener)
+getChild(java.lang.Object,int)
+getIndexOfChild(java.lang.Object,java.lang.Object)
+removeTreeModelListener(javax.swing.event.TreeModelListener)

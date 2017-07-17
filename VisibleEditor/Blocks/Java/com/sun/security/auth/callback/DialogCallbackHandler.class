@@ -1,0 +1,11 @@
+com.sun.security.auth.callback.DialogCallbackHandler
+handle([Ljavax.security.auth.callback.Callback;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

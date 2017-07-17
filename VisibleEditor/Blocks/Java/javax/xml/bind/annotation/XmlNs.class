@@ -1,0 +1,7 @@
+javax.xml.bind.annotation.XmlNs
+prefix()
+namespaceURI()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

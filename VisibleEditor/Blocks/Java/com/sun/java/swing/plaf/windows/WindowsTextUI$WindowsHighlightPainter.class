@@ -1,0 +1,13 @@
+com.sun.java.swing.plaf.windows.WindowsTextUI$WindowsHighlightPainter
+paint(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent)
+paintLayer(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent,javax.swing.text.View)
+getColor()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,11 @@
+javax.xml.bind.annotation.XmlElement
+name()
+type()
+defaultValue()
+required()
+namespace()
+nillable()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

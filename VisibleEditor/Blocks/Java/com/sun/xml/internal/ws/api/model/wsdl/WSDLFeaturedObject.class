@@ -1,0 +1,5 @@
+com.sun.xml.internal.ws.api.model.wsdl.WSDLFeaturedObject
+getFeature(java.lang.Class)
+getFeatures()
+addFeature(javax.xml.ws.WebServiceFeature)
+getLocation()

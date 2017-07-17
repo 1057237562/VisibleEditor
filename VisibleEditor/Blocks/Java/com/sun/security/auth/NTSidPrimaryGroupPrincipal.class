@@ -1,0 +1,12 @@
+com.sun.security.auth.NTSidPrimaryGroupPrincipal
+equals(java.lang.Object)
+toString()
+hashCode()
+getName()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()
+implies(javax.security.auth.Subject)

@@ -1,0 +1,6 @@
+java.awt.peer.CheckboxMenuItemPeer
+setState(boolean)
+setEnabled(boolean)
+setLabel(java.lang.String)
+dispose()
+setFont(java.awt.Font)

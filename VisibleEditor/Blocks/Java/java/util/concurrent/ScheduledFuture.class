@@ -1,0 +1,8 @@
+java.util.concurrent.ScheduledFuture
+getDelay(java.util.concurrent.TimeUnit)
+compareTo(java.lang.Object)
+get(long,java.util.concurrent.TimeUnit)
+get()
+isDone()
+cancel(boolean)
+isCancelled()

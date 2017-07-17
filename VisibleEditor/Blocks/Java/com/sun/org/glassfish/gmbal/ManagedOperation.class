@@ -1,0 +1,7 @@
+com.sun.org.glassfish.gmbal.ManagedOperation
+id()
+impact()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

@@ -1,0 +1,4 @@
+java.security.AlgorithmConstraints
+permits(java.util.Set,java.lang.String,java.security.AlgorithmParameters)
+permits(java.util.Set,java.security.Key)
+permits(java.util.Set,java.lang.String,java.security.Key,java.security.AlgorithmParameters)

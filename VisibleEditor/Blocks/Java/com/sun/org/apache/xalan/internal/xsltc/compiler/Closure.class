@@ -1,0 +1,5 @@
+com.sun.org.apache.xalan.internal.xsltc.compiler.Closure
+getInnerClassName()
+getParentClosure()
+inInnerClass()
+addVariable(com.sun.org.apache.xalan.internal.xsltc.compiler.VariableRefBase)

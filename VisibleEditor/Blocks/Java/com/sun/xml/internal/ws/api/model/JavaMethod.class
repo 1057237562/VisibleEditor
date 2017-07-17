@@ -1,0 +1,11 @@
+com.sun.xml.internal.ws.api.model.JavaMethod
+getMethod()
+getOwner()
+getOperationName()
+getBinding()
+getMEP()
+getRequestMessageName()
+getRequestPayloadName()
+getResponseMessageName()
+getResponsePayloadName()
+getSEIMethod()

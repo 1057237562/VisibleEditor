@@ -1,0 +1,5 @@
+java.util.function.DoubleUnaryOperator
+identity()
+applyAsDouble(double)
+andThen(java.util.function.DoubleUnaryOperator)
+compose(java.util.function.DoubleUnaryOperator)

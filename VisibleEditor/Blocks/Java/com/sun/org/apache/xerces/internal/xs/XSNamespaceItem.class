@@ -1,0 +1,11 @@
+com.sun.org.apache.xerces.internal.xs.XSNamespaceItem
+getAnnotations()
+getComponents(short)
+getDocumentLocations()
+getSchemaNamespace()
+getTypeDefinition(java.lang.String)
+getAttributeDeclaration(java.lang.String)
+getElementDeclaration(java.lang.String)
+getAttributeGroup(java.lang.String)
+getModelGroupDefinition(java.lang.String)
+getNotationDeclaration(java.lang.String)

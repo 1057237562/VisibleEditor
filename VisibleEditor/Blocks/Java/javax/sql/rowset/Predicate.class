@@ -1,0 +1,4 @@
+javax.sql.rowset.Predicate
+evaluate(javax.sql.RowSet)
+evaluate(java.lang.Object,int)
+evaluate(java.lang.Object,java.lang.String)

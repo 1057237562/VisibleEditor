@@ -1,0 +1,2 @@
+com.sun.org.apache.xml.internal.resolver.readers.DOMCatalogParser
+parseCatalogEntry(com.sun.org.apache.xml.internal.resolver.Catalog,org.w3c.dom.Node)

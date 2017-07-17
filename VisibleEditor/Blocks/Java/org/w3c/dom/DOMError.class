@@ -1,0 +1,7 @@
+org.w3c.dom.DOMError
+getLocation()
+getMessage()
+getType()
+getRelatedData()
+getRelatedException()
+getSeverity()

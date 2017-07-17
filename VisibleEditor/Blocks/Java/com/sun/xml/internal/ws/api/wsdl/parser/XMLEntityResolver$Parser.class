@@ -1,0 +1,10 @@
+com.sun.xml.internal.ws.api.wsdl.parser.XMLEntityResolver$Parser
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

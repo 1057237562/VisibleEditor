@@ -1,0 +1,2 @@
+com.sun.xml.internal.txw2.output.CharacterEscapeHandler
+escape([C,int,int,boolean,java.io.Writer)

@@ -1,0 +1,6 @@
+javax.xml.stream.Location
+getLineNumber()
+getCharacterOffset()
+getSystemId()
+getPublicId()
+getColumnNumber()

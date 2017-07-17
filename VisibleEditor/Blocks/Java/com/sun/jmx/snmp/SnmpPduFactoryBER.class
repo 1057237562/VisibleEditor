@@ -1,0 +1,12 @@
+com.sun.jmx.snmp.SnmpPduFactoryBER
+decodeSnmpPdu(com.sun.jmx.snmp.SnmpMsg)
+encodeSnmpPdu(com.sun.jmx.snmp.SnmpPdu,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

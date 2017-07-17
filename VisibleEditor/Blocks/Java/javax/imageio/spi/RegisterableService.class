@@ -1,0 +1,3 @@
+javax.imageio.spi.RegisterableService
+onDeregistration(javax.imageio.spi.ServiceRegistry,java.lang.Class)
+onRegistration(javax.imageio.spi.ServiceRegistry,java.lang.Class)

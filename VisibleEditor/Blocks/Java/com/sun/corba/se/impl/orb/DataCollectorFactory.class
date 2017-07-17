@@ -1,0 +1,13 @@
+com.sun.corba.se.impl.orb.DataCollectorFactory
+create(java.util.Properties,java.lang.String)
+create([Ljava.lang.String;,java.util.Properties,java.lang.String)
+create(java.applet.Applet,java.util.Properties,java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

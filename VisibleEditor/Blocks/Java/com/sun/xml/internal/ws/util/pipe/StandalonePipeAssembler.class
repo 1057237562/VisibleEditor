@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.util.pipe.StandalonePipeAssembler
+createClient(com.sun.xml.internal.ws.api.pipe.ClientPipeAssemblerContext)
+createServer(com.sun.xml.internal.ws.api.pipe.ServerPipeAssemblerContext)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

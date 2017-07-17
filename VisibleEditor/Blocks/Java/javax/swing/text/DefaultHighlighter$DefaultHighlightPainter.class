@@ -1,0 +1,13 @@
+javax.swing.text.DefaultHighlighter$DefaultHighlightPainter
+paint(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent)
+getColor()
+paintLayer(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent,javax.swing.text.View)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

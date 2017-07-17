@@ -1,0 +1,12 @@
+java.awt.dnd.peer.DropTargetContextPeer
+getTransferable()
+getTransferDataFlavors()
+rejectDrop()
+setTargetActions(int)
+getDropTarget()
+acceptDrag(int)
+acceptDrop(int)
+dropComplete(boolean)
+getTargetActions()
+isTransferableJVMLocal()
+rejectDrag()

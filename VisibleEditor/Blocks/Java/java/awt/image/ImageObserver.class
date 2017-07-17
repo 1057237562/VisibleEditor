@@ -1,0 +1,2 @@
+java.awt.image.ImageObserver
+imageUpdate(java.awt.Image,int,int,int,int,int)

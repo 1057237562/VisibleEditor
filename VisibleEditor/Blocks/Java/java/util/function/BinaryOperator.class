@@ -1,0 +1,5 @@
+java.util.function.BinaryOperator
+maxBy(java.util.Comparator)
+minBy(java.util.Comparator)
+apply(java.lang.Object,java.lang.Object)
+andThen(java.util.function.Function)

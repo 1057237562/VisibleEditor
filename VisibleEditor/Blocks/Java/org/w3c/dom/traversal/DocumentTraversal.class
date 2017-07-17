@@ -1,0 +1,3 @@
+org.w3c.dom.traversal.DocumentTraversal
+createNodeIterator(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean)
+createTreeWalker(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean)

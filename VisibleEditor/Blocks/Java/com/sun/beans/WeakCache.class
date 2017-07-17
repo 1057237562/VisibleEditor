@@ -1,0 +1,13 @@
+com.sun.beans.WeakCache
+get(java.lang.Object)
+put(java.lang.Object,java.lang.Object)
+clear()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

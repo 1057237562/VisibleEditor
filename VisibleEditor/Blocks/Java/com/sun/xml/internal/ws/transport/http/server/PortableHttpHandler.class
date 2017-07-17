@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.transport.http.server.PortableHttpHandler
+handle(javax.xml.ws.spi.http.HttpExchange)
+handleExchange(javax.xml.ws.spi.http.HttpExchange)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

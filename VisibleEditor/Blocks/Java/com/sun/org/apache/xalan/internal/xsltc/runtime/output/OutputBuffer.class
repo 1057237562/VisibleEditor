@@ -1,0 +1,5 @@
+com.sun.org.apache.xalan.internal.xsltc.runtime.output.OutputBuffer
+append([C,int,int)
+append(char)
+append(java.lang.String)
+close()

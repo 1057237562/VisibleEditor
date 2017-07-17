@@ -1,0 +1,11 @@
+com.sun.corba.se.spi.orb.OperationFactory$IdentityAction
+toString()
+operate(java.lang.Object)
+equals(java.lang.Object)
+hashCode()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

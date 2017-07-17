@@ -1,0 +1,13 @@
+java.lang.Character$UnicodeBlock
+forName(java.lang.String)
+of(int)
+of(char)
+equals(java.lang.Object)
+toString()
+hashCode()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

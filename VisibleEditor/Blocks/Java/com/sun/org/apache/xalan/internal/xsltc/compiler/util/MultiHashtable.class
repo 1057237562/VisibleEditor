@@ -1,0 +1,13 @@
+com.sun.org.apache.xalan.internal.xsltc.compiler.util.MultiHashtable
+put(java.lang.Object,java.lang.Object)
+makeUnmodifiable()
+maps(java.lang.Object,java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

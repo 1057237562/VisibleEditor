@@ -1,0 +1,3 @@
+com.sun.tracing.Probe
+trigger([Ljava.lang.Object;)
+isEnabled()

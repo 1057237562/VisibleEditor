@@ -1,0 +1,11 @@
+java.awt.font.TextLayout$CaretPolicy
+getStrongCaret(java.awt.font.TextHitInfo,java.awt.font.TextHitInfo,java.awt.font.TextLayout)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

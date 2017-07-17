@@ -1,0 +1,2 @@
+com.sun.org.apache.xalan.internal.xsltc.StripFilter
+stripSpace(com.sun.org.apache.xalan.internal.xsltc.DOM,int,int)

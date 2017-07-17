@@ -1,0 +1,2 @@
+java.util.function.ToLongBiFunction
+applyAsLong(java.lang.Object,java.lang.Object)

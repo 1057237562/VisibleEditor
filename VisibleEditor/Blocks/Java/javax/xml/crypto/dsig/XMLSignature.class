@@ -1,0 +1,10 @@
+javax.xml.crypto.dsig.XMLSignature
+getId()
+validate(javax.xml.crypto.dsig.XMLValidateContext)
+getObjects()
+sign(javax.xml.crypto.dsig.XMLSignContext)
+getKeyInfo()
+getSignatureValue()
+getSignedInfo()
+getKeySelectorResult()
+isFeatureSupported(java.lang.String)

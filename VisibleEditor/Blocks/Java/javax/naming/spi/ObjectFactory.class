@@ -1,0 +1,2 @@
+javax.naming.spi.ObjectFactory
+getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)

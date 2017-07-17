@@ -1,0 +1,5 @@
+java.awt.datatransfer.FlavorTable
+getFlavorsForNative(java.lang.String)
+getNativesForFlavor(java.awt.datatransfer.DataFlavor)
+getFlavorsForNatives([Ljava.lang.String;)
+getNativesForFlavors([Ljava.awt.datatransfer.DataFlavor;)

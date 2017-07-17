@@ -1,0 +1,12 @@
+javax.net.ssl.SNIMatcher
+matches(javax.net.ssl.SNIServerName)
+getType()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

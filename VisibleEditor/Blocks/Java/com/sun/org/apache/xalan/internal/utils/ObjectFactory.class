@@ -1,0 +1,13 @@
+com.sun.org.apache.xalan.internal.utils.ObjectFactory
+newInstance(java.lang.String,boolean)
+findClassLoader()
+findProviderClass(java.lang.String,boolean)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

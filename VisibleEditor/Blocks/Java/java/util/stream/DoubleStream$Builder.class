@@ -1,0 +1,5 @@
+java.util.stream.DoubleStream$Builder
+add(double)
+accept(double)
+build()
+andThen(java.util.function.DoubleConsumer)

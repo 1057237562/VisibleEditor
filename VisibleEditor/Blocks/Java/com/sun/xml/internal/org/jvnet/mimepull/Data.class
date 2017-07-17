@@ -1,0 +1,5 @@
+com.sun.xml.internal.org.jvnet.mimepull.Data
+size()
+read()
+writeTo(com.sun.xml.internal.org.jvnet.mimepull.DataFile)
+createNext(com.sun.xml.internal.org.jvnet.mimepull.DataHead,java.nio.ByteBuffer)

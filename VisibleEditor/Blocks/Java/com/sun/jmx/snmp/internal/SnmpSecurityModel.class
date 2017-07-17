@@ -1,0 +1,9 @@
+com.sun.jmx.snmp.internal.SnmpSecurityModel
+createSecurityCache()
+generateRequestMsg(com.sun.jmx.snmp.internal.SnmpSecurityCache,int,int,int,byte,int,com.sun.jmx.snmp.SnmpSecurityParameters,[B,[B,[B,int,[B)
+generateResponseMsg(com.sun.jmx.snmp.internal.SnmpSecurityCache,int,int,int,byte,int,com.sun.jmx.snmp.SnmpSecurityParameters,[B,[B,[B,int,[B)
+processIncomingRequest(com.sun.jmx.snmp.internal.SnmpSecurityCache,int,int,int,byte,int,[B,[B,[B,[B,[B,com.sun.jmx.snmp.internal.SnmpDecryptedPdu)
+processIncomingResponse(com.sun.jmx.snmp.internal.SnmpSecurityCache,int,int,int,byte,int,[B,[B,[B,[B,[B,com.sun.jmx.snmp.internal.SnmpDecryptedPdu)
+releaseSecurityCache(com.sun.jmx.snmp.internal.SnmpSecurityCache)
+getName()
+getSubSystem()

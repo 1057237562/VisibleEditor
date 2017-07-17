@@ -1,0 +1,2 @@
+java.awt.print.Printable
+print(java.awt.Graphics,java.awt.print.PageFormat,int)

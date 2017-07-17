@@ -1,0 +1,5 @@
+java.sql.Ref
+getObject()
+getObject(java.util.Map)
+setObject(java.lang.Object)
+getBaseTypeName()

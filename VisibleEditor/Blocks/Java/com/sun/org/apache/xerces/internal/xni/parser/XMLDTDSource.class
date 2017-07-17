@@ -1,0 +1,3 @@
+com.sun.org.apache.xerces.internal.xni.parser.XMLDTDSource
+getDTDHandler()
+setDTDHandler(com.sun.org.apache.xerces.internal.xni.XMLDTDHandler)

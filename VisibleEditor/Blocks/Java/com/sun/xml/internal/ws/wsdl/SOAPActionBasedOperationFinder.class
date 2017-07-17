@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.wsdl.SOAPActionBasedOperationFinder
+getWSDLOperationMapping(com.sun.xml.internal.ws.api.message.Packet)
+getWSDLOperationQName(com.sun.xml.internal.ws.api.message.Packet)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

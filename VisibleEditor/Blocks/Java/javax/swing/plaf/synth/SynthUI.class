@@ -1,0 +1,3 @@
+javax.swing.plaf.synth.SynthUI
+getContext(javax.swing.JComponent)
+paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)

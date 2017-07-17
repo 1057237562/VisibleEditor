@@ -1,0 +1,2 @@
+java.rmi.activation.ActivationInstantiator
+newInstance(java.rmi.activation.ActivationID,java.rmi.activation.ActivationDesc)

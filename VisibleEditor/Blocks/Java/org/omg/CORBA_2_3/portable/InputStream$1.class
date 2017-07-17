@@ -1,0 +1,12 @@
+org.omg.CORBA_2_3.portable.InputStream$1
+run()
+run()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,12 @@
+jdk.management.resource.internal.inst.WindowsAsynchronousFileChannelImplRMHooks
+close()
+open(java.io.FileDescriptor,boolean,boolean,sun.nio.ch.ThreadPool)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

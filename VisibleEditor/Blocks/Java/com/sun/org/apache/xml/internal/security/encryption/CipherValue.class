@@ -1,0 +1,3 @@
+com.sun.org.apache.xml.internal.security.encryption.CipherValue
+getValue()
+setValue(java.lang.String)

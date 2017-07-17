@@ -1,0 +1,4 @@
+org.w3c.dom.html.HTMLCollection
+getLength()
+item(int)
+namedItem(java.lang.String)

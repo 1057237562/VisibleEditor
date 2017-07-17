@@ -1,0 +1,5 @@
+java.nio.file.DirectoryStream
+iterator()
+close()
+spliterator()
+forEach(java.util.function.Consumer)

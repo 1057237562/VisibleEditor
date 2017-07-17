@@ -1,0 +1,11 @@
+com.sun.xml.internal.ws.util.xml.CDATA
+equals(java.lang.Object)
+hashCode()
+getText()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

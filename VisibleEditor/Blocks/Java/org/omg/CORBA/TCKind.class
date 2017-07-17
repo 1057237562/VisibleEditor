@@ -1,0 +1,12 @@
+org.omg.CORBA.TCKind
+value()
+from_int(int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

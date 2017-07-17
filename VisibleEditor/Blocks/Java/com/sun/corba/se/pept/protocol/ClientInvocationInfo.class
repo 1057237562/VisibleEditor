@@ -1,0 +1,12 @@
+com.sun.corba.se.pept.protocol.ClientInvocationInfo
+setContactInfoListIterator(java.util.Iterator)
+decrementEntryCount()
+getContactInfoListIterator()
+getEntryCount()
+incrementEntryCount()
+getClientRequestDispatcher()
+isRetryInvocation()
+setIsRetryInvocation(boolean)
+setClientRequestDispatcher(com.sun.corba.se.pept.protocol.ClientRequestDispatcher)
+getMessageMediator()
+setMessageMediator(com.sun.corba.se.pept.protocol.MessageMediator)

@@ -1,0 +1,2 @@
+java.awt.Container$EventTargetFilter
+accept(java.awt.Component)

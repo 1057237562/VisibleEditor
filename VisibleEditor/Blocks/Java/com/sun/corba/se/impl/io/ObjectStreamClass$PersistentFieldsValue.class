@@ -1,0 +1,12 @@
+com.sun.corba.se.impl.io.ObjectStreamClass$PersistentFieldsValue
+remove(java.lang.Class)
+get(java.lang.Class)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

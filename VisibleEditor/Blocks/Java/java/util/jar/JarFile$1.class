@@ -1,0 +1,13 @@
+java.util.jar.JarFile$1
+hasMoreElements()
+nextElement()
+nextElement()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

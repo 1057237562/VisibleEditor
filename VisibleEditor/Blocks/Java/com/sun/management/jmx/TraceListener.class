@@ -1,0 +1,13 @@
+com.sun.management.jmx.TraceListener
+setFile(java.lang.String)
+handleNotification(javax.management.Notification,java.lang.Object)
+setFormated(boolean)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

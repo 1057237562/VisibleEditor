@@ -1,0 +1,9 @@
+javax.lang.model.element.ElementVisitor
+visit(javax.lang.model.element.Element,java.lang.Object)
+visit(javax.lang.model.element.Element)
+visitUnknown(javax.lang.model.element.Element,java.lang.Object)
+visitType(javax.lang.model.element.TypeElement,java.lang.Object)
+visitExecutable(javax.lang.model.element.ExecutableElement,java.lang.Object)
+visitPackage(javax.lang.model.element.PackageElement,java.lang.Object)
+visitTypeParameter(javax.lang.model.element.TypeParameterElement,java.lang.Object)
+visitVariable(javax.lang.model.element.VariableElement,java.lang.Object)

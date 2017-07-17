@@ -1,0 +1,3 @@
+javax.naming.spi.Resolver
+resolveToClass(javax.naming.Name,java.lang.Class)
+resolveToClass(java.lang.String,java.lang.Class)

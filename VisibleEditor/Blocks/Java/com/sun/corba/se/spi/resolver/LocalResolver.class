@@ -1,0 +1,4 @@
+com.sun.corba.se.spi.resolver.LocalResolver
+register(java.lang.String,com.sun.corba.se.spi.orbutil.closure.Closure)
+resolve(java.lang.String)
+list()

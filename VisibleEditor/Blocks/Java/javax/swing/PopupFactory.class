@@ -1,0 +1,13 @@
+javax.swing.PopupFactory
+getPopup(java.awt.Component,java.awt.Component,int,int)
+getSharedInstance()
+setSharedInstance(javax.swing.PopupFactory)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

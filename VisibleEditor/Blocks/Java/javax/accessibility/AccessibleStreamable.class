@@ -1,0 +1,3 @@
+javax.accessibility.AccessibleStreamable
+getStream(java.awt.datatransfer.DataFlavor)
+getMimeTypes()

@@ -1,0 +1,3 @@
+com.sun.org.glassfish.external.amx.BootAMXMBean
+bootAMX()
+getJMXServiceURLs()

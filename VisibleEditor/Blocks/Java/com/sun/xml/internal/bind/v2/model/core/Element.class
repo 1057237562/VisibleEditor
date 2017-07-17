@@ -1,0 +1,8 @@
+com.sun.xml.internal.bind.v2.model.core.Element
+getScope()
+getElementName()
+getSubstitutionHead()
+getType()
+canBeReferencedByIDREF()
+getLocation()
+getUpstream()

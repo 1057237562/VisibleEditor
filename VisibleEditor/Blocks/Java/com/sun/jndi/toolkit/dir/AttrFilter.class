@@ -1,0 +1,2 @@
+com.sun.jndi.toolkit.dir.AttrFilter
+check(javax.naming.directory.Attributes)

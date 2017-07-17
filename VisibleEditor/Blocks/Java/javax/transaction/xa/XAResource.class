@@ -1,0 +1,11 @@
+javax.transaction.xa.XAResource
+start(javax.transaction.xa.Xid,int)
+prepare(javax.transaction.xa.Xid)
+end(javax.transaction.xa.Xid,int)
+commit(javax.transaction.xa.Xid,boolean)
+rollback(javax.transaction.xa.Xid)
+recover(int)
+forget(javax.transaction.xa.Xid)
+getTransactionTimeout()
+isSameRM(javax.transaction.xa.XAResource)
+setTransactionTimeout(int)

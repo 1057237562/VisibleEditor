@@ -1,0 +1,8 @@
+javax.xml.ws.WebServiceClient
+name()
+targetNamespace()
+wsdlLocation()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

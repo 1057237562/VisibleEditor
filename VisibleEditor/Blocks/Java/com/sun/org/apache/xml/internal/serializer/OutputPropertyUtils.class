@@ -1,0 +1,12 @@
+com.sun.org.apache.xml.internal.serializer.OutputPropertyUtils
+getBooleanProperty(java.lang.String,java.util.Properties)
+getIntProperty(java.lang.String,java.util.Properties)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

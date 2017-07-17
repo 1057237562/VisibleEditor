@@ -1,0 +1,8 @@
+java.security.Certificate
+toString(boolean)
+decode(java.io.InputStream)
+encode(java.io.OutputStream)
+getPublicKey()
+getFormat()
+getPrincipal()
+getGuarantor()

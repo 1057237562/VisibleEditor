@@ -1,0 +1,4 @@
+javax.swing.text.Highlighter$Highlight
+getPainter()
+getStartOffset()
+getEndOffset()

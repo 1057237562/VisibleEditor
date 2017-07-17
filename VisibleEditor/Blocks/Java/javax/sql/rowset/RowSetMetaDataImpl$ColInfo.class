@@ -1,0 +1,10 @@
+javax.sql.rowset.RowSetMetaDataImpl$ColInfo
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

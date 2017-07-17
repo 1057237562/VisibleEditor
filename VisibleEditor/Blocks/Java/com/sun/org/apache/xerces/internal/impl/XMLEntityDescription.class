@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.impl.XMLEntityDescription
+getEntityName()
+setEntityName(java.lang.String)
+getPublicId()
+setPublicId(java.lang.String)
+getNamespace()
+getExpandedSystemId()
+setExpandedSystemId(java.lang.String)
+setLiteralSystemId(java.lang.String)
+setNamespace(java.lang.String)
+getBaseSystemId()
+getLiteralSystemId()
+setBaseSystemId(java.lang.String)

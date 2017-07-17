@@ -1,0 +1,4 @@
+org.omg.CORBA.portable.CustomValue
+_truncatable_ids()
+marshal(org.omg.CORBA.DataOutputStream)
+unmarshal(org.omg.CORBA.DataInputStream)

@@ -1,0 +1,13 @@
+com.sun.xml.internal.bind.v2.model.runtime.RuntimeLeafInfo
+getClazz()
+getTypeNames()
+getTransducer()
+getElementName()
+isElement()
+asElement()
+getTypeName()
+isSimpleType()
+getType()
+canBeReferencedByIDREF()
+getLocation()
+getUpstream()

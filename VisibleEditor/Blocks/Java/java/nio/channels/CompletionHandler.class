@@ -1,0 +1,3 @@
+java.nio.channels.CompletionHandler
+failed(java.lang.Throwable,java.lang.Object)
+completed(java.lang.Object,java.lang.Object)

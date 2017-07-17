@@ -1,0 +1,13 @@
+com.sun.org.apache.xml.internal.dtm.ref.DTMAxisIterNodeList
+getLength()
+item(int)
+getDTMAxisIterator()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

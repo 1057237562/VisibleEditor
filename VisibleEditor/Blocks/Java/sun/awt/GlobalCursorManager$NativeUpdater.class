@@ -1,0 +1,12 @@
+sun.awt.GlobalCursorManager$NativeUpdater
+run()
+postIfNotPending(java.awt.Component,java.awt.event.InvocationEvent)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

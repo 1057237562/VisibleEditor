@@ -1,0 +1,6 @@
+javax.swing.event.DocumentEvent
+getLength()
+getType()
+getOffset()
+getDocument()
+getChange(javax.swing.text.Element)

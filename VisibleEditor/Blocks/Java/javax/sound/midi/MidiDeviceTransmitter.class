@@ -1,0 +1,5 @@
+javax.sound.midi.MidiDeviceTransmitter
+getMidiDevice()
+close()
+getReceiver()
+setReceiver(javax.sound.midi.Receiver)

@@ -1,0 +1,12 @@
+javax.naming.RefAddr
+equals(java.lang.Object)
+toString()
+hashCode()
+getType()
+getContent()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

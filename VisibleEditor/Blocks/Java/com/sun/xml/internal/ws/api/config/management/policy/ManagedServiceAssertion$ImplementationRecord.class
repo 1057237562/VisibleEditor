@@ -1,0 +1,13 @@
+com.sun.xml.internal.ws.api.config.management.policy.ManagedServiceAssertion$ImplementationRecord
+equals(java.lang.Object)
+toString()
+hashCode()
+getParameters()
+getImplementation()
+getNestedParameters()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

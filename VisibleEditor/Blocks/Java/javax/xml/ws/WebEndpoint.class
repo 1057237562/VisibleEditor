@@ -1,0 +1,6 @@
+javax.xml.ws.WebEndpoint
+name()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

@@ -1,0 +1,12 @@
+javax.accessibility.AccessibleContext$1
+getAppContext(javax.accessibility.AccessibleContext)
+setAppContext(javax.accessibility.AccessibleContext,sun.awt.AppContext)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

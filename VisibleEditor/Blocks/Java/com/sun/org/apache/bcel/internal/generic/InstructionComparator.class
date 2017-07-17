@@ -1,0 +1,2 @@
+com.sun.org.apache.bcel.internal.generic.InstructionComparator
+equals(com.sun.org.apache.bcel.internal.generic.Instruction,com.sun.org.apache.bcel.internal.generic.Instruction)

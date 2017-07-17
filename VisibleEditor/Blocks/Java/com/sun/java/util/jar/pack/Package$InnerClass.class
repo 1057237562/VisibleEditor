@@ -1,0 +1,12 @@
+com.sun.java.util.jar.pack.Package$InnerClass
+equals(java.lang.Object)
+toString()
+hashCode()
+compareTo(java.lang.Object)
+compareTo(com.sun.java.util.jar.pack.Package$InnerClass)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

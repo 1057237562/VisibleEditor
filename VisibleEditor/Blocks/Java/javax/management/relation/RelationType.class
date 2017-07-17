@@ -1,0 +1,4 @@
+javax.management.relation.RelationType
+getRelationTypeName()
+getRoleInfo(java.lang.String)
+getRoleInfos()

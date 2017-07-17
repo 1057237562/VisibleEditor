@@ -1,0 +1,2 @@
+org.omg.PortableInterceptor.PolicyFactoryOperations
+create_policy(int,org.omg.CORBA.Any)

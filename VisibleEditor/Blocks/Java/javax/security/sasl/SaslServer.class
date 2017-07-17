@@ -1,0 +1,9 @@
+javax.security.sasl.SaslServer
+wrap([B,int,int)
+unwrap([B,int,int)
+dispose()
+getMechanismName()
+getNegotiatedProperty(java.lang.String)
+isComplete()
+evaluateResponse([B)
+getAuthorizationID()

@@ -1,0 +1,7 @@
+com.sun.xml.internal.bind.api.impl.NameConverter
+toClassName(java.lang.String)
+toPropertyName(java.lang.String)
+toVariableName(java.lang.String)
+toConstantName(java.lang.String)
+toInterfaceName(java.lang.String)
+toPackageName(java.lang.String)

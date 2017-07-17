@@ -1,0 +1,9 @@
+java.util.Spliterator
+forEachRemaining(java.util.function.Consumer)
+getComparator()
+tryAdvance(java.util.function.Consumer)
+trySplit()
+characteristics()
+estimateSize()
+getExactSizeIfKnown()
+hasCharacteristics(int)

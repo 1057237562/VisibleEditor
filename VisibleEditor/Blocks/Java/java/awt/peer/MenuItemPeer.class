@@ -1,0 +1,5 @@
+java.awt.peer.MenuItemPeer
+setEnabled(boolean)
+setLabel(java.lang.String)
+dispose()
+setFont(java.awt.Font)

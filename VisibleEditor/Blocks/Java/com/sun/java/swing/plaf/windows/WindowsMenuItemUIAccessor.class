@@ -1,0 +1,4 @@
+com.sun.java.swing.plaf.windows.WindowsMenuItemUIAccessor
+getState(javax.swing.JMenuItem)
+getMenuItem()
+getPart(javax.swing.JMenuItem)

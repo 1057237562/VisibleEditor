@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.api.BindingIDFactory
+create(java.lang.String,com.sun.xml.internal.ws.api.SOAPVersion)
+parse(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

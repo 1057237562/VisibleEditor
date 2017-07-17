@@ -1,0 +1,4 @@
+javax.swing.event.MenuKeyListener
+menuKeyPressed(javax.swing.event.MenuKeyEvent)
+menuKeyReleased(javax.swing.event.MenuKeyEvent)
+menuKeyTyped(javax.swing.event.MenuKeyEvent)

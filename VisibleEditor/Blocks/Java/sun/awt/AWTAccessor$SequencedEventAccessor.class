@@ -1,0 +1,3 @@
+sun.awt.AWTAccessor$SequencedEventAccessor
+getNested(java.awt.AWTEvent)
+isSequencedEvent(java.awt.AWTEvent)

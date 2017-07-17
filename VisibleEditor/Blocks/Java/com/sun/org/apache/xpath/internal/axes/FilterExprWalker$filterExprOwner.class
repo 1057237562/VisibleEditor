@@ -1,0 +1,12 @@
+com.sun.org.apache.xpath.internal.axes.FilterExprWalker$filterExprOwner
+getExpression()
+setExpression(com.sun.org.apache.xpath.internal.Expression)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

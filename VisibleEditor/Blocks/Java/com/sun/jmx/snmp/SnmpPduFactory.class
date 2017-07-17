@@ -1,0 +1,3 @@
+com.sun.jmx.snmp.SnmpPduFactory
+decodeSnmpPdu(com.sun.jmx.snmp.SnmpMsg)
+encodeSnmpPdu(com.sun.jmx.snmp.SnmpPdu,int)

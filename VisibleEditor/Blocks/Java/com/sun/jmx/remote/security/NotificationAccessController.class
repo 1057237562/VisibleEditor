@@ -1,0 +1,4 @@
+com.sun.jmx.remote.security.NotificationAccessController
+addNotificationListener(java.lang.String,javax.management.ObjectName,javax.security.auth.Subject)
+removeNotificationListener(java.lang.String,javax.management.ObjectName,javax.security.auth.Subject)
+fetchNotification(java.lang.String,javax.management.ObjectName,javax.management.Notification,javax.security.auth.Subject)

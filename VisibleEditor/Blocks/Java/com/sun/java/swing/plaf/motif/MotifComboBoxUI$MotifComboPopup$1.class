@@ -1,0 +1,12 @@
+com.sun.java.swing.plaf.motif.MotifComboBoxUI$MotifComboPopup$1
+mouseDragged(java.awt.event.MouseEvent)
+mouseMoved(java.awt.event.MouseEvent)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

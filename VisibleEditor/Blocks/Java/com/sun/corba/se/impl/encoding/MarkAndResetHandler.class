@@ -1,0 +1,4 @@
+com.sun.corba.se.impl.encoding.MarkAndResetHandler
+mark(com.sun.corba.se.impl.encoding.RestorableInputStream)
+reset()
+fragmentationOccured(com.sun.corba.se.impl.encoding.ByteBufferWithInfo)

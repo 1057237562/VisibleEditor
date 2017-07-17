@@ -1,0 +1,12 @@
+java.lang.invoke.MethodType$ConcurrentWeakInternSet
+add(java.lang.Object)
+get(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

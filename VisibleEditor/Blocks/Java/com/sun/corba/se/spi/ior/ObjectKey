@@ -1,0 +1,10 @@
+com.sun.corba.se.spi.ior.ObjectKeyTemplate
+write(com.sun.corba.se.spi.ior.ObjectId,org.omg.CORBA_2_3.portable.OutputStream)
+getAdapterId()
+getObjectAdapterId()
+getSubcontractId()
+getORBVersion()
+getServerId()
+getORBId()
+getServerRequestDispatcher(com.sun.corba.se.spi.orb.ORB,com.sun.corba.se.spi.ior.ObjectId)
+write(org.omg.CORBA_2_3.portable.OutputStream)

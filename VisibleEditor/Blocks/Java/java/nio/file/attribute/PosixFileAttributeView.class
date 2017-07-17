@@ -1,0 +1,9 @@
+java.nio.file.attribute.PosixFileAttributeView
+name()
+setGroup(java.nio.file.attribute.GroupPrincipal)
+readAttributes()
+readAttributes()
+setPermissions(java.util.Set)
+setTimes(java.nio.file.attribute.FileTime,java.nio.file.attribute.FileTime,java.nio.file.attribute.FileTime)
+getOwner()
+setOwner(java.nio.file.attribute.UserPrincipal)

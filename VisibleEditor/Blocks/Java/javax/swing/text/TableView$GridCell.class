@@ -1,0 +1,6 @@
+javax.swing.text.TableView$GridCell
+getColumnCount()
+getRowCount()
+getGridColumn()
+getGridRow()
+setGridLocation(int,int)

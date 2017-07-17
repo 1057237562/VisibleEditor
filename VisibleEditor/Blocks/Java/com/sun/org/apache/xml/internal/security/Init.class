@@ -1,0 +1,12 @@
+com.sun.org.apache.xml.internal.security.Init
+init()
+isInitialized()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

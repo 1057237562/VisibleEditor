@@ -1,0 +1,13 @@
+javax.security.auth.login.AppConfigurationEntry
+getOptions()
+getControlFlag()
+getLoginModuleName()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

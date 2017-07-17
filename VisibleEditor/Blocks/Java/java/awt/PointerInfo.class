@@ -1,0 +1,12 @@
+java.awt.PointerInfo
+getLocation()
+getDevice()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

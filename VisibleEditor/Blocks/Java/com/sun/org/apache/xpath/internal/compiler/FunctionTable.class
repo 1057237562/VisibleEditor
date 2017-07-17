@@ -1,0 +1,12 @@
+com.sun.org.apache.xpath.internal.compiler.FunctionTable
+installFunction(java.lang.String,java.lang.Class)
+functionAvailable(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

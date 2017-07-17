@@ -1,0 +1,9 @@
+java.util.PrimitiveIterator$OfLong
+next()
+next()
+forEachRemaining(java.lang.Object)
+forEachRemaining(java.util.function.Consumer)
+forEachRemaining(java.util.function.LongConsumer)
+nextLong()
+remove()
+hasNext()

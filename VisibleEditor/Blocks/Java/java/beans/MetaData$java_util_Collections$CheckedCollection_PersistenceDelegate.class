@@ -1,0 +1,11 @@
+java.beans.MetaData$java_util_Collections$CheckedCollection_PersistenceDelegate
+writeObject(java.lang.Object,java.beans.Encoder)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

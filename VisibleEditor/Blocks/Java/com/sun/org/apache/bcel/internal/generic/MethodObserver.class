@@ -1,0 +1,2 @@
+com.sun.org.apache.bcel.internal.generic.MethodObserver
+notify(com.sun.org.apache.bcel.internal.generic.MethodGen)

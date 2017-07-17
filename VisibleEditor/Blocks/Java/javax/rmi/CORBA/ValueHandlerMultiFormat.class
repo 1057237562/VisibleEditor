@@ -1,0 +1,9 @@
+javax.rmi.CORBA.ValueHandlerMultiFormat
+getMaximumStreamFormatVersion()
+writeValue(org.omg.CORBA.portable.OutputStream,java.io.Serializable,byte)
+writeReplace(java.io.Serializable)
+readValue(org.omg.CORBA.portable.InputStream,int,java.lang.Class,java.lang.String,org.omg.SendingContext.RunTime)
+isCustomMarshaled(java.lang.Class)
+getRMIRepositoryID(java.lang.Class)
+getRunTimeCodeBase()
+writeValue(org.omg.CORBA.portable.OutputStream,java.io.Serializable)

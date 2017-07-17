@@ -1,0 +1,5 @@
+javax.xml.bind.ParseConversionEvent
+getMessage()
+getLocator()
+getSeverity()
+getLinkedException()

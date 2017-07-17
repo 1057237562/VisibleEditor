@@ -1,0 +1,11 @@
+java.security.acl.AclEntry
+toString()
+clone()
+checkPermission(java.security.acl.Permission)
+permissions()
+isNegative()
+getPrincipal()
+addPermission(java.security.acl.Permission)
+removePermission(java.security.acl.Permission)
+setNegativePermissions()
+setPrincipal(java.security.Principal)

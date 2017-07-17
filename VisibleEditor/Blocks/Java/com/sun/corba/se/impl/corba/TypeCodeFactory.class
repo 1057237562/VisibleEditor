@@ -1,0 +1,5 @@
+com.sun.corba.se.impl.corba.TypeCodeFactory
+getTypeCode(java.lang.String)
+getTypeCodeForClass(java.lang.Class)
+setTypeCodeForClass(java.lang.Class,com.sun.corba.se.impl.corba.TypeCodeImpl)
+setTypeCode(java.lang.String,com.sun.corba.se.impl.corba.TypeCodeImpl)

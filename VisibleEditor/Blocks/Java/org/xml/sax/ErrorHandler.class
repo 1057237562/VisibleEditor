@@ -1,0 +1,4 @@
+org.xml.sax.ErrorHandler
+error(org.xml.sax.SAXParseException)
+warning(org.xml.sax.SAXParseException)
+fatalError(org.xml.sax.SAXParseException)

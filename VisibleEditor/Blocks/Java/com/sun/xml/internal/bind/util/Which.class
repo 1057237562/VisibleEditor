@@ -1,0 +1,12 @@
+com.sun.xml.internal.bind.util.Which
+which(java.lang.Class)
+which(java.lang.String,java.lang.ClassLoader)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

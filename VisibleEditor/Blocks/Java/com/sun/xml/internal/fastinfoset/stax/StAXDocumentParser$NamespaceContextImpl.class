@@ -1,0 +1,13 @@
+com.sun.xml.internal.fastinfoset.stax.StAXDocumentParser$NamespaceContextImpl
+getNamespaceURI(java.lang.String)
+getPrefix(java.lang.String)
+getPrefixes(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

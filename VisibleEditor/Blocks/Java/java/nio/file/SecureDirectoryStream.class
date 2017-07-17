@@ -1,0 +1,12 @@
+java.nio.file.SecureDirectoryStream
+newDirectoryStream(java.lang.Object,[Ljava.nio.file.LinkOption;)
+move(java.lang.Object,java.nio.file.SecureDirectoryStream,java.lang.Object)
+deleteDirectory(java.lang.Object)
+deleteFile(java.lang.Object)
+getFileAttributeView(java.lang.Object,java.lang.Class,[Ljava.nio.file.LinkOption;)
+getFileAttributeView(java.lang.Class)
+newByteChannel(java.lang.Object,java.util.Set,[Ljava.nio.file.attribute.FileAttribute;)
+iterator()
+close()
+spliterator()
+forEach(java.util.function.Consumer)

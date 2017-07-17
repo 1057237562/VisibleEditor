@@ -1,0 +1,10 @@
+java.nio.file.attribute.BasicFileAttributes
+size()
+isDirectory()
+creationTime()
+lastAccessTime()
+lastModifiedTime()
+isOther()
+fileKey()
+isRegularFile()
+isSymbolicLink()

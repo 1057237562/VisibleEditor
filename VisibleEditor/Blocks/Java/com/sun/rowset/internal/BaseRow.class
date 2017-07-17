@@ -1,0 +1,13 @@
+com.sun.rowset.internal.BaseRow
+getColumnObject(int)
+getOrigRow()
+setColumnObject(int,java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

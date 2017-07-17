@@ -1,0 +1,2 @@
+com.sun.xml.internal.ws.api.server.SDDocumentFilter
+filter(com.sun.xml.internal.ws.api.server.SDDocument,javax.xml.stream.XMLStreamWriter)

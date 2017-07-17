@@ -1,0 +1,10 @@
+javax.management.openmbean.OpenMBeanOperationInfo
+equals(java.lang.Object)
+toString()
+hashCode()
+getName()
+getReturnType()
+getSignature()
+getDescription()
+getImpact()
+getReturnOpenType()

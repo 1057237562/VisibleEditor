@@ -1,0 +1,3 @@
+javax.security.auth.Refreshable
+refresh()
+isCurrent()

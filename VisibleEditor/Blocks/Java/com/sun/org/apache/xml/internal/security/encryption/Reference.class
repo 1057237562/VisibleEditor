@@ -1,0 +1,7 @@
+com.sun.org.apache.xml.internal.security.encryption.Reference
+getType()
+getURI()
+setURI(java.lang.String)
+addElementRetrievalInformation(org.w3c.dom.Element)
+getElementRetrievalInformation()
+removeElementRetrievalInformation(org.w3c.dom.Element)

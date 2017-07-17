@@ -1,0 +1,4 @@
+org.xml.sax.ext.EntityResolver2
+resolveEntity(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+getExternalSubset(java.lang.String,java.lang.String)
+resolveEntity(java.lang.String,java.lang.String)

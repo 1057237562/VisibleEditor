@@ -1,0 +1,12 @@
+java.util.regex.Pattern$CharPropertyNames$7
+clone()
+clone()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

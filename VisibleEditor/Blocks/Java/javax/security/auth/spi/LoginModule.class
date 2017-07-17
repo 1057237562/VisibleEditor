@@ -1,0 +1,6 @@
+javax.security.auth.spi.LoginModule
+initialize(javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler,java.util.Map,java.util.Map)
+abort()
+login()
+logout()
+commit()

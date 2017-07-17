@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.util.PropertyState
+of(com.sun.org.apache.xerces.internal.util.Status)
+is(java.lang.Object)
+isExceptional()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

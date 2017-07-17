@@ -1,0 +1,12 @@
+com.sun.xml.internal.messaging.saaj.packaging.mime.internet.hdr
+getName()
+getValue()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

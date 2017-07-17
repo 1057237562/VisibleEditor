@@ -1,0 +1,7 @@
+javax.swing.text.AbstractDocument$Content
+remove(int,int)
+getChars(int,int,javax.swing.text.Segment)
+length()
+getString(int,int)
+insertString(int,java.lang.String)
+createPosition(int)

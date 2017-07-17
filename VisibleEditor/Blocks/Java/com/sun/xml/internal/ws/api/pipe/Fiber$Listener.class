@@ -1,0 +1,3 @@
+com.sun.xml.internal.ws.api.pipe.Fiber$Listener
+fiberResumed(com.sun.xml.internal.ws.api.pipe.Fiber)
+fiberSuspended(com.sun.xml.internal.ws.api.pipe.Fiber)

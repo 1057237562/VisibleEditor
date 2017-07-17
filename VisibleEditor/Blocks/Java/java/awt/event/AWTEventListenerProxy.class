@@ -1,0 +1,13 @@
+java.awt.event.AWTEventListenerProxy
+eventDispatched(java.awt.AWTEvent)
+getEventMask()
+getListener()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

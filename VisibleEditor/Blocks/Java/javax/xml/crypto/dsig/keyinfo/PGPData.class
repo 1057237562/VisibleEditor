@@ -1,0 +1,5 @@
+javax.xml.crypto.dsig.keyinfo.PGPData
+getExternalElements()
+getKeyId()
+getKeyPacket()
+isFeatureSupported(java.lang.String)

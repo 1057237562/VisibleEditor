@@ -1,0 +1,13 @@
+javax.swing.text.LayoutQueue
+addTask(java.lang.Runnable)
+getDefaultQueue()
+setDefaultQueue(javax.swing.text.LayoutQueue)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

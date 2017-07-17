@@ -1,0 +1,13 @@
+com.sun.naming.internal.VersionHelper12
+loadClass(java.lang.String,java.lang.String)
+loadClass(java.lang.String)
+getVersionHelper()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,12 @@
+com.sun.jndi.toolkit.dir.ContainmentFilter
+contains(javax.naming.directory.Attributes,javax.naming.directory.Attributes)
+check(javax.naming.directory.Attributes)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

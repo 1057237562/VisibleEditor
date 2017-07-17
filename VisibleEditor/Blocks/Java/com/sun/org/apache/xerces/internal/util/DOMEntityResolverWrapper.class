@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.util.DOMEntityResolverWrapper
+getEntityResolver()
+setEntityResolver(org.w3c.dom.ls.LSResourceResolver)
+resolveEntity(com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

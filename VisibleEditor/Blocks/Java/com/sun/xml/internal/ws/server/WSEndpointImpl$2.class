@@ -1,0 +1,11 @@
+com.sun.xml.internal.ws.server.WSEndpointImpl$2
+process(com.sun.xml.internal.ws.api.message.Packet,com.sun.xml.internal.ws.api.server.WebServiceContextDelegate,com.sun.xml.internal.ws.api.server.TransportBackChannel)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

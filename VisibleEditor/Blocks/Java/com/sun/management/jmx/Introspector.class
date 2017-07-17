@@ -1,0 +1,12 @@
+com.sun.management.jmx.Introspector
+getMBeanInterface(java.lang.Class)
+testCompliance(java.lang.Class)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

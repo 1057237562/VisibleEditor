@@ -1,0 +1,11 @@
+javax.xml.bind.annotation.XmlElementDecl
+name()
+scope()
+defaultValue()
+namespace()
+substitutionHeadName()
+substitutionHeadNamespace()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

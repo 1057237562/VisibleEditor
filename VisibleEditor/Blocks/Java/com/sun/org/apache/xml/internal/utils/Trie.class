@@ -1,0 +1,12 @@
+com.sun.org.apache.xml.internal.utils.Trie
+get(java.lang.String)
+put(java.lang.String,java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

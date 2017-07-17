@@ -1,0 +1,12 @@
+java.util.jar.Pack200
+newPacker()
+newUnpacker()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

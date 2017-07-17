@@ -1,0 +1,6 @@
+org.omg.PortableServer.POAManagerOperations
+activate()
+deactivate(boolean,boolean)
+discard_requests(boolean)
+get_state()
+hold_requests(boolean)

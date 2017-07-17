@@ -1,0 +1,12 @@
+javax.accessibility.AccessibleText
+getSelectedText()
+getCaretPosition()
+getSelectionEnd()
+getSelectionStart()
+getAfterIndex(int,int)
+getAtIndex(int,int)
+getBeforeIndex(int,int)
+getCharCount()
+getCharacterAttribute(int)
+getCharacterBounds(int)
+getIndexAtPoint(java.awt.Point)

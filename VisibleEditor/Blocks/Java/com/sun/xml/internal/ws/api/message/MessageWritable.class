@@ -1,0 +1,4 @@
+com.sun.xml.internal.ws.api.message.MessageWritable
+getContentType()
+writeTo(java.io.OutputStream)
+setMTOMConfiguration(javax.xml.ws.soap.MTOMFeature)

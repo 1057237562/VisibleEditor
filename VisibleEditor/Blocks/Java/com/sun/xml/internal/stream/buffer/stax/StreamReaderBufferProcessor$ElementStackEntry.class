@@ -1,0 +1,12 @@
+com.sun.xml.internal.stream.buffer.stax.StreamReaderBufferProcessor$ElementStackEntry
+set(java.lang.String,java.lang.String,java.lang.String)
+getQName()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

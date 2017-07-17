@@ -1,0 +1,4 @@
+com.sun.org.apache.xerces.internal.xs.PSVIProvider
+getAttributePSVI(int)
+getAttributePSVIByName(java.lang.String,java.lang.String)
+getElementPSVI()

@@ -1,0 +1,5 @@
+javax.swing.JTable$Resizable2
+getLowerBoundAt(int)
+getUpperBoundAt(int)
+setSizeAt(int,int)
+getElementCount()

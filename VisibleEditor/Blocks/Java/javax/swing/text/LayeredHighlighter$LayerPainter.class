@@ -1,0 +1,12 @@
+javax.swing.text.LayeredHighlighter$LayerPainter
+paintLayer(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent,javax.swing.text.View)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()
+paint(java.awt.Graphics,int,int,java.awt.Shape,javax.swing.text.JTextComponent)

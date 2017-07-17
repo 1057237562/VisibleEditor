@@ -1,0 +1,3 @@
+java.awt.event.FocusListener
+focusGained(java.awt.event.FocusEvent)
+focusLost(java.awt.event.FocusEvent)

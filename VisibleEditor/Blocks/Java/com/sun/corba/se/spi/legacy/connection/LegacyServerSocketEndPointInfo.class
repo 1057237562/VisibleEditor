@@ -1,0 +1,7 @@
+com.sun.corba.se.spi.legacy.connection.LegacyServerSocketEndPointInfo
+getName()
+getType()
+getHostName()
+getPort()
+getLocatorPort()
+setLocatorPort(int)

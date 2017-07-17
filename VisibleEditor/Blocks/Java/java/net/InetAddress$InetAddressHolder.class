@@ -1,0 +1,10 @@
+java.net.InetAddress$InetAddressHolder
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,12 @@
+java.net.SocketImpl
+toString()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()
+getOption(int)
+setOption(int,java.lang.Object)

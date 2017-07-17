@@ -1,0 +1,2 @@
+java.nio.file.DirectoryStream$Filter
+accept(java.lang.Object)

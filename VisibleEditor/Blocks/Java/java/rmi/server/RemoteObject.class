@@ -1,0 +1,12 @@
+java.rmi.server.RemoteObject
+equals(java.lang.Object)
+toString()
+hashCode()
+getRef()
+toStub(java.rmi.Remote)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,13 @@
+com.sun.corba.se.impl.presentation.rmi.PresentationManagerImpl$NodeImpl
+equals(java.lang.Object)
+toString()
+hashCode()
+getTypeId()
+getChildren()
+getInterface()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

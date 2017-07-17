@@ -1,0 +1,11 @@
+com.sun.corba.se.impl.presentation.rmi.StubConnectImpl
+connect(com.sun.corba.se.impl.ior.StubIORImpl,org.omg.CORBA.Object,org.omg.CORBA.portable.ObjectImpl,org.omg.CORBA.ORB)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

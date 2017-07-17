@@ -1,0 +1,13 @@
+com.sun.java.swing.plaf.motif.MotifGraphicsUtils
+drawGroove(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color)
+paintMenuItem(java.awt.Graphics,javax.swing.JComponent,javax.swing.Icon,javax.swing.Icon,java.awt.Color,java.awt.Color,int)
+drawStringInRect(java.awt.Graphics,java.lang.String,int,int,int,int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

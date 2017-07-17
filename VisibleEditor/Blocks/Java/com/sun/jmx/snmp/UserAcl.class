@@ -1,0 +1,7 @@
+com.sun.jmx.snmp.UserAcl
+getName()
+checkReadPermission(java.lang.String,java.lang.String,int)
+checkReadPermission(java.lang.String)
+checkWritePermission(java.lang.String)
+checkWritePermission(java.lang.String,java.lang.String,int)
+checkContextName(java.lang.String)

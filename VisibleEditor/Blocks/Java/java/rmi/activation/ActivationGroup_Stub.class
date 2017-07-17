@@ -1,0 +1,13 @@
+java.rmi.activation.ActivationGroup_Stub
+newInstance(java.rmi.activation.ActivationID,java.rmi.activation.ActivationDesc)
+equals(java.lang.Object)
+toString()
+hashCode()
+getRef()
+toStub(java.rmi.Remote)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

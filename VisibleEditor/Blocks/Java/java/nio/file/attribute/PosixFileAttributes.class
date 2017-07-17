@@ -1,0 +1,13 @@
+java.nio.file.attribute.PosixFileAttributes
+group()
+permissions()
+owner()
+size()
+isDirectory()
+creationTime()
+lastAccessTime()
+lastModifiedTime()
+isOther()
+fileKey()
+isRegularFile()
+isSymbolicLink()

@@ -1,0 +1,13 @@
+sun.awt.SunGraphicsCallback
+run(java.awt.Component,java.awt.Graphics)
+runComponents([Ljava.awt.Component;,java.awt.Graphics,int)
+runOneComponent(java.awt.Component,java.awt.Rectangle,java.awt.Graphics,java.awt.Shape,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

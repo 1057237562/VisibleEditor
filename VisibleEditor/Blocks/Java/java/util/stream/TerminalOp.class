@@ -1,0 +1,5 @@
+java.util.stream.TerminalOp
+evaluateParallel(java.util.stream.PipelineHelper,java.util.Spliterator)
+evaluateSequential(java.util.stream.PipelineHelper,java.util.Spliterator)
+getOpFlags()
+inputShape()

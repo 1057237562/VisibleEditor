@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.assembler.MetroTubelineAssembler
+createClient(com.sun.xml.internal.ws.api.pipe.ClientTubeAssemblerContext)
+createServer(com.sun.xml.internal.ws.api.pipe.ServerTubeAssemblerContext)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

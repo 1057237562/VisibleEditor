@@ -1,0 +1,5 @@
+java.awt.dnd.peer.DragSourceContextPeer
+startDrag(java.awt.dnd.DragSourceContext,java.awt.Cursor,java.awt.Image,java.awt.Point)
+transferablesFlavorsChanged()
+getCursor()
+setCursor(java.awt.Cursor)

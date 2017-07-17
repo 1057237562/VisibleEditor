@@ -1,0 +1,4 @@
+java.lang.reflect.WildcardType
+getLowerBounds()
+getUpperBounds()
+getTypeName()

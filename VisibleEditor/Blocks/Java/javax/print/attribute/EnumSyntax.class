@@ -1,0 +1,12 @@
+javax.print.attribute.EnumSyntax
+toString()
+hashCode()
+clone()
+getValue()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+getClass()
+notify()
+notifyAll()

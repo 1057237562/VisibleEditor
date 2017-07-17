@@ -1,0 +1,13 @@
+java.nio.channels.Channels$WritableByteChannelImpl
+write(java.nio.ByteBuffer)
+close()
+isOpen()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

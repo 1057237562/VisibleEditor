@@ -1,0 +1,5 @@
+com.sun.corba.se.impl.presentation.rmi.ExceptionHandlerImpl$ExceptionRW
+write(org.omg.CORBA_2_3.portable.OutputStream,java.lang.Exception)
+read(org.omg.CORBA_2_3.portable.InputStream)
+getId()
+getExceptionClass()

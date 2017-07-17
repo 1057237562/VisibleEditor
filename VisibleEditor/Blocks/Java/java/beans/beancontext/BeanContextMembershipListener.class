@@ -1,0 +1,3 @@
+java.beans.beancontext.BeanContextMembershipListener
+childrenAdded(java.beans.beancontext.BeanContextMembershipEvent)
+childrenRemoved(java.beans.beancontext.BeanContextMembershipEvent)

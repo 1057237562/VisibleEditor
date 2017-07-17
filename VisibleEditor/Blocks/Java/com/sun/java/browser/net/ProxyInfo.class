@@ -1,0 +1,4 @@
+com.sun.java.browser.net.ProxyInfo
+getHost()
+getPort()
+isSocks()

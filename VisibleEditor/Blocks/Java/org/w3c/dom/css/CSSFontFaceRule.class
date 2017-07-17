@@ -1,0 +1,7 @@
+org.w3c.dom.css.CSSFontFaceRule
+getStyle()
+getType()
+getCssText()
+getParentRule()
+getParentStyleSheet()
+setCssText(java.lang.String)

@@ -1,0 +1,3 @@
+java.awt.peer.MenuComponentPeer
+dispose()
+setFont(java.awt.Font)

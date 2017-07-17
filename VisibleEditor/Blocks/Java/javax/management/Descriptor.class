@@ -1,0 +1,12 @@
+javax.management.Descriptor
+equals(java.lang.Object)
+hashCode()
+clone()
+getFields()
+setFields([Ljava.lang.String;,[Ljava.lang.Object;)
+isValid()
+setField(java.lang.String,java.lang.Object)
+getFieldValue(java.lang.String)
+getFieldNames()
+getFieldValues([Ljava.lang.String;)
+removeField(java.lang.String)

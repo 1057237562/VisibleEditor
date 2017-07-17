@@ -1,0 +1,12 @@
+javax.management.ObjectInstance
+equals(java.lang.Object)
+toString()
+hashCode()
+getClassName()
+getObjectName()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

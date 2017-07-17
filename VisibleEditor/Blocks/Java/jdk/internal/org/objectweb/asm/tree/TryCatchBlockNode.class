@@ -1,0 +1,12 @@
+jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode
+accept(jdk.internal.org.objectweb.asm.MethodVisitor)
+updateIndex(int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

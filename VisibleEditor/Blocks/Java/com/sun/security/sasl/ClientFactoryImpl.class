@@ -1,0 +1,12 @@
+com.sun.security.sasl.ClientFactoryImpl
+createSaslClient([Ljava.lang.String;,java.lang.String,java.lang.String,java.lang.String,java.util.Map,javax.security.auth.callback.CallbackHandler)
+getMechanismNames(java.util.Map)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

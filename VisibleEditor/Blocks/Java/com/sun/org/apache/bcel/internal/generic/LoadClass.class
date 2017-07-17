@@ -1,0 +1,3 @@
+com.sun.org.apache.bcel.internal.generic.LoadClass
+getType(com.sun.org.apache.bcel.internal.generic.ConstantPoolGen)
+getLoadClassType(com.sun.org.apache.bcel.internal.generic.ConstantPoolGen)

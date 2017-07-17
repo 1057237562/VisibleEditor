@@ -1,0 +1,5 @@
+com.oracle.webservices.internal.api.databinding.WSDLGenerator
+generate(java.io.File,java.lang.String)
+generate(com.oracle.webservices.internal.api.databinding.WSDLResolver)
+property(java.lang.String,java.lang.Object)
+inlineSchema(boolean)

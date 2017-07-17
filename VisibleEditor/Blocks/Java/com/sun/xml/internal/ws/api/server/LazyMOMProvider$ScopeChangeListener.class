@@ -1,0 +1,2 @@
+com.sun.xml.internal.ws.api.server.LazyMOMProvider$ScopeChangeListener
+scopeChanged(com.sun.xml.internal.ws.api.server.LazyMOMProvider$Scope)

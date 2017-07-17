@@ -1,0 +1,3 @@
+java.net.SocketOptions
+getOption(int)
+setOption(int,java.lang.Object)

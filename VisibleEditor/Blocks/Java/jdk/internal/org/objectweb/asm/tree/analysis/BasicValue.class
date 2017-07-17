@@ -1,0 +1,13 @@
+jdk.internal.org.objectweb.asm.tree.analysis.BasicValue
+equals(java.lang.Object)
+toString()
+hashCode()
+getType()
+getSize()
+isReference()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

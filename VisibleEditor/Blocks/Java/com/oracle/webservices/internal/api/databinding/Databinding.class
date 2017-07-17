@@ -1,0 +1,6 @@
+com.oracle.webservices.internal.api.databinding.Databinding
+createJavaCallInfo(java.lang.reflect.Method,[Ljava.lang.Object;)
+deserializeRequest(com.oracle.webservices.internal.api.message.MessageContext)
+deserializeResponse(com.oracle.webservices.internal.api.message.MessageContext,com.oracle.webservices.internal.api.databinding.JavaCallInfo)
+serializeRequest(com.oracle.webservices.internal.api.databinding.JavaCallInfo)
+serializeResponse(com.oracle.webservices.internal.api.databinding.JavaCallInfo)

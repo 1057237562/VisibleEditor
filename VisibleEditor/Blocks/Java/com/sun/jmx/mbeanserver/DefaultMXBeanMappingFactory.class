@@ -1,0 +1,13 @@
+com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory
+propertyName(java.lang.reflect.Method)
+decapitalize(java.lang.String)
+mappingForType(java.lang.reflect.Type,com.sun.jmx.mbeanserver.MXBeanMappingFactory)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

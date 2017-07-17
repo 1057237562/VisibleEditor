@@ -1,0 +1,2 @@
+com.sun.xml.internal.bind.v2.runtime.property.StructureLoaderBuilder
+buildChildElementUnmarshallers(com.sun.xml.internal.bind.v2.runtime.property.UnmarshallerChain,com.sun.xml.internal.bind.v2.util.QNameMap)

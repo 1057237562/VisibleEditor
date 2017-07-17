@@ -1,0 +1,12 @@
+jdk.management.resource.internal.inst.SocketRMHooks$SocketImpl
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()
+getOption(int)
+setOption(int,java.lang.Object)

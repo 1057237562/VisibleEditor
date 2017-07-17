@@ -1,0 +1,4 @@
+com.sun.xml.internal.bind.InternalAccessorFactory
+createFieldAccessor(java.lang.Class,java.lang.reflect.Field,boolean,boolean)
+createFieldAccessor(java.lang.Class,java.lang.reflect.Field,boolean)
+createPropertyAccessor(java.lang.Class,java.lang.reflect.Method,java.lang.reflect.Method)

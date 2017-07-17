@@ -1,0 +1,4 @@
+java.lang.Appendable
+append(java.lang.CharSequence)
+append(java.lang.CharSequence,int,int)
+append(char)

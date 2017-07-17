@@ -1,0 +1,10 @@
+java.util.stream.Node
+count()
+spliterator()
+forEach(java.util.function.Consumer)
+copyInto([Ljava.lang.Object;,int)
+truncate(long,long,java.util.function.IntFunction)
+getShape()
+getChildCount()
+getChild(int)
+asArray(java.util.function.IntFunction)

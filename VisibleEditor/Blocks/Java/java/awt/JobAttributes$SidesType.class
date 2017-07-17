@@ -1,0 +1,10 @@
+java.awt.JobAttributes$SidesType
+toString()
+hashCode()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,5 @@
+org.omg.PortableServer.IdAssignmentPolicyOperations
+value()
+destroy()
+copy()
+policy_type()

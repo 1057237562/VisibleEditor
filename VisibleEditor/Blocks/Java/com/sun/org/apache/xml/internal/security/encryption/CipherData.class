@@ -1,0 +1,6 @@
+com.sun.org.apache.xml.internal.security.encryption.CipherData
+getDataType()
+getCipherReference()
+getCipherValue()
+setCipherReference(com.sun.org.apache.xml.internal.security.encryption.CipherReference)
+setCipherValue(com.sun.org.apache.xml.internal.security.encryption.CipherValue)

@@ -1,0 +1,13 @@
+com.sun.corba.se.impl.naming.cosnaming.TransientNameServer
+main([Ljava.lang.String;)
+trace(java.lang.String)
+initDebug([Ljava.lang.String;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.policy.PolicyMapUtil
+insertPolicies(com.sun.xml.internal.ws.policy.PolicyMap,java.util.Collection,javax.xml.namespace.QName,javax.xml.namespace.QName)
+rejectAlternatives(com.sun.xml.internal.ws.policy.PolicyMap)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

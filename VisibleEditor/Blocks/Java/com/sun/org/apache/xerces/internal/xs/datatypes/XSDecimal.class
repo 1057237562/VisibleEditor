@@ -1,0 +1,7 @@
+com.sun.org.apache.xerces.internal.xs.datatypes.XSDecimal
+getByte()
+getShort()
+getInt()
+getLong()
+getBigInteger()
+getBigDecimal()

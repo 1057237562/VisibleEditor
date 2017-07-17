@@ -1,0 +1,11 @@
+java.applet.AppletContext
+getAudioClip(java.net.URL)
+showStatus(java.lang.String)
+getImage(java.net.URL)
+getStream(java.lang.String)
+getApplet(java.lang.String)
+getApplets()
+getStreamKeys()
+setStream(java.lang.String,java.io.InputStream)
+showDocument(java.net.URL,java.lang.String)
+showDocument(java.net.URL)

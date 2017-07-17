@@ -1,0 +1,9 @@
+java.awt.peer.PopupMenuPeer
+show(java.awt.Event)
+addSeparator()
+addItem(java.awt.MenuItem)
+delItem(int)
+setEnabled(boolean)
+setLabel(java.lang.String)
+dispose()
+setFont(java.awt.Font)

@@ -1,0 +1,9 @@
+com.sun.media.sound.ModelWavetable
+openStream()
+getLoopLength()
+getLoopStart()
+getLoopType()
+getPitchcorrection()
+open(float)
+getAttenuation()
+getChannels()

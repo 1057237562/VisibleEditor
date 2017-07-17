@@ -1,0 +1,10 @@
+java.net.URLPermission$Authority
+hashCode()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+getClass()
+notify()
+notifyAll()

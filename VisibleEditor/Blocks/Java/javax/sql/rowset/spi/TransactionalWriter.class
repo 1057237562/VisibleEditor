@@ -1,0 +1,5 @@
+javax.sql.rowset.spi.TransactionalWriter
+commit()
+rollback()
+rollback(java.sql.Savepoint)
+writeData(javax.sql.RowSetInternal)

@@ -1,0 +1,13 @@
+javax.swing.text.DefaultCaret$DefaultFilterBypass
+getCaret()
+moveDot(int,javax.swing.text.Position$Bias)
+setDot(int,javax.swing.text.Position$Bias)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

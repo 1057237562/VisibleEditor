@@ -1,0 +1,7 @@
+com.sun.org.omg.CORBA.portable.ValueHelper
+get_class()
+get_type()
+get_truncatable_base_ids()
+get_id()
+read_value(org.omg.CORBA.portable.InputStream)
+write_value(org.omg.CORBA.portable.OutputStream,java.io.Serializable)

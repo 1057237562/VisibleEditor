@@ -1,0 +1,5 @@
+org.omg.IOP.CodecOperations
+decode([B)
+encode(org.omg.CORBA.Any)
+decode_value([B,org.omg.CORBA.TypeCode)
+encode_value(org.omg.CORBA.Any)

@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.policy.sourcemodel.DefaultPolicyAssertionCreator
+createAssertion(com.sun.xml.internal.ws.policy.sourcemodel.AssertionData,java.util.Collection,com.sun.xml.internal.ws.policy.AssertionSet,com.sun.xml.internal.ws.policy.spi.PolicyAssertionCreator)
+getSupportedDomainNamespaceURIs()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

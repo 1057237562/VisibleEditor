@@ -1,0 +1,5 @@
+org.w3c.dom.DOMConfiguration
+getParameter(java.lang.String)
+canSetParameter(java.lang.String,java.lang.Object)
+getParameterNames()
+setParameter(java.lang.String,java.lang.Object)

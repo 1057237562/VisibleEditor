@@ -1,0 +1,13 @@
+java.beans.PropertyEditor
+getValue()
+setValue(java.lang.Object)
+addPropertyChangeListener(java.beans.PropertyChangeListener)
+removePropertyChangeListener(java.beans.PropertyChangeListener)
+getAsText()
+getJavaInitializationString()
+getTags()
+setAsText(java.lang.String)
+getCustomEditor()
+isPaintable()
+paintValue(java.awt.Graphics,java.awt.Rectangle)
+supportsCustomEditor()

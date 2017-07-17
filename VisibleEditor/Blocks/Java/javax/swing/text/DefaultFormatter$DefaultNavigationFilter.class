@@ -1,0 +1,13 @@
+javax.swing.text.DefaultFormatter$DefaultNavigationFilter
+moveDot(javax.swing.text.NavigationFilter$FilterBypass,int,javax.swing.text.Position$Bias)
+setDot(javax.swing.text.NavigationFilter$FilterBypass,int,javax.swing.text.Position$Bias)
+getNextVisualPositionFrom(javax.swing.text.JTextComponent,int,javax.swing.text.Position$Bias,int,[Ljavax.swing.text.Position$Bias;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

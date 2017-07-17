@@ -1,0 +1,12 @@
+com.sun.org.apache.xalan.internal.xsltc.dom.CollatorFactoryBase
+getCollator(java.lang.String,java.lang.String)
+getCollator(java.util.Locale)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

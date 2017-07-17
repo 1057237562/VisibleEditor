@@ -1,0 +1,11 @@
+com.sun.org.apache.xerces.internal.util.XMLErrorCode
+equals(java.lang.Object)
+hashCode()
+setValues(java.lang.String,java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

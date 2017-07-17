@@ -1,0 +1,6 @@
+com.sun.org.apache.xerces.internal.xni.parser.XMLDocumentScanner
+next()
+scanDocument(boolean)
+setInputSource(com.sun.org.apache.xerces.internal.xni.parser.XMLInputSource)
+getDocumentHandler()
+setDocumentHandler(com.sun.org.apache.xerces.internal.xni.XMLDocumentHandler)

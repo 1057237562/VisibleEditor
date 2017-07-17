@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.model.wsdl.AbstractExtensibleImpl$UnknownWSDLExtension
+toString()
+getName()
+getLocation()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

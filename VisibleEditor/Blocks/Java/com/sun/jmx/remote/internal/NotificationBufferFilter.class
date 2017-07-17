@@ -1,0 +1,2 @@
+com.sun.jmx.remote.internal.NotificationBufferFilter
+apply(java.util.List,javax.management.ObjectName,javax.management.Notification)

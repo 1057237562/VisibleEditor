@@ -1,0 +1,12 @@
+java.sql.Array
+getArray(long,int)
+getArray(java.util.Map)
+getArray()
+getArray(long,int,java.util.Map)
+free()
+getBaseType()
+getBaseTypeName()
+getResultSet(long,int)
+getResultSet(long,int,java.util.Map)
+getResultSet()
+getResultSet(java.util.Map)

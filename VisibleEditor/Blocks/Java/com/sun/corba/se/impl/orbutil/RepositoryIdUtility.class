@@ -1,0 +1,12 @@
+com.sun.corba.se.impl.orbutil.RepositoryIdUtility
+getTypeInfo(int)
+isChunkedEncoding(int)
+isCodeBasePresent(int)
+getCodeBaseRMIChunkedId()
+getCodeBaseRMIChunkedNoRepStrId()
+getCodeBaseRMIUnchunkedId()
+getCodeBaseRMIUnchunkedNoRepStrId()
+getStandardRMIChunkedId()
+getStandardRMIChunkedNoRepStrId()
+getStandardRMIUnchunkedId()
+getStandardRMIUnchunkedNoRepStrId()

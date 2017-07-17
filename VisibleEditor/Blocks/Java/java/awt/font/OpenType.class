@@ -1,0 +1,8 @@
+java.awt.font.OpenType
+getVersion()
+getFontTable(java.lang.String,int,int)
+getFontTable(int,int,int)
+getFontTable(java.lang.String)
+getFontTable(int)
+getFontTableSize(java.lang.String)
+getFontTableSize(int)

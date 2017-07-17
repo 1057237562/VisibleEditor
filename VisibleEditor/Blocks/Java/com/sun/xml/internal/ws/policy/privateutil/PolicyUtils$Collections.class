@@ -1,0 +1,11 @@
+com.sun.xml.internal.ws.policy.privateutil.PolicyUtils$Collections
+combine(java.util.Collection,java.util.Collection,boolean)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

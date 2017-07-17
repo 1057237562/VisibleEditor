@@ -1,0 +1,4 @@
+java.security.interfaces.DSAParams
+getQ()
+getG()
+getP()

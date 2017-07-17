@@ -1,0 +1,6 @@
+java.nio.file.WatchKey
+reset()
+isValid()
+cancel()
+pollEvents()
+watchable()

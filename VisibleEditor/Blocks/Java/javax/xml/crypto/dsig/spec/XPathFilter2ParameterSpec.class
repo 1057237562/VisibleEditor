@@ -1,0 +1,11 @@
+javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpec
+getXPathList()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

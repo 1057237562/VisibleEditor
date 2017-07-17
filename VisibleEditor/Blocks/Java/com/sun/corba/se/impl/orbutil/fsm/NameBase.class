@@ -1,0 +1,11 @@
+com.sun.corba.se.impl.orbutil.fsm.NameBase
+toString()
+getName()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

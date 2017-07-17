@@ -1,0 +1,12 @@
+java.nio.channels.spi.AbstractInterruptibleChannel
+close()
+isOpen()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

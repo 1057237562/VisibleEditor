@@ -1,0 +1,5 @@
+javax.swing.event.DocumentEvent$ElementChange
+getIndex()
+getElement()
+getChildrenAdded()
+getChildrenRemoved()

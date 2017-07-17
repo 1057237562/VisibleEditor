@@ -1,0 +1,11 @@
+com.sun.xml.internal.ws.api.server.ProviderInvokerTubeFactory
+create(java.lang.ClassLoader,com.sun.xml.internal.ws.api.server.Container,java.lang.Class,com.sun.xml.internal.ws.api.server.Invoker,com.sun.xml.internal.ws.server.provider.ProviderArgumentsBuilder,boolean)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

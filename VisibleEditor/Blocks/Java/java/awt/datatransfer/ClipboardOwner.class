@@ -1,0 +1,2 @@
+java.awt.datatransfer.ClipboardOwner
+lostOwnership(java.awt.datatransfer.Clipboard,java.awt.datatransfer.Transferable)

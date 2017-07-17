@@ -1,0 +1,10 @@
+com.sun.corba.se.impl.presentation.rmi.IDLNameTranslatorImpl$IDLMethodInfo
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

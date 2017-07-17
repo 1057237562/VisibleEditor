@@ -1,0 +1,11 @@
+java.util.EventObject
+toString()
+getSource()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

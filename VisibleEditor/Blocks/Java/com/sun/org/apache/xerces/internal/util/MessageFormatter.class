@@ -1,0 +1,2 @@
+com.sun.org.apache.xerces.internal.util.MessageFormatter
+formatMessage(java.util.Locale,java.lang.String,[Ljava.lang.Object;)

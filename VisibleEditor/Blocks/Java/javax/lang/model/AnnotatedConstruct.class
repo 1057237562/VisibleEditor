@@ -1,0 +1,4 @@
+javax.lang.model.AnnotatedConstruct
+getAnnotation(java.lang.Class)
+getAnnotationsByType(java.lang.Class)
+getAnnotationMirrors()

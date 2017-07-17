@@ -1,0 +1,5 @@
+com.sun.media.sound.SoftProcess
+get(int,java.lang.String)
+init(com.sun.media.sound.SoftSynthesizer)
+reset()
+processControlLogic()

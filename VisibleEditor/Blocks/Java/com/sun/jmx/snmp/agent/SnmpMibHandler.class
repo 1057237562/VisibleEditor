@@ -1,0 +1,9 @@
+com.sun.jmx.snmp.agent.SnmpMibHandler
+addMib(com.sun.jmx.snmp.agent.SnmpMibAgent,java.lang.String,[Lcom.sun.jmx.snmp.SnmpOid;)
+addMib(com.sun.jmx.snmp.agent.SnmpMibAgent,java.lang.String)
+addMib(com.sun.jmx.snmp.agent.SnmpMibAgent,[Lcom.sun.jmx.snmp.SnmpOid;)
+addMib(com.sun.jmx.snmp.agent.SnmpMibAgent)
+removeMib(com.sun.jmx.snmp.agent.SnmpMibAgent,java.lang.String)
+removeMib(com.sun.jmx.snmp.agent.SnmpMibAgent,java.lang.String,[Lcom.sun.jmx.snmp.SnmpOid;)
+removeMib(com.sun.jmx.snmp.agent.SnmpMibAgent,[Lcom.sun.jmx.snmp.SnmpOid;)
+removeMib(com.sun.jmx.snmp.agent.SnmpMibAgent)

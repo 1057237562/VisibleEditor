@@ -1,0 +1,12 @@
+com.sun.awt.SecurityWarning
+getSize(java.awt.Window)
+setPosition(java.awt.Window,java.awt.geom.Point2D,float,float)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

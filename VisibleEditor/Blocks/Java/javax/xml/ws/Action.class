@@ -1,0 +1,8 @@
+javax.xml.ws.Action
+input()
+fault()
+output()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

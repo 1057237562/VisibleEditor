@@ -1,0 +1,3 @@
+org.omg.DynamicAny.DynAnyFactoryOperations
+create_dyn_any_from_type_code(org.omg.CORBA.TypeCode)
+create_dyn_any(org.omg.CORBA.Any)

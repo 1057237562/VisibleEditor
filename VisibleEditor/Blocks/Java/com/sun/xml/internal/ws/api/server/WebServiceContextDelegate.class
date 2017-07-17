@@ -1,0 +1,5 @@
+com.sun.xml.internal.ws.api.server.WebServiceContextDelegate
+getUserPrincipal(com.sun.xml.internal.ws.api.message.Packet)
+isUserInRole(com.sun.xml.internal.ws.api.message.Packet,java.lang.String)
+getEPRAddress(com.sun.xml.internal.ws.api.message.Packet,com.sun.xml.internal.ws.api.server.WSEndpoint)
+getWSDLAddress(com.sun.xml.internal.ws.api.message.Packet,com.sun.xml.internal.ws.api.server.WSEndpoint)

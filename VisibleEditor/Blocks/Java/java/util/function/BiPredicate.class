@@ -1,0 +1,5 @@
+java.util.function.BiPredicate
+test(java.lang.Object,java.lang.Object)
+and(java.util.function.BiPredicate)
+or(java.util.function.BiPredicate)
+negate()

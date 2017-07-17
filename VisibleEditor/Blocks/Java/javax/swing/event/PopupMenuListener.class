@@ -1,0 +1,4 @@
+javax.swing.event.PopupMenuListener
+popupMenuCanceled(javax.swing.event.PopupMenuEvent)
+popupMenuWillBecomeInvisible(javax.swing.event.PopupMenuEvent)
+popupMenuWillBecomeVisible(javax.swing.event.PopupMenuEvent)

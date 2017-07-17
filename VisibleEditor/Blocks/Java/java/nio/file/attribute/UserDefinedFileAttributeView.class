@@ -1,0 +1,7 @@
+java.nio.file.attribute.UserDefinedFileAttributeView
+name()
+size(java.lang.String)
+write(java.lang.String,java.nio.ByteBuffer)
+delete(java.lang.String)
+read(java.lang.String,java.nio.ByteBuffer)
+list()

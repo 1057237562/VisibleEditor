@@ -1,0 +1,10 @@
+java.lang.invoke.MethodHandleInfo
+toString(int,java.lang.Class,java.lang.String,java.lang.invoke.MethodType)
+getModifiers()
+getName()
+getDeclaringClass()
+isVarArgs()
+getMethodType()
+getReferenceKind()
+referenceKindToString(int)
+reflectAs(java.lang.Class,java.lang.invoke.MethodHandles$Lookup)

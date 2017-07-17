@@ -1,0 +1,10 @@
+javax.management.remote.JMXConnector
+connect()
+connect(java.util.Map)
+close()
+addConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+getConnectionId()
+removeConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+removeConnectionNotificationListener(javax.management.NotificationListener)
+getMBeanServerConnection()
+getMBeanServerConnection(javax.security.auth.Subject)

@@ -1,0 +1,11 @@
+javax.swing.plaf.nimbus.NimbusLookAndFeel$1
+getStyle(javax.swing.JComponent,javax.swing.plaf.synth.Region)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,12 @@
+com.sun.org.apache.bcel.internal.util.JavaWrapper
+_main([Ljava.lang.String;)
+runMain(java.lang.String,[Ljava.lang.String;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

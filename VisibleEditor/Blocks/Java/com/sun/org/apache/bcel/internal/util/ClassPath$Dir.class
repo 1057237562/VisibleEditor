@@ -1,0 +1,10 @@
+com.sun.org.apache.bcel.internal.util.ClassPath$Dir
+toString()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

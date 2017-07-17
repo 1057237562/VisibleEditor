@@ -1,0 +1,6 @@
+com.oracle.webservices.internal.api.EnvelopeStyle
+style()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

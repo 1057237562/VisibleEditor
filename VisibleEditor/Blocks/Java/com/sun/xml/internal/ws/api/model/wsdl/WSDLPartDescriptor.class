@@ -1,0 +1,4 @@
+com.sun.xml.internal.ws.api.model.wsdl.WSDLPartDescriptor
+name()
+type()
+getLocation()

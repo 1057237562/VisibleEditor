@@ -1,0 +1,3 @@
+java.awt.event.InputMethodListener
+caretPositionChanged(java.awt.event.InputMethodEvent)
+inputMethodTextChanged(java.awt.event.InputMethodEvent)

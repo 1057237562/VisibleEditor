@@ -1,0 +1,2 @@
+com.sun.xml.internal.bind.v2.model.core.ErrorHandler
+error(com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationException)

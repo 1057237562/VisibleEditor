@@ -1,0 +1,2 @@
+com.sun.jmx.remote.internal.Unmarshal
+get(java.rmi.MarshalledObject)

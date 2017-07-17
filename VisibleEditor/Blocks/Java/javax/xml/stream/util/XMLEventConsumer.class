@@ -1,0 +1,2 @@
+javax.xml.stream.util.XMLEventConsumer
+add(javax.xml.stream.events.XMLEvent)

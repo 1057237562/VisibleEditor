@@ -1,0 +1,2 @@
+com.sun.xml.internal.ws.api.wsdl.parser.XMLEntityResolver
+resolveEntity(java.lang.String,java.lang.String)

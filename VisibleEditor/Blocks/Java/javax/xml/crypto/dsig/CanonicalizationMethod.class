@@ -1,0 +1,6 @@
+javax.xml.crypto.dsig.CanonicalizationMethod
+getParameterSpec()
+transform(javax.xml.crypto.Data,javax.xml.crypto.XMLCryptoContext)
+transform(javax.xml.crypto.Data,javax.xml.crypto.XMLCryptoContext,java.io.OutputStream)
+isFeatureSupported(java.lang.String)
+getAlgorithm()

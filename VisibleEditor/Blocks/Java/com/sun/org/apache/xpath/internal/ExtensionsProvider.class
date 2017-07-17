@@ -1,0 +1,5 @@
+com.sun.org.apache.xpath.internal.ExtensionsProvider
+extFunction(com.sun.org.apache.xpath.internal.functions.FuncExtFunction,java.util.Vector)
+extFunction(java.lang.String,java.lang.String,java.util.Vector,java.lang.Object)
+elementAvailable(java.lang.String,java.lang.String)
+functionAvailable(java.lang.String,java.lang.String)

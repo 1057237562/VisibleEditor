@@ -1,0 +1,13 @@
+com.sun.corba.se.impl.orb.ParserTable$TestIIOPPrimaryToContactInfo
+hasNext(com.sun.corba.se.pept.transport.ContactInfo,com.sun.corba.se.pept.transport.ContactInfo,java.util.List)
+next(com.sun.corba.se.pept.transport.ContactInfo,com.sun.corba.se.pept.transport.ContactInfo,java.util.List)
+reset(com.sun.corba.se.pept.transport.ContactInfo)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

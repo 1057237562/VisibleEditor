@@ -1,0 +1,4 @@
+org.omg.CosNaming.BindingIteratorOperations
+destroy()
+next_n(int,org.omg.CosNaming.BindingListHolder)
+next_one(org.omg.CosNaming.BindingHolder)

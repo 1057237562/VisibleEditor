@@ -1,0 +1,13 @@
+com.sun.xml.internal.fastinfoset.tools.StAX2SAXReader
+setContentHandler(org.xml.sax.ContentHandler)
+setLexicalHandler(org.xml.sax.ext.LexicalHandler)
+adapt()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

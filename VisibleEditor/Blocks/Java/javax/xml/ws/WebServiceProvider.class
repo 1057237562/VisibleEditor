@@ -1,0 +1,9 @@
+javax.xml.ws.WebServiceProvider
+portName()
+serviceName()
+targetNamespace()
+wsdlLocation()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

@@ -1,0 +1,5 @@
+javax.swing.ListModel
+getSize()
+getElementAt(int)
+addListDataListener(javax.swing.event.ListDataListener)
+removeListDataListener(javax.swing.event.ListDataListener)

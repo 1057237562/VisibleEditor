@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.api.config.management.policy.ManagedServiceAssertion$NestedParameters
+equals(java.lang.Object)
+toString()
+hashCode()
+getName()
+getParameters()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,3 @@
+java.awt.event.MouseMotionListener
+mouseDragged(java.awt.event.MouseEvent)
+mouseMoved(java.awt.event.MouseEvent)

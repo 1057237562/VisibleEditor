@@ -1,0 +1,5 @@
+java.util.stream.LongStream$Builder
+add(long)
+accept(long)
+build()
+andThen(java.util.function.LongConsumer)

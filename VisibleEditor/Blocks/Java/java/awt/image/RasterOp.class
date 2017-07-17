@@ -1,0 +1,6 @@
+java.awt.image.RasterOp
+filter(java.awt.image.Raster,java.awt.image.WritableRaster)
+getBounds2D(java.awt.image.Raster)
+getRenderingHints()
+createCompatibleDestRaster(java.awt.image.Raster)
+getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)

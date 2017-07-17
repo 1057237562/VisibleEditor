@@ -1,0 +1,3 @@
+com.sun.security.sasl.digest.SecurityCtx
+wrap([B,int,int)
+unwrap([B,int,int)

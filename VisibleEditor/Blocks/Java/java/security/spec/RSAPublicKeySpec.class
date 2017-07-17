@@ -1,0 +1,12 @@
+java.security.spec.RSAPublicKeySpec
+getModulus()
+getPublicExponent()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

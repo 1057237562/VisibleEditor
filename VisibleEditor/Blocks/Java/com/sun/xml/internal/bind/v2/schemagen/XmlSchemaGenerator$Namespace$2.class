@@ -1,0 +1,10 @@
+com.sun.xml.internal.bind.v2.schemagen.XmlSchemaGenerator$Namespace$2
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

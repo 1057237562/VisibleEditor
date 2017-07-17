@@ -1,0 +1,11 @@
+com.sun.corba.se.spi.ior.TaggedProfile
+isEquivalent(com.sun.corba.se.spi.ior.TaggedProfile)
+getObjectKey()
+getObjectId()
+getObjectKeyTemplate()
+isLocal()
+getIOPProfile()
+getTaggedProfileTemplate()
+getId()
+write(org.omg.CORBA_2_3.portable.OutputStream)
+makeImmutable()

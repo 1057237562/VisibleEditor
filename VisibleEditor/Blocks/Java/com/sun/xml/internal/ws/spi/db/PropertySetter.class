@@ -1,0 +1,4 @@
+com.sun.xml.internal.ws.spi.db.PropertySetter
+getAnnotation(java.lang.Class)
+getType()
+set(java.lang.Object,java.lang.Object)

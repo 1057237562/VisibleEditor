@@ -1,0 +1,5 @@
+java.lang.invoke.DontInline
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

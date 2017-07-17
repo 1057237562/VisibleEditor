@@ -1,0 +1,13 @@
+javax.print.event.PrintServiceAttributeEvent
+getAttributes()
+getPrintService()
+toString()
+getSource()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

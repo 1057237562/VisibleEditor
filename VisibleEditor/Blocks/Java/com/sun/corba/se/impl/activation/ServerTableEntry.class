@@ -1,0 +1,11 @@
+com.sun.corba.se.impl.activation.ServerTableEntry
+toString()
+verify()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

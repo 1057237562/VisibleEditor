@@ -1,0 +1,6 @@
+org.w3c.dom.css.CSSValueList
+getLength()
+item(int)
+getCssText()
+setCssText(java.lang.String)
+getCssValueType()

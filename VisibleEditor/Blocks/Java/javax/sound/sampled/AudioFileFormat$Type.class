@@ -1,0 +1,11 @@
+javax.sound.sampled.AudioFileFormat$Type
+equals(java.lang.Object)
+toString()
+hashCode()
+getExtension()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

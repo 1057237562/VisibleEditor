@@ -1,0 +1,6 @@
+java.nio.file.attribute.UserPrincipal
+equals(java.lang.Object)
+toString()
+hashCode()
+getName()
+implies(javax.security.auth.Subject)

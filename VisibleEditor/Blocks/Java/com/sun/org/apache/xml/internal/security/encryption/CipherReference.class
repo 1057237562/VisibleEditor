@@ -1,0 +1,5 @@
+com.sun.org.apache.xml.internal.security.encryption.CipherReference
+getURI()
+getTransforms()
+getURIAsAttr()
+setTransforms(com.sun.org.apache.xml.internal.security.encryption.Transforms)

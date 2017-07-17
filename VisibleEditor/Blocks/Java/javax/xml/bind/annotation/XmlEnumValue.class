@@ -1,0 +1,6 @@
+javax.xml.bind.annotation.XmlEnumValue
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

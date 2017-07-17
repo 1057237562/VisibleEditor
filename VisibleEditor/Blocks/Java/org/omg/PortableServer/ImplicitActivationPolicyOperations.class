@@ -1,0 +1,5 @@
+org.omg.PortableServer.ImplicitActivationPolicyOperations
+value()
+destroy()
+copy()
+policy_type()

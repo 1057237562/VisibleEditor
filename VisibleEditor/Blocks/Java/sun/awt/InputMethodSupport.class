@@ -1,0 +1,5 @@
+sun.awt.InputMethodSupport
+createInputMethodWindow(java.lang.String,sun.awt.im.InputContext)
+enableInputMethodsForTextComponent()
+getDefaultKeyboardLocale()
+getInputMethodAdapterDescriptor()

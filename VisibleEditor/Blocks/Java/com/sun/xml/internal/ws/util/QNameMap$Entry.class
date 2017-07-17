@@ -1,0 +1,13 @@
+com.sun.xml.internal.ws.util.QNameMap$Entry
+equals(java.lang.Object)
+toString()
+hashCode()
+getValue()
+setValue(java.lang.Object)
+createQName()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

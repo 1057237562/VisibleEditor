@@ -1,0 +1,4 @@
+java.sql.Struct
+getAttributes()
+getAttributes(java.util.Map)
+getSQLTypeName()

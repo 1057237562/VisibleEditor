@@ -1,0 +1,12 @@
+javax.swing.plaf.synth.DefaultSynthStyleFactory
+getStyle(javax.swing.JComponent,javax.swing.plaf.synth.Region)
+addStyle(sun.swing.plaf.synth.DefaultSynthStyle,java.lang.String,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

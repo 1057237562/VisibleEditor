@@ -1,0 +1,7 @@
+com.sun.xml.internal.ws.server.EndpointAwareTube
+setEndpoint(com.sun.xml.internal.ws.api.server.WSEndpoint)
+copy(com.sun.xml.internal.ws.api.pipe.TubeCloner)
+processException(java.lang.Throwable)
+processResponse(com.sun.xml.internal.ws.api.message.Packet)
+processRequest(com.sun.xml.internal.ws.api.message.Packet)
+preDestroy()

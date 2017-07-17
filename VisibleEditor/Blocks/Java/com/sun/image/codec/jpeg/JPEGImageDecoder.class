@@ -1,0 +1,6 @@
+com.sun.image.codec.jpeg.JPEGImageDecoder
+getInputStream()
+decodeAsBufferedImage()
+decodeAsRaster()
+getJPEGDecodeParam()
+setJPEGDecodeParam(com.sun.image.codec.jpeg.JPEGDecodeParam)

@@ -1,0 +1,9 @@
+org.omg.PortableServer.portable.Delegate
+object_id(org.omg.PortableServer.Servant)
+orb(org.omg.PortableServer.Servant)
+get_interface_def(org.omg.PortableServer.Servant)
+is_a(org.omg.PortableServer.Servant,java.lang.String)
+non_existent(org.omg.PortableServer.Servant)
+default_POA(org.omg.PortableServer.Servant)
+poa(org.omg.PortableServer.Servant)
+this_object(org.omg.PortableServer.Servant)

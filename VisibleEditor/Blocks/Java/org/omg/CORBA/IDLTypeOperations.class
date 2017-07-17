@@ -1,0 +1,4 @@
+org.omg.CORBA.IDLTypeOperations
+type()
+destroy()
+def_kind()

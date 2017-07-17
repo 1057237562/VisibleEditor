@@ -1,0 +1,11 @@
+com.sun.corba.se.impl.monitoring.MonitoredAttributeInfoFactoryImpl
+createMonitoredAttributeInfo(java.lang.String,java.lang.Class,boolean,boolean)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

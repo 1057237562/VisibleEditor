@@ -1,0 +1,13 @@
+com.sun.xml.internal.bind.v2.model.nav.WildcardTypeImpl
+equals(java.lang.Object)
+hashCode()
+getLowerBounds()
+getUpperBounds()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()
+getTypeName()

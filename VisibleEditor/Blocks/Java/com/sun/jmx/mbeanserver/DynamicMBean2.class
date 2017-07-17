@@ -1,0 +1,11 @@
+com.sun.jmx.mbeanserver.DynamicMBean2
+getResource()
+getClassName()
+preRegister2(javax.management.MBeanServer,javax.management.ObjectName)
+registerFailed()
+invoke(java.lang.String,[Ljava.lang.Object;,[Ljava.lang.String;)
+getAttributes([Ljava.lang.String;)
+getAttribute(java.lang.String)
+setAttributes(javax.management.AttributeList)
+setAttribute(javax.management.Attribute)
+getMBeanInfo()

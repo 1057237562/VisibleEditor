@@ -1,0 +1,6 @@
+java.util.function.Predicate
+test(java.lang.Object)
+and(java.util.function.Predicate)
+or(java.util.function.Predicate)
+isEqual(java.lang.Object)
+negate()

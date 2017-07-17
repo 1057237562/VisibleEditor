@@ -1,0 +1,3 @@
+java.rmi.registry.RegistryHandler
+registryImpl(int)
+registryStub(java.lang.String,int)

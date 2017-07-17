@@ -1,0 +1,7 @@
+com.sun.xml.internal.org.jvnet.staxex.NamespaceContextEx
+iterator()
+getNamespaceURI(java.lang.String)
+getPrefix(java.lang.String)
+getPrefixes(java.lang.String)
+spliterator()
+forEach(java.util.function.Consumer)

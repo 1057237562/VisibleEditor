@@ -1,0 +1,13 @@
+java.nio.file.attribute.PosixFilePermissions$1
+name()
+value()
+value()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,5 @@
+sun.awt.AWTAccessor$FileDialogAccessor
+isMultipleMode(java.awt.FileDialog)
+setFile(java.awt.FileDialog,java.lang.String)
+setFiles(java.awt.FileDialog,[Ljava.io.File;)
+setDirectory(java.awt.FileDialog,java.lang.String)

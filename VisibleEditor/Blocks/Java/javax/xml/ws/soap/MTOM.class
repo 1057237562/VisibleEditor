@@ -1,0 +1,7 @@
+javax.xml.ws.soap.MTOM
+threshold()
+enabled()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

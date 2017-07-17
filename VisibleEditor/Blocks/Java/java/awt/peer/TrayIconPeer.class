@@ -1,0 +1,6 @@
+java.awt.peer.TrayIconPeer
+dispose()
+displayMessage(java.lang.String,java.lang.String,java.lang.String)
+setToolTip(java.lang.String)
+updateImage()
+showPopupMenu(int,int)

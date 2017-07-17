@@ -1,0 +1,4 @@
+org.w3c.dom.events.EventTarget
+dispatchEvent(org.w3c.dom.events.Event)
+addEventListener(java.lang.String,org.w3c.dom.events.EventListener,boolean)
+removeEventListener(java.lang.String,org.w3c.dom.events.EventListener,boolean)

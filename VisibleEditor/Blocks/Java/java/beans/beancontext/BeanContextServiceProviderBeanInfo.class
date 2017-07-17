@@ -1,0 +1,10 @@
+java.beans.beancontext.BeanContextServiceProviderBeanInfo
+getServicesBeanInfo()
+getPropertyDescriptors()
+getIcon(int)
+getBeanDescriptor()
+getMethodDescriptors()
+getAdditionalBeanInfo()
+getDefaultEventIndex()
+getDefaultPropertyIndex()
+getEventSetDescriptors()

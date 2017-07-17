@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.impl.xs.identity.Field$XPath
+main([Ljava.lang.String;)
+toString()
+getLocationPath()
+getLocationPaths()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

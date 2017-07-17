@@ -1,0 +1,12 @@
+java.awt.Image$1
+getSurfaceManager(java.awt.Image)
+setSurfaceManager(java.awt.Image,sun.awt.image.SurfaceManager)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

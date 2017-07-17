@@ -1,0 +1,12 @@
+com.sun.org.apache.bcel.internal.generic.PUSH
+toString()
+getInstruction()
+getInstructionList()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

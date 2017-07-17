@@ -1,0 +1,12 @@
+com.sun.org.apache.xml.internal.serializer.EncodingInfo$EncodingImpl
+isInEncoding(char,char)
+isInEncoding(char)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

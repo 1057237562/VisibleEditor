@@ -1,0 +1,4 @@
+javax.swing.border.Border
+isBorderOpaque()
+paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)
+getBorderInsets(java.awt.Component)

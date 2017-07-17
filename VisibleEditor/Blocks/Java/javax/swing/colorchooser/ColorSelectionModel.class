@@ -1,0 +1,5 @@
+javax.swing.colorchooser.ColorSelectionModel
+addChangeListener(javax.swing.event.ChangeListener)
+removeChangeListener(javax.swing.event.ChangeListener)
+getSelectedColor()
+setSelectedColor(java.awt.Color)

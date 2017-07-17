@@ -1,0 +1,9 @@
+com.sun.org.glassfish.external.probe.provider.annotations.ProbeProvider
+providerName()
+moduleName()
+moduleProviderName()
+probeProviderName()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

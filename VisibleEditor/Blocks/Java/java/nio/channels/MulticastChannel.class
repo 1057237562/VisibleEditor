@@ -1,0 +1,10 @@
+java.nio.channels.MulticastChannel
+join(java.net.InetAddress,java.net.NetworkInterface)
+join(java.net.InetAddress,java.net.NetworkInterface,java.net.InetAddress)
+close()
+bind(java.net.SocketAddress)
+getLocalAddress()
+getOption(java.net.SocketOption)
+setOption(java.net.SocketOption,java.lang.Object)
+supportedOptions()
+isOpen()

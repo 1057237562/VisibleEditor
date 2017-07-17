@@ -1,0 +1,12 @@
+com.sun.org.apache.xml.internal.serializer.Encodings
+convertMime2JavaEncoding(java.lang.String)
+getLastPrintable()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

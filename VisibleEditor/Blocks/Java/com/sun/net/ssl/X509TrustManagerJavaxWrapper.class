@@ -1,0 +1,13 @@
+com.sun.net.ssl.X509TrustManagerJavaxWrapper
+getAcceptedIssuers()
+checkClientTrusted([Ljava.security.cert.X509Certificate;,java.lang.String)
+checkServerTrusted([Ljava.security.cert.X509Certificate;,java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

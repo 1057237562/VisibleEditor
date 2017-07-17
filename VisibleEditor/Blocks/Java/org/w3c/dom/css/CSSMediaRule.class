@@ -1,0 +1,10 @@
+org.w3c.dom.css.CSSMediaRule
+getMedia()
+deleteRule(int)
+getCssRules()
+insertRule(java.lang.String,int)
+getType()
+getCssText()
+getParentRule()
+getParentStyleSheet()
+setCssText(java.lang.String)

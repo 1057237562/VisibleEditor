@@ -1,0 +1,12 @@
+javax.swing.ColorTracker
+actionPerformed(java.awt.event.ActionEvent)
+getColor()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

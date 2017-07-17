@@ -1,0 +1,4 @@
+com.sun.xml.internal.ws.transport.http.ResourceLoader
+getResource(java.lang.String)
+getCatalogFile()
+getResourcePaths(java.lang.String)

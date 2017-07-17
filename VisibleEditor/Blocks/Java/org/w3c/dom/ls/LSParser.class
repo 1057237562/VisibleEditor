@@ -1,0 +1,10 @@
+org.w3c.dom.ls.LSParser
+parse(org.w3c.dom.ls.LSInput)
+abort()
+getDomConfig()
+getFilter()
+setFilter(org.w3c.dom.ls.LSParserFilter)
+getAsync()
+getBusy()
+parseURI(java.lang.String)
+parseWithContext(org.w3c.dom.ls.LSInput,org.w3c.dom.Node,short)

@@ -1,0 +1,6 @@
+javax.swing.event.TableColumnModelListener
+columnAdded(javax.swing.event.TableColumnModelEvent)
+columnMarginChanged(javax.swing.event.ChangeEvent)
+columnMoved(javax.swing.event.TableColumnModelEvent)
+columnRemoved(javax.swing.event.TableColumnModelEvent)
+columnSelectionChanged(javax.swing.event.ListSelectionEvent)

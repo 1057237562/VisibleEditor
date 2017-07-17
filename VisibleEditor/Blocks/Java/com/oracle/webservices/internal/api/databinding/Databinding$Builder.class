@@ -1,0 +1,12 @@
+com.oracle.webservices.internal.api.databinding.Databinding$Builder
+classLoader(java.lang.ClassLoader)
+build()
+createWSDLGenerator()
+entityResolver(org.xml.sax.EntityResolver)
+feature([Ljavax.xml.ws.WebServiceFeature;)
+portName(javax.xml.namespace.QName)
+property(java.lang.String,java.lang.Object)
+serviceName(javax.xml.namespace.QName)
+targetNamespace(java.lang.String)
+wsdlSource(javax.xml.transform.Source)
+wsdlURL(java.net.URL)

@@ -1,0 +1,3 @@
+com.sun.org.apache.xalan.internal.xsltc.CollatorFactory
+getCollator(java.lang.String,java.lang.String)
+getCollator(java.util.Locale)

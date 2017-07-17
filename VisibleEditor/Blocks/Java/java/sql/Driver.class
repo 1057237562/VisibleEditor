@@ -1,0 +1,8 @@
+java.sql.Driver
+connect(java.lang.String,java.util.Properties)
+getMajorVersion()
+getMinorVersion()
+getPropertyInfo(java.lang.String,java.util.Properties)
+acceptsURL(java.lang.String)
+getParentLogger()
+jdbcCompliant()

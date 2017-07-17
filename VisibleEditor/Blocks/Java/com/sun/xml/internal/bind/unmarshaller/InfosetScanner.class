@@ -1,0 +1,6 @@
+com.sun.xml.internal.bind.unmarshaller.InfosetScanner
+getContentHandler()
+setContentHandler(org.xml.sax.ContentHandler)
+scan(java.lang.Object)
+getLocator()
+getCurrentElement()

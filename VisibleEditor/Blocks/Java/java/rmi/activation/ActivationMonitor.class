@@ -1,0 +1,4 @@
+java.rmi.activation.ActivationMonitor
+activeObject(java.rmi.activation.ActivationID,java.rmi.MarshalledObject)
+inactiveObject(java.rmi.activation.ActivationID)
+inactiveGroup(java.rmi.activation.ActivationGroupID,long)

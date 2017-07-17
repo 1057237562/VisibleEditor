@@ -1,0 +1,12 @@
+java.security.ProtectionDomain$PDCache
+get(java.security.ProtectionDomain)
+put(java.security.ProtectionDomain,java.security.PermissionCollection)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.xs.ItemPSVI
+getMemberTypeDefinition()
+getSchemaNormalizedValue()
+getTypeDefinition()
+getActualNormalizedValue()
+getActualNormalizedValueType()
+getErrorCodes()
+getIsSchemaSpecified()
+getItemValueTypes()
+getSchemaDefault()
+getValidationAttempted()
+getValidationContext()
+getValidity()

@@ -1,0 +1,13 @@
+com.sun.jmx.mbeanserver.DescriptorCache
+get(javax.management.ImmutableDescriptor)
+getInstance(javax.management.JMX)
+union([Ljavax.management.Descriptor;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

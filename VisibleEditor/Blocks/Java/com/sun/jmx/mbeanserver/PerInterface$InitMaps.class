@@ -1,0 +1,12 @@
+com.sun.jmx.mbeanserver.PerInterface$InitMaps
+visitAttribute(java.lang.String,java.lang.Object,java.lang.Object)
+visitOperation(java.lang.String,java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

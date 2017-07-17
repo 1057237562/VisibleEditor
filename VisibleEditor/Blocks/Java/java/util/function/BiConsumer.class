@@ -1,0 +1,3 @@
+java.util.function.BiConsumer
+accept(java.lang.Object,java.lang.Object)
+andThen(java.util.function.BiConsumer)

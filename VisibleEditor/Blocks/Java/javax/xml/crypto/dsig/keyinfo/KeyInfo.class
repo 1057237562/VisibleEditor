@@ -1,0 +1,5 @@
+javax.xml.crypto.dsig.keyinfo.KeyInfo
+getId()
+getContent()
+marshal(javax.xml.crypto.XMLStructure,javax.xml.crypto.XMLCryptoContext)
+isFeatureSupported(java.lang.String)

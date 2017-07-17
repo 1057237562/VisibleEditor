@@ -1,0 +1,5 @@
+java.util.function.DoublePredicate
+test(double)
+and(java.util.function.DoublePredicate)
+or(java.util.function.DoublePredicate)
+negate()

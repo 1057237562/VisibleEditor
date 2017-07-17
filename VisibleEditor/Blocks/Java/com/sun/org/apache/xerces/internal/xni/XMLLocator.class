@@ -1,0 +1,10 @@
+com.sun.org.apache.xerces.internal.xni.XMLLocator
+getLineNumber()
+getEncoding()
+getCharacterOffset()
+getPublicId()
+getColumnNumber()
+getExpandedSystemId()
+getBaseSystemId()
+getLiteralSystemId()
+getXMLVersion()

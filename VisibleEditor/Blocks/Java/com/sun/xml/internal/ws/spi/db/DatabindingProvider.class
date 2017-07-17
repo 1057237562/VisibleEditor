@@ -1,0 +1,5 @@
+com.sun.xml.internal.ws.spi.db.DatabindingProvider
+init(java.util.Map)
+create(com.sun.xml.internal.ws.api.databinding.DatabindingConfig)
+isFor(java.lang.String)
+wsdlGen(com.sun.xml.internal.ws.api.databinding.DatabindingConfig)

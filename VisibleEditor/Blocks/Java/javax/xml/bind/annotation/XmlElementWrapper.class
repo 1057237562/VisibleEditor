@@ -1,0 +1,9 @@
+javax.xml.bind.annotation.XmlElementWrapper
+name()
+required()
+namespace()
+nillable()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

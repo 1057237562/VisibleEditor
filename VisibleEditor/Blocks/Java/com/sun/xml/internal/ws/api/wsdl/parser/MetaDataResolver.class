@@ -1,0 +1,11 @@
+com.sun.xml.internal.ws.api.wsdl.parser.MetaDataResolver
+resolve(java.net.URI)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

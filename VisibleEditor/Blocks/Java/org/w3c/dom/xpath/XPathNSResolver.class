@@ -1,0 +1,2 @@
+org.w3c.dom.xpath.XPathNSResolver
+lookupNamespaceURI(java.lang.String)

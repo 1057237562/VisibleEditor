@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.util.StringUtils
+capitalize(java.lang.String)
+decapitalize(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,6 @@
+java.util.jar.Pack200$Unpacker
+properties()
+addPropertyChangeListener(java.beans.PropertyChangeListener)
+removePropertyChangeListener(java.beans.PropertyChangeListener)
+unpack(java.io.InputStream,java.util.jar.JarOutputStream)
+unpack(java.io.File,java.util.jar.JarOutputStream)

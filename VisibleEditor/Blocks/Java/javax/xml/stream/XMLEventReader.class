@@ -1,0 +1,11 @@
+javax.xml.stream.XMLEventReader
+getProperty(java.lang.String)
+hasNext()
+close()
+peek()
+getElementText()
+nextEvent()
+nextTag()
+remove()
+next()
+forEachRemaining(java.util.function.Consumer)

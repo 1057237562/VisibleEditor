@@ -1,0 +1,11 @@
+com.sun.management.jmx.JMProperties
+load(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

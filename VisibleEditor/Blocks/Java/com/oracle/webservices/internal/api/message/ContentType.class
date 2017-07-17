@@ -1,0 +1,4 @@
+com.oracle.webservices.internal.api.message.ContentType
+getContentType()
+getAcceptHeader()
+getSOAPActionHeader()

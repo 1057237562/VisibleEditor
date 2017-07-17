@@ -1,0 +1,2 @@
+org.w3c.dom.traversal.NodeFilter
+acceptNode(org.w3c.dom.Node)

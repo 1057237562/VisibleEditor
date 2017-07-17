@@ -1,0 +1,13 @@
+com.sun.jndi.ldap.pool.Pool
+toString()
+expire(long)
+getPooledConnection(java.lang.Object,long,com.sun.jndi.ldap.pool.PooledConnectionFactory)
+showStats(java.io.PrintStream)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

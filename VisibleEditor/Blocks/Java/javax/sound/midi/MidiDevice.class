@@ -1,0 +1,12 @@
+javax.sound.midi.MidiDevice
+close()
+open()
+isOpen()
+getMicrosecondPosition()
+getDeviceInfo()
+getMaxReceivers()
+getMaxTransmitters()
+getReceiver()
+getReceivers()
+getTransmitter()
+getTransmitters()

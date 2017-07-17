@@ -1,0 +1,11 @@
+com.sun.corba.se.pept.protocol.MessageMediator
+getConnection()
+finishSendingRequest()
+getBroker()
+getContactInfo()
+getInputObject()
+getOutputObject()
+initializeMessage()
+setInputObject(com.sun.corba.se.pept.encoding.InputObject)
+setOutputObject(com.sun.corba.se.pept.encoding.OutputObject)
+waitForResponse()

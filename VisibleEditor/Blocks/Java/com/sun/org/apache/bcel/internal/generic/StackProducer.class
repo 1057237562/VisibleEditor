@@ -1,0 +1,2 @@
+com.sun.org.apache.bcel.internal.generic.StackProducer
+produceStack(com.sun.org.apache.bcel.internal.generic.ConstantPoolGen)

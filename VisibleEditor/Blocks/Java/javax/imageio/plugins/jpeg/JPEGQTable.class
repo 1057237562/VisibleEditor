@@ -1,0 +1,12 @@
+javax.imageio.plugins.jpeg.JPEGQTable
+toString()
+getTable()
+getScaledInstance(float,boolean)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,13 @@
+com.sun.jmx.interceptor.DefaultMBeanServerInterceptor$2
+done()
+registering()
+unregistered()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

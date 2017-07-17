@@ -1,0 +1,3 @@
+java.nio.file.WatchEvent$Kind
+name()
+type()

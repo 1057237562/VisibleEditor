@@ -1,0 +1,11 @@
+java.util.ListIterator
+add(java.lang.Object)
+remove()
+hasNext()
+next()
+set(java.lang.Object)
+hasPrevious()
+nextIndex()
+previous()
+previousIndex()
+forEachRemaining(java.util.function.Consumer)

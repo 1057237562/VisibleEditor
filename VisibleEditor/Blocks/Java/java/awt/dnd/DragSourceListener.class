@@ -1,0 +1,6 @@
+java.awt.dnd.DragSourceListener
+dragEnter(java.awt.dnd.DragSourceDragEvent)
+dragExit(java.awt.dnd.DragSourceEvent)
+dragOver(java.awt.dnd.DragSourceDragEvent)
+dropActionChanged(java.awt.dnd.DragSourceDragEvent)
+dragDropEnd(java.awt.dnd.DragSourceDropEvent)

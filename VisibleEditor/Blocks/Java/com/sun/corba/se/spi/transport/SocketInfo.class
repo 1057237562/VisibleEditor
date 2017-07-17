@@ -1,0 +1,4 @@
+com.sun.corba.se.spi.transport.SocketInfo
+getType()
+getHost()
+getPort()

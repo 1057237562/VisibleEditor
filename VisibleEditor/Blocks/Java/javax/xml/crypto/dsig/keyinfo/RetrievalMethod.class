@@ -1,0 +1,6 @@
+javax.xml.crypto.dsig.keyinfo.RetrievalMethod
+getURI()
+getTransforms()
+dereference(javax.xml.crypto.XMLCryptoContext)
+getType()
+isFeatureSupported(java.lang.String)

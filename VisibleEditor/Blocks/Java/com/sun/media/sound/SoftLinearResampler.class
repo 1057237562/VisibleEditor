@@ -1,0 +1,13 @@
+com.sun.media.sound.SoftLinearResampler
+getPadding()
+interpolate([F,[F,float,[F,float,[F,[I,int)
+openStreamer()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

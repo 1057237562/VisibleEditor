@@ -1,0 +1,13 @@
+java.security.cert.LDAPCertStoreParameters
+toString()
+clone()
+getPort()
+getServerName()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

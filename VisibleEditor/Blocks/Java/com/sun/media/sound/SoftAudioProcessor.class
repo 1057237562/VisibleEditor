@@ -1,0 +1,8 @@
+com.sun.media.sound.SoftAudioProcessor
+init(float,float)
+setInput(int,com.sun.media.sound.SoftAudioBuffer)
+setOutput(int,com.sun.media.sound.SoftAudioBuffer)
+globalParameterControlChange([I,long,long)
+processAudio()
+processControlLogic()
+setMixMode(boolean)

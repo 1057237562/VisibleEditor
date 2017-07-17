@@ -1,0 +1,7 @@
+javax.management.openmbean.OpenMBeanConstructorInfo
+equals(java.lang.Object)
+toString()
+hashCode()
+getName()
+getSignature()
+getDescription()

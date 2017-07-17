@@ -1,0 +1,5 @@
+javax.xml.xpath.XPathExpression
+evaluate(org.xml.sax.InputSource)
+evaluate(org.xml.sax.InputSource,javax.xml.namespace.QName)
+evaluate(java.lang.Object)
+evaluate(java.lang.Object,javax.xml.namespace.QName)

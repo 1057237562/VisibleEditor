@@ -1,0 +1,12 @@
+com.oracle.webservices.internal.api.databinding.DatabindingModeFeature$Builder
+value(java.lang.String)
+build()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

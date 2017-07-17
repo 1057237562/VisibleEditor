@@ -1,0 +1,10 @@
+java.awt.peer.RobotPeer
+dispose()
+mouseMove(int,int)
+getRGBPixel(int,int)
+getRGBPixels(java.awt.Rectangle)
+keyPress(int)
+keyRelease(int)
+mousePress(int)
+mouseRelease(int)
+mouseWheel(int)

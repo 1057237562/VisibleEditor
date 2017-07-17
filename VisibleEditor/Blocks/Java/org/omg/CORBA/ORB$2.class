@@ -1,0 +1,11 @@
+org.omg.CORBA.ORB$2
+run()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

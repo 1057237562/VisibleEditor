@@ -1,0 +1,7 @@
+com.sun.org.apache.xerces.internal.jaxp.validation.XSGrammarPoolContainer
+setProperty(java.lang.String,java.lang.Object)
+getProperty(java.lang.String)
+setFeature(java.lang.String,boolean)
+getFeature(java.lang.String)
+getGrammarPool()
+isFullyComposed()

@@ -1,0 +1,13 @@
+org.w3c.dom.css.CSSStyleSheet
+deleteRule(int)
+getCssRules()
+getOwnerRule()
+insertRule(java.lang.String,int)
+getType()
+getMedia()
+getTitle()
+getOwnerNode()
+getParentStyleSheet()
+getDisabled()
+getHref()
+setDisabled(boolean)

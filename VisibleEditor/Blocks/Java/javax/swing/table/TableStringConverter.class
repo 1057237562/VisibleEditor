@@ -1,0 +1,11 @@
+javax.swing.table.TableStringConverter
+toString(javax.swing.table.TableModel,int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

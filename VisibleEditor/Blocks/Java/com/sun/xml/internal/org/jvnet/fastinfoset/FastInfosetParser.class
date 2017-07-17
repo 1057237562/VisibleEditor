@@ -1,0 +1,13 @@
+com.sun.xml.internal.org.jvnet.fastinfoset.FastInfosetParser
+getBufferSize()
+setBufferSize(int)
+setStringInterning(boolean)
+getExternalVocabularies()
+getForceStreamClose()
+getParseFragments()
+getRegisteredEncodingAlgorithms()
+getStringInterning()
+setExternalVocabularies(java.util.Map)
+setForceStreamClose(boolean)
+setParseFragments(boolean)
+setRegisteredEncodingAlgorithms(java.util.Map)

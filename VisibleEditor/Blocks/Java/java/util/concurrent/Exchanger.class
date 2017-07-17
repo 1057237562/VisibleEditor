@@ -1,0 +1,12 @@
+java.util.concurrent.Exchanger
+exchange(java.lang.Object,long,java.util.concurrent.TimeUnit)
+exchange(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

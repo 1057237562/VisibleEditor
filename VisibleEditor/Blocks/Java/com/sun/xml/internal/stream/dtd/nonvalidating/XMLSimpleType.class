@@ -1,0 +1,13 @@
+com.sun.xml.internal.stream.dtd.nonvalidating.XMLSimpleType
+clear()
+setValues(short,java.lang.String,[Ljava.lang.String;,boolean,short,java.lang.String,java.lang.String)
+setValues(com.sun.xml.internal.stream.dtd.nonvalidating.XMLSimpleType)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

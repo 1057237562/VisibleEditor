@@ -1,0 +1,13 @@
+com.sun.corba.se.impl.ior.TaggedProfileTemplateFactoryFinderImpl
+handleMissingFactory(int,org.omg.CORBA_2_3.portable.InputStream)
+create(int,org.omg.CORBA_2_3.portable.InputStream)
+registerFactory(com.sun.corba.se.spi.ior.IdentifiableFactory)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

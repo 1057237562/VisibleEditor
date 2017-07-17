@@ -1,0 +1,12 @@
+com.sun.org.apache.xerces.internal.dom.DOMImplementationListImpl
+getLength()
+item(int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

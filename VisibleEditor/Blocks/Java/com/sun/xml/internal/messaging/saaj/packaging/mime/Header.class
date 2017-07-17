@@ -1,0 +1,3 @@
+com.sun.xml.internal.messaging.saaj.packaging.mime.Header
+getName()
+getValue()

@@ -1,0 +1,11 @@
+javax.swing.plaf.metal.MetalDesktopIconUI$TitleListener
+propertyChange(java.beans.PropertyChangeEvent)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

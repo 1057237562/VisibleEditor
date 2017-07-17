@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.api.pipe.TransportTubeFactory
+create(java.lang.ClassLoader,com.sun.xml.internal.ws.api.pipe.ClientTubeAssemblerContext)
+doCreate(com.sun.xml.internal.ws.api.pipe.ClientTubeAssemblerContext)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

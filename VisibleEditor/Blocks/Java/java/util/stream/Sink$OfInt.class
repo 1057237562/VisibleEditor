@@ -1,0 +1,11 @@
+java.util.stream.Sink$OfInt
+accept(int)
+accept(java.lang.Integer)
+accept(java.lang.Object)
+accept(long)
+accept(double)
+end()
+begin(long)
+cancellationRequested()
+andThen(java.util.function.Consumer)
+andThen(java.util.function.IntConsumer)

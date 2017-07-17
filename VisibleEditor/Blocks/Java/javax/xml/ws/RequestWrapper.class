@@ -1,0 +1,9 @@
+javax.xml.ws.RequestWrapper
+className()
+targetNamespace()
+localName()
+partName()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

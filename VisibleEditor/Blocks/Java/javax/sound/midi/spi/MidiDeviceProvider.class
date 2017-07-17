@@ -1,0 +1,13 @@
+javax.sound.midi.spi.MidiDeviceProvider
+getDevice(javax.sound.midi.MidiDevice$Info)
+getDeviceInfo()
+isDeviceSupported(javax.sound.midi.MidiDevice$Info)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

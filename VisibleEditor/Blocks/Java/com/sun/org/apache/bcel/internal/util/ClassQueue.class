@@ -1,0 +1,13 @@
+com.sun.org.apache.bcel.internal.util.ClassQueue
+toString()
+enqueue(com.sun.org.apache.bcel.internal.classfile.JavaClass)
+empty()
+dequeue()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

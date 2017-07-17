@@ -1,0 +1,2 @@
+java.util.function.ObjDoubleConsumer
+accept(java.lang.Object,double)

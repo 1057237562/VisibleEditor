@@ -1,0 +1,12 @@
+javax.swing.text.DefaultHighlighter$SafeDamager
+run()
+damageRange(javax.swing.text.Position,javax.swing.text.Position)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

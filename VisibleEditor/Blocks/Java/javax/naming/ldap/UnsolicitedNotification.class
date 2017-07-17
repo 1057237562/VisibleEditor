@@ -1,0 +1,6 @@
+javax.naming.ldap.UnsolicitedNotification
+getException()
+getReferrals()
+getID()
+getEncodedValue()
+getControls()

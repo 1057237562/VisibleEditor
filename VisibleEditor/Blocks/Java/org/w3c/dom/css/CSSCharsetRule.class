@@ -1,0 +1,8 @@
+org.w3c.dom.css.CSSCharsetRule
+getEncoding()
+setEncoding(java.lang.String)
+getType()
+getCssText()
+getParentRule()
+getParentStyleSheet()
+setCssText(java.lang.String)

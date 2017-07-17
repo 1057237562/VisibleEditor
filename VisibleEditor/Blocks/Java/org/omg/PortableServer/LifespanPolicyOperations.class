@@ -1,0 +1,5 @@
+org.omg.PortableServer.LifespanPolicyOperations
+value()
+destroy()
+copy()
+policy_type()

@@ -1,0 +1,11 @@
+javax.management.loading.MLetMBean
+getResource(java.lang.String)
+getResourceAsStream(java.lang.String)
+getResources(java.lang.String)
+addURL(java.lang.String)
+addURL(java.net.URL)
+getURLs()
+getMBeansFromURL(java.lang.String)
+getMBeansFromURL(java.net.URL)
+getLibraryDirectory()
+setLibraryDirectory(java.lang.String)

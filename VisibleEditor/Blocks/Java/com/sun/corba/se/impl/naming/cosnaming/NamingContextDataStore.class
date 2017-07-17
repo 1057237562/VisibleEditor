@@ -1,0 +1,9 @@
+com.sun.corba.se.impl.naming.cosnaming.NamingContextDataStore
+List(int,org.omg.CosNaming.BindingListHolder,org.omg.CosNaming.BindingIteratorHolder)
+Destroy()
+Bind(org.omg.CosNaming.NameComponent,org.omg.CORBA.Object,org.omg.CosNaming.BindingType)
+IsEmpty()
+NewContext()
+Resolve(org.omg.CosNaming.NameComponent,org.omg.CosNaming.BindingTypeHolder)
+Unbind(org.omg.CosNaming.NameComponent)
+getNSPOA()

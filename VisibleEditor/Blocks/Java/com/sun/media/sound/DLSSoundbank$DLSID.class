@@ -1,0 +1,11 @@
+com.sun.media.sound.DLSSoundbank$DLSID
+equals(java.lang.Object)
+hashCode()
+read(com.sun.media.sound.RIFFReader)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

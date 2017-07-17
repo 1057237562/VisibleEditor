@@ -1,0 +1,9 @@
+com.sun.corba.se.pept.transport.ContactInfoListIterator
+reportException(com.sun.corba.se.pept.transport.ContactInfo,java.lang.RuntimeException)
+getFailureException()
+reportSuccess(com.sun.corba.se.pept.transport.ContactInfo)
+getContactInfoList()
+remove()
+hasNext()
+next()
+forEachRemaining(java.util.function.Consumer)

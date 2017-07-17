@@ -1,0 +1,12 @@
+org.jcp.xml.dsig.internal.dom.DOMStructure
+marshal(org.w3c.dom.Node,java.lang.String,javax.xml.crypto.dom.DOMCryptoContext)
+isFeatureSupported(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

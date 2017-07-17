@@ -1,0 +1,7 @@
+com.sun.corba.se.impl.encoding.BufferManagerRead
+init(com.sun.corba.se.impl.protocol.giopmsgheaders.Message)
+close(com.sun.corba.se.impl.encoding.ByteBufferWithInfo)
+cancelProcessing(int)
+getMarkAndResetHandler()
+processFragment(java.nio.ByteBuffer,com.sun.corba.se.impl.protocol.giopmsgheaders.FragmentMessage)
+underflow(com.sun.corba.se.impl.encoding.ByteBufferWithInfo)

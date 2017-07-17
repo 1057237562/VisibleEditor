@@ -1,0 +1,8 @@
+java.nio.channels.NetworkChannel
+bind(java.net.SocketAddress)
+getLocalAddress()
+getOption(java.net.SocketOption)
+setOption(java.net.SocketOption,java.lang.Object)
+supportedOptions()
+close()
+isOpen()

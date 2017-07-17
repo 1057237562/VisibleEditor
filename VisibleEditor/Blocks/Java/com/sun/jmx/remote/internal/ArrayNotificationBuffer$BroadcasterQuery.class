@@ -1,0 +1,13 @@
+com.sun.jmx.remote.internal.ArrayNotificationBuffer$BroadcasterQuery
+apply(javax.management.ObjectName)
+getMBeanServer()
+setMBeanServer(javax.management.MBeanServer)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

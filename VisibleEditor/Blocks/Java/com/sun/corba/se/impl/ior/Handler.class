@@ -1,0 +1,2 @@
+com.sun.corba.se.impl.ior.Handler
+handle(int,int,org.omg.CORBA_2_3.portable.InputStream,org.omg.CORBA.OctetSeqHolder)

@@ -1,0 +1,12 @@
+java.security.spec.ECPublicKeySpec
+getParams()
+getW()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

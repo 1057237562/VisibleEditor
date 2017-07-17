@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.api.server.SDDocument$WSDL
+getTargetNamespace()
+getAllServices()
+hasPortType()
+hasService()
+getURL()
+writeTo(com.sun.xml.internal.ws.api.server.PortAddressResolver,com.sun.xml.internal.ws.api.server.DocumentAddressResolver,javax.xml.stream.XMLStreamWriter)
+writeTo(com.sun.xml.internal.ws.api.server.PortAddressResolver,com.sun.xml.internal.ws.api.server.DocumentAddressResolver,java.io.OutputStream)
+getRootName()
+isWSDL()
+getImports()
+isSchema()

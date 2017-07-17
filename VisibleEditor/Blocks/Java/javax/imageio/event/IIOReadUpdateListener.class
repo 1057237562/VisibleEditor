@@ -1,0 +1,7 @@
+javax.imageio.event.IIOReadUpdateListener
+imageUpdate(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,[I)
+passComplete(javax.imageio.ImageReader,java.awt.image.BufferedImage)
+passStarted(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int,[I)
+thumbnailPassComplete(javax.imageio.ImageReader,java.awt.image.BufferedImage)
+thumbnailPassStarted(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int,[I)
+thumbnailUpdate(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,[I)

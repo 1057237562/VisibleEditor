@@ -1,0 +1,13 @@
+com.sun.xml.internal.ws.api.pipe.helper.AbstractFilterPipeImpl
+process(com.sun.xml.internal.ws.api.message.Packet)
+preDestroy()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()
+copy(com.sun.xml.internal.ws.api.pipe.PipeCloner)

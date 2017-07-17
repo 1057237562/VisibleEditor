@@ -1,0 +1,12 @@
+com.sun.org.apache.xerces.internal.impl.dv.xs.DoubleDV$XDouble
+equals(java.lang.Object)
+toString()
+hashCode()
+getValue()
+isIdentical(com.sun.org.apache.xerces.internal.impl.dv.xs.DoubleDV$XDouble)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

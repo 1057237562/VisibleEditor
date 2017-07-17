@@ -1,0 +1,2 @@
+com.sun.org.apache.xerces.internal.impl.dtd.XMLContentSpec$Provider
+getContentSpec(int,com.sun.org.apache.xerces.internal.impl.dtd.XMLContentSpec)

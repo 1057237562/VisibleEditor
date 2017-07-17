@@ -1,0 +1,11 @@
+java.awt.CheckboxMenuItem$1
+getState(java.awt.CheckboxMenuItem)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

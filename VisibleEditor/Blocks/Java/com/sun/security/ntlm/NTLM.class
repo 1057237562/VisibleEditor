@@ -1,0 +1,12 @@
+com.sun.security.ntlm.NTLM
+debug([B)
+debug(java.lang.String,[Ljava.lang.Object;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

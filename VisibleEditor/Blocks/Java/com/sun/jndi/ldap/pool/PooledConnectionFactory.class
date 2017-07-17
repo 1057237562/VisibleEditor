@@ -1,0 +1,2 @@
+com.sun.jndi.ldap.pool.PooledConnectionFactory
+createPooledConnection(com.sun.jndi.ldap.pool.PoolCallback)

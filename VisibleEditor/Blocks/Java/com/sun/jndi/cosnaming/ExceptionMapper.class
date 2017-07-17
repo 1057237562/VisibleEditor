@@ -1,0 +1,11 @@
+com.sun.jndi.cosnaming.ExceptionMapper
+mapException(java.lang.Exception,com.sun.jndi.cosnaming.CNCtx,[Lorg.omg.CosNaming.NameComponent;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

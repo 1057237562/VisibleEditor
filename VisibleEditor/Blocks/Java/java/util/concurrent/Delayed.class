@@ -1,0 +1,3 @@
+java.util.concurrent.Delayed
+getDelay(java.util.concurrent.TimeUnit)
+compareTo(java.lang.Object)

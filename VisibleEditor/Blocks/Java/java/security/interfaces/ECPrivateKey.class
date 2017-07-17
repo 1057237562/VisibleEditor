@@ -1,0 +1,8 @@
+java.security.interfaces.ECPrivateKey
+getS()
+getEncoded()
+getFormat()
+getAlgorithm()
+destroy()
+isDestroyed()
+getParams()

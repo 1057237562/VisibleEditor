@@ -1,0 +1,3 @@
+java.rmi.dgc.DGC
+clean([Ljava.rmi.server.ObjID;,long,java.rmi.dgc.VMID,boolean)
+dirty([Ljava.rmi.server.ObjID;,long,java.rmi.dgc.Lease)

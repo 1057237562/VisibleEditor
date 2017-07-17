@@ -1,0 +1,12 @@
+com.sun.jmx.mbeanserver.NamedObject
+equals(java.lang.Object)
+hashCode()
+getObject()
+getName()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

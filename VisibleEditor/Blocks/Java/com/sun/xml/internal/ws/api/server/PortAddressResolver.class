@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.api.server.PortAddressResolver
+getAddressFor(javax.xml.namespace.QName,java.lang.String)
+getAddressFor(javax.xml.namespace.QName,java.lang.String,java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

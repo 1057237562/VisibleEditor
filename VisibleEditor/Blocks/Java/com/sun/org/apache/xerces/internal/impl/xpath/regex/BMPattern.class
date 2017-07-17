@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.impl.xpath.regex.BMPattern
+matches(java.lang.String,int,int)
+matches([C,int,int)
+matches(java.text.CharacterIterator,int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

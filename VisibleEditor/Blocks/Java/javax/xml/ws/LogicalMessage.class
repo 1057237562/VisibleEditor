@@ -1,0 +1,5 @@
+javax.xml.ws.LogicalMessage
+getPayload(javax.xml.bind.JAXBContext)
+getPayload()
+setPayload(javax.xml.transform.Source)
+setPayload(java.lang.Object,javax.xml.bind.JAXBContext)

@@ -1,0 +1,6 @@
+java.awt.im.spi.InputMethodDescriptor
+getAvailableLocales()
+createInputMethod()
+getInputMethodDisplayName(java.util.Locale,java.util.Locale)
+getInputMethodIcon(java.util.Locale)
+hasDynamicLocaleList()

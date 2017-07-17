@@ -1,0 +1,12 @@
+com.sun.org.apache.xerces.internal.impl.dv.xs.FloatDV$XFloat
+equals(java.lang.Object)
+toString()
+hashCode()
+getValue()
+isIdentical(com.sun.org.apache.xerces.internal.impl.dv.xs.FloatDV$XFloat)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,9 @@
+javax.swing.tree.TreeCellEditor
+getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)
+addCellEditorListener(javax.swing.event.CellEditorListener)
+cancelCellEditing()
+getCellEditorValue()
+isCellEditable(java.util.EventObject)
+removeCellEditorListener(javax.swing.event.CellEditorListener)
+shouldSelectCell(java.util.EventObject)
+stopCellEditing()

@@ -1,0 +1,2 @@
+sun.awt.AWTAccessor$DefaultKeyboardFocusManagerAccessor
+consumeNextKeyTyped(java.awt.DefaultKeyboardFocusManager,java.awt.event.KeyEvent)

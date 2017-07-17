@@ -1,0 +1,4 @@
+java.nio.channels.WritableByteChannel
+write(java.nio.ByteBuffer)
+close()
+isOpen()

@@ -1,0 +1,4 @@
+com.sun.media.sound.ModelOscillator
+open(float)
+getAttenuation()
+getChannels()

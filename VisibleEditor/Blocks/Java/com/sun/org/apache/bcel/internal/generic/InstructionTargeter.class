@@ -1,0 +1,3 @@
+com.sun.org.apache.bcel.internal.generic.InstructionTargeter
+updateTarget(com.sun.org.apache.bcel.internal.generic.InstructionHandle,com.sun.org.apache.bcel.internal.generic.InstructionHandle)
+containsTarget(com.sun.org.apache.bcel.internal.generic.InstructionHandle)

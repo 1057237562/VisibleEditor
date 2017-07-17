@@ -1,0 +1,8 @@
+sun.awt.geom.PathConsumer2D
+closePath()
+curveTo(float,float,float,float,float,float)
+lineTo(float,float)
+moveTo(float,float)
+quadTo(float,float,float,float)
+getNativeConsumer()
+pathDone()

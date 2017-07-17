@@ -1,0 +1,12 @@
+java.text.Normalizer
+normalize(java.lang.CharSequence,java.text.Normalizer$Form)
+isNormalized(java.lang.CharSequence,java.text.Normalizer$Form)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

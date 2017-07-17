@@ -1,0 +1,11 @@
+org.omg.PortableInterceptor.ORBInitInfoOperations
+arguments()
+orb_id()
+add_client_request_interceptor(org.omg.PortableInterceptor.ClientRequestInterceptor)
+add_ior_interceptor(org.omg.PortableInterceptor.IORInterceptor)
+add_server_request_interceptor(org.omg.PortableInterceptor.ServerRequestInterceptor)
+allocate_slot_id()
+codec_factory()
+register_policy_factory(int,org.omg.PortableInterceptor.PolicyFactory)
+resolve_initial_references(java.lang.String)
+register_initial_reference(java.lang.String,org.omg.CORBA.Object)

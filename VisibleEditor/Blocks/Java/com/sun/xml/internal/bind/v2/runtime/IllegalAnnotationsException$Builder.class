@@ -1,0 +1,12 @@
+com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder
+check()
+error(com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationException)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

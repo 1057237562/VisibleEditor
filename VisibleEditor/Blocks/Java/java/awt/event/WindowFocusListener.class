@@ -1,0 +1,3 @@
+java.awt.event.WindowFocusListener
+windowGainedFocus(java.awt.event.WindowEvent)
+windowLostFocus(java.awt.event.WindowEvent)

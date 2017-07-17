@@ -1,0 +1,4 @@
+jdk.internal.org.xml.sax.ErrorHandler
+error(jdk.internal.org.xml.sax.SAXParseException)
+warning(jdk.internal.org.xml.sax.SAXParseException)
+fatalError(jdk.internal.org.xml.sax.SAXParseException)

@@ -1,0 +1,7 @@
+com.sun.corba.se.impl.naming.namingutil.INSURL
+isCorbanameURL()
+dPrint()
+getEndpointInfo()
+getKeyString()
+getRIRFlag()
+getStringifiedName()

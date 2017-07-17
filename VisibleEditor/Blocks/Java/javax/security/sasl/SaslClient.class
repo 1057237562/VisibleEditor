@@ -1,0 +1,9 @@
+javax.security.sasl.SaslClient
+wrap([B,int,int)
+unwrap([B,int,int)
+dispose()
+evaluateChallenge([B)
+getMechanismName()
+getNegotiatedProperty(java.lang.String)
+hasInitialResponse()
+isComplete()

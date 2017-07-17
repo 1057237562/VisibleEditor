@@ -1,0 +1,5 @@
+com.sun.org.apache.bcel.internal.generic.NamedAndTyped
+getName()
+setName(java.lang.String)
+getType()
+setType(com.sun.org.apache.bcel.internal.generic.Type)

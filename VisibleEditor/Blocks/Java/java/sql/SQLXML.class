@@ -1,0 +1,10 @@
+java.sql.SQLXML
+getString()
+getSource(java.lang.Class)
+free()
+setResult(java.lang.Class)
+getCharacterStream()
+setCharacterStream()
+getBinaryStream()
+setBinaryStream()
+setString(java.lang.String)

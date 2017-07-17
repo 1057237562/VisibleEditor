@@ -1,0 +1,13 @@
+com.sun.corba.se.impl.resolver.SplitLocalResolverImpl
+register(java.lang.String,com.sun.corba.se.spi.orbutil.closure.Closure)
+resolve(java.lang.String)
+list()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

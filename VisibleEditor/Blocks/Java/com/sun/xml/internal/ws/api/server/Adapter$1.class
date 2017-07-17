@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.api.server.Adapter$1
+recycle(java.lang.Object)
+take()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

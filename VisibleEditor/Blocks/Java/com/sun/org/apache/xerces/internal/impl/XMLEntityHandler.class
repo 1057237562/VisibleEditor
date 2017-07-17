@@ -1,0 +1,3 @@
+com.sun.org.apache.xerces.internal.impl.XMLEntityHandler
+endEntity(java.lang.String,com.sun.org.apache.xerces.internal.xni.Augmentations)
+startEntity(java.lang.String,com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier,java.lang.String,com.sun.org.apache.xerces.internal.xni.Augmentations)

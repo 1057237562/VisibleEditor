@@ -1,0 +1,7 @@
+java.awt.font.MultipleMaster
+deriveMMFont([F,float,float,float,float)
+deriveMMFont([F)
+getDesignAxisDefaults()
+getDesignAxisNames()
+getDesignAxisRanges()
+getNumDesignAxes()

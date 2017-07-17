@@ -1,0 +1,11 @@
+com.sun.org.apache.bcel.internal.generic.InstructionComparator$1
+equals(com.sun.org.apache.bcel.internal.generic.Instruction,com.sun.org.apache.bcel.internal.generic.Instruction)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

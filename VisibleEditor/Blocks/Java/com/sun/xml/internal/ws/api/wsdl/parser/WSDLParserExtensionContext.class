@@ -1,0 +1,5 @@
+com.sun.xml.internal.ws.api.wsdl.parser.WSDLParserExtensionContext
+getContainer()
+isClientSide()
+getPolicyResolver()
+getWSDLModel()

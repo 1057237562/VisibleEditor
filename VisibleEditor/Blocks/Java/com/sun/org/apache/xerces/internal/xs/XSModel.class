@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.xs.XSModel
+getAnnotations()
+getComponents(short)
+getTypeDefinition(java.lang.String,java.lang.String)
+getAttributeDeclaration(java.lang.String,java.lang.String)
+getNamespaces()
+getElementDeclaration(java.lang.String,java.lang.String)
+getAttributeGroup(java.lang.String,java.lang.String)
+getComponentsByNamespace(short,java.lang.String)
+getModelGroupDefinition(java.lang.String,java.lang.String)
+getNamespaceItems()
+getNotationDeclaration(java.lang.String,java.lang.String)
+getSubstitutionGroup(com.sun.org.apache.xerces.internal.xs.XSElementDeclaration)

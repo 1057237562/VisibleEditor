@@ -1,0 +1,10 @@
+com.sun.media.sound.PortMixer$BoolCtrl$BCT
+equals(java.lang.Object)
+toString()
+hashCode()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

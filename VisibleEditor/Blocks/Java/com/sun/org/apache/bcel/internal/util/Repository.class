@@ -1,0 +1,7 @@
+com.sun.org.apache.bcel.internal.util.Repository
+loadClass(java.lang.String)
+loadClass(java.lang.Class)
+clear()
+findClass(java.lang.String)
+removeClass(com.sun.org.apache.bcel.internal.classfile.JavaClass)
+storeClass(com.sun.org.apache.bcel.internal.classfile.JavaClass)

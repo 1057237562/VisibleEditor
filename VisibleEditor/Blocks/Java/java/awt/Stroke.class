@@ -1,0 +1,2 @@
+java.awt.Stroke
+createStrokedShape(java.awt.Shape)

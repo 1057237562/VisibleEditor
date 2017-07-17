@@ -1,0 +1,13 @@
+com.sun.xml.internal.stream.events.XMLEventAllocatorImpl
+newInstance()
+allocate(javax.xml.stream.XMLStreamReader,javax.xml.stream.util.XMLEventConsumer)
+allocate(javax.xml.stream.XMLStreamReader)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

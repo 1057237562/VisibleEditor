@@ -1,0 +1,3 @@
+com.sun.xml.internal.bind.v2.model.annotation.AnnotationSource
+hasAnnotation(java.lang.Class)
+readAnnotation(java.lang.Class)

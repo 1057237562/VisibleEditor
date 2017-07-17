@@ -1,0 +1,13 @@
+com.sun.xml.internal.ws.handler.PortInfoImpl
+equals(java.lang.Object)
+hashCode()
+getPortName()
+getServiceName()
+getBindingID()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

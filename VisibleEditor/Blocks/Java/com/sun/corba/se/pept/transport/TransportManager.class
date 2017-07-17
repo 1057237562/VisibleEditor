@@ -1,0 +1,11 @@
+com.sun.corba.se.pept.transport.TransportManager
+close()
+registerAcceptor(com.sun.corba.se.pept.transport.Acceptor)
+getByteBufferPool(int)
+getAcceptors()
+getInboundConnectionCache(com.sun.corba.se.pept.transport.Acceptor)
+getSelector(int)
+getInboundConnectionCaches()
+getOutboundConnectionCache(com.sun.corba.se.pept.transport.ContactInfo)
+getOutboundConnectionCaches()
+unregisterAcceptor(com.sun.corba.se.pept.transport.Acceptor)

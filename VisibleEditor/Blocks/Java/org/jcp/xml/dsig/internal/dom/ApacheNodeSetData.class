@@ -1,0 +1,12 @@
+org.jcp.xml.dsig.internal.dom.ApacheNodeSetData
+iterator()
+getXMLSignatureInput()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

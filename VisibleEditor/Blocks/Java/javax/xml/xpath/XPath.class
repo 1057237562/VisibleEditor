@@ -1,0 +1,13 @@
+javax.xml.xpath.XPath
+compile(java.lang.String)
+reset()
+evaluate(java.lang.String,org.xml.sax.InputSource)
+evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)
+evaluate(java.lang.String,java.lang.Object)
+evaluate(java.lang.String,org.xml.sax.InputSource,javax.xml.namespace.QName)
+getNamespaceContext()
+setNamespaceContext(javax.xml.namespace.NamespaceContext)
+setXPathFunctionResolver(javax.xml.xpath.XPathFunctionResolver)
+setXPathVariableResolver(javax.xml.xpath.XPathVariableResolver)
+getXPathFunctionResolver()
+getXPathVariableResolver()

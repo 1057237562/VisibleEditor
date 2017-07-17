@@ -1,0 +1,13 @@
+com.sun.jmx.snmp.IPAcl.OwnerImpl
+isOwner(java.security.Principal)
+addOwner(java.security.Principal,java.security.Principal)
+deleteOwner(java.security.Principal,java.security.Principal)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

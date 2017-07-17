@@ -1,0 +1,13 @@
+com.sun.corba.se.impl.ior.iiop.IIOPAddressClosureImpl
+equals(java.lang.Object)
+toString()
+hashCode()
+write(org.omg.CORBA_2_3.portable.OutputStream)
+getHost()
+getPort()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

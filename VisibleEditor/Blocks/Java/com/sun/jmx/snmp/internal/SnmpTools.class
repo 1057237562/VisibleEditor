@@ -1,0 +1,13 @@
+com.sun.jmx.snmp.internal.SnmpTools
+ascii2binary(java.lang.String)
+binary2ascii([B,int)
+binary2ascii([B)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

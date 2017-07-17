@@ -1,0 +1,3 @@
+javax.management.DescriptorAccess
+setDescriptor(javax.management.Descriptor)
+getDescriptor()

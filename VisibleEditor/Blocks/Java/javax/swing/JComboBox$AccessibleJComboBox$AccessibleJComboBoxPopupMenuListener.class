@@ -1,0 +1,13 @@
+javax.swing.JComboBox$AccessibleJComboBox$AccessibleJComboBoxPopupMenuListener
+popupMenuCanceled(javax.swing.event.PopupMenuEvent)
+popupMenuWillBecomeInvisible(javax.swing.event.PopupMenuEvent)
+popupMenuWillBecomeVisible(javax.swing.event.PopupMenuEvent)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

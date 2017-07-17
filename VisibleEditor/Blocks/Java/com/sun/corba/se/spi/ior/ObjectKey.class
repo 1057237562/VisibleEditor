@@ -1,0 +1,6 @@
+com.sun.corba.se.spi.ior.ObjectKey
+getBytes(org.omg.CORBA.ORB)
+getId()
+getTemplate()
+getServerRequestDispatcher(com.sun.corba.se.spi.orb.ORB)
+write(org.omg.CORBA_2_3.portable.OutputStream)

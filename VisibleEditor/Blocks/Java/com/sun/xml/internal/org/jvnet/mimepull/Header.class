@@ -1,0 +1,3 @@
+com.sun.xml.internal.org.jvnet.mimepull.Header
+getName()
+getValue()

@@ -1,0 +1,4 @@
+javax.xml.ws.http.HTTPBinding
+getHandlerChain()
+getBindingID()
+setHandlerChain(java.util.List)

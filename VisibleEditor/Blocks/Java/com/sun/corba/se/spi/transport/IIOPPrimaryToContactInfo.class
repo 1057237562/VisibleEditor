@@ -1,0 +1,4 @@
+com.sun.corba.se.spi.transport.IIOPPrimaryToContactInfo
+hasNext(com.sun.corba.se.pept.transport.ContactInfo,com.sun.corba.se.pept.transport.ContactInfo,java.util.List)
+next(com.sun.corba.se.pept.transport.ContactInfo,com.sun.corba.se.pept.transport.ContactInfo,java.util.List)
+reset(com.sun.corba.se.pept.transport.ContactInfo)

@@ -1,0 +1,12 @@
+javax.smartcardio.ATR
+equals(java.lang.Object)
+toString()
+hashCode()
+getBytes()
+getHistoricalBytes()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

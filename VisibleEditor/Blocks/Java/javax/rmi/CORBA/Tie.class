@@ -1,0 +1,8 @@
+javax.rmi.CORBA.Tie
+getTarget()
+setTarget(java.rmi.Remote)
+deactivate()
+orb(org.omg.CORBA.ORB)
+orb()
+thisObject()
+_invoke(java.lang.String,org.omg.CORBA.portable.InputStream,org.omg.CORBA.portable.ResponseHandler)

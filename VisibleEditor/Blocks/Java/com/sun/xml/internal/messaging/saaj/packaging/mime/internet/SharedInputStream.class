@@ -1,0 +1,4 @@
+com.sun.xml.internal.messaging.saaj.packaging.mime.internet.SharedInputStream
+writeTo(long,long,java.io.OutputStream)
+getPosition()
+newStream(long,long)

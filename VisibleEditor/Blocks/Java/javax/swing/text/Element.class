@@ -1,0 +1,11 @@
+javax.swing.text.Element
+getName()
+getAttributes()
+getElement(int)
+isLeaf()
+getDocument()
+getStartOffset()
+getEndOffset()
+getElementCount()
+getElementIndex(int)
+getParentElement()

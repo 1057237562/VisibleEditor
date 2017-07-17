@@ -1,0 +1,11 @@
+java.awt.Toolkit$DesktopPropertyChangeSupport$1
+run()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

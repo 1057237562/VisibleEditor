@@ -1,0 +1,6 @@
+javax.xml.bind.annotation.XmlAccessorType
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

@@ -1,0 +1,11 @@
+java.util.logging.ErrorManager
+error(java.lang.String,java.lang.Exception,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

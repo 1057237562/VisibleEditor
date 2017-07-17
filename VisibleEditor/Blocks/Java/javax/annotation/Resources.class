@@ -1,0 +1,6 @@
+javax.annotation.Resources
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

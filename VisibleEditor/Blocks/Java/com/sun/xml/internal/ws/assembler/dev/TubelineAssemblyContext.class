@@ -1,0 +1,4 @@
+com.sun.xml.internal.ws.assembler.dev.TubelineAssemblyContext
+getImplementation(java.lang.Class)
+getAdaptedTubelineHead()
+getTubelineHead()

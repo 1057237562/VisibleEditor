@@ -1,0 +1,5 @@
+org.omg.CORBA.portable.StreamableValue
+_read(org.omg.CORBA.portable.InputStream)
+_type()
+_write(org.omg.CORBA.portable.OutputStream)
+_truncatable_ids()

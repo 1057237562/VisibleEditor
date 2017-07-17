@@ -1,0 +1,12 @@
+com.sun.corba.se.impl.ior.ObjectIdImpl
+equals(java.lang.Object)
+hashCode()
+write(org.omg.CORBA_2_3.portable.OutputStream)
+getId()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

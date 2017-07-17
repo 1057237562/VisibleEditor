@@ -1,0 +1,11 @@
+sun.applet.Main
+main([Ljava.lang.String;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

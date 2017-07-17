@@ -1,0 +1,4 @@
+com.sun.org.glassfish.external.probe.provider.StatsProviderManagerDelegate
+register(com.sun.org.glassfish.external.probe.provider.StatsProviderInfo)
+hasListeners(java.lang.String)
+unregister(java.lang.Object)

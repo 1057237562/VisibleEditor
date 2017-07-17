@@ -1,0 +1,12 @@
+com.sun.corba.se.impl.monitoring.MonitoringManagerFactoryImpl
+remove(java.lang.String)
+createMonitoringManager(java.lang.String,java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

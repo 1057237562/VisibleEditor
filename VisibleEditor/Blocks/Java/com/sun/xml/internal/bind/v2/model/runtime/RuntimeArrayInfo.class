@@ -1,0 +1,11 @@
+com.sun.xml.internal.bind.v2.model.runtime.RuntimeArrayInfo
+getType()
+getType()
+getItemType()
+getItemType()
+getTypeName()
+isSimpleType()
+canBeReferencedByIDREF()
+getLocation()
+getUpstream()
+getTransducer()

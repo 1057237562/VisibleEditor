@@ -1,0 +1,5 @@
+com.sun.xml.internal.bind.v2.model.core.WildcardTypeInfo
+getType()
+canBeReferencedByIDREF()
+getLocation()
+getUpstream()

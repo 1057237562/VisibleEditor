@@ -1,0 +1,11 @@
+com.sun.jndi.ldap.LdapClientFactory
+toString()
+createPooledConnection(com.sun.jndi.ldap.pool.PoolCallback)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,5 @@
+javax.jws.Oneway
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

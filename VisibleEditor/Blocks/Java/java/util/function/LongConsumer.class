@@ -1,0 +1,3 @@
+java.util.function.LongConsumer
+accept(long)
+andThen(java.util.function.LongConsumer)

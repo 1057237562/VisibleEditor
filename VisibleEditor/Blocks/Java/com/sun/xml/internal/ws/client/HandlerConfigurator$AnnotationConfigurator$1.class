@@ -1,0 +1,11 @@
+com.sun.xml.internal.ws.client.HandlerConfigurator$AnnotationConfigurator$1
+getHandlerChain(javax.xml.ws.handler.PortInfo)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

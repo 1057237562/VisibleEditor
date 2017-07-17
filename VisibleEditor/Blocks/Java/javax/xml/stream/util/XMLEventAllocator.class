@@ -1,0 +1,4 @@
+javax.xml.stream.util.XMLEventAllocator
+newInstance()
+allocate(javax.xml.stream.XMLStreamReader)
+allocate(javax.xml.stream.XMLStreamReader,javax.xml.stream.util.XMLEventConsumer)

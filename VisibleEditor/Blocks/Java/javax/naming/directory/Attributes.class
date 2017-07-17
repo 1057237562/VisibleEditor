@@ -1,0 +1,10 @@
+javax.naming.directory.Attributes
+remove(java.lang.String)
+get(java.lang.String)
+put(java.lang.String,java.lang.Object)
+put(javax.naming.directory.Attribute)
+clone()
+size()
+getAll()
+getIDs()
+isCaseIgnored()

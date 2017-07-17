@@ -1,0 +1,2 @@
+sun.awt.AWTAccessor$SystemTrayAccessor
+firePropertyChange(java.awt.SystemTray,java.lang.String,java.lang.Object,java.lang.Object)

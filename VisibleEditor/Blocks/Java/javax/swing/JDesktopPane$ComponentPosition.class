@@ -1,0 +1,12 @@
+javax.swing.JDesktopPane$ComponentPosition
+compareTo(java.lang.Object)
+compareTo(javax.swing.JDesktopPane$ComponentPosition)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

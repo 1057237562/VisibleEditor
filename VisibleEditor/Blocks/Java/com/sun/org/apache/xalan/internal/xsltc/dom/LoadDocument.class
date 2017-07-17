@@ -1,0 +1,12 @@
+com.sun.org.apache.xalan.internal.xsltc.dom.LoadDocument
+documentF(java.lang.Object,java.lang.String,com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet,com.sun.org.apache.xalan.internal.xsltc.DOM)
+documentF(java.lang.Object,com.sun.org.apache.xml.internal.dtm.DTMAxisIterator,java.lang.String,com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet,com.sun.org.apache.xalan.internal.xsltc.DOM)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

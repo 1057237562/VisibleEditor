@@ -1,0 +1,3 @@
+sun.awt.WindowClosingListener
+windowClosingDelivered(java.awt.event.WindowEvent)
+windowClosingNotify(java.awt.event.WindowEvent)

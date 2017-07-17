@@ -1,0 +1,7 @@
+javax.swing.SpinnerModel
+getValue()
+setValue(java.lang.Object)
+addChangeListener(javax.swing.event.ChangeListener)
+removeChangeListener(javax.swing.event.ChangeListener)
+getNextValue()
+getPreviousValue()

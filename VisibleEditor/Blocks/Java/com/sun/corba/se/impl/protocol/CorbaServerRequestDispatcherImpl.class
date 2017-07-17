@@ -1,0 +1,12 @@
+com.sun.corba.se.impl.protocol.CorbaServerRequestDispatcherImpl
+dispatch(com.sun.corba.se.pept.protocol.MessageMediator)
+locate(com.sun.corba.se.spi.ior.ObjectKey)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

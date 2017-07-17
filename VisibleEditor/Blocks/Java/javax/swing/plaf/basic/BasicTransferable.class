@@ -1,0 +1,13 @@
+javax.swing.plaf.basic.BasicTransferable
+getTransferData(java.awt.datatransfer.DataFlavor)
+getTransferDataFlavors()
+isDataFlavorSupported(java.awt.datatransfer.DataFlavor)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

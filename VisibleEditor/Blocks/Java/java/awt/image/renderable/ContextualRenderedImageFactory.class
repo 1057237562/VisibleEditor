@@ -1,0 +1,8 @@
+java.awt.image.renderable.ContextualRenderedImageFactory
+getProperty(java.awt.image.renderable.ParameterBlock,java.lang.String)
+create(java.awt.image.renderable.RenderContext,java.awt.image.renderable.ParameterBlock)
+getBounds2D(java.awt.image.renderable.ParameterBlock)
+isDynamic()
+getPropertyNames()
+mapRenderContext(int,java.awt.image.renderable.RenderContext,java.awt.image.renderable.ParameterBlock,java.awt.image.renderable.RenderableImage)
+create(java.awt.image.renderable.ParameterBlock,java.awt.RenderingHints)

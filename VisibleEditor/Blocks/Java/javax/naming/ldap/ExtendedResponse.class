@@ -1,0 +1,3 @@
+javax.naming.ldap.ExtendedResponse
+getID()
+getEncodedValue()

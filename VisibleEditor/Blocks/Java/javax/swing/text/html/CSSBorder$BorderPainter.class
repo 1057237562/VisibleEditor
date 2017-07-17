@@ -1,0 +1,2 @@
+javax.swing.text.html.CSSBorder$BorderPainter
+paint(java.awt.Polygon,java.awt.Graphics,java.awt.Color,int)

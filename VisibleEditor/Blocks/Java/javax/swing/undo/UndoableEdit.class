@@ -1,0 +1,12 @@
+javax.swing.undo.UndoableEdit
+redo()
+undo()
+canRedo()
+canUndo()
+die()
+getPresentationName()
+getRedoPresentationName()
+getUndoPresentationName()
+isSignificant()
+replaceEdit(javax.swing.undo.UndoableEdit)
+addEdit(javax.swing.undo.UndoableEdit)

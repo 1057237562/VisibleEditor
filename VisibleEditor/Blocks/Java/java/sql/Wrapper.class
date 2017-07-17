@@ -1,0 +1,3 @@
+java.sql.Wrapper
+unwrap(java.lang.Class)
+isWrapperFor(java.lang.Class)

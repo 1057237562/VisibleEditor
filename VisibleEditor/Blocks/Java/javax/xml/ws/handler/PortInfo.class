@@ -1,0 +1,4 @@
+javax.xml.ws.handler.PortInfo
+getPortName()
+getServiceName()
+getBindingID()

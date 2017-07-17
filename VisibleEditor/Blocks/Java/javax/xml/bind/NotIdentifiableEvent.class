@@ -1,0 +1,5 @@
+javax.xml.bind.NotIdentifiableEvent
+getMessage()
+getLocator()
+getSeverity()
+getLinkedException()

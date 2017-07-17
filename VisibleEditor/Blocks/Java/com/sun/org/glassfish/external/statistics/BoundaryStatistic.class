@@ -1,0 +1,8 @@
+com.sun.org.glassfish.external.statistics.BoundaryStatistic
+getLowerBound()
+getUpperBound()
+getName()
+getDescription()
+getStartTime()
+getLastSampleTime()
+getUnit()

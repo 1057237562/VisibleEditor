@@ -1,0 +1,6 @@
+java.security.Principal
+equals(java.lang.Object)
+toString()
+hashCode()
+getName()
+implies(javax.security.auth.Subject)

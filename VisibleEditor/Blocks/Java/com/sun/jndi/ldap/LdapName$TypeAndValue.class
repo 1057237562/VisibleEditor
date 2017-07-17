@@ -1,0 +1,11 @@
+com.sun.jndi.ldap.LdapName$TypeAndValue
+equals(java.lang.Object)
+toString()
+hashCode()
+compareTo(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

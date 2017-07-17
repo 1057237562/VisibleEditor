@@ -1,0 +1,13 @@
+java.io.ObjectInputStream$HandleTable$HandleList
+add(int)
+get(int)
+size()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

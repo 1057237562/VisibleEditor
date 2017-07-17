@@ -1,0 +1,3 @@
+com.sun.jmx.remote.internal.NotificationBuffer
+dispose()
+fetchNotifications(com.sun.jmx.remote.internal.NotificationBufferFilter,long,long,int)

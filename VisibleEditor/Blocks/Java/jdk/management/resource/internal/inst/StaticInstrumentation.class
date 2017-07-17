@@ -1,0 +1,12 @@
+jdk.management.resource.internal.inst.StaticInstrumentation
+main([Ljava.lang.String;)
+instrumentClassesForResourceManagement(java.io.File,java.io.File)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,13 @@
+java.nio.Bits$1
+truncate(java.nio.Buffer)
+getDirectBufferPool()
+newDirectByteBuffer(long,int,java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

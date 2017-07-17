@@ -1,0 +1,6 @@
+com.sun.jmx.snmp.SnmpPduBulkType
+getMaxRepetitions()
+getNonRepeaters()
+setMaxRepetitions(int)
+setNonRepeaters(int)
+getResponsePdu()

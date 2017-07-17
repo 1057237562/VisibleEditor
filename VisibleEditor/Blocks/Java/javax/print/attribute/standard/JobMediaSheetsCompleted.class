@@ -1,0 +1,13 @@
+javax.print.attribute.standard.JobMediaSheetsCompleted
+equals(java.lang.Object)
+getName()
+getCategory()
+toString()
+hashCode()
+getValue()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

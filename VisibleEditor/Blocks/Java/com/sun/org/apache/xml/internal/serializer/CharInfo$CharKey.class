@@ -1,0 +1,11 @@
+com.sun.org.apache.xml.internal.serializer.CharInfo$CharKey
+equals(java.lang.Object)
+hashCode()
+setChar(char)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

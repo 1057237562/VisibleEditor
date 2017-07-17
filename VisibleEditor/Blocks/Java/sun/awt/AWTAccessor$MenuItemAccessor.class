@@ -1,0 +1,6 @@
+sun.awt.AWTAccessor$MenuItemAccessor
+getLabel(java.awt.MenuItem)
+isEnabled(java.awt.MenuItem)
+getShortcut(java.awt.MenuItem)
+getActionCommandImpl(java.awt.MenuItem)
+isItemEnabled(java.awt.MenuItem)

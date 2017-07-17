@@ -1,0 +1,2 @@
+com.sun.org.apache.bcel.internalfile.AttributeReader
+createAttribute(int,int,java.io.DataInputStream,com.sun.org.apache.bcel.internal.classfile.ConstantPool)

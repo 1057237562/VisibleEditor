@@ -1,0 +1,10 @@
+com.sun.org.apache.xerces.internal.xni.NamespaceContext
+reset()
+getPrefix(java.lang.String)
+getURI(java.lang.String)
+declarePrefix(java.lang.String,java.lang.String)
+popContext()
+pushContext()
+getAllPrefixes()
+getDeclaredPrefixAt(int)
+getDeclaredPrefixCount()

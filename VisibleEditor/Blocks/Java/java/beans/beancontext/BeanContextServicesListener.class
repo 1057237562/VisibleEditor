@@ -1,0 +1,3 @@
+java.beans.beancontext.BeanContextServicesListener
+serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)
+serviceRevoked(java.beans.beancontext.BeanContextServiceRevokedEvent)

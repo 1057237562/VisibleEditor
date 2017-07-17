@@ -1,0 +1,11 @@
+java.awt.ScrollPaneAdjustable$1
+setTypedValue(java.awt.ScrollPaneAdjustable,int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

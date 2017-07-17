@@ -1,0 +1,9 @@
+org.w3c.dom.stylesheets.StyleSheet
+getType()
+getMedia()
+getTitle()
+getOwnerNode()
+getParentStyleSheet()
+getDisabled()
+getHref()
+setDisabled(boolean)

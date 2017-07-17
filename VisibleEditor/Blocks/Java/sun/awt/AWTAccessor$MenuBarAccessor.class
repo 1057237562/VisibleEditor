@@ -1,0 +1,3 @@
+sun.awt.AWTAccessor$MenuBarAccessor
+getHelpMenu(java.awt.MenuBar)
+getMenus(java.awt.MenuBar)

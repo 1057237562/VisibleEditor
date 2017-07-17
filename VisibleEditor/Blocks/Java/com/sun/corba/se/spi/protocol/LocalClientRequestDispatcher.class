@@ -1,0 +1,5 @@
+com.sun.corba.se.spi.protocol.LocalClientRequestDispatcher
+is_local(org.omg.CORBA.Object)
+servant_postinvoke(org.omg.CORBA.Object,org.omg.CORBA.portable.ServantObject)
+servant_preinvoke(org.omg.CORBA.Object,java.lang.String,java.lang.Class)
+useLocalInvocation(org.omg.CORBA.Object)

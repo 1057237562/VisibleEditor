@@ -1,0 +1,12 @@
+java.security.cert.CRL
+toString()
+getType()
+isRevoked(java.security.cert.Certificate)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

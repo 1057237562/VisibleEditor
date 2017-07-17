@@ -1,0 +1,13 @@
+com.sun.jmx.remote.internal.ArrayNotificationBuffer
+dispose()
+fetchNotifications(com.sun.jmx.remote.internal.NotificationBufferFilter,long,long,int)
+getNotificationBuffer(javax.management.MBeanServer,java.util.Map)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

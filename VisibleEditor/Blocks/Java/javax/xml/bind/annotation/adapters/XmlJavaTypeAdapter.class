@@ -1,0 +1,7 @@
+javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter
+type()
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

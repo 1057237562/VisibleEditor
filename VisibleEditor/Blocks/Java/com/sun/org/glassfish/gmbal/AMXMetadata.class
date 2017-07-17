@@ -1,0 +1,12 @@
+com.sun.org.glassfish.gmbal.AMXMetadata
+group()
+type()
+immutableInfo()
+interfaceClassName()
+genericInterfaceName()
+isSingleton()
+subTypes()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

@@ -1,0 +1,12 @@
+com.sun.org.apache.xerces.internal.impl.xs.models.CMBuilder
+setDeclPool(com.sun.org.apache.xerces.internal.impl.xs.XSDeclarationPool)
+getContentModel(com.sun.org.apache.xerces.internal.impl.xs.XSComplexTypeDecl)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,12 @@
+com.sun.java.swing.plaf.windows.WindowsScrollBarUI$Grid
+paint(java.awt.Graphics,int,int,int,int)
+getGrid(java.awt.Color,java.awt.Color)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

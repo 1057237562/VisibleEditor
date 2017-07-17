@@ -1,0 +1,13 @@
+java.awt.VKCollection
+put(java.lang.String,java.lang.Integer)
+findCode(java.lang.String)
+findName(java.lang.Integer)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

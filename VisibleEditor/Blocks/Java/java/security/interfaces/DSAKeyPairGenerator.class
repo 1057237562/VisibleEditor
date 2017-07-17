@@ -1,0 +1,3 @@
+java.security.interfaces.DSAKeyPairGenerator
+initialize(java.security.interfaces.DSAParams,java.security.SecureRandom)
+initialize(int,boolean,java.security.SecureRandom)

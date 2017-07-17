@@ -1,0 +1,4 @@
+java.awt.event.KeyListener
+keyPressed(java.awt.event.KeyEvent)
+keyReleased(java.awt.event.KeyEvent)
+keyTyped(java.awt.event.KeyEvent)

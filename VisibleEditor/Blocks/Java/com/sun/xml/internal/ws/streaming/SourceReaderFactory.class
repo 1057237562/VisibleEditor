@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.streaming.SourceReaderFactory
+createSourceReader(javax.xml.transform.Source,boolean)
+createSourceReader(javax.xml.transform.Source,boolean,java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

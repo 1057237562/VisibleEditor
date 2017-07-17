@@ -1,0 +1,3 @@
+sun.awt.image.MultiResolutionImage
+getResolutionVariant(int,int)
+getResolutionVariants()

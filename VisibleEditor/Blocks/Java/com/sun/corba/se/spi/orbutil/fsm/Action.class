@@ -1,0 +1,2 @@
+com.sun.corba.se.spi.orbutil.fsm.Action
+doIt(com.sun.corba.se.spi.orbutil.fsm.FSM,com.sun.corba.se.spi.orbutil.fsm.Input)

@@ -1,0 +1,8 @@
+com.sun.org.apache.xerces.internal.xs.XSMultiValueFacet
+getAnnotations()
+getFacetKind()
+getLexicalFacetValues()
+getName()
+getType()
+getNamespace()
+getNamespaceItem()

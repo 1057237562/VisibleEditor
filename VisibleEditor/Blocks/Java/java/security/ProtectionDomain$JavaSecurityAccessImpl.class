@@ -1,0 +1,12 @@
+java.security.ProtectionDomain$JavaSecurityAccessImpl
+doIntersectionPrivilege(java.security.PrivilegedAction,java.security.AccessControlContext)
+doIntersectionPrivilege(java.security.PrivilegedAction,java.security.AccessControlContext,java.security.AccessControlContext)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

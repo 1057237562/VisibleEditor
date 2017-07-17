@@ -1,0 +1,2 @@
+org.w3c.dom.ls.LSResourceResolver
+resolveResource(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)

@@ -1,0 +1,3 @@
+javax.script.Compilable
+compile(java.lang.String)
+compile(java.io.Reader)

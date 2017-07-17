@@ -1,0 +1,4 @@
+com.sun.xml.internal.ws.api.pipe.ContentType
+getContentType()
+getAcceptHeader()
+getSOAPActionHeader()

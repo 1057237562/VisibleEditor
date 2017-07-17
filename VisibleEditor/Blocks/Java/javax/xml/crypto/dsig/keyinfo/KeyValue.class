@@ -1,0 +1,3 @@
+javax.xml.crypto.dsig.keyinfo.KeyValue
+getPublicKey()
+isFeatureSupported(java.lang.String)

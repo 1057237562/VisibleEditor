@@ -1,0 +1,5 @@
+java.lang.invoke.MethodHandle$PolymorphicSignature
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

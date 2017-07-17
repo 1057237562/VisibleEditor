@@ -1,0 +1,3 @@
+com.sun.org.apache.xerces.internal.impl.validation.EntityState
+isEntityDeclared(java.lang.String)
+isEntityUnparsed(java.lang.String)

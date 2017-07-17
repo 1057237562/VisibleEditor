@@ -1,0 +1,5 @@
+com.sun.org.glassfish.gmbal.AMXMBeanInterface
+getName()
+getParent()
+getChildren()
+getMeta()

@@ -1,0 +1,6 @@
+javax.management.DescriptorKey
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

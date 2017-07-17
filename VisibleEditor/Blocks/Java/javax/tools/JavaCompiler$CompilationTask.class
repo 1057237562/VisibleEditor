@@ -1,0 +1,5 @@
+javax.tools.JavaCompiler$CompilationTask
+setLocale(java.util.Locale)
+call()
+call()
+setProcessors(java.lang.Iterable)

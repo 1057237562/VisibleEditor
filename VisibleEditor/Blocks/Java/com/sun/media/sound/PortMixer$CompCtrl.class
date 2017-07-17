@@ -1,0 +1,12 @@
+com.sun.media.sound.PortMixer$CompCtrl
+toString()
+getMemberControls()
+getType()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,7 @@
+com.sun.corba.se.pept.transport.Selector
+close()
+registerForEvent(com.sun.corba.se.pept.transport.EventHandler)
+registerInterestOps(com.sun.corba.se.pept.transport.EventHandler)
+unregisterForEvent(com.sun.corba.se.pept.transport.EventHandler)
+getTimeout()
+setTimeout(long)

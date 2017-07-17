@@ -1,0 +1,11 @@
+com.sun.org.apache.regexp.internal.recompile
+main([Ljava.lang.String;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

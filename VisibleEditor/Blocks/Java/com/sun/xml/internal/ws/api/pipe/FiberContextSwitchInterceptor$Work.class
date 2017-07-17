@@ -1,0 +1,2 @@
+com.sun.xml.internal.ws.api.pipe.FiberContextSwitchInterceptor$Work
+execute(java.lang.Object)

@@ -1,0 +1,11 @@
+java.util.stream.Sink$OfDouble
+accept(double)
+accept(java.lang.Double)
+accept(java.lang.Object)
+accept(long)
+accept(int)
+end()
+begin(long)
+cancellationRequested()
+andThen(java.util.function.Consumer)
+andThen(java.util.function.DoubleConsumer)

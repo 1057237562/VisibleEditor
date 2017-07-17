@@ -1,0 +1,7 @@
+java.net.InetAddressImpl
+anyLocalAddress()
+getHostByAddr([B)
+getLocalHostName()
+isReachable(java.net.InetAddress,int,java.net.NetworkInterface,int)
+lookupAllHostAddr(java.lang.String)
+loopbackAddress()

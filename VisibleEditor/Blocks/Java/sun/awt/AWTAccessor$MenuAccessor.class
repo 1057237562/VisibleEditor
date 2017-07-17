@@ -1,0 +1,2 @@
+sun.awt.AWTAccessor$MenuAccessor
+getItems(java.awt.Menu)

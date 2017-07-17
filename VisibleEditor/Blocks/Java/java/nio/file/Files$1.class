@@ -1,0 +1,12 @@
+java.nio.file.Files$1
+accept(java.nio.file.Path)
+accept(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

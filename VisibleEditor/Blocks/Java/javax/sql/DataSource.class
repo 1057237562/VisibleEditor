@@ -1,0 +1,10 @@
+javax.sql.DataSource
+getConnection()
+getConnection(java.lang.String,java.lang.String)
+getLogWriter()
+getParentLogger()
+getLoginTimeout()
+setLogWriter(java.io.PrintWriter)
+setLoginTimeout(int)
+unwrap(java.lang.Class)
+isWrapperFor(java.lang.Class)

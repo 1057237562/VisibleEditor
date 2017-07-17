@@ -1,0 +1,6 @@
+java.nio.channels.GatheringByteChannel
+write([Ljava.nio.ByteBuffer;,int,int)
+write([Ljava.nio.ByteBuffer;)
+write(java.nio.ByteBuffer)
+close()
+isOpen()

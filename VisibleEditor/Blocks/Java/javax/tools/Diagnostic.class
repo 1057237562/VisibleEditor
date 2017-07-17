@@ -1,0 +1,10 @@
+javax.tools.Diagnostic
+getMessage(java.util.Locale)
+getLineNumber()
+getSource()
+getPosition()
+getEndPosition()
+getStartPosition()
+getCode()
+getColumnNumber()
+getKind()

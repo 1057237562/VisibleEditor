@@ -1,0 +1,2 @@
+javax.imageio.event.IIOWriteWarningListener
+warningOccurred(javax.imageio.ImageWriter,int,java.lang.String)

@@ -1,0 +1,7 @@
+com.sun.org.apache.xerces.internal.impl.xs.models.XSCMValidator
+endContentModel([I)
+startContentModel()
+checkMinMaxBounds()
+checkUniqueParticleAttribution(com.sun.org.apache.xerces.internal.impl.xs.SubstitutionGroupHandler)
+oneTransition(com.sun.org.apache.xerces.internal.xni.QName,[I,com.sun.org.apache.xerces.internal.impl.xs.SubstitutionGroupHandler)
+whatCanGoHere([I)

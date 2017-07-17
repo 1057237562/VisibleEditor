@@ -1,0 +1,12 @@
+com.sun.org.apache.xml.internal.serializer.utils.DOM2Helper
+getLocalNameOfNode(org.w3c.dom.Node)
+getNamespaceOfNode(org.w3c.dom.Node)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

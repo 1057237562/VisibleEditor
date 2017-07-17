@@ -1,0 +1,4 @@
+jdk.management.cmm.SystemResourcePressureMXBean
+getMemoryPressure()
+setMemoryPressure(int)
+getObjectName()

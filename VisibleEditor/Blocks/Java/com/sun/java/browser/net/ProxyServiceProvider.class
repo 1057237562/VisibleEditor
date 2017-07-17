@@ -1,0 +1,2 @@
+com.sun.java.browser.net.ProxyServiceProvider
+getProxyInfo(java.net.URL)

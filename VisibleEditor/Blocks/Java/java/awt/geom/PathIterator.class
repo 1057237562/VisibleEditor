@@ -1,0 +1,6 @@
+java.awt.geom.PathIterator
+next()
+currentSegment([F)
+currentSegment([D)
+isDone()
+getWindingRule()

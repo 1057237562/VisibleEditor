@@ -1,0 +1,12 @@
+com.sun.org.apache.xerces.internal.util.XMLInputSourceAdaptor
+getSystemId()
+setSystemId(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

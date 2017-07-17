@@ -1,0 +1,13 @@
+com.sun.media.sound.SoftReverb$AllPass
+processReplace([F,[F)
+processReplace([F)
+setFeedBack(float)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

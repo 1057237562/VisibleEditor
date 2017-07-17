@@ -1,0 +1,11 @@
+com.sun.media.sound.WaveExtensibleFileReader$GUID
+equals(java.lang.Object)
+hashCode()
+read(com.sun.media.sound.RIFFReader)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

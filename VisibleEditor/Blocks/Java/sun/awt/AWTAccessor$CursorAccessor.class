@@ -1,0 +1,4 @@
+sun.awt.AWTAccessor$CursorAccessor
+getType(java.awt.Cursor)
+setPData(java.awt.Cursor,long)
+getPData(java.awt.Cursor)

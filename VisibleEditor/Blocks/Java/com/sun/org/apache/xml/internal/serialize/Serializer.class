@@ -1,0 +1,7 @@
+com.sun.org.apache.xml.internal.serialize.Serializer
+asContentHandler()
+asDOMSerializer()
+setOutputFormat(com.sun.org.apache.xml.internal.serialize.OutputFormat)
+asDocumentHandler()
+setOutputByteStream(java.io.OutputStream)
+setOutputCharStream(java.io.Writer)

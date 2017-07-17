@@ -1,0 +1,2 @@
+com.sun.xml.internal.ws.api.server.DocumentAddressResolver
+getRelativeAddressFor(com.sun.xml.internal.ws.api.server.SDDocument,com.sun.xml.internal.ws.api.server.SDDocument)

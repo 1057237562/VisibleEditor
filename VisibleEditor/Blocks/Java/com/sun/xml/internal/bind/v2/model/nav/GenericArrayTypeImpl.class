@@ -1,0 +1,12 @@
+com.sun.xml.internal.bind.v2.model.nav.GenericArrayTypeImpl
+equals(java.lang.Object)
+toString()
+hashCode()
+getGenericComponentType()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()
+getTypeName()

@@ -1,0 +1,7 @@
+javax.xml.crypto.dsig.SignedInfo
+getId()
+getReferences()
+getCanonicalizationMethod()
+getCanonicalizedData()
+getSignatureMethod()
+isFeatureSupported(java.lang.String)

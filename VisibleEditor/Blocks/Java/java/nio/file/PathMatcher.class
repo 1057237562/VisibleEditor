@@ -1,0 +1,2 @@
+java.nio.file.PathMatcher
+matches(java.nio.file.Path)

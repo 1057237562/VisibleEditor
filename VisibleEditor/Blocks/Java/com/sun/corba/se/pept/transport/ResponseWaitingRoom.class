@@ -1,0 +1,6 @@
+com.sun.corba.se.pept.transport.ResponseWaitingRoom
+registerWaiter(com.sun.corba.se.pept.protocol.MessageMediator)
+unregisterWaiter(com.sun.corba.se.pept.protocol.MessageMediator)
+waitForResponse(com.sun.corba.se.pept.protocol.MessageMediator)
+numberRegistered()
+responseReceived(com.sun.corba.se.pept.encoding.InputObject)

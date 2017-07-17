@@ -1,0 +1,13 @@
+java.lang.reflect.WeakCache
+get(java.lang.Object,java.lang.Object)
+size()
+containsValue(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

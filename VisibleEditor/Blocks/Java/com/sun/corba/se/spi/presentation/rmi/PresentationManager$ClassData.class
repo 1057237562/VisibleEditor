@@ -1,0 +1,6 @@
+com.sun.corba.se.spi.presentation.rmi.PresentationManager$ClassData
+getTypeIds()
+getInvocationHandlerFactory()
+getIDLNameTranslator()
+getDictionary()
+getMyClass()

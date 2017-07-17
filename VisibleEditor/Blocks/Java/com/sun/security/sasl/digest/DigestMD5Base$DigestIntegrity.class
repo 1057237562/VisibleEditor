@@ -1,0 +1,12 @@
+com.sun.security.sasl.digest.DigestMD5Base$DigestIntegrity
+wrap([B,int,int)
+unwrap([B,int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

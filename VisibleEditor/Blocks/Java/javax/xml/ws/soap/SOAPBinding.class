@@ -1,0 +1,10 @@
+javax.xml.ws.soap.SOAPBinding
+getMessageFactory()
+getSOAPFactory()
+getRoles()
+setMTOMEnabled(boolean)
+isMTOMEnabled()
+setRoles(java.util.Set)
+getHandlerChain()
+getBindingID()
+setHandlerChain(java.util.List)

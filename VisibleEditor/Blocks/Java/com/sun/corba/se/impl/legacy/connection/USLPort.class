@@ -1,0 +1,12 @@
+com.sun.corba.se.impl.legacy.connection.USLPort
+toString()
+getType()
+getPort()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

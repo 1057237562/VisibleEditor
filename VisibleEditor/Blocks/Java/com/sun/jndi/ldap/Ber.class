@@ -1,0 +1,11 @@
+com.sun.jndi.ldap.Ber
+dumpBER(java.io.OutputStream,java.lang.String,[B,int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

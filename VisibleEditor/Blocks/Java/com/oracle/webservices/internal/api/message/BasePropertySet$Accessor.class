@@ -1,0 +1,5 @@
+com.oracle.webservices.internal.api.message.BasePropertySet$Accessor
+get(com.oracle.webservices.internal.api.message.PropertySet)
+getName()
+set(com.oracle.webservices.internal.api.message.PropertySet,java.lang.Object)
+hasValue(com.oracle.webservices.internal.api.message.PropertySet)

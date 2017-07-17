@@ -1,0 +1,12 @@
+com.sun.org.apache.xml.internal.utils.ThreadControllerWrapper$ThreadController
+run(java.lang.Runnable,int)
+waitThread(java.lang.Thread,java.lang.Runnable)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

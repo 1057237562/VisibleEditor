@@ -1,0 +1,10 @@
+jdk.internal.org.objectweb.asm.Item
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

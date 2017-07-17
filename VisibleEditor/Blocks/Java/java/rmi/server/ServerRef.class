@@ -1,0 +1,13 @@
+java.rmi.server.ServerRef
+exportObject(java.rmi.Remote,java.lang.Object)
+getClientHost()
+invoke(java.rmi.server.RemoteCall)
+invoke(java.rmi.Remote,java.lang.reflect.Method,[Ljava.lang.Object;,long)
+done(java.rmi.server.RemoteCall)
+getRefClass(java.io.ObjectOutput)
+newCall(java.rmi.server.RemoteObject,[Ljava.rmi.server.Operation;,int,long)
+remoteEquals(java.rmi.server.RemoteRef)
+remoteHashCode()
+remoteToString()
+readExternal(java.io.ObjectInput)
+writeExternal(java.io.ObjectOutput)

@@ -1,0 +1,2 @@
+java.awt.event.WindowStateListener
+windowStateChanged(java.awt.event.WindowEvent)

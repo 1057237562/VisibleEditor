@@ -1,0 +1,13 @@
+com.sun.xml.internal.fastinfoset.vocab.Vocabulary
+getExternalVocabularyURI()
+hasExternalVocabulary()
+hasInitialVocabulary()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

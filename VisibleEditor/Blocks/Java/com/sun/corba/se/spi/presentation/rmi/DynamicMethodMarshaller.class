@@ -1,0 +1,11 @@
+com.sun.corba.se.spi.presentation.rmi.DynamicMethodMarshaller
+getMethod()
+copyArguments([Ljava.lang.Object;,com.sun.corba.se.spi.orb.ORB)
+copyResult(java.lang.Object,com.sun.corba.se.spi.orb.ORB)
+isDeclaredException(java.lang.Throwable)
+readArguments(org.omg.CORBA_2_3.portable.InputStream)
+readException(org.omg.CORBA.portable.ApplicationException)
+readResult(org.omg.CORBA_2_3.portable.InputStream)
+writeArguments(org.omg.CORBA_2_3.portable.OutputStream,[Ljava.lang.Object;)
+writeException(org.omg.CORBA_2_3.portable.OutputStream,java.lang.Exception)
+writeResult(org.omg.CORBA_2_3.portable.OutputStream,java.lang.Object)

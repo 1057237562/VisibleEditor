@@ -1,0 +1,4 @@
+javax.swing.event.AncestorListener
+ancestorAdded(javax.swing.event.AncestorEvent)
+ancestorRemoved(javax.swing.event.AncestorEvent)
+ancestorMoved(javax.swing.event.AncestorEvent)

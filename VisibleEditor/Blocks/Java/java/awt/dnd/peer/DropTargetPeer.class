@@ -1,0 +1,3 @@
+java.awt.dnd.peer.DropTargetPeer
+addDropTarget(java.awt.dnd.DropTarget)
+removeDropTarget(java.awt.dnd.DropTarget)

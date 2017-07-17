@@ -1,0 +1,11 @@
+com.sun.corba.se.pept.transport.OutboundConnectionCache
+remove(com.sun.corba.se.pept.transport.ContactInfo)
+get(com.sun.corba.se.pept.transport.ContactInfo)
+put(com.sun.corba.se.pept.transport.ContactInfo,com.sun.corba.se.pept.transport.Connection)
+close()
+reclaim()
+stampTime(com.sun.corba.se.pept.transport.Connection)
+getCacheType()
+numberOfBusyConnections()
+numberOfConnections()
+numberOfIdleConnections()

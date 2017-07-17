@@ -1,0 +1,8 @@
+com.sun.org.apache.xerces.internal.xs.XSModelGroupDefinition
+getAnnotation()
+getAnnotations()
+getModelGroup()
+getName()
+getType()
+getNamespace()
+getNamespaceItem()

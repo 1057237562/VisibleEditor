@@ -1,0 +1,3 @@
+com.sun.xml.internal.ws.policy.PolicyMapKeyHandler
+areEqual(com.sun.xml.internal.ws.policy.PolicyMapKey,com.sun.xml.internal.ws.policy.PolicyMapKey)
+generateHashCode(com.sun.xml.internal.ws.policy.PolicyMapKey)

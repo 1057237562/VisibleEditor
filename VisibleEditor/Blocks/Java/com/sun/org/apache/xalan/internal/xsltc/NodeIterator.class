@@ -1,0 +1,11 @@
+com.sun.org.apache.xalan.internal.xsltc.NodeIterator
+next()
+reset()
+getLast()
+setMark()
+getPosition()
+cloneIterator()
+gotoMark()
+isReverse()
+setRestartable(boolean)
+setStartNode(int)

@@ -1,0 +1,11 @@
+java.awt.SystemTray$1
+firePropertyChange(java.awt.SystemTray,java.lang.String,java.lang.Object,java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

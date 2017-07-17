@@ -1,0 +1,12 @@
+com.sun.corba.se.spi.oa.OADefault
+makePOAFactory(com.sun.corba.se.spi.orb.ORB)
+makeTOAFactory(com.sun.corba.se.spi.orb.ORB)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

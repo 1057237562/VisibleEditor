@@ -1,0 +1,11 @@
+java.net.CookiePolicy$2
+shouldAccept(java.net.URI,java.net.HttpCookie)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

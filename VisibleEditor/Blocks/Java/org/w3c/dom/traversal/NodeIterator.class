@@ -1,0 +1,8 @@
+org.w3c.dom.traversal.NodeIterator
+getRoot()
+nextNode()
+detach()
+getFilter()
+getExpandEntityReferences()
+getWhatToShow()
+previousNode()

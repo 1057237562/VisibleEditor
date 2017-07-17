@@ -1,0 +1,5 @@
+com.sun.corba.se.spi.transport.ORBSocketFactory
+createSocket(java.lang.String,java.net.InetSocketAddress)
+createServerSocket(java.lang.String,java.net.InetSocketAddress)
+setORB(com.sun.corba.se.spi.orb.ORB)
+setAcceptedSocketOptions(com.sun.corba.se.pept.transport.Acceptor,java.net.ServerSocket,java.net.Socket)

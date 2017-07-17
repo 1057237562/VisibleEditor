@@ -1,0 +1,6 @@
+com.sun.xml.internal.ws.api.server.InstanceResolverAnnotation
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

@@ -1,0 +1,9 @@
+com.sun.org.glassfish.external.statistics.RangeStatistic
+getHighWaterMark()
+getLowWaterMark()
+getCurrent()
+getName()
+getDescription()
+getStartTime()
+getLastSampleTime()
+getUnit()

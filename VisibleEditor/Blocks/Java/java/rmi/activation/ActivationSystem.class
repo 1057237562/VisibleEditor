@@ -1,0 +1,11 @@
+java.rmi.activation.ActivationSystem
+shutdown()
+registerObject(java.rmi.activation.ActivationDesc)
+unregisterObject(java.rmi.activation.ActivationID)
+activeGroup(java.rmi.activation.ActivationGroupID,java.rmi.activation.ActivationInstantiator,long)
+getActivationDesc(java.rmi.activation.ActivationID)
+getActivationGroupDesc(java.rmi.activation.ActivationGroupID)
+registerGroup(java.rmi.activation.ActivationGroupDesc)
+setActivationDesc(java.rmi.activation.ActivationID,java.rmi.activation.ActivationDesc)
+setActivationGroupDesc(java.rmi.activation.ActivationGroupID,java.rmi.activation.ActivationGroupDesc)
+unregisterGroup(java.rmi.activation.ActivationGroupID)

@@ -1,0 +1,4 @@
+jdk.management.resource.ResourceMeter
+getValue()
+getType()
+getAllocated()

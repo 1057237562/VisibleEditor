@@ -1,0 +1,7 @@
+org.w3c.dom.stylesheets.MediaList
+getLength()
+item(int)
+appendMedium(java.lang.String)
+deleteMedium(java.lang.String)
+getMediaText()
+setMediaText(java.lang.String)

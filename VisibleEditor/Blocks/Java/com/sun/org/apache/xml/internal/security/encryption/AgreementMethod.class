@@ -1,0 +1,11 @@
+com.sun.org.apache.xml.internal.security.encryption.AgreementMethod
+getAlgorithm()
+addAgreementMethodInformation(org.w3c.dom.Element)
+getAgreementMethodInformation()
+getKANonce()
+getOriginatorKeyInfo()
+getRecipientKeyInfo()
+revoveAgreementMethodInformation(org.w3c.dom.Element)
+setKANonce([B)
+setOriginatorKeyInfo(com.sun.org.apache.xml.internal.security.keys.KeyInfo)
+setRecipientKeyInfo(com.sun.org.apache.xml.internal.security.keys.KeyInfo)

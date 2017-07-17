@@ -1,0 +1,12 @@
+javax.management.openmbean.CompositeDataInvocationHandler
+invoke(java.lang.Object,java.lang.reflect.Method,[Ljava.lang.Object;)
+getCompositeData()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

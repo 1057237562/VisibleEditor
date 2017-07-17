@@ -1,0 +1,3 @@
+com.sun.org.apache.xpath.internal.WhitespaceStrippingElementMatcher
+canStripWhiteSpace()
+shouldStripWhiteSpace(com.sun.org.apache.xpath.internal.XPathContext,org.w3c.dom.Element)

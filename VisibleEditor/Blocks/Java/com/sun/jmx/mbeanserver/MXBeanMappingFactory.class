@@ -1,0 +1,11 @@
+com.sun.jmx.mbeanserver.MXBeanMappingFactory
+mappingForType(java.lang.reflect.Type,com.sun.jmx.mbeanserver.MXBeanMappingFactory)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,12 @@
+com.sun.jmx.snmp.internal.SnmpIncomingResponse
+getAddress()
+getPort()
+getRequestId([B)
+getSecurityParameters()
+setSecurityCache(com.sun.jmx.snmp.internal.SnmpSecurityCache)
+decodeMessage([B,int,java.net.InetAddress,int)
+decodeSnmpPdu()
+printMessage()
+getSecurityLevel()
+getSecurityModel()
+getContextName()

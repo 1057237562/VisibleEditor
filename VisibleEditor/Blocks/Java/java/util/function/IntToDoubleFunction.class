@@ -1,0 +1,2 @@
+java.util.function.IntToDoubleFunction
+applyAsDouble(int)

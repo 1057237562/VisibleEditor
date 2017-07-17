@@ -1,0 +1,6 @@
+com.sun.xml.internal.bind.v2.runtime.unmarshaller.LocatorEx
+getLocation()
+getLineNumber()
+getSystemId()
+getPublicId()
+getColumnNumber()

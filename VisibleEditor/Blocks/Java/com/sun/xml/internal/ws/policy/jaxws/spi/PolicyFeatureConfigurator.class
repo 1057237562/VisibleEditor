@@ -1,0 +1,2 @@
+com.sun.xml.internal.ws.policy.jaxws.spi.PolicyFeatureConfigurator
+getFeatures(com.sun.xml.internal.ws.policy.PolicyMapKey,com.sun.xml.internal.ws.policy.PolicyMap)

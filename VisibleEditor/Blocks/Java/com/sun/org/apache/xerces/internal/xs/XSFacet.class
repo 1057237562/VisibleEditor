@@ -1,0 +1,10 @@
+com.sun.org.apache.xerces.internal.xs.XSFacet
+getAnnotation()
+getAnnotations()
+getFacetKind()
+getFixed()
+getLexicalFacetValue()
+getName()
+getType()
+getNamespace()
+getNamespaceItem()

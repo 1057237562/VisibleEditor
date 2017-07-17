@@ -1,0 +1,2 @@
+java.util.logging.Filter
+isLoggable(java.util.logging.LogRecord)

@@ -1,0 +1,11 @@
+com.sun.org.apache.xerces.internal.util.SymbolHash$Entry
+makeClone()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

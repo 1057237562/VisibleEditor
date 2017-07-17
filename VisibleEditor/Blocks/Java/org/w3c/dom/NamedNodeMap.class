@@ -1,0 +1,9 @@
+org.w3c.dom.NamedNodeMap
+getLength()
+item(int)
+getNamedItem(java.lang.String)
+getNamedItemNS(java.lang.String,java.lang.String)
+removeNamedItem(java.lang.String)
+removeNamedItemNS(java.lang.String,java.lang.String)
+setNamedItem(org.w3c.dom.Node)
+setNamedItemNS(org.w3c.dom.Node)

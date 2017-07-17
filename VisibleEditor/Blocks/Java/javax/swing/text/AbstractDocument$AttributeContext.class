@@ -1,0 +1,8 @@
+javax.swing.text.AbstractDocument$AttributeContext
+addAttribute(javax.swing.text.AttributeSet,java.lang.Object,java.lang.Object)
+getEmptySet()
+reclaim(javax.swing.text.AttributeSet)
+addAttributes(javax.swing.text.AttributeSet,javax.swing.text.AttributeSet)
+removeAttributes(javax.swing.text.AttributeSet,java.util.Enumeration)
+removeAttributes(javax.swing.text.AttributeSet,javax.swing.text.AttributeSet)
+removeAttribute(javax.swing.text.AttributeSet,java.lang.Object)

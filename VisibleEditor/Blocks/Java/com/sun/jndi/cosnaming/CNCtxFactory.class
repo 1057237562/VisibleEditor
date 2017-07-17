@@ -1,0 +1,11 @@
+com.sun.jndi.cosnaming.CNCtxFactory
+getInitialContext(java.util.Hashtable)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

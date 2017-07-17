@@ -1,0 +1,12 @@
+com.sun.org.apache.xerces.internal.impl.dtd.XMLAttributeDecl
+clear()
+setValues(com.sun.org.apache.xerces.internal.xni.QName,com.sun.org.apache.xerces.internal.impl.dtd.XMLSimpleType,boolean)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

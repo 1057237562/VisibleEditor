@@ -1,0 +1,4 @@
+com.sun.jmx.snmp.agent.SnmpTableEntryFactory
+createNewEntry(com.sun.jmx.snmp.agent.SnmpMibSubRequest,com.sun.jmx.snmp.SnmpOid,int,com.sun.jmx.snmp.agent.SnmpMibTable)
+addEntryCb(int,com.sun.jmx.snmp.SnmpOid,javax.management.ObjectName,java.lang.Object,com.sun.jmx.snmp.agent.SnmpMibTable)
+removeEntryCb(int,com.sun.jmx.snmp.SnmpOid,javax.management.ObjectName,java.lang.Object,com.sun.jmx.snmp.agent.SnmpMibTable)

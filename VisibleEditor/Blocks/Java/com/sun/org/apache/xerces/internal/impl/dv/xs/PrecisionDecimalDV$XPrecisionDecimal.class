@@ -1,0 +1,12 @@
+com.sun.org.apache.xerces.internal.impl.dv.xs.PrecisionDecimalDV$XPrecisionDecimal
+equals(java.lang.Object)
+toString()
+hashCode()
+compareTo(com.sun.org.apache.xerces.internal.impl.dv.xs.PrecisionDecimalDV$XPrecisionDecimal)
+isIdentical(com.sun.org.apache.xerces.internal.impl.dv.xs.PrecisionDecimalDV$XPrecisionDecimal)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

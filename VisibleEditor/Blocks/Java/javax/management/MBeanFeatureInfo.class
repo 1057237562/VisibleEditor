@@ -1,0 +1,13 @@
+javax.management.MBeanFeatureInfo
+equals(java.lang.Object)
+hashCode()
+getName()
+getDescriptor()
+getDescription()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

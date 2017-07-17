@@ -1,0 +1,11 @@
+com.sun.jmx.snmp.InetAddressAcl
+getName()
+checkCommunity(java.lang.String)
+checkReadPermission(java.net.InetAddress,java.lang.String)
+checkReadPermission(java.net.InetAddress)
+checkWritePermission(java.net.InetAddress,java.lang.String)
+checkWritePermission(java.net.InetAddress)
+getInformCommunities(java.net.InetAddress)
+getInformDestinations()
+getTrapCommunities(java.net.InetAddress)
+getTrapDestinations()

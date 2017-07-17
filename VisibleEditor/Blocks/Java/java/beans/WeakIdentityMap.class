@@ -1,0 +1,11 @@
+java.beans.WeakIdentityMap
+get(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

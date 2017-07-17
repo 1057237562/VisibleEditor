@@ -1,0 +1,5 @@
+java.security.cert.Extension
+encode(java.io.OutputStream)
+getValue()
+getId()
+isCritical()

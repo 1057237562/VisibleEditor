@@ -1,0 +1,7 @@
+javax.swing.ComboBoxModel
+getSelectedItem()
+setSelectedItem(java.lang.Object)
+getSize()
+getElementAt(int)
+addListDataListener(javax.swing.event.ListDataListener)
+removeListDataListener(javax.swing.event.ListDataListener)

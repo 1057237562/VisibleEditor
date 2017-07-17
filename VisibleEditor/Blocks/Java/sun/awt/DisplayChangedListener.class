@@ -1,0 +1,3 @@
+sun.awt.DisplayChangedListener
+displayChanged()
+paletteChanged()

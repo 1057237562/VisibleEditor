@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.api.WSService$InitParams
+getContainer()
+setContainer(com.sun.xml.internal.ws.api.server.Container)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

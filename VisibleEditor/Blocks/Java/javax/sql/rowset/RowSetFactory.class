@@ -1,0 +1,6 @@
+javax.sql.rowset.RowSetFactory
+createWebRowSet()
+createCachedRowSet()
+createFilteredRowSet()
+createJdbcRowSet()
+createJoinRowSet()

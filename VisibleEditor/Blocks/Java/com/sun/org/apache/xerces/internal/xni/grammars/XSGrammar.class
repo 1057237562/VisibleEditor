@@ -1,0 +1,4 @@
+com.sun.org.apache.xerces.internal.xni.grammars.XSGrammar
+toXSModel()
+toXSModel([Lcom.sun.org.apache.xerces.internal.xni.grammars.XSGrammar;)
+getGrammarDescription()

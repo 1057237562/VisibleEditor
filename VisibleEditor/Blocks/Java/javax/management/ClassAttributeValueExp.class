@@ -1,0 +1,13 @@
+javax.management.ClassAttributeValueExp
+toString()
+apply(javax.management.ObjectName)
+setMBeanServer(javax.management.MBeanServer)
+getAttributeName()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

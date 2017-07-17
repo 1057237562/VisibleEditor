@@ -1,0 +1,7 @@
+com.sun.org.glassfish.external.arc.Taxonomy
+description()
+stability()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

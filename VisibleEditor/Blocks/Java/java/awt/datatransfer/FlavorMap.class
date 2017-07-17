@@ -1,0 +1,3 @@
+java.awt.datatransfer.FlavorMap
+getFlavorsForNatives([Ljava.lang.String;)
+getNativesForFlavors([Ljava.awt.datatransfer.DataFlavor;)

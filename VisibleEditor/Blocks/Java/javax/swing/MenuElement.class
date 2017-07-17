@@ -1,0 +1,6 @@
+javax.swing.MenuElement
+getComponent()
+getSubElements()
+menuSelectionChanged(boolean)
+processKeyEvent(java.awt.event.KeyEvent,[Ljavax.swing.MenuElement;,javax.swing.MenuSelectionManager)
+processMouseEvent(java.awt.event.MouseEvent,[Ljavax.swing.MenuElement;,javax.swing.MenuSelectionManager)

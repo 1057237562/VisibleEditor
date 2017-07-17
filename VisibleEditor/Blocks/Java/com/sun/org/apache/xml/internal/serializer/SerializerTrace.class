@@ -1,0 +1,7 @@
+com.sun.org.apache.xml.internal.serializer.SerializerTrace
+fireGenerateEvent(int,java.lang.String,java.lang.String)
+fireGenerateEvent(int,java.lang.String)
+fireGenerateEvent(int,java.lang.String,org.xml.sax.Attributes)
+fireGenerateEvent(int)
+fireGenerateEvent(int,[C,int,int)
+hasTraceListeners()

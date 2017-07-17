@@ -1,0 +1,6 @@
+java.security.interfaces.ECPublicKey
+getW()
+getEncoded()
+getFormat()
+getAlgorithm()
+getParams()

@@ -1,0 +1,4 @@
+com.sun.net.ssl.X509TrustManager
+getAcceptedIssuers()
+isClientTrusted([Ljava.security.cert.X509Certificate;)
+isServerTrusted([Ljava.security.cert.X509Certificate;)

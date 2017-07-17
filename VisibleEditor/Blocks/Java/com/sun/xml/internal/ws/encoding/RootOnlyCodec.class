@@ -1,0 +1,10 @@
+com.sun.xml.internal.ws.encoding.RootOnlyCodec
+decode(java.io.InputStream,java.lang.String,com.sun.xml.internal.ws.api.message.Packet,com.sun.xml.internal.ws.api.message.AttachmentSet)
+decode(java.nio.channels.ReadableByteChannel,java.lang.String,com.sun.xml.internal.ws.api.message.Packet,com.sun.xml.internal.ws.api.message.AttachmentSet)
+decode(java.nio.channels.ReadableByteChannel,java.lang.String,com.sun.xml.internal.ws.api.message.Packet)
+decode(java.io.InputStream,java.lang.String,com.sun.xml.internal.ws.api.message.Packet)
+encode(com.sun.xml.internal.ws.api.message.Packet,java.nio.channels.WritableByteChannel)
+encode(com.sun.xml.internal.ws.api.message.Packet,java.io.OutputStream)
+copy()
+getMimeType()
+getStaticContentType(com.sun.xml.internal.ws.api.message.Packet)

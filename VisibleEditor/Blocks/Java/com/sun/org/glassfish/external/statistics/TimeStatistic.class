@@ -1,0 +1,10 @@
+com.sun.org.glassfish.external.statistics.TimeStatistic
+getCount()
+getMaxTime()
+getMinTime()
+getTotalTime()
+getName()
+getDescription()
+getStartTime()
+getLastSampleTime()
+getUnit()

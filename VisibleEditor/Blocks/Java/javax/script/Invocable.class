@@ -1,0 +1,5 @@
+javax.script.Invocable
+getInterface(java.lang.Object,java.lang.Class)
+getInterface(java.lang.Class)
+invokeMethod(java.lang.Object,java.lang.String,[Ljava.lang.Object;)
+invokeFunction(java.lang.String,[Ljava.lang.Object;)

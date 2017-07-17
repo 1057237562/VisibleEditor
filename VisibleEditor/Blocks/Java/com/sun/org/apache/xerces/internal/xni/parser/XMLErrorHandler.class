@@ -1,0 +1,4 @@
+com.sun.org.apache.xerces.internal.xni.parser.XMLErrorHandler
+error(java.lang.String,java.lang.String,com.sun.org.apache.xerces.internal.xni.parser.XMLParseException)
+warning(java.lang.String,java.lang.String,com.sun.org.apache.xerces.internal.xni.parser.XMLParseException)
+fatalError(java.lang.String,java.lang.String,com.sun.org.apache.xerces.internal.xni.parser.XMLParseException)

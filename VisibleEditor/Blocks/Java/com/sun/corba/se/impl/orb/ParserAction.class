@@ -1,0 +1,5 @@
+com.sun.corba.se.impl.orb.ParserAction
+apply(java.util.Properties)
+getPropertyName()
+isPrefix()
+getFieldName()

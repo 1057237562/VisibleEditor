@@ -1,0 +1,12 @@
+java.util.Spliterators$AbstractDoubleSpliterator$HoldingDoubleConsumer
+accept(double)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()
+andThen(java.util.function.DoubleConsumer)

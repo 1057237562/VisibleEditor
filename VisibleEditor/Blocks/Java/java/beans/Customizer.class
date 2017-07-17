@@ -1,0 +1,4 @@
+java.beans.Customizer
+addPropertyChangeListener(java.beans.PropertyChangeListener)
+removePropertyChangeListener(java.beans.PropertyChangeListener)
+setObject(java.lang.Object)

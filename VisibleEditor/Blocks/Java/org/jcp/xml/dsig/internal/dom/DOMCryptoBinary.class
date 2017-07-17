@@ -1,0 +1,13 @@
+org.jcp.xml.dsig.internal.dom.DOMCryptoBinary
+marshal(org.w3c.dom.Node,java.lang.String,javax.xml.crypto.dom.DOMCryptoContext)
+getBigNum()
+isFeatureSupported(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

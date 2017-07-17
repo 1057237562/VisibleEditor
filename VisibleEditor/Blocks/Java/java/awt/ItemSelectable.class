@@ -1,0 +1,4 @@
+java.awt.ItemSelectable
+addItemListener(java.awt.event.ItemListener)
+getSelectedObjects()
+removeItemListener(java.awt.event.ItemListener)

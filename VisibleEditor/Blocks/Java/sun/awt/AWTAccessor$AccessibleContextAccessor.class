@@ -1,0 +1,3 @@
+sun.awt.AWTAccessor$AccessibleContextAccessor
+getAppContext(javax.accessibility.AccessibleContext)
+setAppContext(javax.accessibility.AccessibleContext,sun.awt.AppContext)

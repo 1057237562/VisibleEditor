@@ -1,0 +1,2 @@
+sun.awt.ConstrainableGraphics
+constrain(int,int,int,int)

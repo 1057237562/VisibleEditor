@@ -1,0 +1,5 @@
+javax.xml.bind.annotation.XmlIDREF
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

@@ -1,0 +1,2 @@
+javax.naming.spi.StateFactory
+getStateToBind(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)

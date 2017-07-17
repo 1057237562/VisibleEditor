@@ -1,0 +1,11 @@
+com.oracle.xmlns.internal.webservices.jaxws_databinding.XmlOneway
+annotationType()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

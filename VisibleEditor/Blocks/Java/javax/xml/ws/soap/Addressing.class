@@ -1,0 +1,8 @@
+javax.xml.ws.soap.Addressing
+enabled()
+responses()
+required()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

@@ -1,0 +1,2 @@
+java.awt.image.renderable.RenderedImageFactory
+create(java.awt.image.renderable.ParameterBlock,java.awt.RenderingHints)

@@ -1,0 +1,6 @@
+javax.annotation.processing.SupportedSourceVersion
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

@@ -1,0 +1,6 @@
+javax.annotation.processing.SupportedOptions
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

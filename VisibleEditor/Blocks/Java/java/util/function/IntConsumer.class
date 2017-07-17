@@ -1,0 +1,3 @@
+java.util.function.IntConsumer
+accept(int)
+andThen(java.util.function.IntConsumer)

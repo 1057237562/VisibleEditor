@@ -1,0 +1,3 @@
+javax.print.attribute.DocAttribute
+getName()
+getCategory()

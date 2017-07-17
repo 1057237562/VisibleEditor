@@ -1,0 +1,11 @@
+org.jcp.xml.dsig.internal.dom.DOMURIDereferencer
+dereference(javax.xml.crypto.URIReference,javax.xml.crypto.XMLCryptoContext)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

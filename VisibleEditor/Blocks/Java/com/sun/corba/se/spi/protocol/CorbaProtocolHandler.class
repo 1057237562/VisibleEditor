@@ -1,0 +1,10 @@
+com.sun.corba.se.spi.protocol.CorbaProtocolHandler
+handleRequest(com.sun.corba.se.impl.protocol.giopmsgheaders.RequestMessage,com.sun.corba.se.spi.protocol.CorbaMessageMediator)
+handleRequest(com.sun.corba.se.impl.protocol.giopmsgheaders.LocateRequestMessage,com.sun.corba.se.spi.protocol.CorbaMessageMediator)
+createResponse(com.sun.corba.se.spi.protocol.CorbaMessageMediator,com.sun.corba.se.spi.servicecontext.ServiceContexts)
+createSystemExceptionResponse(com.sun.corba.se.spi.protocol.CorbaMessageMediator,org.omg.CORBA.SystemException,com.sun.corba.se.spi.servicecontext.ServiceContexts)
+createLocationForward(com.sun.corba.se.spi.protocol.CorbaMessageMediator,com.sun.corba.se.spi.ior.IOR,com.sun.corba.se.spi.servicecontext.ServiceContexts)
+createUnknownExceptionResponse(com.sun.corba.se.spi.protocol.CorbaMessageMediator,org.omg.CORBA.portable.UnknownException)
+createUserExceptionResponse(com.sun.corba.se.spi.protocol.CorbaMessageMediator,com.sun.corba.se.spi.servicecontext.ServiceContexts)
+handleThrowableDuringServerDispatch(com.sun.corba.se.spi.protocol.CorbaMessageMediator,java.lang.Throwable,org.omg.CORBA.CompletionStatus)
+handleRequest(com.sun.corba.se.pept.protocol.MessageMediator)

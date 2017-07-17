@@ -1,0 +1,11 @@
+com.sun.jndi.dns.DnsNameParser
+equals(java.lang.Object)
+hashCode()
+parse(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

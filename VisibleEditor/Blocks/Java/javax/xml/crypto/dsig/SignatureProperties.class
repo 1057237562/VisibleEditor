@@ -1,0 +1,4 @@
+javax.xml.crypto.dsig.SignatureProperties
+getProperties()
+getId()
+isFeatureSupported(java.lang.String)

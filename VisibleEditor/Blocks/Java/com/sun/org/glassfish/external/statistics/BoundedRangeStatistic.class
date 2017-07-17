@@ -1,0 +1,11 @@
+com.sun.org.glassfish.external.statistics.BoundedRangeStatistic
+getLowerBound()
+getUpperBound()
+getName()
+getDescription()
+getStartTime()
+getLastSampleTime()
+getUnit()
+getHighWaterMark()
+getLowWaterMark()
+getCurrent()

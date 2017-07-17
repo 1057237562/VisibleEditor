@@ -1,0 +1,11 @@
+com.sun.corba.se.spi.transport.CorbaContactInfoListIterator
+reportAddrDispositionRetry(com.sun.corba.se.spi.transport.CorbaContactInfo,short)
+reportRedirect(com.sun.corba.se.spi.transport.CorbaContactInfo,com.sun.corba.se.spi.ior.IOR)
+reportException(com.sun.corba.se.pept.transport.ContactInfo,java.lang.RuntimeException)
+getFailureException()
+reportSuccess(com.sun.corba.se.pept.transport.ContactInfo)
+getContactInfoList()
+remove()
+hasNext()
+next()
+forEachRemaining(java.util.function.Consumer)

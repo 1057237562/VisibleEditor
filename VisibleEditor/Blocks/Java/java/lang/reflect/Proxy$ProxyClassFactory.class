@@ -1,0 +1,13 @@
+java.lang.reflect.Proxy$ProxyClassFactory
+apply(java.lang.ClassLoader,[Ljava.lang.Class;)
+apply(java.lang.Object,java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()
+andThen(java.util.function.Function)

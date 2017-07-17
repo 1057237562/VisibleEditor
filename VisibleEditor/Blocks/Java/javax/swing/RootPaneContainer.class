@@ -1,0 +1,8 @@
+javax.swing.RootPaneContainer
+getRootPane()
+getGlassPane()
+getLayeredPane()
+setGlassPane(java.awt.Component)
+setLayeredPane(javax.swing.JLayeredPane)
+setContentPane(java.awt.Container)
+getContentPane()

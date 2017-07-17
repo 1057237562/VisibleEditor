@@ -1,0 +1,6 @@
+com.sun.jmx.snmp.SnmpUsmKeyHandler
+calculateAuthDelta(java.lang.String,[B,[B,[B)
+calculatePrivDelta(java.lang.String,[B,[B,[B,int)
+localizeAuthKey(java.lang.String,[B,com.sun.jmx.snmp.SnmpEngineId)
+localizePrivKey(java.lang.String,[B,com.sun.jmx.snmp.SnmpEngineId,int)
+password_to_key(java.lang.String,java.lang.String)

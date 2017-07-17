@@ -1,0 +1,7 @@
+com.sun.jndi.ldap.ReferralEnumeration
+appendUnprocessedReferrals(com.sun.jndi.ldap.LdapReferralException)
+next()
+close()
+hasMore()
+hasMoreElements()
+nextElement()

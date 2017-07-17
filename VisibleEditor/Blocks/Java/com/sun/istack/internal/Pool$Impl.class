@@ -1,0 +1,12 @@
+com.sun.istack.internal.Pool$Impl
+recycle(java.lang.Object)
+take()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

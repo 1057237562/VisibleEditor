@@ -1,0 +1,13 @@
+com.sun.xml.internal.ws.fault.ExceptionBean
+marshal(java.lang.Throwable,org.w3c.dom.Node)
+unmarshal(org.w3c.dom.Node)
+isStackTraceXml(org.w3c.dom.Element)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

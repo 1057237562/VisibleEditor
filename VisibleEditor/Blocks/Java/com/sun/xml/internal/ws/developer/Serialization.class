@@ -1,0 +1,6 @@
+com.sun.xml.internal.ws.developer.Serialization
+encoding()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

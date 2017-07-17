@@ -1,0 +1,4 @@
+com.sun.corba.se.pept.transport.ByteBufferPool
+activeCount()
+getByteBuffer(int)
+releaseByteBuffer(java.nio.ByteBuffer)

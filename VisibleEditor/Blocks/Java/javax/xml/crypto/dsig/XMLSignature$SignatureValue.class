@@ -1,0 +1,5 @@
+javax.xml.crypto.dsig.XMLSignature$SignatureValue
+getValue()
+getId()
+validate(javax.xml.crypto.dsig.XMLValidateContext)
+isFeatureSupported(java.lang.String)

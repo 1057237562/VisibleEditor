@@ -1,0 +1,2 @@
+com.sun.corba.se.spi.legacy.interceptor.ORBInitInfoExt
+getORB()

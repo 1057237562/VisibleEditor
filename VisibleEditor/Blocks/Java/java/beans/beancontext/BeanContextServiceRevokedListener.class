@@ -1,0 +1,2 @@
+java.beans.beancontext.BeanContextServiceRevokedListener
+serviceRevoked(java.beans.beancontext.BeanContextServiceRevokedEvent)

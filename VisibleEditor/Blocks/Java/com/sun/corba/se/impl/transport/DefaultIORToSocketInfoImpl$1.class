@@ -1,0 +1,13 @@
+com.sun.corba.se.impl.transport.DefaultIORToSocketInfoImpl$1
+getType()
+getHost()
+getPort()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

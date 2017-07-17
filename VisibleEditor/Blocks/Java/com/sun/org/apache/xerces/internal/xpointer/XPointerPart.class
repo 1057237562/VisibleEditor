@@ -1,0 +1,9 @@
+com.sun.org.apache.xerces.internal.xpointer.XPointerPart
+parseXPointer(java.lang.String)
+getSchemeData()
+getSchemeName()
+isChildFragmentResolved()
+isFragmentResolved()
+resolveXPointer(com.sun.org.apache.xerces.internal.xni.QName,com.sun.org.apache.xerces.internal.xni.XMLAttributes,com.sun.org.apache.xerces.internal.xni.Augmentations,int)
+setSchemeData(java.lang.String)
+setSchemeName(java.lang.String)

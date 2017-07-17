@@ -1,0 +1,4 @@
+com.sun.corba.se.spi.ior.TaggedComponent
+getIOPComponent(org.omg.CORBA.ORB)
+getId()
+write(org.omg.CORBA_2_3.portable.OutputStream)

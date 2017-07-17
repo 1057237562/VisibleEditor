@@ -1,0 +1,4 @@
+com.sun.xml.internal.ws.spi.db.PropertyGetter
+get(java.lang.Object)
+getAnnotation(java.lang.Class)
+getType()

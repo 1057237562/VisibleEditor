@@ -1,0 +1,6 @@
+javax.print.Doc
+getAttributes()
+getReaderForText()
+getDocFlavor()
+getPrintData()
+getStreamForBytes()

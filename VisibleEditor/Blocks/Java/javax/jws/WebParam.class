@@ -1,0 +1,10 @@
+javax.jws.WebParam
+name()
+header()
+targetNamespace()
+mode()
+partName()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

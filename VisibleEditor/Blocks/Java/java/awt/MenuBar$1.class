@@ -1,0 +1,12 @@
+java.awt.MenuBar$1
+getHelpMenu(java.awt.MenuBar)
+getMenus(java.awt.MenuBar)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

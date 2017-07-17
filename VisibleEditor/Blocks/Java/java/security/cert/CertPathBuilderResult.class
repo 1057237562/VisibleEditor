@@ -1,0 +1,3 @@
+java.security.cert.CertPathBuilderResult
+clone()
+getCertPath()

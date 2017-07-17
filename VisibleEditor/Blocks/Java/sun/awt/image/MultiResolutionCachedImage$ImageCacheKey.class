@@ -1,0 +1,11 @@
+sun.awt.image.MultiResolutionCachedImage$ImageCacheKey
+equals(java.lang.Object)
+hashCode()
+getPixelCount()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

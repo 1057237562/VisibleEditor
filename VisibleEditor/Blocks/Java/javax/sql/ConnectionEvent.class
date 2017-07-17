@@ -1,0 +1,12 @@
+javax.sql.ConnectionEvent
+getSQLException()
+toString()
+getSource()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

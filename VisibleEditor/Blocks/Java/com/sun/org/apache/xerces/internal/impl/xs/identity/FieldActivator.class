@@ -1,0 +1,6 @@
+com.sun.org.apache.xerces.internal.impl.xs.identity.FieldActivator
+mayMatch(com.sun.org.apache.xerces.internal.impl.xs.identity.Field)
+activateField(com.sun.org.apache.xerces.internal.impl.xs.identity.Field,int)
+endValueScopeFor(com.sun.org.apache.xerces.internal.impl.xs.identity.IdentityConstraint,int)
+setMayMatch(com.sun.org.apache.xerces.internal.impl.xs.identity.Field,java.lang.Boolean)
+startValueScopeFor(com.sun.org.apache.xerces.internal.impl.xs.identity.IdentityConstraint,int)

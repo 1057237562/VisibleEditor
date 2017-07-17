@@ -1,0 +1,5 @@
+org.omg.PortableServer.ThreadPolicyOperations
+value()
+destroy()
+copy()
+policy_type()

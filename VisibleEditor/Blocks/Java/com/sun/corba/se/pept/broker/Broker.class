@@ -1,0 +1,5 @@
+com.sun.corba.se.pept.broker.Broker
+createOrIncrementInvocationInfo()
+getInvocationInfo()
+getTransportManager()
+releaseOrDecrementInvocationInfo()

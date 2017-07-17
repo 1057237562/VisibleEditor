@@ -1,0 +1,12 @@
+javax.annotation.Resource
+name()
+type()
+lookup()
+description()
+mappedName()
+authenticationType()
+shareable()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

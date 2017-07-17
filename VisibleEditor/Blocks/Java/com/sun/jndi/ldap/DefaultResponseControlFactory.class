@@ -1,0 +1,12 @@
+com.sun.jndi.ldap.DefaultResponseControlFactory
+getControlInstance(javax.naming.ldap.Control)
+getControlInstance(javax.naming.ldap.Control,javax.naming.Context,java.util.Hashtable)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

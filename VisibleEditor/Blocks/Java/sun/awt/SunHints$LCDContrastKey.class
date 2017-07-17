@@ -1,0 +1,12 @@
+sun.awt.SunHints$LCDContrastKey
+isCompatibleValue(java.lang.Object)
+toString()
+getIndex()
+equals(java.lang.Object)
+hashCode()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

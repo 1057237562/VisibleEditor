@@ -1,0 +1,7 @@
+java.nio.channels.AsynchronousByteChannel
+write(java.nio.ByteBuffer)
+write(java.nio.ByteBuffer,java.lang.Object,java.nio.channels.CompletionHandler)
+read(java.nio.ByteBuffer)
+read(java.nio.ByteBuffer,java.lang.Object,java.nio.channels.CompletionHandler)
+close()
+isOpen()

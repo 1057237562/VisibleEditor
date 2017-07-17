@@ -1,0 +1,5 @@
+com.sun.corba.se.impl.orbutil.RepositoryIdInterface
+getClassName()
+getClassFromType()
+getClassFromType(java.lang.Class,java.lang.String)
+getClassFromType(java.lang.String)

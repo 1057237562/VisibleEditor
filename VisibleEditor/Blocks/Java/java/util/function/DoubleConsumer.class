@@ -1,0 +1,3 @@
+java.util.function.DoubleConsumer
+accept(double)
+andThen(java.util.function.DoubleConsumer)

@@ -1,0 +1,3 @@
+java.nio.file.Watchable
+register(java.nio.file.WatchService,[Ljava.nio.file.WatchEvent$Kind;,[Ljava.nio.file.WatchEvent$Modifier;)
+register(java.nio.file.WatchService,[Ljava.nio.file.WatchEvent$Kind;)

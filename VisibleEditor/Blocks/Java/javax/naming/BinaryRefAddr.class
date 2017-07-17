@@ -1,0 +1,12 @@
+javax.naming.BinaryRefAddr
+equals(java.lang.Object)
+toString()
+hashCode()
+getContent()
+getType()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

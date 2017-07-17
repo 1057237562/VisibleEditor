@@ -1,0 +1,13 @@
+com.sun.org.apache.xml.internal.dtm.DTMAxisIterator
+next()
+reset()
+getLast()
+setMark()
+getPosition()
+cloneIterator()
+getNodeByPosition(int)
+getStartNode()
+gotoMark()
+isReverse()
+setRestartable(boolean)
+setStartNode(int)

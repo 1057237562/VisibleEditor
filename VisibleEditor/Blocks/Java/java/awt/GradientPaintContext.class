@@ -1,0 +1,13 @@
+java.awt.GradientPaintContext
+dispose()
+getColorModel()
+getRaster(int,int,int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

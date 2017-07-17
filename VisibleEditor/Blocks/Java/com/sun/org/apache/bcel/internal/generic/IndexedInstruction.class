@@ -1,0 +1,3 @@
+com.sun.org.apache.bcel.internal.generic.IndexedInstruction
+getIndex()
+setIndex(int)

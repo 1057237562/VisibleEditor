@@ -1,0 +1,8 @@
+com.sun.org.apache.xml.internal.security.encryption.ReferenceList
+add(com.sun.org.apache.xml.internal.security.encryption.Reference)
+remove(com.sun.org.apache.xml.internal.security.encryption.Reference)
+isEmpty()
+size()
+getReferences()
+newDataReference(java.lang.String)
+newKeyReference(java.lang.String)

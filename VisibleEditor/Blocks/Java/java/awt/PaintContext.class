@@ -1,0 +1,4 @@
+java.awt.PaintContext
+dispose()
+getColorModel()
+getRaster(int,int,int,int)

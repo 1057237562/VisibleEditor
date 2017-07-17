@@ -1,0 +1,5 @@
+java.util.function.IntUnaryOperator
+identity()
+applyAsInt(int)
+andThen(java.util.function.IntUnaryOperator)
+compose(java.util.function.IntUnaryOperator)

@@ -1,0 +1,9 @@
+javax.swing.plaf.basic.ComboPopup
+hide()
+isVisible()
+show()
+getKeyListener()
+getList()
+getMouseListener()
+getMouseMotionListener()
+uninstallingUI()

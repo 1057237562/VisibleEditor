@@ -1,0 +1,5 @@
+javax.naming.event.NamespaceChangeListener
+objectAdded(javax.naming.event.NamingEvent)
+objectRemoved(javax.naming.event.NamingEvent)
+objectRenamed(javax.naming.event.NamingEvent)
+namingExceptionThrown(javax.naming.event.NamingExceptionEvent)

@@ -1,0 +1,3 @@
+org.omg.PortableInterceptor.ObjectReferenceFactory
+make_object(java.lang.String,[B)
+_truncatable_ids()

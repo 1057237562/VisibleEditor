@@ -1,0 +1,12 @@
+com.sun.org.apache.xpath.internal.objects.XObjectFactory
+create(java.lang.Object)
+create(java.lang.Object,com.sun.org.apache.xpath.internal.XPathContext)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

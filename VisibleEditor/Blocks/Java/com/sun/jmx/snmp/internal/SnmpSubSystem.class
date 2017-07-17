@@ -1,0 +1,7 @@
+com.sun.jmx.snmp.internal.SnmpSubSystem
+getModel(int)
+addModel(int,com.sun.jmx.snmp.internal.SnmpModel)
+getModelIds()
+getModelNames()
+removeModel(int)
+getEngine()

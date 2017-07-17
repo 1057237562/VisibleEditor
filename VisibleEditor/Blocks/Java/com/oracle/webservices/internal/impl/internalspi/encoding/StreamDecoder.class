@@ -1,0 +1,2 @@
+com.oracle.webservices.internal.impl.internalspi.encoding.StreamDecoder
+decode(java.io.InputStream,java.lang.String,com.sun.xml.internal.ws.api.message.AttachmentSet,com.sun.xml.internal.ws.api.SOAPVersion)

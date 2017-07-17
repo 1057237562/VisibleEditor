@@ -1,0 +1,13 @@
+com.sun.xml.internal.messaging.saaj.packaging.mime.util.OutputUtil
+writeln(java.lang.String,java.io.OutputStream)
+writeln(java.io.OutputStream)
+writeAsAscii(java.lang.String,java.io.OutputStream)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,11 @@
+com.sun.org.apache.xalan.internal.xsltc.dom.DOMWSFilter
+getShouldStripSpace(int,com.sun.org.apache.xml.internal.dtm.DTM)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

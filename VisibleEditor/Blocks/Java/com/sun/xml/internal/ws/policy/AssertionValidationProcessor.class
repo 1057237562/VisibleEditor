@@ -1,0 +1,13 @@
+com.sun.xml.internal.ws.policy.AssertionValidationProcessor
+getInstance()
+validateClientSide(com.sun.xml.internal.ws.policy.PolicyAssertion)
+validateServerSide(com.sun.xml.internal.ws.policy.PolicyAssertion)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

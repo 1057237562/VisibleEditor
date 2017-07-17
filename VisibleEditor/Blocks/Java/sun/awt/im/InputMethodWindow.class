@@ -1,0 +1,2 @@
+sun.awt.im.InputMethodWindow
+setInputContext(sun.awt.im.InputContext)

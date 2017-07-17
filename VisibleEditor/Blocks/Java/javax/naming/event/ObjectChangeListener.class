@@ -1,0 +1,3 @@
+javax.naming.event.ObjectChangeListener
+objectChanged(javax.naming.event.NamingEvent)
+namingExceptionThrown(javax.naming.event.NamingExceptionEvent)

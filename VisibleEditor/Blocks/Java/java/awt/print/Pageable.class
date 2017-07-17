@@ -1,0 +1,4 @@
+java.awt.print.Pageable
+getPrintable(int)
+getPageFormat(int)
+getNumberOfPages()

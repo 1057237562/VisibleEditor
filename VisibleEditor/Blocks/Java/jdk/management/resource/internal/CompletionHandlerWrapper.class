@@ -1,0 +1,12 @@
+jdk.management.resource.internal.CompletionHandlerWrapper
+failed(java.lang.Throwable,java.lang.Object)
+completed(java.lang.Object,java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,6 @@
+com.sun.xml.internal.ws.api.server.ServiceDefinition
+addFilter(com.sun.xml.internal.ws.api.server.SDDocumentFilter)
+getPrimary()
+iterator()
+spliterator()
+forEach(java.util.function.Consumer)

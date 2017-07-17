@@ -1,0 +1,5 @@
+javax.xml.bind.ValidationEvent
+getMessage()
+getLocator()
+getSeverity()
+getLinkedException()

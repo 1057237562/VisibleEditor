@@ -1,0 +1,6 @@
+com.sun.xml.internal.ws.org.objectweb.asm.AnnotationVisitor
+visitArray(java.lang.String)
+visitEnum(java.lang.String,java.lang.String,java.lang.String)
+visit(java.lang.String,java.lang.Object)
+visitAnnotation(java.lang.String,java.lang.String)
+visitEnd()

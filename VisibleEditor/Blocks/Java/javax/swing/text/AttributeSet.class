@@ -1,0 +1,10 @@
+javax.swing.text.AttributeSet
+isDefined(java.lang.Object)
+getAttribute(java.lang.Object)
+copyAttributes()
+getAttributeCount()
+getResolveParent()
+containsAttribute(java.lang.Object,java.lang.Object)
+containsAttributes(javax.swing.text.AttributeSet)
+getAttributeNames()
+isEqual(javax.swing.text.AttributeSet)

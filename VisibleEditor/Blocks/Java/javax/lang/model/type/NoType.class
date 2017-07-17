@@ -1,0 +1,9 @@
+javax.lang.model.type.NoType
+equals(java.lang.Object)
+toString()
+hashCode()
+accept(javax.lang.model.type.TypeVisitor,java.lang.Object)
+getKind()
+getAnnotation(java.lang.Class)
+getAnnotationsByType(java.lang.Class)
+getAnnotationMirrors()

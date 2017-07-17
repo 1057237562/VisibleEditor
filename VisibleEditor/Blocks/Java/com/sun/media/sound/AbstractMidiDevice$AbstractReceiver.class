@@ -1,0 +1,13 @@
+com.sun.media.sound.AbstractMidiDevice$AbstractReceiver
+close()
+send(javax.sound.midi.MidiMessage,long)
+getMidiDevice()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

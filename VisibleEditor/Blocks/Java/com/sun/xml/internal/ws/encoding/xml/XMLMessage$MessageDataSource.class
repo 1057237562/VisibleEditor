@@ -1,0 +1,3 @@
+com.sun.xml.internal.ws.encoding.xml.XMLMessage$MessageDataSource
+getDataSource()
+hasUnconsumedDataSource()

@@ -1,0 +1,11 @@
+org.w3c.dom.css.CSSStyleDeclaration
+setProperty(java.lang.String,java.lang.String,java.lang.String)
+getLength()
+item(int)
+getPropertyValue(java.lang.String)
+getCssText()
+getParentRule()
+setCssText(java.lang.String)
+getPropertyCSSValue(java.lang.String)
+getPropertyPriority(java.lang.String)
+removeProperty(java.lang.String)

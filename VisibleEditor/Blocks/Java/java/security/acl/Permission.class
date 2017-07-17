@@ -1,0 +1,3 @@
+java.security.acl.Permission
+equals(java.lang.Object)
+toString()

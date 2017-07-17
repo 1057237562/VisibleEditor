@@ -1,0 +1,4 @@
+org.w3c.dom.DOMStringList
+getLength()
+contains(java.lang.String)
+item(int)

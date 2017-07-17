@@ -1,0 +1,7 @@
+jdk.internal.instrumentation.TypeMapping
+from()
+to()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

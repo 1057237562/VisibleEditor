@@ -1,0 +1,5 @@
+javax.accessibility.AccessibleValue
+getCurrentAccessibleValue()
+getMaximumAccessibleValue()
+getMinimumAccessibleValue()
+setCurrentAccessibleValue(java.lang.Number)

@@ -1,0 +1,4 @@
+sun.awt.AWTAccessor$FrameAccessor
+getExtendedState(java.awt.Frame)
+getMaximizedBounds(java.awt.Frame)
+setExtendedState(java.awt.Frame,int)

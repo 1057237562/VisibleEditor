@@ -1,0 +1,13 @@
+javax.lang.model.element.Element
+equals(java.lang.Object)
+hashCode()
+getModifiers()
+getAnnotation(java.lang.Class)
+getSimpleName()
+accept(javax.lang.model.element.ElementVisitor,java.lang.Object)
+asType()
+getKind()
+getAnnotationMirrors()
+getEnclosedElements()
+getEnclosingElement()
+getAnnotationsByType(java.lang.Class)

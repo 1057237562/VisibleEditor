@@ -1,0 +1,6 @@
+com.sun.org.apache.xml.internal.dtm.ref.IncrementalSAXSource
+setContentHandler(org.xml.sax.ContentHandler)
+setDTDHandler(org.xml.sax.DTDHandler)
+deliverMoreNodes(boolean)
+setLexicalHandler(org.xml.sax.ext.LexicalHandler)
+startParse(org.xml.sax.InputSource)

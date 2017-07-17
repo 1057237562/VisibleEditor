@@ -1,0 +1,4 @@
+org.omg.CORBA.PolicyOperations
+destroy()
+copy()
+policy_type()

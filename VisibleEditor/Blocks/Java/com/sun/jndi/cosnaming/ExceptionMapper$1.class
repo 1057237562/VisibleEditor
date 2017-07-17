@@ -1,0 +1,12 @@
+com.sun.jndi.cosnaming.ExceptionMapper$1
+getContent()
+equals(java.lang.Object)
+toString()
+hashCode()
+getType()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

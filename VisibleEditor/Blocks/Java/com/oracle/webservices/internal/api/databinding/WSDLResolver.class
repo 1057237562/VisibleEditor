@@ -1,0 +1,4 @@
+com.oracle.webservices.internal.api.databinding.WSDLResolver
+getAbstractWSDL(javax.xml.ws.Holder)
+getSchemaOutput(java.lang.String,javax.xml.ws.Holder)
+getWSDL(java.lang.String)

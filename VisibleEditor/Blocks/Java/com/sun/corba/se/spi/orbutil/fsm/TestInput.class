@@ -1,0 +1,11 @@
+com.sun.corba.se.spi.orbutil.fsm.TestInput
+toString()
+getInput()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

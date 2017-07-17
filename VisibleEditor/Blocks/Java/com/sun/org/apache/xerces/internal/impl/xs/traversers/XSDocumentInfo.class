@@ -1,0 +1,12 @@
+com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDocumentInfo
+toString()
+addAllowedNS(java.lang.String)
+isAllowedNS(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

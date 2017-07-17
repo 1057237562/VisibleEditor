@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.api.server.EndpointReferenceExtensionContributor
+getQName()
+getEPRExtension(com.sun.xml.internal.ws.api.server.WSEndpoint,com.sun.xml.internal.ws.api.addressing.WSEndpointReference$EPRExtension)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

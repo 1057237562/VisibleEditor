@@ -1,0 +1,10 @@
+javax.xml.ws.Dispatch
+invoke(java.lang.Object)
+invokeAsync(java.lang.Object,javax.xml.ws.AsyncHandler)
+invokeAsync(java.lang.Object)
+invokeOneWay(java.lang.Object)
+getBinding()
+getEndpointReference()
+getEndpointReference(java.lang.Class)
+getRequestContext()
+getResponseContext()

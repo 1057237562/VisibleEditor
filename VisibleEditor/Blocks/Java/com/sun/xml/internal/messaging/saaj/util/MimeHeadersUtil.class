@@ -1,0 +1,11 @@
+com.sun.xml.internal.messaging.saaj.util.MimeHeadersUtil
+copy(javax.xml.soap.MimeHeaders)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

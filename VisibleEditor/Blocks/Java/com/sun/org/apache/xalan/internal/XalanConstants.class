@@ -1,0 +1,11 @@
+com.sun.org.apache.xalan.internal.XalanConstants
+isJavaVersionAtLeast(int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

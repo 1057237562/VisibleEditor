@@ -1,0 +1,5 @@
+java.lang.annotation.Inherited
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

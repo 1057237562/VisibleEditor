@@ -1,0 +1,11 @@
+javax.swing.text.AbstractDocument$2
+validateObject()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

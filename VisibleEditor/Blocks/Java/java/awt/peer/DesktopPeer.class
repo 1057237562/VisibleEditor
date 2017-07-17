@@ -1,0 +1,7 @@
+java.awt.peer.DesktopPeer
+print(java.io.File)
+isSupported(java.awt.Desktop$Action)
+open(java.io.File)
+edit(java.io.File)
+browse(java.net.URI)
+mail(java.net.URI)

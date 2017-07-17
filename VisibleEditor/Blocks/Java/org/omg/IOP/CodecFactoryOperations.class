@@ -1,0 +1,2 @@
+org.omg.IOP.CodecFactoryOperations
+create_codec(org.omg.IOP.Encoding)

@@ -1,0 +1,11 @@
+com.oracle.webservices.internal.impl.encoding.StreamDecoderImpl
+decode(java.io.InputStream,java.lang.String,com.sun.xml.internal.ws.api.message.AttachmentSet,com.sun.xml.internal.ws.api.SOAPVersion)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

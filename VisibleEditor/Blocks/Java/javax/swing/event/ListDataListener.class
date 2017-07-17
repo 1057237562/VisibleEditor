@@ -1,0 +1,4 @@
+javax.swing.event.ListDataListener
+intervalAdded(javax.swing.event.ListDataEvent)
+intervalRemoved(javax.swing.event.ListDataEvent)
+contentsChanged(javax.swing.event.ListDataEvent)

@@ -1,0 +1,3 @@
+com.sun.jmx.snmp.agent.SnmpUserDataFactory
+allocateUserData(com.sun.jmx.snmp.SnmpPdu)
+releaseUserData(java.lang.Object,com.sun.jmx.snmp.SnmpPdu)

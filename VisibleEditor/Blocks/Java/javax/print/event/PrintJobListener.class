@@ -1,0 +1,7 @@
+javax.print.event.PrintJobListener
+printDataTransferCompleted(javax.print.event.PrintJobEvent)
+printJobCanceled(javax.print.event.PrintJobEvent)
+printJobCompleted(javax.print.event.PrintJobEvent)
+printJobFailed(javax.print.event.PrintJobEvent)
+printJobNoMoreEvents(javax.print.event.PrintJobEvent)
+printJobRequiresAttention(javax.print.event.PrintJobEvent)

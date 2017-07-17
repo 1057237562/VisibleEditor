@@ -1,0 +1,13 @@
+com.sun.jndi.toolkit.dir.DirSearch
+search(javax.naming.directory.DirContext,java.lang.String,[Ljava.lang.Object;,javax.naming.directory.SearchControls)
+search(javax.naming.directory.DirContext,java.lang.String,javax.naming.directory.SearchControls)
+search(javax.naming.directory.DirContext,javax.naming.directory.Attributes,[Ljava.lang.String;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

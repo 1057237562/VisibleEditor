@@ -1,0 +1,13 @@
+org.ietf.jgss.ChannelBinding
+equals(java.lang.Object)
+hashCode()
+getAcceptorAddress()
+getApplicationData()
+getInitiatorAddress()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

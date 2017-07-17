@@ -1,0 +1,11 @@
+java.rmi.dgc.VMID
+equals(java.lang.Object)
+toString()
+hashCode()
+isUnique()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

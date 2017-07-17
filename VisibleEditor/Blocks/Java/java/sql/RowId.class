@@ -1,0 +1,5 @@
+java.sql.RowId
+equals(java.lang.Object)
+toString()
+hashCode()
+getBytes()

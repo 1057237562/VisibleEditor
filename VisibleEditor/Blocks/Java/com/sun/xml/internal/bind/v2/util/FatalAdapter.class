@@ -1,0 +1,13 @@
+com.sun.xml.internal.bind.v2.util.FatalAdapter
+error(org.xml.sax.SAXParseException)
+warning(org.xml.sax.SAXParseException)
+fatalError(org.xml.sax.SAXParseException)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

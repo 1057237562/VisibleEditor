@@ -1,0 +1,10 @@
+com.sun.org.apache.xml.internal.security.encryption.EncryptionProperty
+getId()
+getTarget()
+setTarget(java.lang.String)
+getAttribute(java.lang.String)
+setId(java.lang.String)
+setAttribute(java.lang.String,java.lang.String)
+addEncryptionInformation(org.w3c.dom.Element)
+getEncryptionInformation()
+removeEncryptionInformation(org.w3c.dom.Element)

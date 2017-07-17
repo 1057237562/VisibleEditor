@@ -1,0 +1,5 @@
+javax.management.MBeanRegistration
+postDeregister()
+postRegister(java.lang.Boolean)
+preDeregister()
+preRegister(javax.management.MBeanServer,javax.management.ObjectName)

@@ -1,0 +1,13 @@
+sun.awt.DebugSettings
+toString()
+getBoolean(java.lang.String,boolean)
+getInt(java.lang.String,int)
+getString(java.lang.String,java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

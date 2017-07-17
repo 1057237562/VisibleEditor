@@ -1,0 +1,12 @@
+javax.tools.DiagnosticCollector
+report(javax.tools.Diagnostic)
+getDiagnostics()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

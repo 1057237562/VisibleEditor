@@ -1,0 +1,13 @@
+javax.swing.plaf.basic.BasicIconFactory$CheckBoxMenuItemIcon
+getIconHeight()
+getIconWidth()
+paintIcon(java.awt.Component,java.awt.Graphics,int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

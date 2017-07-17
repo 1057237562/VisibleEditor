@@ -1,0 +1,13 @@
+com.sun.org.apache.xerces.internal.util.DefaultErrorHandler
+error(java.lang.String,java.lang.String,com.sun.org.apache.xerces.internal.xni.parser.XMLParseException)
+warning(java.lang.String,java.lang.String,com.sun.org.apache.xerces.internal.xni.parser.XMLParseException)
+fatalError(java.lang.String,java.lang.String,com.sun.org.apache.xerces.internal.xni.parser.XMLParseException)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

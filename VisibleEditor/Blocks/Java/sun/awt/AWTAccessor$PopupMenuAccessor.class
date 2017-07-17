@@ -1,0 +1,2 @@
+sun.awt.AWTAccessor$PopupMenuAccessor
+isTrayIconPopup(java.awt.PopupMenu)

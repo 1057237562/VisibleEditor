@@ -1,0 +1,9 @@
+org.w3c.dom.css.CSSStyleRule
+getStyle()
+getSelectorText()
+setSelectorText(java.lang.String)
+getType()
+getCssText()
+getParentRule()
+getParentStyleSheet()
+setCssText(java.lang.String)

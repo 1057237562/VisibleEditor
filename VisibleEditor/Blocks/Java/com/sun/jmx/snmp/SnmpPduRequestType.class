@@ -1,0 +1,6 @@
+com.sun.jmx.snmp.SnmpPduRequestType
+getErrorIndex()
+getErrorStatus()
+setErrorIndex(int)
+setErrorStatus(int)
+getResponsePdu()

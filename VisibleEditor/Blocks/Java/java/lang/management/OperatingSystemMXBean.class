@@ -1,0 +1,7 @@
+java.lang.management.OperatingSystemMXBean
+getName()
+getVersion()
+getArch()
+getAvailableProcessors()
+getSystemLoadAverage()
+getObjectName()

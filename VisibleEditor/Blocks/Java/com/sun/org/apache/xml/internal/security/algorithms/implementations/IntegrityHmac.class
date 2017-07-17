@@ -1,0 +1,13 @@
+com.sun.org.apache.xml.internal.security.algorithms.implementations.IntegrityHmac
+reset()
+engineAddContextToElement(org.w3c.dom.Element)
+engineGetURI()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

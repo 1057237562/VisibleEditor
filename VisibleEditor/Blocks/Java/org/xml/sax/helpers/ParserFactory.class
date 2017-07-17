@@ -1,0 +1,12 @@
+org.xml.sax.helpers.ParserFactory
+makeParser()
+makeParser(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

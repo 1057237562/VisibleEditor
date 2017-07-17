@@ -1,0 +1,5 @@
+org.omg.PortableServer.RequestProcessingPolicyOperations
+value()
+destroy()
+copy()
+policy_type()

@@ -1,0 +1,9 @@
+com.sun.corba.se.impl.orbutil.RepositoryIdStrings
+createForAnyType(java.lang.Class)
+getClassDescValueRepId()
+getFromString(java.lang.String)
+getWStringValueRepId()
+createSequenceRepID(java.lang.Class)
+createSequenceRepID(java.lang.Object)
+createForJavaType(java.lang.Class)
+createForJavaType(java.io.Serializable)

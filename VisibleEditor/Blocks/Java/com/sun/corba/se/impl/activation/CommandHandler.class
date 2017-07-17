@@ -1,0 +1,4 @@
+com.sun.corba.se.impl.activation.CommandHandler
+getCommandName()
+printCommandHelp(java.io.PrintStream,boolean)
+processCommand([Ljava.lang.String;,org.omg.CORBA.ORB,java.io.PrintStream)

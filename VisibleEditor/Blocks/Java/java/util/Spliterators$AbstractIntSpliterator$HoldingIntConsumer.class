@@ -1,0 +1,12 @@
+java.util.Spliterators$AbstractIntSpliterator$HoldingIntConsumer
+accept(int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()
+andThen(java.util.function.IntConsumer)

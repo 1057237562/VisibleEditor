@@ -1,0 +1,12 @@
+com.sun.org.apache.xerces.internal.util.NamespaceSupport$Prefixes
+toString()
+hasMoreElements()
+nextElement()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

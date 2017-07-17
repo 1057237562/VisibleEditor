@@ -1,0 +1,5 @@
+java.util.function.LongUnaryOperator
+identity()
+applyAsLong(long)
+andThen(java.util.function.LongUnaryOperator)
+compose(java.util.function.LongUnaryOperator)

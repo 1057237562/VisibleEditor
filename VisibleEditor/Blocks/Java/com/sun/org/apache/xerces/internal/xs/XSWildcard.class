@@ -1,0 +1,10 @@
+com.sun.org.apache.xerces.internal.xs.XSWildcard
+getAnnotation()
+getAnnotations()
+getNsConstraintList()
+getProcessContents()
+getConstraintType()
+getName()
+getType()
+getNamespace()
+getNamespaceItem()

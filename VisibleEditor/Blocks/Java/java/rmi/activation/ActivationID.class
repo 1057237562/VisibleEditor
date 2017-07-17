@@ -1,0 +1,11 @@
+java.rmi.activation.ActivationID
+equals(java.lang.Object)
+hashCode()
+activate(boolean)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

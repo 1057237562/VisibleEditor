@@ -1,0 +1,4 @@
+javax.naming.ldap.ExtendedRequest
+getID()
+createExtendedResponse(java.lang.String,[B,int,int)
+getEncodedValue()

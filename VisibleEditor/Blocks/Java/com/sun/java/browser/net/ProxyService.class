@@ -1,0 +1,12 @@
+com.sun.java.browser.net.ProxyService
+getProxyInfo(java.net.URL)
+setProvider(com.sun.java.browser.net.ProxyServiceProvider)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

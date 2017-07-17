@@ -1,0 +1,6 @@
+javax.tools.DocumentationTool
+getTask(java.io.Writer,javax.tools.JavaFileManager,javax.tools.DiagnosticListener,java.lang.Class,java.lang.Iterable,java.lang.Iterable)
+getStandardFileManager(javax.tools.DiagnosticListener,java.util.Locale,java.nio.charset.Charset)
+run(java.io.InputStream,java.io.OutputStream,java.io.OutputStream,[Ljava.lang.String;)
+getSourceVersions()
+isSupportedOption(java.lang.String)

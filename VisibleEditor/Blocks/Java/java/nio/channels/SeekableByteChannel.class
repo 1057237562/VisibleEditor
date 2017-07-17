@@ -1,0 +1,9 @@
+java.nio.channels.SeekableByteChannel
+size()
+position(long)
+position()
+write(java.nio.ByteBuffer)
+read(java.nio.ByteBuffer)
+truncate(long)
+close()
+isOpen()

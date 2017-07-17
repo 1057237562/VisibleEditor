@@ -1,0 +1,5 @@
+javax.activation.DataSource
+getName()
+getInputStream()
+getContentType()
+getOutputStream()

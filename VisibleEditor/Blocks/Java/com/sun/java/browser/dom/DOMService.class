@@ -1,0 +1,13 @@
+com.sun.java.browser.dom.DOMService
+invokeLater(com.sun.java.browser.dom.DOMAction)
+getService(java.lang.Object)
+invokeAndWait(com.sun.java.browser.dom.DOMAction)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

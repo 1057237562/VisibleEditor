@@ -1,0 +1,4 @@
+javax.naming.ldap.Control
+getID()
+getEncodedValue()
+isCritical()

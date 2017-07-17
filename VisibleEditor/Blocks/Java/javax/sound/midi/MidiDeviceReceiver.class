@@ -1,0 +1,4 @@
+javax.sound.midi.MidiDeviceReceiver
+getMidiDevice()
+close()
+send(javax.sound.midi.MidiMessage,long)

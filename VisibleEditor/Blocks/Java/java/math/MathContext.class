@@ -1,0 +1,12 @@
+java.math.MathContext
+equals(java.lang.Object)
+toString()
+hashCode()
+getPrecision()
+getRoundingMode()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

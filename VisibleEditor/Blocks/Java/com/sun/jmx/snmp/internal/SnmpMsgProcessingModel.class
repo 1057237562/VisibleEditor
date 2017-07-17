@@ -1,0 +1,13 @@
+com.sun.jmx.snmp.internal.SnmpMsgProcessingModel
+decode([B)
+encode(int,int,int,byte,int,com.sun.jmx.snmp.SnmpSecurityParameters,[B,[B,[B,int,[B)
+encode(com.sun.jmx.snmp.internal.SnmpDecryptedPdu,[B)
+encodePriv(int,int,int,byte,int,com.sun.jmx.snmp.SnmpSecurityParameters,[B,[B)
+getIncomingRequest(com.sun.jmx.snmp.SnmpPduFactory)
+getIncomingResponse(com.sun.jmx.snmp.SnmpPduFactory)
+getOutgoingRequest(com.sun.jmx.snmp.SnmpPduFactory)
+getRequestPdu(com.sun.jmx.snmp.SnmpParams,int)
+getMsgTranslator()
+setMsgTranslator(com.sun.jmx.snmp.mpm.SnmpMsgTranslator)
+getName()
+getSubSystem()

@@ -1,0 +1,6 @@
+com.sun.org.apache.xerces.internal.xs.XSLoader
+load(org.w3c.dom.ls.LSInput)
+getConfig()
+loadInputList(com.sun.org.apache.xerces.internal.xs.LSInputList)
+loadURI(java.lang.String)
+loadURIList(com.sun.org.apache.xerces.internal.xs.StringList)

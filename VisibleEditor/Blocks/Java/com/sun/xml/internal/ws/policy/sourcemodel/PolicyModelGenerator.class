@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.policy.sourcemodel.PolicyModelGenerator
+translate(com.sun.xml.internal.ws.policy.Policy)
+getGenerator()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

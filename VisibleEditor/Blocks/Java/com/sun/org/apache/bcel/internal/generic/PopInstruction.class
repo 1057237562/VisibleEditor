@@ -1,0 +1,2 @@
+com.sun.org.apache.bcel.internal.generic.PopInstruction
+consumeStack(com.sun.org.apache.bcel.internal.generic.ConstantPoolGen)

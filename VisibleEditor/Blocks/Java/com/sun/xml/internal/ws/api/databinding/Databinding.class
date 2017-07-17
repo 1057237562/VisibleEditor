@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.api.databinding.Databinding
+decode(java.io.InputStream,java.lang.String,com.sun.xml.internal.ws.api.message.Packet)
+encode(com.sun.xml.internal.ws.api.message.Packet,java.io.OutputStream)
+getMessageContextFactory()
+generateWSDL(com.sun.xml.internal.ws.api.databinding.WSDLGenInfo)
+getClientBridge(java.lang.reflect.Method)
+getEndpointBridge(com.sun.xml.internal.ws.api.message.Packet)
+createJavaCallInfo(java.lang.reflect.Method,[Ljava.lang.Object;)
+deserializeRequest(com.oracle.webservices.internal.api.message.MessageContext)
+deserializeResponse(com.oracle.webservices.internal.api.message.MessageContext,com.oracle.webservices.internal.api.databinding.JavaCallInfo)
+serializeRequest(com.oracle.webservices.internal.api.databinding.JavaCallInfo)
+serializeResponse(com.oracle.webservices.internal.api.databinding.JavaCallInfo)

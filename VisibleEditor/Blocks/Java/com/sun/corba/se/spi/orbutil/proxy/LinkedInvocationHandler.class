@@ -1,0 +1,4 @@
+com.sun.corba.se.spi.orbutil.proxy.LinkedInvocationHandler
+getProxy()
+setProxy(java.lang.reflect.Proxy)
+invoke(java.lang.Object,java.lang.reflect.Method,[Ljava.lang.Object;)

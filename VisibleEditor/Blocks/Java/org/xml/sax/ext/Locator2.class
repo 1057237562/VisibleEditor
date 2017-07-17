@@ -1,0 +1,7 @@
+org.xml.sax.ext.Locator2
+getEncoding()
+getXMLVersion()
+getLineNumber()
+getSystemId()
+getPublicId()
+getColumnNumber()

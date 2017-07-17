@@ -1,0 +1,2 @@
+com.sun.media.sound.AutoConnectSequencer
+setAutoConnect(javax.sound.midi.Receiver)

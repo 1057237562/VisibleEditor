@@ -1,0 +1,7 @@
+java.lang.management.ClassLoadingMXBean
+getLoadedClassCount()
+getTotalLoadedClassCount()
+getUnloadedClassCount()
+isVerbose()
+setVerbose(boolean)
+getObjectName()

@@ -1,0 +1,12 @@
+com.sun.org.apache.xml.internal.security.utils.IdResolver
+getElementById(org.w3c.dom.Document,java.lang.String)
+registerElementById(org.w3c.dom.Element,org.w3c.dom.Attr)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,6 @@
+com.sun.org.apache.bcel.internal.util.ClassPath$ClassFile
+getSize()
+getPath()
+getInputStream()
+getBase()
+getTime()

@@ -1,0 +1,11 @@
+com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper
+validate(javax.xml.transform.Source,javax.xml.transform.Result)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

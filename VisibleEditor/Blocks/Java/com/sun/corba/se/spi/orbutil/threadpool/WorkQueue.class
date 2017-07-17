@@ -1,0 +1,8 @@
+com.sun.corba.se.spi.orbutil.threadpool.WorkQueue
+getName()
+addWork(com.sun.corba.se.spi.orbutil.threadpool.Work)
+getThreadPool()
+workItemsInQueue()
+averageTimeInQueue()
+setThreadPool(com.sun.corba.se.spi.orbutil.threadpool.ThreadPool)
+totalWorkItemsAdded()

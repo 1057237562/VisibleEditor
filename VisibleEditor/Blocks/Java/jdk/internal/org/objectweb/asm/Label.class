@@ -1,0 +1,11 @@
+jdk.internal.org.objectweb.asm.Label
+toString()
+getOffset()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

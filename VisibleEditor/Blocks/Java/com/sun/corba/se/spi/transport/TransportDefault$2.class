@@ -1,0 +1,11 @@
+com.sun.corba.se.spi.transport.TransportDefault$2
+create(com.sun.corba.se.spi.transport.CorbaContactInfoList)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

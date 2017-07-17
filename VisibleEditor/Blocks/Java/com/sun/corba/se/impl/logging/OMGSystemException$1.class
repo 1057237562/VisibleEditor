@@ -1,0 +1,11 @@
+com.sun.corba.se.impl.logging.OMGSystemException$1
+create(java.util.logging.Logger)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

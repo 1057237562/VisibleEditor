@@ -1,0 +1,10 @@
+javax.management.modelmbean.ModelMBeanNotificationBroadcaster
+sendNotification(javax.management.Notification)
+sendNotification(java.lang.String)
+addAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String,java.lang.Object)
+removeAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String)
+sendAttributeChangeNotification(javax.management.AttributeChangeNotification)
+sendAttributeChangeNotification(javax.management.Attribute,javax.management.Attribute)
+addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+removeNotificationListener(javax.management.NotificationListener)
+getNotificationInfo()

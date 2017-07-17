@@ -1,0 +1,6 @@
+com.sun.corba.se.spi.legacy.connection.LegacyServerSocketManager
+legacyGetTransientOrPersistentServerPort(java.lang.String)
+legacyGetEndpoint(java.lang.String)
+legacyIsLocalServerPort(int)
+legacyGetPersistentServerPort(java.lang.String)
+legacyGetTransientServerPort(java.lang.String)

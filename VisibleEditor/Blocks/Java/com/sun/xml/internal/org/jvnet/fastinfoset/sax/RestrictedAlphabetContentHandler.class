@@ -1,0 +1,4 @@
+com.sun.xml.internal.org.jvnet.fastinfoset.sax.RestrictedAlphabetContentHandler
+alphabetCharacters(java.lang.String,[C,int,int)
+dateTimeCharacters([C,int,int)
+numericCharacters([C,int,int)

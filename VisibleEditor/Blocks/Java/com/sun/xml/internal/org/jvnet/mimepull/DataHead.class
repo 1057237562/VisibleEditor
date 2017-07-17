@@ -1,0 +1,12 @@
+com.sun.xml.internal.org.jvnet.mimepull.DataHead
+read()
+readOnce()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

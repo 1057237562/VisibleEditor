@@ -1,0 +1,12 @@
+sun.awt.DefaultMouseInfoPeer
+isWindowUnderMouse(java.awt.Window)
+fillPointWithCoords(java.awt.Point)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

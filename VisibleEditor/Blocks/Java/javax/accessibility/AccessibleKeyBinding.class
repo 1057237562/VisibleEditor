@@ -1,0 +1,3 @@
+javax.accessibility.AccessibleKeyBinding
+getAccessibleKeyBinding(int)
+getAccessibleKeyBindingCount()

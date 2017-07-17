@@ -1,0 +1,3 @@
+java.awt.event.HierarchyBoundsListener
+ancestorMoved(java.awt.event.HierarchyEvent)
+ancestorResized(java.awt.event.HierarchyEvent)

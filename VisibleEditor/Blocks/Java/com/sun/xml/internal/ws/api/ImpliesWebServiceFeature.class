@@ -1,0 +1,2 @@
+com.sun.xml.internal.ws.api.ImpliesWebServiceFeature
+implyFeatures(com.sun.xml.internal.ws.api.WSFeatureList)

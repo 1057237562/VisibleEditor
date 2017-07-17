@@ -1,0 +1,11 @@
+com.sun.jmx.remote.internal.ServerNotifForwarder$NotifForwarderBufferFilter
+apply(java.util.List,javax.management.ObjectName,javax.management.Notification)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

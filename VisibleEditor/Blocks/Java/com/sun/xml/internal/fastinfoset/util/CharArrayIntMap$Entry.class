@@ -1,0 +1,11 @@
+com.sun.xml.internal.fastinfoset.util.CharArrayIntMap$Entry
+equalsCharArray([C,int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

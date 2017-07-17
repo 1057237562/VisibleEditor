@@ -1,0 +1,6 @@
+javax.accessibility.AccessibleTableModelChange
+getType()
+getFirstRow()
+getLastRow()
+getFirstColumn()
+getLastColumn()

@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.model.WrapperBeanGenerator$Field
+compareTo(java.lang.Object)
+compareTo(com.sun.xml.internal.ws.model.WrapperBeanGenerator$Field)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

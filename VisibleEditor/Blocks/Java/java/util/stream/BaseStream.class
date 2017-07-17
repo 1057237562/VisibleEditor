@@ -1,0 +1,9 @@
+java.util.stream.BaseStream
+iterator()
+spliterator()
+close()
+parallel()
+isParallel()
+onClose(java.lang.Runnable)
+sequential()
+unordered()

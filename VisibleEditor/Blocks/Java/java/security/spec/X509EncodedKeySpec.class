@@ -1,0 +1,12 @@
+java.security.spec.X509EncodedKeySpec
+getEncoded()
+getFormat()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

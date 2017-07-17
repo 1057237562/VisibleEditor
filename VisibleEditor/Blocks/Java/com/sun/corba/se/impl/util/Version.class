@@ -1,0 +1,12 @@
+com.sun.corba.se.impl.util.Version
+main([Ljava.lang.String;)
+asString()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

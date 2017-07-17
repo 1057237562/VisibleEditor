@@ -1,0 +1,11 @@
+com.sun.jmx.snmp.IPAcl.PermissionImpl
+equals(java.lang.Object)
+toString()
+hashCode()
+getString()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

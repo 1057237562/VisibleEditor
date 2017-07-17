@@ -1,0 +1,10 @@
+com.sun.org.glassfish.external.statistics.AverageRangeStatistic
+getAverage()
+getHighWaterMark()
+getLowWaterMark()
+getCurrent()
+getName()
+getDescription()
+getStartTime()
+getLastSampleTime()
+getUnit()

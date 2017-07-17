@@ -1,0 +1,8 @@
+com.sun.corba.se.spi.transport.CorbaContactInfoList
+hashCode()
+setEffectiveTargetIOR(com.sun.corba.se.spi.ior.IOR)
+setTargetIOR(com.sun.corba.se.spi.ior.IOR)
+getEffectiveTargetIOR()
+getTargetIOR()
+getLocalClientRequestDispatcher()
+iterator()

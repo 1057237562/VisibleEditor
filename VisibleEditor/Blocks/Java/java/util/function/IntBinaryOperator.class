@@ -1,0 +1,2 @@
+java.util.function.IntBinaryOperator
+applyAsInt(int,int)

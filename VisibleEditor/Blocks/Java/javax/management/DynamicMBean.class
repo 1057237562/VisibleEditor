@@ -1,0 +1,7 @@
+javax.management.DynamicMBean
+invoke(java.lang.String,[Ljava.lang.Object;,[Ljava.lang.String;)
+getAttributes([Ljava.lang.String;)
+getAttribute(java.lang.String)
+setAttributes(javax.management.AttributeList)
+setAttribute(javax.management.Attribute)
+getMBeanInfo()

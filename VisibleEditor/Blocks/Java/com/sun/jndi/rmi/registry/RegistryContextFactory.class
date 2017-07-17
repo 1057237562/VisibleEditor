@@ -1,0 +1,12 @@
+com.sun.jndi.rmi.registry.RegistryContextFactory
+getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)
+getInitialContext(java.util.Hashtable)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

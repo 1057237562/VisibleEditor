@@ -1,0 +1,4 @@
+org.omg.PortableInterceptor.IORInterceptorOperations
+establish_components(org.omg.PortableInterceptor.IORInfo)
+name()
+destroy()

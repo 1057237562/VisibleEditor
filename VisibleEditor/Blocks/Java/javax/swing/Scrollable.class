@@ -1,0 +1,6 @@
+javax.swing.Scrollable
+getPreferredScrollableViewportSize()
+getScrollableBlockIncrement(java.awt.Rectangle,int,int)
+getScrollableTracksViewportHeight()
+getScrollableTracksViewportWidth()
+getScrollableUnitIncrement(java.awt.Rectangle,int,int)

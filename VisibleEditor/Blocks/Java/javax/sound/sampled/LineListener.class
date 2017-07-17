@@ -1,0 +1,2 @@
+javax.sound.sampled.LineListener
+update(javax.sound.sampled.LineEvent)

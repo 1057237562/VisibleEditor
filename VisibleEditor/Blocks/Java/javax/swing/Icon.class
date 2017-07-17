@@ -1,0 +1,4 @@
+javax.swing.Icon
+getIconHeight()
+getIconWidth()
+paintIcon(java.awt.Component,java.awt.Graphics,int,int)

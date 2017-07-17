@@ -1,0 +1,6 @@
+java.lang.management.BufferPoolMXBean
+getName()
+getCount()
+getMemoryUsed()
+getTotalCapacity()
+getObjectName()

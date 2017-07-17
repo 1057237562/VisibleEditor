@@ -1,0 +1,6 @@
+java.security.PrivateKey
+getEncoded()
+getFormat()
+getAlgorithm()
+destroy()
+isDestroyed()

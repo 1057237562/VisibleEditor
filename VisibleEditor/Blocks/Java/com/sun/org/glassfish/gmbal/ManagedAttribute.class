@@ -1,0 +1,6 @@
+com.sun.org.glassfish.gmbal.ManagedAttribute
+id()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

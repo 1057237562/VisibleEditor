@@ -1,0 +1,5 @@
+com.sun.org.apache.xml.internal.utils.PrefixResolver
+getNamespaceForPrefix(java.lang.String)
+getNamespaceForPrefix(java.lang.String,org.w3c.dom.Node)
+getBaseIdentifier()
+handlesNullPrefixes()

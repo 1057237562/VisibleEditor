@@ -1,0 +1,12 @@
+javax.print.attribute.TextSyntax
+equals(java.lang.Object)
+toString()
+hashCode()
+getValue()
+getLocale()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

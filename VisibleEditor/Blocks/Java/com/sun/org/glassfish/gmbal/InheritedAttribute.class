@@ -1,0 +1,8 @@
+com.sun.org.glassfish.gmbal.InheritedAttribute
+methodName()
+id()
+description()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

@@ -1,0 +1,3 @@
+com.sun.org.apache.xerces.internal.xs.datatypes.XSQName
+getJAXPQName()
+getXNIQName()

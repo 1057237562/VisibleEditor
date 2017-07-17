@@ -1,0 +1,11 @@
+com.sun.xml.internal.fastinfoset.tools.SAXEventSerializer$AttributeValueHolder
+equals(java.lang.Object)
+hashCode()
+compareTo(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

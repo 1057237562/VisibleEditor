@@ -1,0 +1,13 @@
+java.awt.MenuShortcut
+equals(java.awt.MenuShortcut)
+equals(java.lang.Object)
+toString()
+hashCode()
+getKey()
+usesShiftModifier()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

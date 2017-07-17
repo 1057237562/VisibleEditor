@@ -1,0 +1,10 @@
+java.util.stream.TerminalSink
+accept(long)
+accept(double)
+accept(int)
+end()
+begin(long)
+cancellationRequested()
+accept(java.lang.Object)
+andThen(java.util.function.Consumer)
+get()

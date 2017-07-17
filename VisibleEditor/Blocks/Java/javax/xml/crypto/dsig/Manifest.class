@@ -1,0 +1,4 @@
+javax.xml.crypto.dsig.Manifest
+getId()
+getReferences()
+isFeatureSupported(java.lang.String)

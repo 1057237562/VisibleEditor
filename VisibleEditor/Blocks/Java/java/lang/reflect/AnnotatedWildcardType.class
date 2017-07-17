@@ -1,0 +1,11 @@
+java.lang.reflect.AnnotatedWildcardType
+getAnnotatedLowerBounds()
+getAnnotatedUpperBounds()
+getType()
+getAnnotation(java.lang.Class)
+getAnnotations()
+getAnnotationsByType(java.lang.Class)
+getDeclaredAnnotation(java.lang.Class)
+getDeclaredAnnotations()
+getDeclaredAnnotationsByType(java.lang.Class)
+isAnnotationPresent(java.lang.Class)

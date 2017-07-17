@@ -1,0 +1,13 @@
+com.sun.xml.internal.ws.binding.FeatureListUtil
+isFeatureEnabled(java.lang.Class,com.sun.xml.internal.ws.binding.WebServiceFeatureList,com.sun.xml.internal.ws.binding.WebServiceFeatureList)
+mergeFeature(java.lang.Class,com.sun.xml.internal.ws.binding.WebServiceFeatureList,com.sun.xml.internal.ws.binding.WebServiceFeatureList)
+mergeList([Lcom.sun.xml.internal.ws.binding.WebServiceFeatureList;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

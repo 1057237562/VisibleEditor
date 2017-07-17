@@ -1,0 +1,11 @@
+javax.print.attribute.IntegerSyntax
+equals(java.lang.Object)
+toString()
+hashCode()
+getValue()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

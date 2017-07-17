@@ -1,0 +1,11 @@
+com.sun.org.apache.xerces.internal.util.DOMErrorHandlerWrapper$DOMErrorTypeMap
+getDOMErrorType(com.sun.org.apache.xerces.internal.util.XMLErrorCode)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

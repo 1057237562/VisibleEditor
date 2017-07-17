@@ -1,0 +1,12 @@
+com.sun.xml.internal.fastinfoset.stax.events.Util
+getEventTypeString(int)
+isEmptyString(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

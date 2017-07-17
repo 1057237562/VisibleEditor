@@ -1,0 +1,3 @@
+sun.awt.AWTAccessor$TrayIconAccessor
+removeNotify(java.awt.TrayIcon)
+addNotify(java.awt.TrayIcon)

@@ -1,0 +1,5 @@
+com.sun.xml.internal.ws.api.server.BoundEndpoint
+getAddress()
+getAddress(java.lang.String)
+getEndpoint()
+getSPI(java.lang.Class)

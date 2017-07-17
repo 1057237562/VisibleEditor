@@ -1,0 +1,9 @@
+com.sun.jmx.snmp.internal.SnmpAccessControlSubSystem
+checkAccess(int,java.lang.String,int,int,int,[B,com.sun.jmx.snmp.SnmpOid)
+checkPduAccess(int,java.lang.String,int,int,int,[B,com.sun.jmx.snmp.SnmpPdu)
+getModel(int)
+addModel(int,com.sun.jmx.snmp.internal.SnmpModel)
+getModelIds()
+getModelNames()
+removeModel(int)
+getEngine()

@@ -1,0 +1,2 @@
+com.sun.org.apache.bcel.internal.util.InstructionFinder$CodeConstraint
+checkCode([Lcom.sun.org.apache.bcel.internal.generic.InstructionHandle;)

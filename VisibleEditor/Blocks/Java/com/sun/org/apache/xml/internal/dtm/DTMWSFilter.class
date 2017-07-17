@@ -1,0 +1,2 @@
+com.sun.org.apache.xml.internal.dtm.DTMWSFilter
+getShouldStripSpace(int,com.sun.org.apache.xml.internal.dtm.DTM)

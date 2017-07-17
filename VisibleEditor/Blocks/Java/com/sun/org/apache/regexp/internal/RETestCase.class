@@ -1,0 +1,13 @@
+com.sun.org.apache.regexp.internal.RETestCase
+assertEquals(java.lang.StringBuffer,java.lang.String,java.lang.String,java.lang.String)
+assertEquals(java.lang.StringBuffer,java.lang.String,int,int)
+runTest()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

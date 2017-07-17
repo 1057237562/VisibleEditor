@@ -1,0 +1,6 @@
+com.sun.management.HotSpotDiagnosticMXBean
+dumpHeap(java.lang.String,boolean)
+getDiagnosticOptions()
+getVMOption(java.lang.String)
+setVMOption(java.lang.String,java.lang.String)
+getObjectName()

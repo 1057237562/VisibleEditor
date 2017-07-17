@@ -1,0 +1,7 @@
+com.sun.org.apache.xerces.internal.xs.XSAnnotation
+getAnnotationString()
+writeAnnotation(java.lang.Object,short)
+getName()
+getType()
+getNamespace()
+getNamespaceItem()

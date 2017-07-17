@@ -1,0 +1,13 @@
+com.sun.xml.internal.ws.util.InjectionPlan$FieldInjectionPlan
+inject(java.lang.Object,java.lang.Object)
+inject(java.lang.Object,java.util.concurrent.Callable)
+buildInjectionPlan(java.lang.Class,java.lang.Class,boolean)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

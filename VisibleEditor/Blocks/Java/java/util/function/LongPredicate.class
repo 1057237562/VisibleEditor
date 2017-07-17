@@ -1,0 +1,5 @@
+java.util.function.LongPredicate
+test(long)
+and(java.util.function.LongPredicate)
+or(java.util.function.LongPredicate)
+negate()

@@ -1,0 +1,12 @@
+java.awt.image.renderable.RenderableImage
+getProperty(java.lang.String)
+getMinX()
+getMinY()
+getHeight()
+getWidth()
+createRendering(java.awt.image.renderable.RenderContext)
+isDynamic()
+getPropertyNames()
+getSources()
+createDefaultRendering()
+createScaledRendering(int,int,java.awt.RenderingHints)

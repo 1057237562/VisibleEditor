@@ -1,0 +1,5 @@
+com.sun.org.apache.xerces.internal.xpointer.XPointerProcessor
+isXPointerResolved()
+parseXPointer(java.lang.String)
+isFragmentResolved()
+resolveXPointer(com.sun.org.apache.xerces.internal.xni.QName,com.sun.org.apache.xerces.internal.xni.XMLAttributes,com.sun.org.apache.xerces.internal.xni.Augmentations,int)

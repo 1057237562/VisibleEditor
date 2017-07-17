@@ -1,0 +1,10 @@
+javax.swing.plaf.metal.MetalInternalFrameUI$1
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

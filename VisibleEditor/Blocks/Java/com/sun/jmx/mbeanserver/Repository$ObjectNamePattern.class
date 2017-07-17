@@ -1,0 +1,11 @@
+com.sun.jmx.mbeanserver.Repository$ObjectNamePattern
+matchKeys(javax.management.ObjectName)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

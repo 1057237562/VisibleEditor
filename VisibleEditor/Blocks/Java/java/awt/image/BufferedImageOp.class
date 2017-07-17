@@ -1,0 +1,6 @@
+java.awt.image.BufferedImageOp
+filter(java.awt.image.BufferedImage,java.awt.image.BufferedImage)
+getBounds2D(java.awt.image.BufferedImage)
+getRenderingHints()
+createCompatibleDestImage(java.awt.image.BufferedImage,java.awt.image.ColorModel)
+getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)

@@ -1,0 +1,11 @@
+javax.swing.tree.AbstractLayoutCache$NodeDimensions
+getNodeDimensions(java.lang.Object,int,int,boolean,java.awt.Rectangle)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

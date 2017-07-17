@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.addressing.v200408.ProblemAction
+getAction()
+getSoapAction()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

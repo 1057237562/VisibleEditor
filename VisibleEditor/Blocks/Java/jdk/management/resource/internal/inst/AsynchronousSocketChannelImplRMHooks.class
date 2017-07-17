@@ -1,0 +1,12 @@
+jdk.management.resource.internal.inst.AsynchronousSocketChannelImplRMHooks
+bind(java.net.SocketAddress)
+getLocalAddress()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,12 @@
+java.sql.Blob
+getBytes(long,int)
+length()
+position([B,long)
+position(java.sql.Blob,long)
+truncate(long)
+free()
+setBytes(long,[B,int,int)
+setBytes(long,[B)
+getBinaryStream(long,long)
+getBinaryStream()
+setBinaryStream(long)

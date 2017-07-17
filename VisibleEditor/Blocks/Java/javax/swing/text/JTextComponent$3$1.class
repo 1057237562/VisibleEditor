@@ -1,0 +1,12 @@
+javax.swing.text.JTextComponent$3$1
+call()
+call()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

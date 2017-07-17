@@ -1,0 +1,12 @@
+com.sun.org.apache.xml.internal.security.transforms.implementations.TransformXPath$XPathNodeFilter
+isNodeInclude(org.w3c.dom.Node)
+isNodeIncludeDO(org.w3c.dom.Node,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

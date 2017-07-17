@@ -1,0 +1,9 @@
+javax.management.remote.JMXConnectorServerMBean
+getAddress()
+start()
+stop()
+getAttributes()
+isActive()
+getConnectionIds()
+setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)
+toJMXConnector(java.util.Map)

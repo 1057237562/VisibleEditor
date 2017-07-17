@@ -1,0 +1,8 @@
+javax.accessibility.AccessibleSelection
+getAccessibleSelection(int)
+isAccessibleChildSelected(int)
+addAccessibleSelection(int)
+clearAccessibleSelection()
+getAccessibleSelectionCount()
+removeAccessibleSelection(int)
+selectAllAccessibleSelection()

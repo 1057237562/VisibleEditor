@@ -1,0 +1,8 @@
+javax.sql.XAConnection
+getXAResource()
+close()
+getConnection()
+addConnectionEventListener(javax.sql.ConnectionEventListener)
+addStatementEventListener(javax.sql.StatementEventListener)
+removeConnectionEventListener(javax.sql.ConnectionEventListener)
+removeStatementEventListener(javax.sql.StatementEventListener)

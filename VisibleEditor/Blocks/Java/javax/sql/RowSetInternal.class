@@ -1,0 +1,6 @@
+javax.sql.RowSetInternal
+getConnection()
+getParams()
+getOriginal()
+getOriginalRow()
+setMetaData(javax.sql.RowSetMetaData)

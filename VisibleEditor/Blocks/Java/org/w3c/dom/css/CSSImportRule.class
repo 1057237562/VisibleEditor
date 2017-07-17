@@ -1,0 +1,9 @@
+org.w3c.dom.css.CSSImportRule
+getMedia()
+getStyleSheet()
+getHref()
+getType()
+getCssText()
+getParentRule()
+getParentStyleSheet()
+setCssText(java.lang.String)

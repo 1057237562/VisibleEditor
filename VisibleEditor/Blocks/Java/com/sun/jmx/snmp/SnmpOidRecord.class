@@ -1,0 +1,13 @@
+com.sun.jmx.snmp.SnmpOidRecord
+getName()
+getType()
+getOid()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

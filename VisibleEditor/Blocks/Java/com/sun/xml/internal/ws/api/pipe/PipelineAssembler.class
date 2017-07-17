@@ -1,0 +1,3 @@
+com.sun.xml.internal.ws.api.pipe.PipelineAssembler
+createClient(com.sun.xml.internal.ws.api.pipe.ClientPipeAssemblerContext)
+createServer(com.sun.xml.internal.ws.api.pipe.ServerPipeAssemblerContext)

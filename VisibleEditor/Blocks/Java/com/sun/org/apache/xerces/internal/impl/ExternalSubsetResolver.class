@@ -1,0 +1,3 @@
+com.sun.org.apache.xerces.internal.impl.ExternalSubsetResolver
+getExternalSubset(com.sun.org.apache.xerces.internal.xni.grammars.XMLDTDDescription)
+resolveEntity(com.sun.org.apache.xerces.internal.xni.XMLResourceIdentifier)

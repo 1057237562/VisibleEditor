@@ -1,0 +1,7 @@
+com.sun.xml.internal.bind.v2.model.core.NonElement
+getTypeName()
+isSimpleType()
+getType()
+canBeReferencedByIDREF()
+getLocation()
+getUpstream()

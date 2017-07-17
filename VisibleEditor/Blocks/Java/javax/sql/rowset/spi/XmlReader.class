@@ -1,0 +1,3 @@
+javax.sql.rowset.spi.XmlReader
+readXML(javax.sql.rowset.WebRowSet,java.io.Reader)
+readData(javax.sql.RowSetInternal)

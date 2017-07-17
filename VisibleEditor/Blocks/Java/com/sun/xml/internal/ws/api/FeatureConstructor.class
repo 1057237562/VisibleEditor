@@ -1,0 +1,6 @@
+com.sun.xml.internal.ws.api.FeatureConstructor
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

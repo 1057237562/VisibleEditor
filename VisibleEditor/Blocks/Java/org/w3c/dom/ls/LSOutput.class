@@ -1,0 +1,9 @@
+org.w3c.dom.ls.LSOutput
+getEncoding()
+setEncoding(java.lang.String)
+getSystemId()
+setSystemId(java.lang.String)
+getByteStream()
+getCharacterStream()
+setByteStream(java.io.OutputStream)
+setCharacterStream(java.io.Writer)

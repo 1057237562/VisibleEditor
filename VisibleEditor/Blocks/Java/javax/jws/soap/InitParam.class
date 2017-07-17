@@ -1,0 +1,7 @@
+javax.jws.soap.InitParam
+name()
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

@@ -1,0 +1,12 @@
+javax.xml.crypto.dsig.Reference
+getId()
+validate(javax.xml.crypto.dsig.XMLValidateContext)
+getTransforms()
+getDigestValue()
+getCalculatedDigestValue()
+getDereferencedData()
+getDigestInputStream()
+getDigestMethod()
+getType()
+getURI()
+isFeatureSupported(java.lang.String)

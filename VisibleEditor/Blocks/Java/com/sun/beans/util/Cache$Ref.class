@@ -1,0 +1,5 @@
+com.sun.beans.util.Cache$Ref
+getOwner()
+getReferent()
+isStale()
+removeOwner()

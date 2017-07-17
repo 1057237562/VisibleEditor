@@ -1,0 +1,11 @@
+com.oracle.xmlns.internal.webservices.jaxws_databinding.JavaWsdlMappingType$JavaMethods
+getJavaMethod()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

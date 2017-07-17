@@ -1,0 +1,3 @@
+org.omg.PortableServer.ServantActivatorOperations
+etherealize([B,org.omg.PortableServer.POA,org.omg.PortableServer.Servant,boolean,boolean)
+incarnate([B,org.omg.PortableServer.POA)

@@ -1,0 +1,3 @@
+com.sun.jmx.remote.internal.RMIExporter
+unexportObject(java.rmi.Remote,boolean)
+exportObject(java.rmi.Remote,int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)

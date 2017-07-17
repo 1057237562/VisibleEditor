@@ -1,0 +1,12 @@
+com.sun.org.apache.xalan.internal.utils.FactoryImpl
+getDOMFactory(boolean)
+getSAXFactory(boolean)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

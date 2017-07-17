@@ -1,0 +1,12 @@
+com.sun.xml.internal.ws.api.model.wsdl.editable.EditableWSDLMessage
+add(com.sun.xml.internal.ws.api.model.wsdl.editable.EditableWSDLPart)
+parts()
+getName()
+getLocation()
+getExtension(java.lang.Class)
+getExtensions()
+getExtensions(java.lang.Class)
+addExtension(com.sun.xml.internal.ws.api.model.wsdl.WSDLExtension)
+addNotUnderstoodExtension(javax.xml.namespace.QName,org.xml.sax.Locator)
+areRequiredExtensionsUnderstood()
+getNotUnderstoodExtensions()

@@ -1,0 +1,7 @@
+com.sun.jmx.snmp.SnmpOidDatabase
+add(com.sun.jmx.snmp.SnmpOidTable)
+remove(com.sun.jmx.snmp.SnmpOidTable)
+removeAll()
+resolveVarName(java.lang.String)
+getAllEntries()
+resolveVarOid(java.lang.String)

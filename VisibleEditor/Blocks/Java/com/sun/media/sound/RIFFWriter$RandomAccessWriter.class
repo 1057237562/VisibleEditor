@@ -1,0 +1,9 @@
+com.sun.media.sound.RIFFWriter$RandomAccessWriter
+length()
+write(int)
+write([B)
+write([B,int,int)
+close()
+setLength(long)
+seek(long)
+getPointer()

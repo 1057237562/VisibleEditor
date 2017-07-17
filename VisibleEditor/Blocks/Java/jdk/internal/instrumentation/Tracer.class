@@ -1,0 +1,12 @@
+jdk.internal.instrumentation.Tracer
+getInstance()
+addInstrumentations(java.util.List,jdk.internal.instrumentation.Logger)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

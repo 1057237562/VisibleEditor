@@ -1,0 +1,10 @@
+javax.lang.model.element.Name
+equals(java.lang.Object)
+hashCode()
+contentEquals(java.lang.CharSequence)
+toString()
+charAt(int)
+length()
+subSequence(int,int)
+chars()
+codePoints()

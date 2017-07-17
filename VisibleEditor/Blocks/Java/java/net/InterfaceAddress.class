@@ -1,0 +1,13 @@
+java.net.InterfaceAddress
+equals(java.lang.Object)
+toString()
+hashCode()
+getAddress()
+getBroadcast()
+getNetworkPrefixLength()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

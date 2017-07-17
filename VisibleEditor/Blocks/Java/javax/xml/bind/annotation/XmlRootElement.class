@@ -1,0 +1,7 @@
+javax.xml.bind.annotation.XmlRootElement
+name()
+namespace()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

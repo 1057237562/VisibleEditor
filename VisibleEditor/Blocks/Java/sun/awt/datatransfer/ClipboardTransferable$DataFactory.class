@@ -1,0 +1,11 @@
+sun.awt.datatransfer.ClipboardTransferable$DataFactory
+getTransferData(java.awt.datatransfer.DataFlavor)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

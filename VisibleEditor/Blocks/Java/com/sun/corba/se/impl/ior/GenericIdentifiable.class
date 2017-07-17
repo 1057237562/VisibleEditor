@@ -1,0 +1,13 @@
+com.sun.corba.se.impl.ior.GenericIdentifiable
+equals(java.lang.Object)
+toString()
+hashCode()
+write(org.omg.CORBA_2_3.portable.OutputStream)
+getId()
+getData()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

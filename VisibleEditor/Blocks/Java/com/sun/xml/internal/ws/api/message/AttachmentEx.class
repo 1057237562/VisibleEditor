@@ -1,0 +1,10 @@
+com.sun.xml.internal.ws.api.message.AttachmentEx
+getMimeHeaders()
+getContentType()
+writeTo(java.io.OutputStream)
+writeTo(javax.xml.soap.SOAPMessage)
+getContentId()
+asSource()
+asByteArray()
+asDataHandler()
+asInputStream()

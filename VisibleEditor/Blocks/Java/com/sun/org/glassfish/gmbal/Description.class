@@ -1,0 +1,7 @@
+com.sun.org.glassfish.gmbal.Description
+value()
+key()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

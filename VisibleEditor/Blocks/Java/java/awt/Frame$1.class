@@ -1,0 +1,13 @@
+java.awt.Frame$1
+getExtendedState(java.awt.Frame)
+getMaximizedBounds(java.awt.Frame)
+setExtendedState(java.awt.Frame,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

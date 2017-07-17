@@ -1,0 +1,11 @@
+java.lang.invoke.MethodHandleProxies$1
+invoke(java.lang.Object,java.lang.reflect.Method,[Ljava.lang.Object;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

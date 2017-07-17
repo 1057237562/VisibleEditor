@@ -1,0 +1,11 @@
+com.sun.media.sound.Toolkit
+getPCMConvertedAudioInputStream(javax.sound.sampled.AudioInputStream)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

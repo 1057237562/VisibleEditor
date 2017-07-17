@@ -1,0 +1,13 @@
+javax.swing.text.html.HTML$UnknownTag
+equals(java.lang.Object)
+hashCode()
+toString()
+isBlock()
+breaksFlow()
+isPreformatted()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

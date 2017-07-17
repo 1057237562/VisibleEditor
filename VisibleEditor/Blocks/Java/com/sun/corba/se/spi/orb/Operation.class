@@ -1,0 +1,2 @@
+com.sun.corba.se.spi.orb.Operation
+operate(java.lang.Object)

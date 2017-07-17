@@ -1,0 +1,8 @@
+org.xml.sax.Parser
+parse(java.lang.String)
+parse(org.xml.sax.InputSource)
+setLocale(java.util.Locale)
+setDTDHandler(org.xml.sax.DTDHandler)
+setEntityResolver(org.xml.sax.EntityResolver)
+setErrorHandler(org.xml.sax.ErrorHandler)
+setDocumentHandler(org.xml.sax.DocumentHandler)

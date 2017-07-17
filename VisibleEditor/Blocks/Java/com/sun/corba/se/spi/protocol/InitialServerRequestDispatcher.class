@@ -1,0 +1,4 @@
+com.sun.corba.se.spi.protocol.InitialServerRequestDispatcher
+init(com.sun.corba.se.spi.resolver.Resolver)
+locate(com.sun.corba.se.spi.ior.ObjectKey)
+dispatch(com.sun.corba.se.pept.protocol.MessageMediator)

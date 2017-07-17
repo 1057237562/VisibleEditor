@@ -1,0 +1,3 @@
+javax.naming.spi.DirStateFactory
+getStateToBind(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable,javax.naming.directory.Attributes)
+getStateToBind(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)

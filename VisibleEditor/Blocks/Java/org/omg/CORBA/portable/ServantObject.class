@@ -1,0 +1,10 @@
+org.omg.CORBA.portable.ServantObject
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,7 @@
+org.omg.PortableInterceptor.IORInterceptor_3_0Operations
+adapter_manager_state_changed(int,short)
+adapter_state_changed([Lorg.omg.PortableInterceptor.ObjectReferenceTemplate;,short)
+components_established(org.omg.PortableInterceptor.IORInfo)
+establish_components(org.omg.PortableInterceptor.IORInfo)
+name()
+destroy()

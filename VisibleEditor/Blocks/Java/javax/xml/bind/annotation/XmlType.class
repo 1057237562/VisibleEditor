@@ -1,0 +1,10 @@
+javax.xml.bind.annotation.XmlType
+name()
+propOrder()
+namespace()
+factoryClass()
+factoryMethod()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

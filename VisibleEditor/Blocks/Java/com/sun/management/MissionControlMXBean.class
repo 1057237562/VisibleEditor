@@ -1,0 +1,3 @@
+com.sun.management.MissionControlMXBean
+unregisterMBeans()
+registerMBeans()

@@ -1,0 +1,3 @@
+java.util.function.Consumer
+accept(java.lang.Object)
+andThen(java.util.function.Consumer)
