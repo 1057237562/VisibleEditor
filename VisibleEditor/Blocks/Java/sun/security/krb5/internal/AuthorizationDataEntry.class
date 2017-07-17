@@ -1,0 +1,13 @@
+sun.security.krb5.internal.AuthorizationDataEntry
+toString()
+clone()
+writeEntry(sun.security.krb5.internal.ccache.CCacheOutputStream)
+asn1Encode()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,13 @@
+sun.management.snmp.jvminstr.JvmCompilationImpl
+getJvmJITCompilerName()
+getJvmJITCompilerTimeMonitoring()
+getJvmJITCompilerTimeMs()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

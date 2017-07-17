@@ -1,0 +1,3 @@
+sun.invoke.WrapperInstance
+getWrapperInstanceTarget()
+getWrapperInstanceType()

@@ -1,0 +1,10 @@
+sun.java2d.cmm.PCMM
+createTransform(java.awt.color.ICC_Profile,int,int)
+createTransform([Lsun.java2d.cmm.ColorTransform;)
+freeProfile(sun.java2d.cmm.Profile)
+getProfileData(sun.java2d.cmm.Profile,[B)
+getProfileSize(sun.java2d.cmm.Profile)
+getTagData(sun.java2d.cmm.Profile,int,[B)
+getTagSize(sun.java2d.cmm.Profile,int)
+loadProfile([B)
+setTagData(sun.java2d.cmm.Profile,int,[B)

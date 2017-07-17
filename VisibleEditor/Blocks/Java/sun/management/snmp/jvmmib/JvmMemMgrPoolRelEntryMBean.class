@@ -1,0 +1,5 @@
+sun.management.snmp.jvmmib.JvmMemMgrPoolRelEntryMBean
+getJvmMemManagerIndex()
+getJvmMemMgrRelManagerName()
+getJvmMemMgrRelPoolName()
+getJvmMemPoolIndex()

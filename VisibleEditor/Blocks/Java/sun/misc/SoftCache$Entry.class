@@ -1,0 +1,13 @@
+sun.misc.SoftCache$Entry
+equals(java.lang.Object)
+hashCode()
+getValue()
+getKey()
+setValue(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

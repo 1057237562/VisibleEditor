@@ -1,0 +1,10 @@
+sun.security.util.ManifestDigester$Position
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

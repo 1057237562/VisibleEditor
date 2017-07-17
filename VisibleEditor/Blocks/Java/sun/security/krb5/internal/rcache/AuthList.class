@@ -1,0 +1,12 @@
+sun.security.krb5.internal.rcache.AuthList
+put(sun.security.krb5.internal.rcache.AuthTimeWithHash,sun.security.krb5.internal.KerberosTime)
+toString()
+isEmpty()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

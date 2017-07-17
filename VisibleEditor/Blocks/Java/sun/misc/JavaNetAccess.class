@@ -1,0 +1,3 @@
+sun.misc.JavaNetAccess
+getURLClassPath(java.net.URLClassLoader)
+getOriginalHostName(java.net.InetAddress)

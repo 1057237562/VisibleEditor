@@ -1,0 +1,13 @@
+sun.management.counter.perf.PerfDataType
+toString()
+byteValue()
+size()
+toPerfDataType(byte)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

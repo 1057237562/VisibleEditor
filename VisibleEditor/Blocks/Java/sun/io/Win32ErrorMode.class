@@ -1,0 +1,11 @@
+sun.io.Win32ErrorMode
+initialize()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

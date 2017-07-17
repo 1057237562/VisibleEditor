@@ -1,0 +1,11 @@
+sun.security.krb5.internal.crypto.Nonce
+value()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

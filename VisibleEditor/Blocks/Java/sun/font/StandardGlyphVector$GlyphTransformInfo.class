@@ -1,0 +1,11 @@
+sun.font.StandardGlyphVector$GlyphTransformInfo
+equals(sun.font.StandardGlyphVector$GlyphTransformInfo)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

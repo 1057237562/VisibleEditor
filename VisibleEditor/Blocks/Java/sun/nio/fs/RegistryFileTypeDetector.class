@@ -1,0 +1,12 @@
+sun.nio.fs.RegistryFileTypeDetector
+implProbeContentType(java.nio.file.Path)
+probeContentType(java.nio.file.Path)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

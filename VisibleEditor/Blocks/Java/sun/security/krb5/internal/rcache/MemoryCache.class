@@ -1,0 +1,13 @@
+sun.security.krb5.internal.rcache.MemoryCache
+toString()
+checkAndStore(sun.security.krb5.internal.KerberosTime,sun.security.krb5.internal.rcache.AuthTimeWithHash)
+getInstance()
+getInstance(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

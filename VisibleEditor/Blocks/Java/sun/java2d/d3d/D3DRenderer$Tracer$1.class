@@ -1,0 +1,12 @@
+sun.java2d.d3d.D3DRenderer$Tracer$1
+drawParallelogram(sun.java2d.SunGraphics2D,double,double,double,double,double,double,double,double,double,double,double,double)
+fillParallelogram(sun.java2d.SunGraphics2D,double,double,double,double,double,double,double,double,double,double)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

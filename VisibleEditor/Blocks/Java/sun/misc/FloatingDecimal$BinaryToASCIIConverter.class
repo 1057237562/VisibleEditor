@@ -1,0 +1,9 @@
+sun.misc.FloatingDecimal$BinaryToASCIIConverter
+appendTo(java.lang.Appendable)
+toJavaFormatString()
+decimalDigitsExact()
+digitsRoundedUp()
+getDecimalExponent()
+getDigits([C)
+isExceptional()
+isNegative()

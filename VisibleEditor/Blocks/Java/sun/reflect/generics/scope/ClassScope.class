@@ -1,0 +1,12 @@
+sun.reflect.generics.scope.ClassScope
+make(java.lang.Class)
+lookup(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

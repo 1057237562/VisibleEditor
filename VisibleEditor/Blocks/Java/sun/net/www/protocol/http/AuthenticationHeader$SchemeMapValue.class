@@ -1,0 +1,10 @@
+sun.net.www.protocol.http.AuthenticationHeader$SchemeMapValue
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

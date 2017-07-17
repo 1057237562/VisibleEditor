@@ -1,0 +1,2 @@
+sun.nio.cs.ArrayEncoder
+encode([C,int,int,[B)

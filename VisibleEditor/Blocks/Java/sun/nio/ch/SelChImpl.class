@@ -1,0 +1,10 @@
+sun.nio.ch.SelChImpl
+getFD()
+validOps()
+getFDVal()
+kill()
+translateAndSetInterestOps(int,sun.nio.ch.SelectionKeyImpl)
+translateAndSetReadyOps(int,sun.nio.ch.SelectionKeyImpl)
+translateAndUpdateReadyOps(int,sun.nio.ch.SelectionKeyImpl)
+close()
+isOpen()

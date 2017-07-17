@@ -1,0 +1,5 @@
+sun.security.provider.certpath.State
+clone()
+updateState(java.security.cert.X509Certificate)
+isInitial()
+keyParamsNeeded()

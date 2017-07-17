@@ -1,0 +1,11 @@
+sun.font.T2KFontScaler$1
+run()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

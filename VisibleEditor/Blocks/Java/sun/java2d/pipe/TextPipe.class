@@ -1,0 +1,4 @@
+sun.java2d.pipe.TextPipe
+drawChars(sun.java2d.SunGraphics2D,[C,int,int,int,int)
+drawGlyphVector(sun.java2d.SunGraphics2D,java.awt.font.GlyphVector,float,float)
+drawString(sun.java2d.SunGraphics2D,java.lang.String,double,double)

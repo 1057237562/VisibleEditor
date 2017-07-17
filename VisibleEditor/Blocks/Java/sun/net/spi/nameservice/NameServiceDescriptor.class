@@ -1,0 +1,4 @@
+sun.net.spi.nameservice.NameServiceDescriptor
+getType()
+createNameService()
+getProviderName()

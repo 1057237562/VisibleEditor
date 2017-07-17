@@ -1,0 +1,13 @@
+sun.reflect.generics.reflectiveObjects.GenericArrayTypeImpl
+equals(java.lang.Object)
+toString()
+hashCode()
+getGenericComponentType()
+make(java.lang.reflect.Type)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()
+getTypeName()

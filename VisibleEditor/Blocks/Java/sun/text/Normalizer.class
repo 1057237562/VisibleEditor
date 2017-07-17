@@ -1,0 +1,13 @@
+sun.text.Normalizer
+normalize(java.lang.CharSequence,java.text.Normalizer$Form,int)
+isNormalized(java.lang.CharSequence,java.text.Normalizer$Form,int)
+getCombiningClass(int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,10 @@
+sun.java2d.loops.GraphicsPrimitiveMgr$PrimitiveSpec
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

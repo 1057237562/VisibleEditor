@@ -1,0 +1,11 @@
+sun.text.normalizer.NormalizerBase$IsNextNFDSafe
+isNextBoundary(sun.text.normalizer.UCharacterIterator,int,int,[I)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

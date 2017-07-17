@@ -1,0 +1,2 @@
+sun.nio.ch.Interruptible
+interrupt(java.lang.Thread)

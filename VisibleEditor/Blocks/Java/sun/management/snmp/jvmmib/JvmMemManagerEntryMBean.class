@@ -1,0 +1,4 @@
+sun.management.snmp.jvmmib.JvmMemManagerEntryMBean
+getJvmMemManagerIndex()
+getJvmMemManagerName()
+getJvmMemManagerState()

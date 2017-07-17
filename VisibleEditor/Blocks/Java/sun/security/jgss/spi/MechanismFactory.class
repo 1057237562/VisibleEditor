@@ -1,0 +1,10 @@
+sun.security.jgss.spi.MechanismFactory
+getProvider()
+getMechanismContext(sun.security.jgss.spi.GSSNameSpi,sun.security.jgss.spi.GSSCredentialSpi,int)
+getMechanismContext(sun.security.jgss.spi.GSSCredentialSpi)
+getMechanismContext([B)
+getCredentialElement(sun.security.jgss.spi.GSSNameSpi,int,int,int)
+getNameElement([B,org.ietf.jgss.Oid)
+getNameElement(java.lang.String,org.ietf.jgss.Oid)
+getNameTypes()
+getMechanismOid()

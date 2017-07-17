@@ -1,0 +1,10 @@
+sun.security.krb5.KdcComm$KdcAccessibility
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

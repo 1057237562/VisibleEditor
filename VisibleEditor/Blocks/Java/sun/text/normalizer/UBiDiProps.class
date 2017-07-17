@@ -1,0 +1,13 @@
+sun.text.normalizer.UBiDiProps
+getClass(int)
+getSingleton()
+getDummy()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

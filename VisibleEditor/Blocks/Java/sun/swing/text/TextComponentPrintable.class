@@ -1,0 +1,13 @@
+sun.swing.text.TextComponentPrintable
+print(java.awt.Graphics,java.awt.print.PageFormat,int)
+getPrintable(javax.swing.text.JTextComponent,java.text.MessageFormat,java.text.MessageFormat)
+getNumberOfPages()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

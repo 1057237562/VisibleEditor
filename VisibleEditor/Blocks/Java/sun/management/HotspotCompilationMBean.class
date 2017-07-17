@@ -1,0 +1,12 @@
+sun.management.HotspotCompilationMBean
+getBailoutCompileCount()
+getCompiledMethodCodeSize()
+getCompiledMethodSize()
+getCompilerThreadCount()
+getCompilerThreadStats()
+getFailedCompile()
+getInternalCompilerCounters()
+getInvalidatedCompile()
+getInvalidatedCompileCount()
+getLastCompile()
+getTotalCompileCount()

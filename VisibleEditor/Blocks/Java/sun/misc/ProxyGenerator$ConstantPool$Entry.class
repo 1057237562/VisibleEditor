@@ -1,0 +1,11 @@
+sun.misc.ProxyGenerator$ConstantPool$Entry
+write(java.io.DataOutputStream)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

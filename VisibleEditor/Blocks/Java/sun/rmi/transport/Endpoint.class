@@ -1,0 +1,5 @@
+sun.rmi.transport.Endpoint
+getChannel()
+exportObject(sun.rmi.transport.Target)
+getOutboundTransport()
+getInboundTransport()

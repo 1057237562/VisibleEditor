@@ -1,0 +1,12 @@
+sun.invoke.util.ValueConversions$WrapperCache
+get(sun.invoke.util.Wrapper)
+put(sun.invoke.util.Wrapper,java.lang.invoke.MethodHandle)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

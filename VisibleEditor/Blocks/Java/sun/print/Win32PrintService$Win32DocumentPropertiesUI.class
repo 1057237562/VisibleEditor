@@ -1,0 +1,11 @@
+sun.print.Win32PrintService$Win32DocumentPropertiesUI
+showDocumentProperties(java.awt.print.PrinterJob,java.awt.Window,javax.print.PrintService,javax.print.attribute.PrintRequestAttributeSet)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

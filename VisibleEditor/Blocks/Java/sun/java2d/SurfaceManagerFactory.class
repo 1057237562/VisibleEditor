@@ -1,0 +1,13 @@
+sun.java2d.SurfaceManagerFactory
+getInstance()
+createVolatileManager(sun.awt.image.SunVolatileImage,java.lang.Object)
+setInstance(sun.java2d.SurfaceManagerFactory)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

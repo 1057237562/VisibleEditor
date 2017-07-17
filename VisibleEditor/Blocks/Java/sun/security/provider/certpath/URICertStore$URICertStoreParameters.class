@@ -1,0 +1,11 @@
+sun.security.provider.certpath.URICertStore$URICertStoreParameters
+equals(java.lang.Object)
+hashCode()
+clone()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

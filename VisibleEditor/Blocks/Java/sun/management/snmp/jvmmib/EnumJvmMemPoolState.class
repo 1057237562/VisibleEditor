@@ -1,0 +1,13 @@
+sun.management.snmp.jvmmib.EnumJvmMemPoolState
+equals(java.lang.Object)
+toString()
+hashCode()
+intValue()
+valueIndexes()
+valueStrings()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

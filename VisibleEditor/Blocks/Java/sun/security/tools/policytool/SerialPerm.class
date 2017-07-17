@@ -1,0 +1,10 @@
+sun.security.tools.policytool.SerialPerm
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

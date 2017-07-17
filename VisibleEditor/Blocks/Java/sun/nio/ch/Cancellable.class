@@ -1,0 +1,2 @@
+sun.nio.ch.Cancellable
+onCancel(sun.nio.ch.PendingFuture)

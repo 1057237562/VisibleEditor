@@ -1,0 +1,12 @@
+sun.security.x509.SerialNumber
+toString()
+encode(sun.security.util.DerOutputStream)
+getNumber()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,12 @@
+sun.misc.CRC16
+update(byte)
+reset()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,2 @@
+sun.misc.ObjectInputFilter
+checkInput(sun.misc.ObjectInputFilter$FilterInfo)

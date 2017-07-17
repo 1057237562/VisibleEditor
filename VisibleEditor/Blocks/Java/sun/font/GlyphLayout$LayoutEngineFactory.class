@@ -1,0 +1,3 @@
+sun.font.GlyphLayout$LayoutEngineFactory
+getEngine(sun.font.Font2D,int,int)
+getEngine(sun.font.GlyphLayout$LayoutEngineKey)

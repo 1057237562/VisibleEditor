@@ -1,0 +1,12 @@
+sun.java2d.opengl.OGLContext$OGLContextCaps
+toString()
+getCaps()
+getAdapterId()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

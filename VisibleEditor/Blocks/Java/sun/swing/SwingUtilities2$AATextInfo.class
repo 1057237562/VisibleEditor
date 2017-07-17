@@ -1,0 +1,11 @@
+sun.swing.SwingUtilities2$AATextInfo
+getAATextInfo(boolean)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

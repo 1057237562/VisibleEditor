@@ -1,0 +1,13 @@
+sun.rmi.transport.ObjectTable
+getTarget(java.rmi.Remote)
+unexportObject(java.rmi.Remote,boolean)
+getStub(java.rmi.Remote)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

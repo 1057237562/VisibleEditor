@@ -1,0 +1,11 @@
+sun.security.krb5.internal.TGSRep
+asn1Encode()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,3 @@
+sun.rmi.server.MarshalInputStream$StreamChecker
+checkProxyInterfaceNames([Ljava.lang.String;)
+validateDescriptor(java.io.ObjectStreamClass)

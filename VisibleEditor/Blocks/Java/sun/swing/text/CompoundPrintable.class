@@ -1,0 +1,12 @@
+sun.swing.text.CompoundPrintable
+print(java.awt.Graphics,java.awt.print.PageFormat,int)
+getNumberOfPages()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

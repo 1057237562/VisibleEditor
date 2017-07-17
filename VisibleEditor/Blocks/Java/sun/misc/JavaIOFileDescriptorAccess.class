@@ -1,0 +1,5 @@
+sun.misc.JavaIOFileDescriptorAccess
+get(java.io.FileDescriptor)
+set(java.io.FileDescriptor,int)
+getHandle(java.io.FileDescriptor)
+setHandle(java.io.FileDescriptor,long)

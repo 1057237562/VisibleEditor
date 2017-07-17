@@ -1,0 +1,11 @@
+sun.text.bidi.BidiLine
+setLine(java.text.Bidi,sun.text.bidi.BidiBase,java.text.Bidi,sun.text.bidi.BidiBase,int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

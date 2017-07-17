@@ -1,0 +1,10 @@
+sun.java2d.pipe.hw.AccelSurface
+getType()
+getNativeBounds()
+getNativeResource(int)
+getBounds()
+isValid()
+getNativeOps()
+isSurfaceLost()
+markDirty()
+getContext()

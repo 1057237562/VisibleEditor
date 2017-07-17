@@ -1,0 +1,13 @@
+sun.security.jgss.krb5.InitialToken$OverloadedChecksum
+getChecksum()
+getDelegatedCreds()
+setContextFlags(sun.security.jgss.krb5.Krb5Context)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

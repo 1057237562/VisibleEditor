@@ -1,0 +1,10 @@
+sun.security.jgss.spi.GSSNameSpi
+equals(java.lang.Object)
+equals(sun.security.jgss.spi.GSSNameSpi)
+toString()
+hashCode()
+export()
+getProvider()
+getStringNameType()
+getMechanism()
+isAnonymousName()

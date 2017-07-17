@@ -1,0 +1,12 @@
+sun.java2d.SunCompositeContext
+compose(java.awt.image.Raster,java.awt.image.Raster,java.awt.image.WritableRaster)
+dispose()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

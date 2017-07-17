@@ -1,0 +1,2 @@
+sun.util.locale.provider.LocaleServiceProviderPool$LocalizedObjectGetter
+getObject(java.util.spi.LocaleServiceProvider,java.util.Locale,java.lang.String,[Ljava.lang.Object;)

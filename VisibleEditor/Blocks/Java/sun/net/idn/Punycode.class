@@ -1,0 +1,12 @@
+sun.net.idn.Punycode
+decode(java.lang.StringBuffer,[Z)
+encode(java.lang.StringBuffer,[Z)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,13 @@
+sun.font.FontStrikeDesc
+equals(java.lang.Object)
+toString()
+hashCode()
+getAAHintIntVal(sun.font.Font2D,java.awt.Font,java.awt.font.FontRenderContext)
+getAAHintIntVal(java.lang.Object,sun.font.Font2D,int)
+getFMHintIntVal(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

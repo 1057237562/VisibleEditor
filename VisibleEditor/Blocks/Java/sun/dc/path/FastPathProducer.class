@@ -1,0 +1,3 @@
+sun.dc.path.FastPathProducer
+getBox([F)
+sendTo(sun.dc.path.PathConsumer)

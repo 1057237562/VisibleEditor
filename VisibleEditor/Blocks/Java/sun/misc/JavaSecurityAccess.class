@@ -1,0 +1,3 @@
+sun.misc.JavaSecurityAccess
+doIntersectionPrivilege(java.security.PrivilegedAction,java.security.AccessControlContext,java.security.AccessControlContext)
+doIntersectionPrivilege(java.security.PrivilegedAction,java.security.AccessControlContext)

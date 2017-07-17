@@ -1,0 +1,4 @@
+sun.rmi.transport.Channel
+free(sun.rmi.transport.Connection,boolean)
+getEndpoint()
+newConnection()

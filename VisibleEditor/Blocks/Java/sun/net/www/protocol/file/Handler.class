@@ -1,0 +1,12 @@
+sun.net.www.protocol.file.Handler
+openConnection(java.net.URL)
+openConnection(java.net.URL,java.net.Proxy)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

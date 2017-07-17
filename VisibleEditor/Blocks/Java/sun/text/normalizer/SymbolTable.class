@@ -1,0 +1,4 @@
+sun.text.normalizer.SymbolTable
+lookup(java.lang.String)
+parseReference(java.lang.String,java.text.ParsePosition,int)
+lookupMatcher(int)

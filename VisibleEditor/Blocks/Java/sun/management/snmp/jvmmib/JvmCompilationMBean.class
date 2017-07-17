@@ -1,0 +1,4 @@
+sun.management.snmp.jvmmib.JvmCompilationMBean
+getJvmJITCompilerName()
+getJvmJITCompilerTimeMonitoring()
+getJvmJITCompilerTimeMs()

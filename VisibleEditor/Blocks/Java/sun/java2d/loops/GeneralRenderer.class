@@ -1,0 +1,13 @@
+sun.java2d.loops.GeneralRenderer
+register()
+adjustLine([I,int,int,int,int)
+doDrawRect(sun.java2d.loops.PixelWriter,sun.java2d.SunGraphics2D,sun.java2d.SurfaceData,int,int,int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

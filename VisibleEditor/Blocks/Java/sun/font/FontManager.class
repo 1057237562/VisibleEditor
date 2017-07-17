@@ -1,0 +1,9 @@
+sun.font.FontManager
+preferLocaleFonts()
+preferProportionalFonts()
+registerFont(java.awt.Font)
+deRegisterBadFont(sun.font.Font2D)
+createFont2D(java.io.File,int,boolean,sun.font.CreatedFontTracker)
+findFont2D(java.lang.String,int,int)
+getNewComposite(java.lang.String,int,sun.font.Font2DHandle)
+usingPerAppContextComposites()

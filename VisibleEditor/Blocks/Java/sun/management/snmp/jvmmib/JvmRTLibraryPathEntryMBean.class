@@ -1,0 +1,3 @@
+sun.management.snmp.jvmmib.JvmRTLibraryPathEntryMBean
+getJvmRTLibraryPathIndex()
+getJvmRTLibraryPathItem()

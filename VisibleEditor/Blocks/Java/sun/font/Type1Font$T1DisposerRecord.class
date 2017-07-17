@@ -1,0 +1,11 @@
+sun.font.Type1Font$T1DisposerRecord
+dispose()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

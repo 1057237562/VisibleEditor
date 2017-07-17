@@ -1,0 +1,7 @@
+sun.font.Decoration$Label
+getLogicalBounds()
+handleDraw(java.awt.Graphics2D,float,float)
+handleGetCharVisualBounds(int)
+handleGetOutline(float,float)
+handleGetVisualBounds()
+getCoreMetrics()

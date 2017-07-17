@@ -1,0 +1,3 @@
+sun.net.spi.nameservice.NameService
+getHostByAddr([B)
+lookupAllHostAddr(java.lang.String)

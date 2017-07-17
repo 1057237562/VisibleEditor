@@ -1,0 +1,13 @@
+sun.security.jgss.krb5.MessageToken_v2$MessageTokenHeader
+encode(java.io.OutputStream)
+getBytes()
+getTokenId()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

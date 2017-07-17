@@ -1,0 +1,11 @@
+sun.management.snmp.jvminstr.JVM_MANAGEMENT_MIB_IMPL$NotificationHandler
+handleNotification(javax.management.Notification,java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

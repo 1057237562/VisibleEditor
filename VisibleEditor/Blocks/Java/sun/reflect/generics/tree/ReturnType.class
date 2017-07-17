@@ -1,0 +1,2 @@
+sun.reflect.generics.tree.ReturnType
+accept(sun.reflect.generics.visitor.TypeTreeVisitor)

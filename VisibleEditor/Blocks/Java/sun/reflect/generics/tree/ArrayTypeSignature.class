@@ -1,0 +1,13 @@
+sun.reflect.generics.tree.ArrayTypeSignature
+getComponentType()
+make(sun.reflect.generics.tree.TypeSignature)
+accept(sun.reflect.generics.visitor.TypeTreeVisitor)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

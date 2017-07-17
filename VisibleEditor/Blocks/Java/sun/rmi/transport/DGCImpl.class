@@ -1,0 +1,12 @@
+sun.rmi.transport.DGCImpl
+clean([Ljava.rmi.server.ObjID;,long,java.rmi.dgc.VMID,boolean)
+dirty([Ljava.rmi.server.ObjID;,long,java.rmi.dgc.Lease)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

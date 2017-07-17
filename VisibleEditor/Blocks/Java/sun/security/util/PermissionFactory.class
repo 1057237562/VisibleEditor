@@ -1,0 +1,2 @@
+sun.security.util.PermissionFactory
+newPermission(java.lang.String)

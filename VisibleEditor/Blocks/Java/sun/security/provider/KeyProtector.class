@@ -1,0 +1,12 @@
+sun.security.provider.KeyProtector
+recover(sun.security.pkcs.EncryptedPrivateKeyInfo)
+protect(java.security.Key)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

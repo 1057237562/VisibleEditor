@@ -1,0 +1,11 @@
+sun.nio.cs.SingleByte
+initC2B([C,[C,[C,[C)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

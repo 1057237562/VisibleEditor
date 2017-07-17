@@ -1,0 +1,12 @@
+sun.security.krb5.internal.rcache.AuthTime
+toString()
+encode(boolean)
+readFrom(java.nio.channels.SeekableByteChannel)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

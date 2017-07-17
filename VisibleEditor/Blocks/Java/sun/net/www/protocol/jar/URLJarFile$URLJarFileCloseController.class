@@ -1,0 +1,2 @@
+sun.net.www.protocol.jar.URLJarFile$URLJarFileCloseController
+close(java.util.jar.JarFile)

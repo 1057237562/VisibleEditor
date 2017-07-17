@@ -1,0 +1,11 @@
+sun.security.provider.PolicyParser$PermissionEntry
+equals(java.lang.Object)
+hashCode()
+write(java.io.PrintWriter)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,13 @@
+sun.security.x509.GeneralName
+equals(java.lang.Object)
+toString()
+hashCode()
+getName()
+encode(sun.security.util.DerOutputStream)
+getType()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

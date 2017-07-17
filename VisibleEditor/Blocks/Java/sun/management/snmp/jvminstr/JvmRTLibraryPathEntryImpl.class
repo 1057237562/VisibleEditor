@@ -1,0 +1,12 @@
+sun.management.snmp.jvminstr.JvmRTLibraryPathEntryImpl
+getJvmRTLibraryPathIndex()
+getJvmRTLibraryPathItem()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,12 @@
+sun.security.util.ManifestDigester
+get(java.lang.String,boolean)
+manifestDigest(java.security.MessageDigest)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

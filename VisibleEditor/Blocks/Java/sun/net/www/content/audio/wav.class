@@ -1,0 +1,12 @@
+sun.net.www.content.audio.wav
+getContent(java.net.URLConnection)
+getContent(java.net.URLConnection,[Ljava.lang.Class;)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

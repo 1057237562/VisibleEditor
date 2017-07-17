@@ -1,0 +1,12 @@
+sun.reflect.annotation.AnnotationSupport
+getAssociatedAnnotations(java.util.Map,java.lang.Class,java.lang.Class)
+getDirectlyAndIndirectlyPresent(java.util.Map,java.lang.Class)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

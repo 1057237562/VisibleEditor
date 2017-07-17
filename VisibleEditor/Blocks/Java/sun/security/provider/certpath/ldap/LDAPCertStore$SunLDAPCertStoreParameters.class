@@ -1,0 +1,13 @@
+sun.security.provider.certpath.ldap.LDAPCertStore$SunLDAPCertStoreParameters
+equals(java.lang.Object)
+hashCode()
+toString()
+clone()
+getPort()
+getServerName()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

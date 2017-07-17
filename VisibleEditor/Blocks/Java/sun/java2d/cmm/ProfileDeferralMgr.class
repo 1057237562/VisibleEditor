@@ -1,0 +1,13 @@
+sun.java2d.cmm.ProfileDeferralMgr
+activateProfiles()
+registerDeferral(sun.java2d.cmm.ProfileActivator)
+unregisterDeferral(sun.java2d.cmm.ProfileActivator)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

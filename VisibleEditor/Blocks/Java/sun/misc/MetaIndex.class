@@ -1,0 +1,13 @@
+sun.misc.MetaIndex
+registerDirectory(java.io.File)
+forJar(java.io.File)
+mayContain(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

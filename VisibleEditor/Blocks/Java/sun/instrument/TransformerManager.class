@@ -1,0 +1,13 @@
+sun.instrument.TransformerManager
+transform(java.lang.ClassLoader,java.lang.String,java.lang.Class,java.security.ProtectionDomain,[B)
+addTransformer(java.lang.instrument.ClassFileTransformer)
+removeTransformer(java.lang.instrument.ClassFileTransformer)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

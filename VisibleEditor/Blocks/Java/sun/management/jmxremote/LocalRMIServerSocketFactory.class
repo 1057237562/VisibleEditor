@@ -1,0 +1,11 @@
+sun.management.jmxremote.LocalRMIServerSocketFactory
+equals(java.lang.Object)
+hashCode()
+createServerSocket(int)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

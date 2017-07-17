@@ -1,0 +1,13 @@
+sun.misc.GC$LatencyRequest
+toString()
+compareTo(sun.misc.GC$LatencyRequest)
+compareTo(java.lang.Object)
+cancel()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

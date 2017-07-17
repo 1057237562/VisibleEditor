@@ -1,0 +1,12 @@
+sun.misc.ProxyGenerator
+generateProxyClass(java.lang.String,[Ljava.lang.Class;)
+generateProxyClass(java.lang.String,[Ljava.lang.Class;,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

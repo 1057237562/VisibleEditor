@@ -1,0 +1,5 @@
+sun.management.snmp.jvmmib.JvmOSMBean
+getJvmOSArch()
+getJvmOSName()
+getJvmOSProcessorCount()
+getJvmOSVersion()

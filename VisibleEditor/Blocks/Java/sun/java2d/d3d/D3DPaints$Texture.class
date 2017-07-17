@@ -1,0 +1,11 @@
+sun.java2d.d3d.D3DPaints$Texture
+isPaintValid(sun.java2d.SunGraphics2D)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,11 @@
+sun.management.snmp.jvminstr.JvmThreadInstanceTableMetaImpl$JvmThreadInstanceTableCache
+getTableHandler()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

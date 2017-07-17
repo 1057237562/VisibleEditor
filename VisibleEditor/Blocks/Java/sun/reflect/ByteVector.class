@@ -1,0 +1,7 @@
+sun.reflect.ByteVector
+add(byte)
+get(int)
+put(int,byte)
+getLength()
+trim()
+getData()

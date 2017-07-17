@@ -1,0 +1,12 @@
+sun.swing.JLightweightFrame$4
+componentAdded(java.awt.event.ContainerEvent)
+componentRemoved(java.awt.event.ContainerEvent)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

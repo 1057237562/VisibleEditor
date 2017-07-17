@@ -1,0 +1,13 @@
+sun.reflect.MethodAccessorGenerator
+generateConstructor(java.lang.Class,[Ljava.lang.Class;,[Ljava.lang.Class;,int)
+generateMethod(java.lang.Class,java.lang.String,[Ljava.lang.Class;,java.lang.Class,[Ljava.lang.Class;,int)
+generateSerializationConstructor(java.lang.Class,[Ljava.lang.Class;,[Ljava.lang.Class;,int,java.lang.Class)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

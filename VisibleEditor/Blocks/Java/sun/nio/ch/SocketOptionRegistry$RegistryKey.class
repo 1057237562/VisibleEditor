@@ -1,0 +1,10 @@
+sun.nio.ch.SocketOptionRegistry$RegistryKey
+equals(java.lang.Object)
+hashCode()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

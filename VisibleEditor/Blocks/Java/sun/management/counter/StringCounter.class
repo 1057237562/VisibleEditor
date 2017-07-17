@@ -1,0 +1,10 @@
+sun.management.counter.StringCounter
+stringValue()
+getName()
+getValue()
+getFlags()
+getUnits()
+getVariability()
+getVectorLength()
+isInternal()
+isVector()

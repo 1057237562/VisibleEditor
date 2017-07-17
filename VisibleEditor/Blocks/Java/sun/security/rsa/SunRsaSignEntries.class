@@ -1,0 +1,11 @@
+sun.security.rsa.SunRsaSignEntries
+putEntries(java.util.Map)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

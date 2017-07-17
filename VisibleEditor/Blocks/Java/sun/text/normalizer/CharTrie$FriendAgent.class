@@ -1,0 +1,13 @@
+sun.text.normalizer.CharTrie$FriendAgent
+getPrivateData()
+getPrivateIndex()
+getPrivateInitialValue()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

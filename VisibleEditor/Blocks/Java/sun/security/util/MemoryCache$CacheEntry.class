@@ -1,0 +1,5 @@
+sun.security.util.MemoryCache$CacheEntry
+getValue()
+getKey()
+invalidate()
+isValid(long)

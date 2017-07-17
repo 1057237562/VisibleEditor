@@ -1,0 +1,11 @@
+sun.security.tools.keytool.Pair
+equals(java.lang.Object)
+toString()
+hashCode()
+of(java.lang.Object,java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

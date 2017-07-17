@@ -1,0 +1,2 @@
+sun.text.normalizer.NormalizerBase$IsPrevBoundary
+isPrevBoundary(sun.text.normalizer.UCharacterIterator,int,int,[C)

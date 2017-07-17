@@ -1,0 +1,12 @@
+sun.net.www.protocol.mailto.Handler
+openConnection(java.net.URL)
+parseURL(java.net.URL,java.lang.String,int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

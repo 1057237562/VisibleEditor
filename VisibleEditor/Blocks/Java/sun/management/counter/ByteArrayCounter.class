@@ -1,0 +1,11 @@
+sun.management.counter.ByteArrayCounter
+byteAt(int)
+byteArrayValue()
+getName()
+getValue()
+getFlags()
+getUnits()
+getVariability()
+getVectorLength()
+isInternal()
+isVector()

@@ -1,0 +1,4 @@
+sun.rmi.server.DeserializationChecker
+check(java.lang.reflect.Method,java.io.ObjectStreamClass,int,int)
+end(int)
+checkProxyClass(java.lang.reflect.Method,[Ljava.lang.String;,int,int)

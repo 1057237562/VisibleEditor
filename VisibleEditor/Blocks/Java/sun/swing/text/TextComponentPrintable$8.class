@@ -1,0 +1,12 @@
+sun.swing.text.TextComponentPrintable$8
+call()
+call()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

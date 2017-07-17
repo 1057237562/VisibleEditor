@@ -1,0 +1,2 @@
+sun.font.GlyphLayout$LayoutEngine
+layout(sun.font.FontStrikeDesc,[F,int,int,sun.font.TextRecord,int,java.awt.geom.Point2D$Float,sun.font.GlyphLayout$GVData)

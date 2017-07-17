@@ -1,0 +1,2 @@
+sun.text.normalizer.NormalizerBase$IsNextBoundary
+isNextBoundary(sun.text.normalizer.UCharacterIterator,int,int,[I)

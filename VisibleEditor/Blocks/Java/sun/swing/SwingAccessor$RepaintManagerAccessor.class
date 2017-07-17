@@ -1,0 +1,3 @@
+sun.swing.SwingAccessor$RepaintManagerAccessor
+addRepaintListener(javax.swing.RepaintManager,sun.swing.SwingUtilities2$RepaintListener)
+removeRepaintListener(javax.swing.RepaintManager,sun.swing.SwingUtilities2$RepaintListener)

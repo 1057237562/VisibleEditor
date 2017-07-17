@@ -1,0 +1,9 @@
+sun.management.counter.Counter
+getName()
+getValue()
+getFlags()
+getUnits()
+getVariability()
+getVectorLength()
+isInternal()
+isVector()

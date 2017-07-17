@@ -1,0 +1,13 @@
+sun.security.krb5.internal.Ticket
+clone()
+parse(sun.security.util.DerInputStream,byte,boolean)
+asn1Encode()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

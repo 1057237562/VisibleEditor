@@ -1,0 +1,11 @@
+sun.java2d.StateTracker$1
+isCurrent()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

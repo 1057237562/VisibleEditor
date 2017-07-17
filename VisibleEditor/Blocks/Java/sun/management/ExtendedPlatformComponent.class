@@ -1,0 +1,12 @@
+sun.management.ExtendedPlatformComponent
+getMXBean(java.lang.Class)
+getMXBeans()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

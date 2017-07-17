@@ -1,0 +1,12 @@
+sun.util.locale.provider.AuxLocaleProviderAdapter$NullProvider
+getAvailableLocales()
+isSupportedLocale(java.util.Locale)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,12 @@
+sun.management.jdp.JdpController
+startDiscoveryService(java.net.InetAddress,int,java.lang.String,java.lang.String)
+stopDiscoveryService()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,10 @@
+sun.management.counter.LongCounter
+longValue()
+getName()
+getValue()
+getFlags()
+getUnits()
+getVariability()
+getVectorLength()
+isInternal()
+isVector()

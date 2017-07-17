@@ -1,0 +1,3 @@
+sun.swing.text.CountingPrintable
+getNumberOfPages()
+print(java.awt.Graphics,java.awt.print.PageFormat,int)

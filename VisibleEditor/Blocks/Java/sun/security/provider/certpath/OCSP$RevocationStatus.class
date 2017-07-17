@@ -1,0 +1,5 @@
+sun.security.provider.certpath.OCSP$RevocationStatus
+getRevocationReason()
+getCertStatus()
+getRevocationTime()
+getSingleExtensions()

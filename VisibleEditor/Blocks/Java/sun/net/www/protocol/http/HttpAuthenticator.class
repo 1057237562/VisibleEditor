@@ -1,0 +1,3 @@
+sun.net.www.protocol.http.HttpAuthenticator
+authString(java.net.URL,java.lang.String,java.lang.String)
+schemeSupported(java.lang.String)

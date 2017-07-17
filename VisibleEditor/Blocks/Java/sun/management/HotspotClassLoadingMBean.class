@@ -1,0 +1,9 @@
+sun.management.HotspotClassLoadingMBean
+getClassInitializationTime()
+getClassLoadingTime()
+getClassVerificationTime()
+getInitializedClassCount()
+getInternalClassLoadingCounters()
+getLoadedClassSize()
+getMethodDataSize()
+getUnloadedClassSize()

@@ -1,0 +1,6 @@
+sun.security.krb5.internal.SeqNumber
+next()
+init(int)
+current()
+step()
+randInit()

@@ -1,0 +1,12 @@
+sun.net.DefaultProgressMeteringPolicy
+shouldMeterInput(java.net.URL,java.lang.String)
+getProgressUpdateThreshold()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

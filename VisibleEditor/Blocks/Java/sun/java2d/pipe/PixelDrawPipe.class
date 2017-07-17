@@ -1,0 +1,8 @@
+sun.java2d.pipe.PixelDrawPipe
+drawArc(sun.java2d.SunGraphics2D,int,int,int,int,int,int)
+drawLine(sun.java2d.SunGraphics2D,int,int,int,int)
+drawOval(sun.java2d.SunGraphics2D,int,int,int,int)
+drawPolygon(sun.java2d.SunGraphics2D,[I,[I,int)
+drawPolyline(sun.java2d.SunGraphics2D,[I,[I,int)
+drawRect(sun.java2d.SunGraphics2D,int,int,int,int)
+drawRoundRect(sun.java2d.SunGraphics2D,int,int,int,int,int,int)

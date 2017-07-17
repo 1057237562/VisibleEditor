@@ -1,0 +1,8 @@
+sun.security.x509.CertAttrSet
+get(java.lang.String)
+toString()
+getName()
+encode(java.io.OutputStream)
+delete(java.lang.String)
+set(java.lang.String,java.lang.Object)
+getElements()

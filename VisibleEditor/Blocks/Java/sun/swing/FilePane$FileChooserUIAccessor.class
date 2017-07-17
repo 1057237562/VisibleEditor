@@ -1,0 +1,12 @@
+sun.swing.FilePane$FileChooserUIAccessor
+getModel()
+createList()
+createDetailsView()
+createDoubleClickListener(javax.swing.JList)
+createListSelectionListener()
+getApproveSelectionAction()
+getChangeToParentDirectoryAction()
+getDirectory()
+getFileChooser()
+getNewFolderAction()
+isDirectorySelected()

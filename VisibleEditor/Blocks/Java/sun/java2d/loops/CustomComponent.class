@@ -1,0 +1,12 @@
+sun.java2d.loops.CustomComponent
+register()
+getRegionOfInterest(sun.java2d.SurfaceData,sun.java2d.SurfaceData,sun.java2d.pipe.Region,int,int,int,int,int,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

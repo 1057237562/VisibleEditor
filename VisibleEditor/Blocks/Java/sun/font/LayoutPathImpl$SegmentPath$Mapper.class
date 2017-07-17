@@ -1,0 +1,11 @@
+sun.font.LayoutPathImpl$SegmentPath$Mapper
+mapShape(java.awt.Shape)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

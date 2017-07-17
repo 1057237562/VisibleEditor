@@ -1,0 +1,2 @@
+sun.misc.ExtensionInstallationProvider
+installExtension(sun.misc.ExtensionInfo,sun.misc.ExtensionInfo)

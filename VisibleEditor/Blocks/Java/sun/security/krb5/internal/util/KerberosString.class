@@ -1,0 +1,11 @@
+sun.security.krb5.internal.util.KerberosString
+toString()
+toDerValue()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

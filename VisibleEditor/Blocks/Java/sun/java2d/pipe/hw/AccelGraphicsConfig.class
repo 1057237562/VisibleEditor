@@ -1,0 +1,6 @@
+sun.java2d.pipe.hw.AccelGraphicsConfig
+addDeviceEventListener(sun.java2d.pipe.hw.AccelDeviceEventListener)
+removeDeviceEventListener(sun.java2d.pipe.hw.AccelDeviceEventListener)
+getContextCapabilities()
+createCompatibleVolatileImage(int,int,int,int)
+getContext()

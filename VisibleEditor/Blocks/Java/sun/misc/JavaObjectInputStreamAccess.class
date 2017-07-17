@@ -1,0 +1,2 @@
+sun.misc.JavaObjectInputStreamAccess
+setValidator(java.io.ObjectInputStream,sun.misc.ObjectStreamClassValidator)

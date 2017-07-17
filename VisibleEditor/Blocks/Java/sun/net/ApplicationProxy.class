@@ -1,0 +1,13 @@
+sun.net.ApplicationProxy
+create(java.net.Proxy)
+type()
+equals(java.lang.Object)
+toString()
+hashCode()
+address()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

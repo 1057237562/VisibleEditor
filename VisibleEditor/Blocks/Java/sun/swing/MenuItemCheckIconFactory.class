@@ -1,0 +1,3 @@
+sun.swing.MenuItemCheckIconFactory
+getIcon(javax.swing.JMenuItem)
+isCompatible(java.lang.Object,java.lang.String)

@@ -1,0 +1,13 @@
+sun.swing.ImageCache$Entry
+equals(java.awt.GraphicsConfiguration,int,int,[Ljava.lang.Object;)
+toString()
+setImage(java.awt.Image)
+getImage()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

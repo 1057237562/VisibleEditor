@@ -1,0 +1,13 @@
+sun.management.snmp.util.JvmContextFactory
+getUserData()
+allocateUserData(com.sun.jmx.snmp.SnmpPdu)
+releaseUserData(java.lang.Object,com.sun.jmx.snmp.SnmpPdu)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

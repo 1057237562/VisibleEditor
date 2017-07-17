@@ -1,0 +1,4 @@
+sun.net.www.protocol.http.AuthCache
+remove(java.lang.String,sun.net.www.protocol.http.AuthCacheValue)
+get(java.lang.String,java.lang.String)
+put(java.lang.String,sun.net.www.protocol.http.AuthCacheValue)

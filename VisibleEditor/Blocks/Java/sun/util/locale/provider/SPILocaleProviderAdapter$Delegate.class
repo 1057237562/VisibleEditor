@@ -1,0 +1,3 @@
+sun.util.locale.provider.SPILocaleProviderAdapter$Delegate
+addImpl(java.util.spi.LocaleServiceProvider)
+getImpl(java.util.Locale)

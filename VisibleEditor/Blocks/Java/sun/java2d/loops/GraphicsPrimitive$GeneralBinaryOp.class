@@ -1,0 +1,7 @@
+sun.java2d.loops.GraphicsPrimitive$GeneralBinaryOp
+getSignature()
+getCompositeType()
+getDestType()
+getPrimTypeID()
+getSourceType()
+setPrimitives(sun.java2d.loops.Blit,sun.java2d.loops.Blit,sun.java2d.loops.GraphicsPrimitive,sun.java2d.loops.Blit)

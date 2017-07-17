@@ -1,0 +1,12 @@
+sun.awt.shell.Win32ShellFolder2$14
+call()
+call()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

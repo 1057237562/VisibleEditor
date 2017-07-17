@@ -1,0 +1,11 @@
+sun.nio.ch.SocketOptionRegistry
+findOption(java.net.SocketOption,java.net.ProtocolFamily)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

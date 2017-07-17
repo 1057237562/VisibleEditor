@@ -1,0 +1,6 @@
+sun.misc.Contended
+value()
+equals(java.lang.Object)
+toString()
+hashCode()
+annotationType()

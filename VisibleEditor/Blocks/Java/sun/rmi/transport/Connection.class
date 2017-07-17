@@ -1,0 +1,8 @@
+sun.rmi.transport.Connection
+close()
+getInputStream()
+getChannel()
+getOutputStream()
+releaseInputStream()
+releaseOutputStream()
+isReusable()

@@ -1,0 +1,10 @@
+sun.security.jgss.wrapper.GSSLibStub
+equals(java.lang.Object)
+hashCode()
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

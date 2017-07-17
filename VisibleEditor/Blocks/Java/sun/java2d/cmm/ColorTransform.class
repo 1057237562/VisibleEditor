@@ -1,0 +1,8 @@
+sun.java2d.cmm.ColorTransform
+colorConvert([S,[S)
+colorConvert(java.awt.image.Raster,java.awt.image.WritableRaster)
+colorConvert([B,[B)
+colorConvert(java.awt.image.Raster,java.awt.image.WritableRaster,[F,[F,[F,[F)
+colorConvert(java.awt.image.BufferedImage,java.awt.image.BufferedImage)
+getNumInComponents()
+getNumOutComponents()

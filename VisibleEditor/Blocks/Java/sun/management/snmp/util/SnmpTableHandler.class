@@ -1,0 +1,4 @@
+sun.management.snmp.util.SnmpTableHandler
+contains(com.sun.jmx.snmp.SnmpOid)
+getData(com.sun.jmx.snmp.SnmpOid)
+getNext(com.sun.jmx.snmp.SnmpOid)

@@ -1,0 +1,11 @@
+sun.java2d.Spans$Span
+toString()
+compareTo(java.lang.Object)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

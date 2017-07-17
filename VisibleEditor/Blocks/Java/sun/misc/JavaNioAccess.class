@@ -1,0 +1,4 @@
+sun.misc.JavaNioAccess
+truncate(java.nio.Buffer)
+getDirectBufferPool()
+newDirectByteBuffer(long,int,java.lang.Object)

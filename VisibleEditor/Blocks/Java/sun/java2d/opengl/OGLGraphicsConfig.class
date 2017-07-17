@@ -1,0 +1,11 @@
+sun.java2d.opengl.OGLGraphicsConfig
+getContext()
+getContext()
+getNativeConfigInfo()
+createManagedSurface(int,int,int)
+isCapPresent(int)
+addDeviceEventListener(sun.java2d.pipe.hw.AccelDeviceEventListener)
+removeDeviceEventListener(sun.java2d.pipe.hw.AccelDeviceEventListener)
+getContextCapabilities()
+createCompatibleVolatileImage(int,int,int,int)
+getProxyKey()

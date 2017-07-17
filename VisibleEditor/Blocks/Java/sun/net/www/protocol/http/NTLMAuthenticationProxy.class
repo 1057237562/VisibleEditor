@@ -1,0 +1,11 @@
+sun.net.www.protocol.http.NTLMAuthenticationProxy
+isTrustedSite(java.net.URL)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

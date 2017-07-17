@@ -1,0 +1,11 @@
+sun.management.counter.LongArrayCounter
+longArrayValue()
+longAt(int)
+getName()
+getValue()
+getFlags()
+getUnits()
+getVariability()
+getVectorLength()
+isInternal()
+isVector()

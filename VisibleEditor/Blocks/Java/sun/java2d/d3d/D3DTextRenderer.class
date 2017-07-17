@@ -1,0 +1,13 @@
+sun.java2d.d3d.D3DTextRenderer
+drawChars(sun.java2d.SunGraphics2D,[C,int,int,int,int)
+drawGlyphVector(sun.java2d.SunGraphics2D,java.awt.font.GlyphVector,float,float)
+drawString(sun.java2d.SunGraphics2D,java.lang.String,double,double)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

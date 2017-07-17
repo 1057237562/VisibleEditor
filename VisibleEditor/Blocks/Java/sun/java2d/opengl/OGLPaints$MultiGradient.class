@@ -1,0 +1,10 @@
+sun.java2d.opengl.OGLPaints$MultiGradient
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,6 @@
+sun.java2d.pipe.SpanIterator
+nextSpan([I)
+getPathBox([I)
+intersectClipBox(int,int,int,int)
+getNativeIterator()
+skipDownTo(int)

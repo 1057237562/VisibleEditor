@@ -1,0 +1,12 @@
+sun.management.snmp.jvmmib.JvmThreadInstanceEntryMBean
+getJvmThreadInstState()
+getJvmThreadInstBlockCount()
+getJvmThreadInstBlockTimeMs()
+getJvmThreadInstCpuTimeNs()
+getJvmThreadInstId()
+getJvmThreadInstIndex()
+getJvmThreadInstLockName()
+getJvmThreadInstLockOwnerPtr()
+getJvmThreadInstName()
+getJvmThreadInstWaitCount()
+getJvmThreadInstWaitTimeMs()

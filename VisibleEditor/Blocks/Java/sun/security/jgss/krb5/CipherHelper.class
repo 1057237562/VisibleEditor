@@ -1,0 +1,10 @@
+sun.security.jgss.krb5.CipherHelper
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

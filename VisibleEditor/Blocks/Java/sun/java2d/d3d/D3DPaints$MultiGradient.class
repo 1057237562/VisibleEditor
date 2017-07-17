@@ -1,0 +1,10 @@
+sun.java2d.d3d.D3DPaints$MultiGradient
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,11 @@
+sun.awt.windows.WDesktopProperties$WinPlaySound
+run()
+equals(java.lang.Object)
+toString()
+hashCode()
+wait()
+wait(long,int)
+wait(long)
+getClass()
+notify()
+notifyAll()

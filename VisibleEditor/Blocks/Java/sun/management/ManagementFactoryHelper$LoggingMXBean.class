@@ -1,0 +1,10 @@
+sun.management.ManagementFactoryHelper$LoggingMXBean
+getLoggerLevel(java.lang.String)
+getLoggerNames()
+getParentLoggerName(java.lang.String)
+setLoggerLevel(java.lang.String,java.lang.String)
+getObjectName()
+getLoggerLevel(java.lang.String)
+getLoggerNames()
+getParentLoggerName(java.lang.String)
+setLoggerLevel(java.lang.String,java.lang.String)

@@ -1,0 +1,11 @@
+sun.security.jgss.TokenTracker
+toString()
+getProps(int,org.ietf.jgss.MessageProp)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

@@ -1,0 +1,2 @@
+sun.rmi.runtime.Log$LogFactory
+createLog(java.lang.String,java.lang.String,java.util.logging.Level)

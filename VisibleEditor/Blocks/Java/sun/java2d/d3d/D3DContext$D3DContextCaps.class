@@ -1,0 +1,12 @@
+sun.java2d.d3d.D3DContext$D3DContextCaps
+toString()
+getCaps()
+getAdapterId()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

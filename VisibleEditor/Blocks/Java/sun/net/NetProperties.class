@@ -1,0 +1,13 @@
+sun.net.NetProperties
+get(java.lang.String)
+getBoolean(java.lang.String)
+getInteger(java.lang.String,int)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

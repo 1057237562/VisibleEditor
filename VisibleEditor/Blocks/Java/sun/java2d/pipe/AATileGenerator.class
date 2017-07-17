@@ -1,0 +1,7 @@
+sun.java2d.pipe.AATileGenerator
+dispose()
+getAlpha([B,int,int)
+getTileHeight()
+getTileWidth()
+getTypicalAlpha()
+nextTile()

@@ -1,0 +1,10 @@
+sun.management.snmp.jvminstr.JVM_MANAGEMENT_MIB_IMPL$1
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

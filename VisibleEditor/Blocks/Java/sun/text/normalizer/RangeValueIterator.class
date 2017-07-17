@@ -1,0 +1,3 @@
+sun.text.normalizer.RangeValueIterator
+next(sun.text.normalizer.RangeValueIterator$Element)
+reset()

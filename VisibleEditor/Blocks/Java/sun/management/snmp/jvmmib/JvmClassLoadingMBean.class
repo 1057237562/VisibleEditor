@@ -1,0 +1,7 @@
+sun.management.snmp.jvmmib.JvmClassLoadingMBean
+checkJvmClassesVerboseLevel(sun.management.snmp.jvmmib.EnumJvmClassesVerboseLevel)
+getJvmClassesLoadedCount()
+getJvmClassesTotalLoadedCount()
+getJvmClassesUnloadedCount()
+getJvmClassesVerboseLevel()
+setJvmClassesVerboseLevel(sun.management.snmp.jvmmib.EnumJvmClassesVerboseLevel)

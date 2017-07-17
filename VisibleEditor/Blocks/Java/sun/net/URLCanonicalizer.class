@@ -1,0 +1,12 @@
+sun.net.URLCanonicalizer
+canonicalize(java.lang.String)
+hasProtocolName(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

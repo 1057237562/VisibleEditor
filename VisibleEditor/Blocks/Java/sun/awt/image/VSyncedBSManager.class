@@ -1,0 +1,12 @@
+sun.awt.image.VSyncedBSManager
+releaseVsync(java.awt.image.BufferStrategy)
+vsyncAllowed(java.awt.image.BufferStrategy)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

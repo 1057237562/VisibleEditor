@@ -1,0 +1,13 @@
+sun.reflect.generics.tree.TypeVariableSignature
+make(java.lang.String)
+accept(sun.reflect.generics.visitor.TypeTreeVisitor)
+getIdentifier()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

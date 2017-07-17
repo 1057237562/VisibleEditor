@@ -1,0 +1,12 @@
+sun.net.httpserver.SSLStreams
+recvData(java.nio.ByteBuffer)
+sendData(java.nio.ByteBuffer)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

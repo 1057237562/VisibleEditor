@@ -1,0 +1,13 @@
+sun.text.normalizer.VersionInfo
+compareTo(sun.text.normalizer.VersionInfo)
+getInstance(int,int,int,int)
+getInstance(java.lang.String)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+toString()
+hashCode()
+getClass()
+notify()
+notifyAll()

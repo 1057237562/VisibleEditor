@@ -1,0 +1,4 @@
+sun.text.normalizer.Replaceable
+charAt(int)
+getChars(int,int,[C,int)
+length()

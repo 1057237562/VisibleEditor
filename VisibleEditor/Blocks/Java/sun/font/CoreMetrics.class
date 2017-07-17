@@ -1,0 +1,13 @@
+sun.font.CoreMetrics
+get(java.awt.font.LineMetrics)
+equals(java.lang.Object)
+equals(sun.font.CoreMetrics)
+hashCode()
+effectiveBaselineOffset([F)
+wait()
+wait(long,int)
+wait(long)
+toString()
+getClass()
+notify()
+notifyAll()

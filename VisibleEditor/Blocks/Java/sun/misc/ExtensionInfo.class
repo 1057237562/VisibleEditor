@@ -1,0 +1,11 @@
+sun.misc.ExtensionInfo
+toString()
+isCompatibleWith(sun.misc.ExtensionInfo)
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

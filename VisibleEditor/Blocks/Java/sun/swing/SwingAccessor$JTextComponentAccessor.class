@@ -1,0 +1,3 @@
+sun.swing.SwingAccessor$JTextComponentAccessor
+dropLocationForPoint(javax.swing.text.JTextComponent,java.awt.Point)
+setDropLocation(javax.swing.text.JTextComponent,javax.swing.TransferHandler$DropLocation,java.lang.Object,boolean)

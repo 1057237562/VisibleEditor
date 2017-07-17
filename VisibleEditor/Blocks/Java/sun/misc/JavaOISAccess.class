@@ -1,0 +1,3 @@
+sun.misc.JavaOISAccess
+getObjectInputFilter(java.io.ObjectInputStream)
+setObjectInputFilter(java.io.ObjectInputStream,sun.misc.ObjectInputFilter)

@@ -1,0 +1,12 @@
+sun.nio.ch.ExtendedSocketOption$1
+name()
+type()
+toString()
+wait()
+wait(long,int)
+wait(long)
+equals(java.lang.Object)
+hashCode()
+getClass()
+notify()
+notifyAll()

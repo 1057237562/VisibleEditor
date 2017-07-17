@@ -1,0 +1,13 @@
+sun.management.snmp.jvmmib.JvmRuntimeMBean
+getJvmRTBootClassPathSupport()
+getJvmRTInputArgsCount()
+getJvmRTManagementSpecVersion()
+getJvmRTName()
+getJvmRTSpecName()
+getJvmRTSpecVendor()
+getJvmRTSpecVersion()
+getJvmRTStartTimeMs()
+getJvmRTUptimeMs()
+getJvmRTVMName()
+getJvmRTVMVendor()
+getJvmRTVMVersion()
