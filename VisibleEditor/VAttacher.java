@@ -9,12 +9,12 @@ public class VAttacher extends JButton{
 	}
 	
 	public void Locate(){
-		this.setLocation(parent.getX()-20,parent.getY());
+		this.setLocation(parent.getX(),parent.getY());
 	}
 	
 	public void Test(){
 		if(parent != null && son != null){
-			if((parent.getX()-20) != son.getX()){
+			if(parent.getX() != son.getX()){
 				VisibleEditor.mainFrame.remove(this);
 				VisibleEditor.mainFrame.attachers.remove(this);
 				this.son.pat = null;
@@ -29,6 +29,17 @@ public class VAttacher extends JButton{
 			if(this.parent != null){
 				this.parent.pat = null;
 			}
+		}
+	}
+	
+	public void Remove(){
+		VisibleEditor.mainFrame.remove(this);
+		VisibleEditor.mainFrame.attachers.remove(this);
+		if(this.son != null){
+			this.son.pat = null;
+		}
+		if(this.parent != null){
+			this.parent.pat = null;
 		}
 	}
 }

@@ -21,10 +21,17 @@ public class VisibleEditor {
 	public static JTextPane inpuz = new JTextPane();
 	public static JButton jbz = new JButton();
 	public static JFrame sf = new JFrame();
+	public static boolean Translating = false;
 	
 	public final static String descriptionfolder = System.getProperty("user.dir") + "\\Description";
 
 	public static void main(String[] arg0) {
+		
+		try{
+			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+		}catch(Exception e){
+			
+		}
 
 		File language = new File(System.getProperty("user.dir") + "\\Language");
 		if(!language.exists() && !language.isDirectory()) {
@@ -152,7 +159,11 @@ public class VisibleEditor {
 					}
 					jf.hscrollbar.setValue(0);
 					jf.vscrollbar.setValue(0);
-					jf.loadBlocks(s.toArray(new String[0]));
+					try{
+						jf.loadBlocks(s.toArray(new String[0]));
+					}catch(Exception e1){
+						e1.printStackTrace();
+					}
 					filename = file.getAbsolutePath();
 				} catch(Exception e1) {
 
@@ -170,7 +181,7 @@ public class VisibleEditor {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				File file;
-				if(filename == "") {
+				if(filename == null) {
 					JFileChooser jfc = new JFileChooser();
 					jfc.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
 					jfc.showSaveDialog(new JLabel());
@@ -224,23 +235,29 @@ public class VisibleEditor {
 		JMenu translate = new JMenu("Translator");
 		JMenu engine = new JMenu("Translate Engine");
 		JMenu tolanguage = new JMenu("Translate Language");
-		JMenuItem deldict = new JMenu("Delete Temp file");
+		JMenuItem deldict = new JMenuItem("Delete Temp file");
 		deldict.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				File dic = new File(System.getProperty("user.dir") + "\\Language\\dict.cfg");
-				dic.delete();
+				File dicts = new File(System.getProperty("user.dir") + "\\Language\\dict.cfg");
+				if(dicts.exists()){
+					dicts.delete();
+				}
 				dict = new HashMap<String,String>();
 			}
 		});
 		translate.add(engine);
 		translate.add(tolanguage);
-		translate.add(deldict);
 
 		JMenuItem none = new JMenuItem("None");
 		none.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				File dicts = new File(System.getProperty("user.dir") + "\\Language\\dict.cfg");
+				if(dicts.exists()){
+					dicts.delete();
+				}
+				dict = new HashMap<String,String>();
 				mainFrame.TranslateEngine = 0;
 				saveTranslateEngine();
 			}
@@ -249,6 +266,11 @@ public class VisibleEditor {
 		bing.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				File dicts = new File(System.getProperty("user.dir") + "\\Language\\dict.cfg");
+				if(dicts.exists()){
+					dicts.delete();
+				}
+				dict = new HashMap<String,String>();
 				mainFrame.TranslateEngine = 1;
 				saveTranslateEngine();
 			}
@@ -257,6 +279,11 @@ public class VisibleEditor {
 		baidu.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				File dicts = new File(System.getProperty("user.dir") + "\\Language\\dict.cfg");
+				if(dicts.exists()){
+					dicts.delete();
+				}
+				dict = new HashMap<String,String>();
 				mainFrame.TranslateEngine = 2;
 				saveTranslateEngine();
 			}
@@ -278,6 +305,11 @@ public class VisibleEditor {
 						sf.setVisible(false);
 						targetLanguage = inpuz.getText();
 						try {
+							File dicts = new File(System.getProperty("user.dir") + "\\Language\\dict.cfg");
+							if(dicts.exists()){
+								dicts.delete();
+							}
+							dict = new HashMap<String,String>();
 							FileOutputStream out = new FileOutputStream(new File(System.getProperty("user.dir") + "\\Language\\targetLanguage.cfg"),false);
 							out.write(inpuz.getText().getBytes());
 							out.close();
@@ -292,6 +324,7 @@ public class VisibleEditor {
 		System.out.println("Regist Component");
 
 		tolanguage.add(tg);
+		translate.add(deldict);
 
 		engine.add(none);
 		engine.add(bing);
@@ -352,6 +385,14 @@ public class VisibleEditor {
 					@Override
 					public void run(){
 						jf.validate();
+						
+						jf.tsp.setDividerLocation(0.7);
+						jf.tsp.setResizeWeight(0.7);
+						jf.tsp.setDividerSize(3);
+						jf.splitpanel.setDividerLocation(0.8);
+						jf.splitpanel.setResizeWeight(0.8);
+						jf.splitpanel.setDividerSize(3);
+						jf.result.setVisible(false);
 					}
 				});
 				
@@ -364,6 +405,14 @@ public class VisibleEditor {
 	}
 
 	public static String translate(String text) {
+		while(Translating){
+			try{
+				Thread.sleep(50);
+			}catch(Exception e){
+				
+			}
+		}
+		Translating = true;
 		String s = text;
 		if(isWordCharacter(s.charAt(0)) && s.replaceAll("[a-zA-Z]","") != s && targetLanguage != "") {
 			System.out.println("Translating...");
@@ -383,6 +432,7 @@ public class VisibleEditor {
 			dict.put(text,s);
 			saveDict();
 		}
+		Translating = false;
 		return s;
 	}
 
@@ -574,13 +624,18 @@ class PointCalculator extends JFrame {
 
 class VGroup extends JPanel {
 
-	public VGroup(VBlock[] Model) {
+	public VGroup(VBlock[] Model,int ID) {
 		this.setLayout(null);
 		for(int i = 0; i<Model.length; i++) {
 			this.add(Model[i]);
 			Model[i].Model = true;
+			Model[i].ModelID = ID;
+			Model[i].ModelGroup = this;
 			if(Model[i].Parent == null) {
 				Model[i].Refresh();
+			}
+			if(Model[i].Addons == null){
+				Model[0].UpdateEscape();
 			}
 		}
 	}

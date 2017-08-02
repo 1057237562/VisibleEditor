@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.awt.geom.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
@@ -21,7 +22,7 @@ public class VBlock extends JButton implements Cloneable {
 
 	private int xOld;
 	private int yOld;
-	
+	public boolean onDrag = false;
 	public String escape;
 
 	public boolean Model = false;
@@ -31,21 +32,52 @@ public class VBlock extends JButton implements Cloneable {
 	public boolean insame = false;
 
 	private VFrame parentFrame;
+	
+	public int ModelID;
+	public VGroup ModelGroup;
+	
+	//12:06 PM 7/27/2017 
+	public ArrayList<AComponent> applyment = new ArrayList<AComponent>();
 
 	public VBlock(VFrame frame,int types) {
 		this.setSize(50,50);
 		this.addMouseListener(ma);
 		this.addMouseMotionListener(mma);
-
+		this.setFocusPainted(false);
+		this.setContentAreaFilled(false);
+		
 		parentFrame = frame;
 		type = types; // temp
+		
+		/*this.addComponentListener(new ComponentListener(){
+			
+			@Override
+			public void componentHidden(ComponentEvent e){
+				 
+			}
+			
+			@Override
+			public void componentMoved(ComponentEvent e){ // Refresh Applyment
+				 
+			}
+			
+			@Override
+			public void componentResized(ComponentEvent e){
+				 
+			}
+			
+			@Override
+			public void componentShown(ComponentEvent e){
+				 
+			}
+		});*/
 
 		this.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
 				if(e.getButton() == MouseEvent.BUTTON3) {
 					JPopupMenu jpm = new JPopupMenu();
-					JMenuItem copy = new JMenuItem("Copy");
+					JMenuItem copy = new JMenuItem("Copy"); // Pop up Menu
 					copy.addMouseListener(new MouseAdapter() {
 						@Override
 						public void mousePressed(MouseEvent e) { // Add New Block
@@ -106,6 +138,14 @@ public class VBlock extends JButton implements Cloneable {
 							}
 
 							newparent.Refresh();
+							
+						}
+						
+						@Override
+						public void mouseReleased(MouseEvent e){
+							newp.Detect();
+							newp.DetectDeletion();
+							jpm.setVisible(false);
 						}
 
 					});
@@ -121,16 +161,87 @@ public class VBlock extends JButton implements Cloneable {
 						}
 					});
 					jpm.add(copy);
+					
+					JMenuItem delet = new JMenuItem("Delete");
+					
+					delet.addMouseListener(new MouseAdapter(){
+						@Override
+						public void mousePressed(MouseEvent e) { // Remove Block
+							if(Model){
+								try {
+									String result = "";
+									BufferedReader br = new BufferedReader(new FileReader(VFrame.tspfile));
+									String s = null;
+									while((s = br.readLine())!=null) {
+										result = result + s + System.getProperty("line.separator");
+									}
+									br.close();
+									
+									result = result.replace(VFrame.tspcode[ModelID] + System.getProperty("line.separator"),"");
+									
+									FileWriter out = new FileWriter(VFrame.tspfile); // Save the new TSP to local
+									out.write(result);
+									out.close();
+								} catch(Exception e1) {
+									e1.printStackTrace();
+								}
+								VisibleEditor.mainFrame.InstallTSP(VFrame.txt2String(VFrame.tspfile),VFrame.tspfile);
+								VisibleEditor.mainFrame.RefreshTSP();
+							}else{
+								VisibleEditor.mainFrame.unregisterBlock(VBlock.this);
+							}
+						}
+					});
+					jpm.add(delet);
+					
 					jpm.show(VisibleEditor.mainFrame, e.getLocationOnScreen().x - VisibleEditor.mainFrame.getLocationOnScreen().x, e.getLocationOnScreen().y - VisibleEditor.mainFrame.getLocationOnScreen().y);
 				}
 			}
 		});
 	}
 	
-	public void paintComponent(Graphics g){
-		super.paintComponent(g);
+	@Override
+	protected void paintComponent(Graphics g){
 		//UIDesign
+		int width = this.getWidth();  
+        int height = this.getHeight(); 
+		Graphics2D g2d = (Graphics2D) g;  
+        g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,  RenderingHints.VALUE_ANTIALIAS_ON);  
 		
+		for(int i = 0; i<VisibleEditor.cs.size(); i++) {
+			if(VisibleEditor.cs.get(i).PaintBlock(this,g)){
+				super.paintComponent(g);
+				return;
+			}
+		}
+		
+		g2d.setColor(new Color(48,28,0)); // Draw back rect
+		g2d.fillRect(width-10, 0, 10,height / 3);
+		g2d.fillRect(width-10, height - (height / 3) , 10,height / 3);
+		
+		try{
+			if(this.Parent != null && this.Attachment || !VFrame.isWordCharacter(this.code.charAt(0))){
+				g2d.setColor(new Color(48,28,0)); // Draw front rect
+				g2d.fillRect(0,height / 3 , 10,height - (height / 3) - (height / 3));
+				g2d.setColor(new Color(48,28,0));  //Draw main rect
+				g2d.fillRect(9,0,width-18,height);
+				g2d.setColor(new Color(255,150,0));  
+				g2d.fillRect(10,1,width-20,height-2);
+			}else{
+				g2d.setColor(new Color(48,28,0));  //Draw main rect
+				g2d.fillRect(0,0,width-9,height);
+				g2d.setColor(new Color(255,150,0));  
+				g2d.fillRect(1,1,width-11,height-2);
+			}
+		}catch(Exception e){
+			
+		}
+		g2d.setColor(new Color(255,150,0)); // Fill the front rect
+		g2d.fillRect(1,height / 3 + 1 ,9,height - (height / 3) - (height / 3) - 2);	
+		g2d.fillRect(width-11, 1, 10,height / 3 - 2); // Fill the back rect
+		g2d.fillRect(width-11, height - (height / 3) + 1, 10,height / 3 - 2);
+		
+		super.paintComponent(g);
 	}
 	
 	public void UpdateEscape(){
@@ -141,7 +252,7 @@ public class VBlock extends JButton implements Cloneable {
 		UpdateEscape();
 		VBlock parent = VBlock.this.Parent;
 		while(parent != null){ // Escape
-			XMLUtil.AutoEscape(parent);
+			parent.UpdateEscape();
 			try{
 				if(parent.Parent.Addons == parent){
 					parent = parent.Parent;
@@ -170,24 +281,46 @@ public class VBlock extends JButton implements Cloneable {
 		}
 	}
 
-	public void AutoSize(String text) {
-		String translated = text;
-		if(translated == this.code){
-			if(this.escape != null && this.escape != this.code){
-				translated = this.escape;
-			}
+	public void AutoSize() {
+		String translated = this.code;
+		if(this.escape != null){
+			translated = this.escape;
 		}
 		
-		if(VisibleEditor.isWordCharacter(translated.charAt(0))) {
+		if(VisibleEditor.isWordCharacter(translated.charAt(0)) && VFrame.TranslateEngine != 0) {
 			if(VisibleEditor.dict.containsKey(translated)) {
 				translated = VisibleEditor.dict.get(translated) + "";
 			} else {
-				translated = VisibleEditor.translate(translated);
+				Thread t = new Thread(new Runnable(){
+					@Override
+					public void run(){
+						String translated = code;
+						if(escape != null){
+							translated = escape;
+						}
+						translated = VisibleEditor.translate(translated);
+						setText(translated);
+						FontMetrics fm = getFontMetrics(getFont());
+						setSize(fm.stringWidth(translated) + 40,fm.getHeight() + 20);
+						
+						VBlock parent = VBlock.this;//Refresh All Addons
+						VBlock addon = Addons;
+						while(addon != null) {
+							addon.setLocation(parent.getX() + parent.getWidth() - 10,parent.getY());
+							parent = addon;
+							addon = addon.Addons;
+						}
+					}
+				});
+				t.start();
 			}
 		}
 		this.setText(translated);
 		FontMetrics fm = this.getFontMetrics(this.getFont());
 		this.setSize(fm.stringWidth(translated) + 40,fm.getHeight() + 20);
+		
+		// Add Applyment 
+		 
 	}
 
 	public void Refresh() {
@@ -196,13 +329,13 @@ public class VBlock extends JButton implements Cloneable {
 		//Refresh All Addons
 		VBlock parent = VBlock.this;
 
-		parent.AutoSize(parent.code);
+		parent.AutoSize();//parent.code);
 
 		VBlock addon = VBlock.this.Addons;
 		while(addon != null) {
-			addon.setLocation(parent.getX() + parent.getWidth(),parent.getY());
+			addon.setLocation(parent.getX() + parent.getWidth() - 10,parent.getY());
 
-			addon.AutoSize(addon.code);
+			addon.AutoSize();//addon.code);
 
 			parent = addon;
 			addon = addon.Addons;
@@ -211,29 +344,29 @@ public class VBlock extends JButton implements Cloneable {
 		//Refresh All Sons
 		parent = VBlock.this;
 		
-		if(parent.pat != null){ // Check pat
+		if(parent.pat != null && !onDrag){ // Check pat
 			parent.pat.Test();
 		}
 		
 		VBlock son = VBlock.this.Son;
 		while(son != null) {
 			int out = 0;
-			if(parent.code.replace("{","").length() != parent.code.length()) {
+			if(parent.code.replace("{","").length() != parent.code.length() && parent.code.replace("{","").length() == 0) {
 				out ++;
 			}
-			if(parent.code.replace("}","").length() != parent.code.length()) {
+			if(parent.code.replace("}","").length() != parent.code.length() && parent.code.replace("}","").length() == 0) {
 				out --;
 			}
 			VBlock adz = parent.Addons;
 			while(adz != null) {
-				if(adz.code.replace("{","").length() != adz.code.length()) {
+				if(adz.code.replace("{","").length() != adz.code.length() && adz.code.replace("{","").length()==0) {
 					if(out < 0){
 						out = out + 2;
 					}else{
 						out ++;
 					}
 				}
-				if(adz.code.replace("}","").length() != adz.code.length()) {
+				if(adz.code.replace("}","").length() != adz.code.length() && adz.code.replace("}","").length() == 0) {
 					out--;
 				}
 				adz = adz.Addons;
@@ -243,77 +376,90 @@ public class VBlock extends JButton implements Cloneable {
 				out = 0;
 			}
 			
-			if(son.code.replace("}","").length() != son.code.length()) {
+			if(son.code.replace("}","").length() != son.code.length() && son.code.replace("}","").length() == 0) {
 				out --;
 			}
 			
 			son.setLocation(parent.getX() + out * 20,parent.getY() + parent.getHeight()); // Get {} In out
 			
-			if(out > 0){
-				needmatch.add(son);
-			}
-			if(out < 0){
-				for(VBlock matching:needmatch.toArray(new VBlock[0])){
-					if(son.getX() == (matching.getX() - 20)){
-						if(son.pat == null){
+			if(!onDrag){
+				if(out > 0){
+					needmatch.add(son); // Throw an needmatch
+				}
+				if(out < 0){
+					VBlock[] nmatches = needmatch.toArray(new VBlock[0]);
+					for(int i = nmatches.length - 1; i > -1 ; i--){
+						VBlock matching = nmatches[i];
+						if(son.getX() == matching.getX()){
+							if(son.pat != null && son.pat.son != son){
+								son.pat.Remove();
+								son.pat = null;
+							}
+							if(son.pat == null){
+								son.pat = new VAttacher();
+								matching.Parent.pat = son.pat;
+								son.pat.parent = matching;
+								son.pat.son = son;
+							
+								VisibleEditor.mainFrame.add(son.pat);
+								VisibleEditor.mainFrame.jlp.setLayer(son.pat,3);
+								VisibleEditor.mainFrame.attachers.add(son.pat);				
+							}
+							
+							son.pat.Refresh();
+							son.pat.Locate();
+							
+							needmatch.remove(matching);
+						}
+					}
+					
+					if(son.pat == null){ //Attach not found
+						VBlock up = son.Parent;
+						while(up.getX() != son.getX()){
+							up = up.Parent;
+							if(up == null){
+								break;
+							}
+						}
+						if(up != null){
 							son.pat = new VAttacher();
-							matching.Parent.pat = son.pat;
-							son.pat.parent = matching;
+							up.pat = son.pat;
+							son.pat.parent = up;
 							son.pat.son = son;
+
+							son.pat.Refresh();
 						
 							VisibleEditor.mainFrame.add(son.pat);
 							VisibleEditor.mainFrame.jlp.setLayer(son.pat,3);
-							VisibleEditor.mainFrame.attachers.add(son.pat);				
+							VisibleEditor.mainFrame.attachers.add(son.pat);
+
+							son.pat.Locate();
 						}
-						
-						son.pat.Refresh();
-						son.pat.Locate();
-						
-						needmatch.remove(matching);
 					}
 				}
-				
-				if(son.pat == null){ //Attach not found
-					VBlock up = son.Parent;
-					while(up.getX() != son.getX()){
-						up = up.Parent;
-						if(up == null){
-							break;
-						}
-					}
-					if(up != null){
-						son.pat = new VAttacher();
-						up.pat = son.pat;
-						son.pat.parent = up.Son;
-						son.pat.son = son;
-
-						son.pat.Refresh();
-					
-						VisibleEditor.mainFrame.add(son.pat);
-						VisibleEditor.mainFrame.jlp.setLayer(son.pat,3);
-						VisibleEditor.mainFrame.attachers.add(son.pat);
-
-						son.pat.Locate();
-					}
+			}else{
+				if(son.pat != null){
+					son.pat.Refresh();
+					son.pat.Locate();
 				}
 			}
 			
-			son.AutoSize(son.code);
+			son.AutoSize();//son.code);
 
 			//Refresh Addons on Sons
 			VBlock p2 = son;
 			addon = son.Addons;
 			while(addon != null) {
-				addon.setLocation(p2.getX() + p2.getWidth(),p2.getY());
+				addon.setLocation(p2.getX() + p2.getWidth() - 10,p2.getY());
 
-				addon.AutoSize(addon.code);
+				addon.AutoSize();//addon.code);
 
 				p2 = addon;
 				addon = addon.Addons;
 			}
 			//Ends
 
-			if(son.pat != null){ // Check pat
+			if(son.pat != null && !onDrag){ // Check pat
 				son.pat.Test();
 			}
 			
@@ -334,6 +480,10 @@ public class VBlock extends JButton implements Cloneable {
 			VBlock.this.Parent.Refresh(); // Move that
 			insame = false;
 		}
+		
+	}
+	
+	public void onDestroy(){
 		
 	}
 
@@ -376,7 +526,7 @@ public class VBlock extends JButton implements Cloneable {
 					if(blocks[i].Addons == null) {
 						VBlock.this.Parent = blocks[i];
 						blocks[i].Addons = VBlock.this;
-						VBlock.this.setLocation(blocks[i].getX() + blocks[i].getWidth(),blocks[i].getY());//Location
+						VBlock.this.setLocation(blocks[i].getX() + blocks[i].getWidth() - 10,blocks[i].getY());//Location
 						VBlock.this.Attachment = true;
 						VBlock.this.Son = null;
 						VBlock.this.Refresh();
@@ -394,6 +544,13 @@ public class VBlock extends JButton implements Cloneable {
 		        && this.getLocationOnScreen().y >= VisibleEditor.mainFrame.tsp.getLocationOnScreen().y
 		        && this.getLocationOnScreen().y <= VisibleEditor.mainFrame.tsp.getLocationOnScreen().y + VisibleEditor.mainFrame.tsp.getHeight()) { // In Dispose Area
 			VBlock parent = VBlock.this;
+			
+			if(parent.pat != null){
+				VisibleEditor.mainFrame.remove(parent.pat);
+				VisibleEditor.mainFrame.attachers.remove(parent.pat);
+				parent.pat.son.pat = null;
+				parent.pat.parent.pat = null;
+			}
 
 			VisibleEditor.mainFrame.unregisterBlock(parent);
 
@@ -411,6 +568,11 @@ public class VBlock extends JButton implements Cloneable {
 			while(son != null) {
 				VisibleEditor.mainFrame.unregisterBlock(son);
 
+				if(son.pat != null){
+					VisibleEditor.mainFrame.remove(son.pat);
+					VisibleEditor.mainFrame.attachers.remove(son.pat);
+					son.pat.son.pat = null;
+				}
 				//Refresh Addons on Sons
 				VBlock p2 = son;
 				addon = son.Addons;
@@ -458,23 +620,23 @@ public class VBlock extends JButton implements Cloneable {
 						try{
 							if(parent.Parent.Addons == parent){
 								if(parent.escape != null){
-									parent.escape = null;
-									parent.AutoSize(parent.code);
+									parent.UpdateEscape();
+									parent.AutoSize();//parent.code);
 									parent.Refresh();
 								}
 								parent = parent.Parent;
 							}else{
 								if(parent.escape != null){
-									parent.escape = null;
-									parent.AutoSize(parent.code);
+									parent.UpdateEscape();
+									parent.AutoSize();//parent.code);
 									parent.Refresh();
 								}
 								parent = null;
 							}
 						}catch(Exception ez){
 							if(parent.escape != null){
-								parent.escape = null;
-								parent.AutoSize(parent.code);
+								parent.UpdateEscape();
+								parent.AutoSize();//parent.code);
 								parent.Refresh();
 							}
 							parent = null;
@@ -585,6 +747,8 @@ public class VBlock extends JButton implements Cloneable {
 
 				return;
 			}
+			
+			onDrag = false;
 
 			VisibleEditor.mainFrame.jlp.setLayer(VisibleEditor.mainFrame.tsp,4);
 			VisibleEditor.mainFrame.jlp.setLayer(VisibleEditor.mainFrame.psp,5);
@@ -596,7 +760,9 @@ public class VBlock extends JButton implements Cloneable {
 				VBlock.this.DetectDeletion();
 				UpdateAllEscape(); // Escape
 			} else {
-				newp.Detect();
+				try{
+					newp.Detect();
+				}catch(Exception e1){}
 				newp.DetectDeletion();
 				newp.UpdateAllEscape();
 			}
@@ -618,7 +784,7 @@ public class VBlock extends JButton implements Cloneable {
 				VBlock.this.setLocation(VBlock.this.getX() + e.getXOnScreen() - xOld, VBlock.this.getY() +  e.getYOnScreen() - yOld);
 				xOld = e.getXOnScreen();
 				yOld = e.getYOnScreen();
-
+				onDrag = true;
 				VBlock.this.Refresh();
 			} else {
 				newp.setLocation(e.getXOnScreen() - VisibleEditor.mainFrame.splitpanel.getLocationOnScreen().x - xOld
@@ -627,4 +793,15 @@ public class VBlock extends JButton implements Cloneable {
 			}
 		}
 	};
+}
+
+class AComponent{
+	
+	public JComponent jc;
+	public int ID;
+	
+	public AComponent(JComponent c, int cID){
+		jc = c;
+		ID = cID;
+	}
 }

@@ -38,30 +38,36 @@ public class VFrame extends JFrame {
 	public static JTextField search = new JTextField("Search");
 	public static JTabbedPane jtp = new JTabbedPane();
 	public static ArrayList<File> blockslist = new ArrayList<File>();
-	
+
 	public static JList<String> resultlist = new JList<String>();
 	public static JScrollPane result = new JScrollPane(resultlist);
-	
+
 	public static boolean focused = false;
 	public static Thread td;
+	public static Thread td2;
+	public static boolean stop = false;
 	public static boolean Breaknow = false;
 	public static Map<String,File> resultmap;
-	
+
 	public static JFrame az = new JFrame();
 	public static JTextPane inpua = new JTextPane();
 	public static JButton jba = new JButton();
-	
-	public static File nowOpenBlock;
-	
+
+	public static String[] tspcode;
+	public static File tspfile;
+	public ArrayList<String> matches;
+
+	public int foundComponentID;
+
 	public VFrame() {
 		panel = new JPanel();
 
 		tpanel = new JPanel(new GridLayout(0,2));
-		
-		tpanel.addMouseListener(new MouseAdapter(){
+
+		tpanel.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
-				if(e.getButton() == MouseEvent.BUTTON3){
+				if(e.getButton() == MouseEvent.BUTTON3) {
 					JPopupMenu jpm = new JPopupMenu();
 					JMenuItem add = new JMenuItem("Add");
 					add.addActionListener(new ActionListener() {
@@ -76,9 +82,10 @@ public class VFrame extends JFrame {
 				}
 			}
 		});
-		
+
 		usp = new JScrollPane();
-		usp.setViewportView(tpanel);
+		usp.setViewportView(tpanel); // TSP UI
+		usp.getVerticalScrollBar().setUnitIncrement(10); // Set Wheel Speed
 
 		tmppanel = new JPanel(); // The Position of ScrollPane
 
@@ -88,10 +95,10 @@ public class VFrame extends JFrame {
 		}
 
 		getFiles(System.getProperty("user.dir") + "\\Blocks",top);
-		
+
 		ppanel = new JPanel();
 		ppanel.setLayout(new BorderLayout());
-		
+
 		pkgl = new JTree(top); //Blocks Folder tree
 
 		pkgl.addTreeSelectionListener(new TreeSelectionListener() { // Select File
@@ -101,7 +108,6 @@ public class VFrame extends JFrame {
 				if(node.isLeaf()) {
 					if(!((File) d.getUserObject()).isDirectory()) {
 						InstallTSP(txt2String((File) d.getUserObject()),(File) d.getUserObject());
-						nowOpenBlock = (File) d.getUserObject();
 						VFrame.this.repaint();
 						VFrame.this.validate();
 					}
@@ -110,92 +116,121 @@ public class VFrame extends JFrame {
 		});
 
 		psp = new JScrollPane(pkgl);
-		
+
 		ppanel.add(psp,BorderLayout.CENTER);
 		ppanel.add(search,BorderLayout.SOUTH);
-		
+
 		//Search TextField
-		Document document = search.getDocument();  
-        document.addDocumentListener(new DocumentListener(){ // UpdateList
-			@Override  
+		Document document = search.getDocument();
+		document.addDocumentListener(new DocumentListener() { // UpdateList
+			@Override
 			public void changedUpdate(DocumentEvent e) {
 				Search();
 			}
-			@Override  
+			@Override
 			public void removeUpdate(DocumentEvent e) {
 				Search();
 			}
-			@Override  
+			@Override
 			public void insertUpdate(DocumentEvent e) {
 				Search();
-			}  
-		}); 
+			}
+		});
 		search.addFocusListener(new FocusAdapter() {
-            @Override
-            public void focusLost(FocusEvent e) {
-                if (search.getText().isEmpty()){
-                    search.setText("Search");
-                }
-				if(!focused){
+			@Override
+			public void focusLost(FocusEvent e) {
+				if (search.getText().isEmpty()) {
+					search.setText("Search");
+				}
+				if(!focused) {
 					result.setVisible(false);
 				}
-            }
+			}
 			@Override
-            public void focusGained(FocusEvent e) {
-                if (search.getText().replace("Search","").length() != search.getText().length()){
-                    search.setText("");
-                }else{
+			public void focusGained(FocusEvent e) {
+				if (search.getText().replace("Search","").length() != search.getText().length()) {
+					search.setText("");
+				} else {
 					result.setVisible(true);
 					result.setSize(psp.getWidth()-50,psp.getHeight()+50);
 					result.setLocation(search.getLocationOnScreen().x - VFrame.this.getContentPane().getLocationOnScreen().x,search.getLocationOnScreen().y - result.getHeight() - VFrame.this.getContentPane().getLocationOnScreen().y);
 
 				}
-            }
-        });//Hint 
-		
-		result.addFocusListener(new FocusAdapter(){ // Hide Result list
+			}
+		});//Hint
+
+		result.addFocusListener(new FocusAdapter() { // Hide Result list
 			@Override
-            public void focusLost(FocusEvent e) {
-                result.setVisible(false);
+			public void focusLost(FocusEvent e) {
+				result.setVisible(false);
 				focused = false;
-            }
+			}
 			@Override
-            public void focusGained(FocusEvent e) {
-                focused = true;
-            }
+			public void focusGained(FocusEvent e) {
+				focused = true;
+			}
 		});
-		
+
 		resultlist.addMouseListener(new MouseAdapter() { // Open the TSP from Search
-            @Override
-            public void mouseClicked(MouseEvent e) {
-                if(e.getClickCount() == 2){
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				if(e.getClickCount() == 2) {
 					JList myList = (JList) e.getSource();
-                    int index = myList.getSelectedIndex();
-                    String obj = myList.getModel().getElementAt(index).toString();
+					int index = myList.getSelectedIndex();
+					String obj = myList.getModel().getElementAt(index).toString();
 					System.out.println(obj.trim());
-					nowOpenBlock = (File) resultmap.get(obj.trim());
 					InstallTSP(txt2String(resultmap.get(obj.trim())),(File) resultmap.get(obj.trim()));
 					VFrame.this.repaint();
 					VFrame.this.validate();
-                }
-            }
-        });
-		
+					// Search TSP
+					for(int i = 0; i<tspcode.length; i ++) {
+						if(tspcode[i].replace(search.getText(),"").length() != tspcode[i].length()) {
+							usp.getVerticalScrollBar().setValue(tpanel.getComponent(i).getY());
+							java.awt.Toolkit.getDefaultToolkit().beep();
+							foundComponentID = i;
+							Thread UIThread = new Thread(new Runnable() {
+								@Override
+								public void run() {
+									Splash();
+									Splash();
+								}
+
+							});
+							UIThread.start();
+							break;
+						}
+
+						//Search Translated
+						String translated = VisibleEditor.dict.get(tspcode[i]);
+						if(translated != null) {
+							if(translated.replace(search.getText(),"").length() != translated.length()) {
+								usp.getVerticalScrollBar().setValue(tpanel.getComponent(i).getY());
+								java.awt.Toolkit.getDefaultToolkit().beep();
+								foundComponentID = i;
+								Thread UIThread = new Thread(new Runnable() {
+									@Override
+									public void run() {
+										Splash();
+										Splash();
+									}
+
+								});
+								UIThread.start();
+								break;
+							}
+						}
+					}
+				}
+			}
+		});
+
 		bppanel = new JPanel();
 
 		tsp = new JSplitPane(JSplitPane.VERTICAL_SPLIT,false,usp,bppanel);
-		tsp.setDividerLocation(0.7);
-		tsp.setResizeWeight(0.7);
-
-		tsp.setDividerSize(3);
 
 		splitpanel = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT,false,panel,tmppanel);
 
 		//System.out.println("setSplitSize");
-		splitpanel.setDividerLocation(0.8);
-		splitpanel.setResizeWeight(0.8);
-
-		splitpanel.setDividerSize(3);
 
 		this.setLayout(null);
 		this.setContentPane(jlp);
@@ -206,7 +241,7 @@ public class VFrame extends JFrame {
 		this.jlp.setLayer(result,6); // Outfit result
 		result.setSize(175,300);
 		result.setVisible(false);
-		
+
 		this.add(tsp);
 		this.jlp.setLayer(tsp,4);
 		this.add(splitpanel);
@@ -229,7 +264,7 @@ public class VFrame extends JFrame {
 				for(int i = 0; i<block.length; i++) {
 					block[i].setLocation(block[i].getX()-hscrollbar.getValue()+lastw,block[i].getY());
 				}
-				for(VAttacher attacher:attachers.toArray(new VAttacher[0])){
+for(VAttacher attacher:attachers.toArray(new VAttacher[0])) {
 					attacher.Locate();
 					attacher.Test();
 				}
@@ -245,9 +280,15 @@ public class VFrame extends JFrame {
 				for(int i = 0; i<block.length; i++) {
 					block[i].setLocation(block[i].getX(),block[i].getY()-vscrollbar.getValue()+lasth);
 				}
-				for(VAttacher attacher:attachers.toArray(new VAttacher[0])){
-					attacher.Locate();
-					attacher.Test();
+				VAttacher[] attachersz = attachers.toArray(new VAttacher[0]);
+				for(int i = 0; i < attachersz.length; i ++) {
+					VAttacher attacher = attachersz[i];
+					if(attacher == null){
+						attachers.remove(i);
+					}else{
+						attacher.Locate();
+						attacher.Test();
+					}
 				}
 				lasth = vscrollbar.getValue();
 			}
@@ -296,71 +337,176 @@ public class VFrame extends JFrame {
 		} catch(Exception e) {
 
 		}
-		
-		az.setSize(600,70); // Set ...
+
+		az.setSize(350,70); // Set ...
 		az.setTitle("Add Blocks:");
 		az.add(inpua,BorderLayout.CENTER);
 		az.add(jba,BorderLayout.EAST);
 		jba.setText("Add");
-		jba.addActionListener(new ActionListener(){
+		jba.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				az.setVisible(false);
 				StringBuilder sb = new StringBuilder();
-				for(String s:txt2String(nowOpenBlock)){
+for(String s:txt2String(tspfile)) {
 					sb.append(s + System.getProperty("line.separator")); // Merge the String
 				}
 				System.out.println(sb.toString());
 				String mixed = sb.toString() + inpua.getText(); // Add the New Block to file end
-				try{
-					FileOutputStream out = new FileOutputStream(nowOpenBlock,false); // Output the file
+				try {
+					FileOutputStream out = new FileOutputStream(tspfile,false); // Output the file
 					out.write(mixed.getBytes());
 					out.close();
-				}catch(Exception e1){
-			
+				} catch(Exception e1) {
+
 				}
-				InstallTSP(mixed.split(System.getProperty("line.separator")),nowOpenBlock); // Refresh TSP
+				InstallTSP(mixed.split(System.getProperty("line.separator")),tspfile); // Refresh TSP
 				VFrame.this.repaint();
 				VFrame.this.validate();
 			}
 		});
+
+		//Loading basic
+		File basictsp = new File(System.getProperty("user.dir") + "\\Blocks\\Basic.txt");
+		if(basictsp.exists()) {
+			InstallTSP(txt2String(basictsp),basictsp);
+		}
+
 	}
 
-	public void Search(){
-		try{
-			td.interrupt();
-			Breaknow = true;
-			td.join();
-		}catch(Exception e){
-			
+	public void Splash() {
+		VGroup group = (VGroup)tpanel.getComponent(foundComponentID);
+		group.setBackground(new Color(255,200,0));
+		for(int i = 0; i < group.getComponentCount(); i ++) {
+			group.getComponent(i).setVisible(false);
 		}
-		try{
+		try {
+			Thread.sleep(250);
+		} catch(Exception e) {
+
+		}
+		group.setBackground(tpanel.getBackground());
+		for(int i = 0; i < group.getComponentCount(); i ++) {
+			group.getComponent(i).setVisible(true);
+		}
+		try {
+			Thread.sleep(250);
+		} catch(Exception e) {
+
+		}
+	}
+
+	public void Search() {
+		try {
+			if(td.isAlive()){
+				td.interrupt();
+				Breaknow = true;
+				td.join();
+			}
+		} catch(Exception e) {
+
+		}
+		try {
+			if(td2.isAlive()){
+				td2.interrupt();
+				stop = true;
+				td2.join();
+			}
+		} catch(Exception e) {
+
+		}
+		try {
 			resultmap = new HashMap<String,File>();
 			result.setVisible(true);
 			result.setSize(psp.getWidth()-50,psp.getHeight()+50);
 			result.setLocation(search.getLocationOnScreen().x - VFrame.this.getContentPane().getLocationOnScreen().x,search.getLocationOnScreen().y - result.getHeight() - VFrame.this.getContentPane().getLocationOnScreen().y);
-			td = new Thread(new Runnable(){
+			td = new Thread(new Runnable() {
 				@Override
-				public void run(){ // Search the file contain the target
-					try{
-						ArrayList<String> matches = new ArrayList<String>();
+				public void run() {
+					//Search in the TSP
+					for(int i = 0; i<tspcode.length; i ++) {
+						if(tspcode[i].replace(search.getText(),"").length() != tspcode[i].length()) { //  ||
+							usp.getVerticalScrollBar().setValue(tpanel.getComponent(i).getY());
+							java.awt.Toolkit.getDefaultToolkit().beep();
+							foundComponentID = i;
+							Thread UIThread = new Thread(new Runnable() {
+								@Override
+								public void run() {
+									Splash();
+									Splash();
+								}
+
+							});
+							UIThread.start();
+							break;
+						}
+
+						//Translated
+						String translated = VisibleEditor.dict.get(tspcode[i]);
+						if(translated != null) {
+							if(translated.replace(search.getText(),"").length() != translated.length()) {
+								usp.getVerticalScrollBar().setValue(tpanel.getComponent(i).getY());
+								java.awt.Toolkit.getDefaultToolkit().beep();
+								foundComponentID = i;
+								Thread UIThread = new Thread(new Runnable() {
+									@Override
+									public void run() {
+										Splash();
+										Splash();
+									}
+
+								});
+								UIThread.start();
+								break;
+							}
+						}
+					}
+
+					// Search the file contain the target
+					try {
+						matches = new ArrayList<String>();
 						File[] tmp = blockslist.toArray(new File[0]);
 						for(File file:tmp) {
-							if(Breaknow){
+							if(Breaknow) {
 								Breaknow = false;
 								return;
 							}
-							if(file.getName().replace(search.getText(),"").length() != file.getName().length()){
+							if(file.getName().replace(search.getText(),"").length() != file.getName().length()) {
 								matches.add(file.getName());
 								resultmap.put(file.getName().trim(),file);
 								ListModel<String> jlm = new DefaultComboBoxModel<String>(matches.toArray(new String[0]));
 								resultlist.setModel(jlm); // Refresh Instantly
 								continue;
 							}
+						}
+						ListModel<String> jlm = new DefaultComboBoxModel<String>(matches.toArray(new String[0]));
+						resultlist.setModel(jlm);
+					} catch(Exception e) {
+
+					}
+				}
+			});
+			td.start();
+
+			td2 = new Thread(new Runnable() {
+				@Override
+				public void run() {
+					matches = new ArrayList<String>();
+					File[] tmp = blockslist.toArray(new File[0]);
+					for(File file:tmp) {
+						if(stop) {
+							stop = false;
+							return;
+						}
+						if(matches.indexOf(file.getName()) != -1){
+							continue;
+						}
+						try{
 							BufferedReader br = new BufferedReader(new FileReader(file));
 							String s = br.readLine();
-							whileloop : while(s != null){
-								if(s.replace(search.getText(),"").length() != s.length()){
+							whileloop :
+							while(s != null) {
+								if(s.replace(search.getText(),"").length() != s.length()) {
 									matches.add(file.getName());
 									resultmap.put(file.getName().trim(),file);
 									ListModel<String> jlm = new DefaultComboBoxModel<String>(matches.toArray(new String[0]));
@@ -368,8 +514,8 @@ public class VFrame extends JFrame {
 									break whileloop;
 								}
 								String[] keys = getAllkey(search.getText());
-								for(String key:keys){
-									if(s.replace(key,"").length() != s.length()){
+								for(String key:keys) {
+									if(s.replace(key,"").length() != s.length()) {
 										matches.add(file.getName());
 										resultmap.put(file.getName().trim(),file);
 										ListModel<String> jlm = new DefaultComboBoxModel<String>(matches.toArray(new String[0]));
@@ -379,37 +525,37 @@ public class VFrame extends JFrame {
 								}
 								s = br.readLine();
 							}
+						}catch(Exception e){
+							
 						}
-						ListModel<String> jlm = new DefaultComboBoxModel<String>(matches.toArray(new String[0]));
-						resultlist.setModel(jlm);
-					}catch(Exception e){
-				
 					}
+					ListModel<String> jlm = new DefaultComboBoxModel<String>(matches.toArray(new String[0]));
+					resultlist.setModel(jlm);
 				}
 			});
-			td.start();
-		}catch(Exception e){
-			
+			td2.start();
+		} catch(Exception e) {
+			e.printStackTrace();
 		}
 	}
-	
-	public static String[] getAllkey(String value){
+
+	public static String[] getAllkey(String value) {
 		ArrayList<String> rs = new ArrayList<String>();
-		for(Map.Entry entry:VisibleEditor.dict.entrySet()){
-			if(entry.getValue().toString().replace(value,"").length() != entry.getValue().toString().length()){
+for(Map.Entry entry:VisibleEditor.dict.entrySet()) {
+			if(entry.getValue().toString().replace(value,"").length() != entry.getValue().toString().length()) {
 				rs.add(entry.getKey().toString());
 			}
 		}
 		return rs.toArray(new String[0]);
 	}
-	
+
 	public static void Refreshpkgl() { // Refresh Tree
 		top = new DefaultMutableTreeNode("Block Package");
 		getFiles(System.getProperty("user.dir") + "\\Blocks",top);
 		DefaultTreeModel model = (DefaultTreeModel) pkgl.getModel();
 		model.setRoot(top);
 	}
-	
+
 	public void Refreshpkgpanel () { // Refresh Tree
 		ppanel.setBounds(bppanel.getLocationOnScreen().x - this.getContentPane().getLocationOnScreen().x,bppanel.getLocationOnScreen().y - this.getContentPane().getLocationOnScreen().y,this.getContentPane().getWidth() - bppanel.getLocationOnScreen().x + this.getContentPane().getLocationOnScreen().x,this.getContentPane().getHeight() - bppanel.getLocationOnScreen().y + this.getContentPane().getLocationOnScreen().y);
 		ppanel.repaint();
@@ -434,13 +580,13 @@ public class VFrame extends JFrame {
 	public static void getFiles(String filePath,DefaultMutableTreeNode node) {
 		File root = new File(filePath);
 		File[] files = root.listFiles();
-		if(files != null){
-			for(File file:files) {
+		if(files != null) {
+for(File file:files) {
 				DefaultMutableTreeNode t = new DefaultMutableTreeNode(file);
 				node.add(t);
 				if(file.isDirectory()) {
 					getFiles(file.getAbsolutePath(),t);
-				}else{
+				} else {
 					blockslist.add(file);
 				}
 			}
@@ -450,19 +596,23 @@ public class VFrame extends JFrame {
 	public void InstallTSP(String[] codes,File tfile) {
 		tpanel.removeAll();
 		tpanel.repaint();
-		
-		File describe = new File(tfile.getAbsolutePath().replace("Blocks","Description").replace(".txt",".xml").replace(".class",".xml")); 
-		if(describe.exists()){
-			try{
+
+		tspcode = codes;
+		tspfile = tfile;
+
+		File describe = new File(tfile.getAbsolutePath().replace("Blocks","Description").replace(".txt",".xml").replace(".class",".xml"));
+		if(describe.exists()) {
+			try {
 				XMLUtil.loadXML(describe);
-			}catch(Exception e){
+			} catch(Exception e) {
 				e.printStackTrace();
 			}
-		}else{
+		} else {
 			System.out.println("File Not Founded:" + describe.getAbsolutePath());
 		}
-		
-		code:for(int i = 0; i<codes.length; i++) {
+
+code:
+		for(int i = 0; i<codes.length; i++) {
 			ArrayList<VBlock> tmpList = new ArrayList<VBlock>();
 			if(codes[i].replaceAll(" ","").replaceAll("	","").replaceAll("\r","").replaceAll("\n","").replaceAll("\t","").length() != 0) { //including things
 				String[] letter = codes[i].split("|");
@@ -474,7 +624,7 @@ public class VFrame extends JFrame {
 				boolean changer = false;
 
 				for(int j = 0; j<letter.length; j++) {
-					
+
 					if(letter[j].replace("\"","") != letter[j] && !changer) {
 						if(incast) {
 							incast = false;
@@ -530,7 +680,7 @@ public class VFrame extends JFrame {
 					}
 				}
 			}
-			tpanel.add(new VGroup(tmpList.toArray(new VBlock[0])));
+			tpanel.add(new VGroup(tmpList.toArray(new VBlock[0]),i));
 		}
 		RepaintTSP();
 	}
@@ -546,16 +696,18 @@ public class VFrame extends JFrame {
 	}
 
 	public void RefreshTSP() {
-		tsp.setBounds(tmppanel.getLocationOnScreen().x - this.getContentPane().getLocationOnScreen().x,0,this.getContentPane().getLocationOnScreen().x + this.getContentPane().getWidth() - tmppanel.getLocationOnScreen().x,tmppanel.getHeight());
-		tpanel.setSize(tsp.getWidth(),tsp.getHeight());
-		vscrollbar.setBounds(tmppanel.getLocationOnScreen().x - this.getContentPane().getLocationOnScreen().x-23,0,20,this.jlp.getHeight()-20);
-		hscrollbar.setBounds(0,this.jlp.getHeight()-20,tmppanel.getLocationOnScreen().x - this.getContentPane().getLocationOnScreen().x-23,20);
-		vscrollbar.repaint();
-		hscrollbar.repaint();
-		vscrollbar.validate();
-		hscrollbar.validate();
-		this.jlp.repaint();
-		this.jlp.validate();
+		if(this.getContentPane().getHeight() != 0 && this.getContentPane().getWidth() != 0) {
+			tsp.setBounds(tmppanel.getLocationOnScreen().x - this.getContentPane().getLocationOnScreen().x,0,this.getContentPane().getLocationOnScreen().x + this.getContentPane().getWidth() - tmppanel.getLocationOnScreen().x,this.getContentPane().getHeight());
+			tpanel.setSize(tsp.getWidth(),tsp.getHeight());
+			vscrollbar.setBounds(tmppanel.getLocationOnScreen().x - this.getContentPane().getLocationOnScreen().x-23,0,20,this.jlp.getHeight()-20);
+			hscrollbar.setBounds(0,this.jlp.getHeight()-20,tmppanel.getLocationOnScreen().x - this.getContentPane().getLocationOnScreen().x-23,20);
+			vscrollbar.repaint();
+			hscrollbar.repaint();
+			vscrollbar.validate();
+			hscrollbar.validate();
+			this.jlp.repaint();
+			this.jlp.validate();
+		}
 	}
 
 	private ComponentAdapter ca = new ComponentAdapter() {
@@ -586,12 +738,23 @@ public class VFrame extends JFrame {
 		for(int i = 0; i<VisibleEditor.cs.size(); i++) {
 			VisibleEditor.cs.get(i).OnCreatBlock(block);
 		}
-		this.add(block); // Add In Panel
-		this.jlp.setLayer(block,3);
+		
+		// Wrong #3
+		boolean success = false;
+		while(!success){
+			try {
+				this.add(block); // Add In Panel
+				this.jlp.setLayer(block,3);
+				success = true;
+			} catch(Exception e) {
+				e.printStackTrace();
+			}
+		}
 		blocks.add(block); // Add In List
 	}
 
 	public void unregisterBlock(VBlock block) {
+		block.onDestroy();
 		this.remove(block);
 		blocks.remove(block);
 	}
@@ -620,31 +783,31 @@ public class VFrame extends JFrame {
 						addon.Parent.code.replace("\"","") != addon.Parent.code || addon.code.replace("\\|","") != addon.code ||
 						addon.Parent.code.replace("/","") != addon.Parent.code || addon.code.replace("/","") != addon.code
 						){*/
-					
+
 					cnt = 0;  // Auto tabs out
 					offset = 0;
-					while((offset = addon.code.indexOf("{", offset)) != -1){
+					while((offset = addon.code.indexOf("{", offset)) != -1) {
 						offset = offset + "{".length();
 						cnt++;
 					}
-					
+
 					out += cnt;
-					
+
 					cnt = 0;
 					offset = 0;
-					while((offset = addon.code.indexOf("}", offset)) != -1){
+					while((offset = addon.code.indexOf("}", offset)) != -1) {
 						offset = offset + "}".length();
 						cnt++;
 					}
-					
+
 					out -= cnt;
-					if(addon.code.charAt(0) != '('){
+					if(addon.code.charAt(0) != '(') {
 						if(!isWordCharacter(addon.Parent.code.charAt(0)) || !isWordCharacter(addon.code.charAt(0))) {
 							z = z + addon.code;
 						} else {
 							z = z + " " + addon.code;
 						}
-					}else{
+					} else {
 						z = z + " " + addon.code;
 					}
 
@@ -657,29 +820,29 @@ public class VFrame extends JFrame {
 				VBlock son = block[i].Son;
 				while(son != null) {
 					String tabs = "";
-					for(int ot = 0;ot < out;ot ++){
+					for(int ot = 0; ot < out; ot ++) {
 						tabs += "	";
 					}
 					z = z + System.getProperty("line.separator") + tabs + son.code;
-					
+
 					cnt = 0;  // Auto tabs out
 					offset = 0;
-					while((offset = son.code.indexOf("{", offset)) != -1){ // Out one
+					while((offset = son.code.indexOf("{", offset)) != -1) { // Out one
 						offset = offset + "{".length();
 						cnt++;
 					}
-					
+
 					out += cnt;
-					
+
 					cnt = 0;
 					offset = 0;
-					while((offset = son.code.indexOf("}", offset)) != -1){ // In one
+					while((offset = son.code.indexOf("}", offset)) != -1) { // In one
 						offset = offset + "}".length();
 						cnt++;
 					}
-					
+
 					out -= cnt;
-					
+
 					//Refresh Addons on Sons
 					VBlock p2 = son;
 					addon = son.Addons;
@@ -691,32 +854,32 @@ public class VFrame extends JFrame {
 						addon.Parent.code.replace("\"","") != addon.Parent.code || addon.code.replace("\\|","") != addon.code ||
 						addon.Parent.code.replace("/","") != addon.Parent.code || addon.code.replace("/","") != addon.code
 						){*/
-						
+
 						cnt = 0;  // Auto tabs out
 						offset = 0;
-						while((offset = addon.code.indexOf("{", offset)) != -1){ // Out one
+						while((offset = addon.code.indexOf("{", offset)) != -1) { // Out one
 							offset = offset + "{".length();
 							cnt++;
 						}
-					
+
 						out += cnt;
-					
+
 						cnt = 0;
 						offset = 0;
-						while((offset = addon.code.indexOf("}", offset)) != -1){ // In one
+						while((offset = addon.code.indexOf("}", offset)) != -1) { // In one
 							offset = offset + "}".length();
 							cnt++;
 						}
-					
+
 						out -= cnt;
-						
-						if(addon.code.charAt(0) != '('){
+
+						if(addon.code.charAt(0) != '(') {
 							if(!isWordCharacter(addon.Parent.code.charAt(0)) || !isWordCharacter(addon.code.charAt(0))) {
 								z = z + addon.code;
 							} else {
 								z = z + " " + addon.code;
 							}
-						}else{
+						} else {
 							z = z + " " + addon.code;
 						}
 
@@ -752,9 +915,9 @@ public class VFrame extends JFrame {
 		for(int i = 0; i<VisibleEditor.cs.size(); i++) {
 			s = VisibleEditor.cs.get(i).OnExport(s);
 		}
-		
+
 		s = s.replaceAll("	" + "}","}");
-		
+
 		return s;
 	}
 
@@ -886,7 +1049,7 @@ public class VFrame extends JFrame {
 		//hscrollbar.setMaximum(mw + mwidth + lw);
 	}
 
-	public boolean isWordCharacter(char ch) {
+	public static boolean isWordCharacter(char ch) {
 		if (Character.isLetter(ch) || Character.isDigit(ch) || ch == '_') {
 			return true;
 		}

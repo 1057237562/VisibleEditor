@@ -12,7 +12,7 @@ public class EscapeThread {
 			// TODO: Implement this method
 			getFiles(VisibleEditor.descriptionfolder);
 			if(block.escape != null) {
-				block.AutoSize(block.escape);
+				block.AutoSize();//block.escape);
 				try{
 					block.Refresh();
 				}catch(Exception e){
@@ -93,7 +93,7 @@ public class EscapeThread {
 								}
 							} catch (Exception e) {
 								String content = element.getAttribute("name");
-								if (block.code.replace(content, "") != block.code) {
+								if (XMLUtil.DetectMatches(block,content,true)) {
 									block.escape = element.getElementsByTagName("escaped").item(0) .getFirstChild().getNodeValue().trim();
 								} else {
 									continue file;
