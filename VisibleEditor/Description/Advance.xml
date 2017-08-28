@@ -10,4 +10,17 @@
 		<escaped lang ="en" > New Variable</escaped>
 		<case> %word...%+= </case>
 	</block>
+	
+	<block name ="public static void main" > 
+		<escaped lang ="en" > When start </escaped>
+	</block>
+	
+	<block name ="%1% %+2% = new %1%" > 
+		<escaped lang ="en" > Create a new %1% called %+2% </escaped>
+	</block>
+	
+	<block name ="public class %+1%" > 
+		<escaped lang ="en" > Create a new class called %+1% </escaped>
+	</block>
+	
 </define>

@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import javax.swing.text.Document;
+import javax.swing.text.*;
 import javax.swing.event.*;
 import javax.swing.tree.*;
 import java.beans.*;
@@ -48,6 +48,7 @@ public class VFrame extends JFrame {
 	public static boolean stop = false;
 	public static boolean Breaknow = false;
 	public static Map<String,File> resultmap;
+	public static ArrayList<AComponent> newBlock = new ArrayList<AComponent>();
 
 	public static JFrame az = new JFrame();
 	public static JTextPane inpua = new JTextPane();
@@ -58,6 +59,8 @@ public class VFrame extends JFrame {
 	public ArrayList<String> matches;
 
 	public int foundComponentID;
+	
+	public ArrayList<VBlock> wronglist = new ArrayList<VBlock>();
 
 	public VFrame() {
 		panel = new JPanel();
@@ -105,7 +108,7 @@ public class VFrame extends JFrame {
 			public void valueChanged(TreeSelectionEvent evt) {
 				TreeNode node=(TreeNode)evt.getPath().getLastPathComponent();
 				DefaultMutableTreeNode d = (DefaultMutableTreeNode) pkgl.getLastSelectedPathComponent();
-				if(node.isLeaf()) {
+				if(node.isLeaf() && d != null) {
 					if(!((File) d.getUserObject()).isDirectory()) {
 						InstallTSP(txt2String((File) d.getUserObject()),(File) d.getUserObject());
 						VFrame.this.repaint();
@@ -238,14 +241,14 @@ public class VFrame extends JFrame {
 		splitpanel.setBounds(0,0,this.getWidth(),this.getHeight());
 
 		this.add(result);
-		this.jlp.setLayer(result,6); // Outfit result
+		this.jlp.setLayer(result,7); // Outfit result
 		result.setSize(175,300);
 		result.setVisible(false);
 
 		this.add(tsp);
-		this.jlp.setLayer(tsp,4);
+		this.jlp.setLayer(tsp,5);
 		this.add(splitpanel);
-		this.jlp.setLayer(ppanel,5);
+		this.jlp.setLayer(ppanel,6);
 		this.add(ppanel);
 		this.jlp.setLayer(splitpanel,1);
 
@@ -253,9 +256,9 @@ public class VFrame extends JFrame {
 		hscrollbar = new JScrollBar(JScrollBar.HORIZONTAL);
 		vscrollbar = new JScrollBar(JScrollBar.VERTICAL);
 		this.add(hscrollbar);
-		this.jlp.setLayer(hscrollbar,4);
+		this.jlp.setLayer(hscrollbar,5);
 		this.add(vscrollbar);
-		this.jlp.setLayer(vscrollbar,4);
+		this.jlp.setLayer(vscrollbar,5);
 
 		hscrollbar.addAdjustmentListener(new AdjustmentListener() {
 			@Override
@@ -320,6 +323,30 @@ for(VAttacher attacher:attachers.toArray(new VAttacher[0])) {
 				VFrame.this.repaint();
 			}
 
+		});
+		
+		this.addComponentListener(new ComponentListener(){
+			
+			@Override
+			public void componentHidden(ComponentEvent e){
+				
+			}
+			
+			@Override
+			public void componentMoved(ComponentEvent e){ // Refresh Applyment
+				
+			}
+			
+			@Override
+			public void componentResized(ComponentEvent e){
+				RefreshTSP();
+				Refreshpkgpanel();
+			}
+			
+			@Override
+			public void componentShown(ComponentEvent e){
+				 
+			}
 		});
 
 		blocks = new ArrayList<VBlock>();
@@ -581,7 +608,7 @@ for(Map.Entry entry:VisibleEditor.dict.entrySet()) {
 		File root = new File(filePath);
 		File[] files = root.listFiles();
 		if(files != null) {
-for(File file:files) {
+			for(File file:files) {
 				DefaultMutableTreeNode t = new DefaultMutableTreeNode(file);
 				node.add(t);
 				if(file.isDirectory()) {
@@ -594,6 +621,10 @@ for(File file:files) {
 	}
 
 	public void InstallTSP(String[] codes,File tfile) {
+		for(int i = 0; i<VisibleEditor.cs.size(); i++) {
+			VisibleEditor.cs.get(i).OnLoadTSP(codes,tfile);
+		}
+		
 		tpanel.removeAll();
 		tpanel.repaint();
 
@@ -608,7 +639,7 @@ for(File file:files) {
 				e.printStackTrace();
 			}
 		} else {
-			System.out.println("File Not Founded:" + describe.getAbsolutePath());
+			//System.out.println("File Not Founded:" + describe.getAbsolutePath());
 		}
 
 code:
@@ -625,6 +656,10 @@ code:
 
 				for(int j = 0; j<letter.length; j++) {
 
+					if(letter[j].replace("\\","") != letter[j]) { // Next the changer symbol
+						changer = true;
+					}
+				
 					if(letter[j].replace("\"","") != letter[j] && !changer) {
 						if(incast) {
 							incast = false;
@@ -738,25 +773,79 @@ code:
 		for(int i = 0; i<VisibleEditor.cs.size(); i++) {
 			VisibleEditor.cs.get(i).OnCreatBlock(block);
 		}
+		//block.setBounds(0,0,1,1);
+		// Wrong #3
+		try {
+			this.add(block); // Add In Panel // Wrong cause by : the position of the block isn't right
+			this.jlp.setLayer(block,3);
+			
+			if(block.Parent != null){
+				block.Parent.Refresh();
+			}
+		
+			blocks.add(block);
+		} catch(Exception e) {
+			e.printStackTrace();
+			this.remove(block);
+			wronglist.add(block);
+		}
+	}
+	
+	public boolean isContains(Component[] cl, Component target){
+		for(Component c:cl){
+			if(c == target){
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public void registerApply(AComponent c){
+		for(int i = 0; i<VisibleEditor.cs.size(); i++) {
+			VisibleEditor.cs.get(i).OnCreatApplyment(c);
+		}
 		
 		// Wrong #3
 		boolean success = false;
 		while(!success){
 			try {
-				this.add(block); // Add In Panel
-				this.jlp.setLayer(block,3);
+				this.add(c.jc); // Add In Panel
+				this.jlp.setLayer(c.jc,4);
 				success = true;
 			} catch(Exception e) {
 				e.printStackTrace();
+				System.out.println("Wrong! Wrong Code:3-1");
+				try{
+					Thread.sleep(5);
+				}catch(Exception e1){
+					
+				}
 			}
 		}
-		blocks.add(block); // Add In List
+		
+		try{
+			Thread.sleep(5);
+		}catch(Exception e1){
+			
+		}
 	}
 
 	public void unregisterBlock(VBlock block) {
+		for(int i = 0; i<VisibleEditor.cs.size(); i++) {
+			VisibleEditor.cs.get(i).OnDestroyBlock(block);
+		}
+		
 		block.onDestroy();
 		this.remove(block);
 		blocks.remove(block);
+	}
+	
+	public void unregisterApply(AComponent c){
+		for(int i = 0; i<VisibleEditor.cs.size(); i++) {
+			VisibleEditor.cs.get(i).OnDestroyApplyment(c);
+		}
+		
+		this.remove(c.jc);
 	}
 
 	public String export() {
@@ -768,6 +857,9 @@ code:
 		ArrayList<String> codeStack = new ArrayList<String>();
 
 		for(int i = 0; i<block.length; i++) {
+			if(block[i].refer != null){
+				block[i].GenerateCode();
+			}
 			if(block[i].Parent == null) { // The Original Root (The Codes next are all based from this block)
 				String z = "";
 				VBlock parent = block[i];
@@ -916,7 +1008,7 @@ code:
 			s = VisibleEditor.cs.get(i).OnExport(s);
 		}
 
-		s = s.replaceAll("	" + "}","}");
+		s = s.replaceAll("	" + "}","}").replaceAll("\" ","\"").replaceAll(" \"","\"");
 
 		return s;
 	}
@@ -933,24 +1025,28 @@ code:
 
 				boolean inline = false;
 				boolean incast = false;
-				boolean changer = false;
+				boolean back = false;
+				boolean changed = false;
 
 				for(int j = 0; j<letter.length; j++) {
-
-					if(letter[j].replace("\"","") != letter[j] && !changer) {
-						if(incast) {
-							incast = false;
-
-						} else {
+					
+					if(letter[j].replace("\"","") != letter[j] && back) {
+						incast = false; // In the ""'s String
+						back = false;
+						changed = true;
+					}
+					
+					if(j != 0 && letter[j-1].replace("\"","") != letter[j-1] && !back) {
+						if(!changed){
 							incast = true; // In the ""'s String
+							back = true;
+							changed = true;
+						}else{
+							changed = false;
 						}
+						
 					}
 
-					changer = false;
-
-					if(letter[j].replace("\\","") != letter[j]) { // Next the changer symbol
-						changer = true;
-					}
 					if(isWordCharacter(letter[j].charAt(0)) && j<letter.length-1 || incast && j<letter.length-1) {
 						word = word + letter[j];
 					} else {
@@ -1008,12 +1104,46 @@ code:
 						}
 					}
 				}
-				parent.UpdateAllEscape();
 			}
 		}
 
 		originalparent.Refresh(); // Refresh All Blocks has been import
 		ResetScrollBar();
+		
+		for(VBlock b:blocks.toArray(new VBlock[0])){
+			b.UpdateEscape(); // Forward
+		}
+	}
+	
+	public static void GetNewBlocks(){
+		Thread td = new Thread(new Runnable(){
+			@Override
+			public void run(){
+				try{
+					String content = "";
+					for(AComponent ac:newBlock.toArray(new AComponent[0])){
+						content = content + ((JTextComponent)ac.jc).getText() + System.getProperty("line.separator");
+					}
+					outputString("\\Blocks\\Variables.txt",content);
+					Refreshpkgl();
+				}catch(Exception e){
+					e.printStackTrace();
+				}
+			}
+		});
+		td.start();
+	}
+	
+	public static void outputString(String filename,String content){
+		try {
+			File output = new File(System.getProperty("user.dir") + filename); // Get Path in Target Folder
+			output.getParentFile().mkdirs();
+			FileWriter out = new FileWriter(output); // Save the dictionary to the Local
+			out.write(content);
+			out.close();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	public void ResetScrollBar() {

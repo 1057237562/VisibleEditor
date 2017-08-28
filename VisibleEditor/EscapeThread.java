@@ -87,16 +87,16 @@ public class EscapeThread {
 										}
 										// Succeed
 										block.escape = element.getElementsByTagName("escaped").item(0) .getFirstChild().getNodeValue().trim();
+										return;
 									}
 								} catch(Exception ez) {
 									//ez.printStackTrace();
 								}
 							} catch (Exception e) {
 								String content = element.getAttribute("name");
-								if (XMLUtil.DetectMatches(block,content,true)) {
+								if (XMLUtil.DetectMatches(block,content,true,element)) {
 									block.escape = element.getElementsByTagName("escaped").item(0) .getFirstChild().getNodeValue().trim();
-								} else {
-									continue file;
+									return;
 								}
 							}
 						}

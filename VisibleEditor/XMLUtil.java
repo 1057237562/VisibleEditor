@@ -120,8 +120,7 @@ public class XMLUtil{
 				}
 				catch (Exception e)
 				{
-					if (DetectMatches(target,content,true))
-					{
+					if (DetectMatches(target,content,true,element)){
 						return element.getElementsByTagName("escaped").item(0).getFirstChild().getNodeValue().trim();
 					}
 				}
@@ -129,13 +128,13 @@ public class XMLUtil{
 			}
 			catch (Exception e)
 			{
-				
 			}
 		}
 		return null;
 	}
 
-	public static boolean DetectMatches(VBlock b,String content,boolean remove){
+	public static boolean DetectMatches(VBlock b,String content,boolean remove,Element ele){
+		
 		VBlock son = b;
 		
 		if(b.code.replace(content,"") != b.code){
@@ -154,6 +153,10 @@ public class XMLUtil{
 		
 		ArrayList<VBlock> nd = new ArrayList<VBlock>();
 		
+		// Added in 1.1.6
+		Map<String,String> variable = new HashMap<String,String>();
+		boolean hasVariable = false;
+		
 		casing:for(int i = 0; i<matches.length; i++){
 			String match = matches[i];
 			// Override at 7/31/2017 10:09 PM
@@ -170,40 +173,74 @@ public class XMLUtil{
 					codes = fromCodeStack(son.code);
 				}
 				
-				for(int j = 0; j<codes.length; j++){
+				codes:for(int j = 0; j<codes.length; j++){
 					String code = codes[j];
 					
 					boolean proceed = false;
 					
-					switch(match){
+					s:switch(match){
 						case "%word%":
 							if (!isWordCharacter(code.charAt(0))){
 								return false;
 							}
 							proceed = true;
-							break;
+							break s;
 						case "%class%":
 							if (!isWordCharacter(code.charAt(0))){
 								return false;
 							}
 							proceed = true;
-							break;
+							break s;
 						case "%word...%":
 						if (!isWordCharacter(code.charAt(0))){
-							return false;
+							/*if(words){
+								words = false;
+								proceed = false;
+								break;
+							}else{
+								return false;
+							}*/
+							//System.out.println(code + "|" + match + "|"  +i+ "|"+ content);
+							i++;
+							match = matches[i];
+							break s;
 						}
+							
 						try{
 							while(isWordCharacter(codes[j].charAt(0))){
-								if(j<codes.length){
+								if(j<codes.length - 1){
 									j++;
 								}else{
 									done = false;
+									proceed = true;
+									break codes;
 								}
 								
 							}
 						}catch(Exception e){
-							return false;
+							
 						}
+						proceed = true;
+						break s;
+					}
+					
+					//Wrong up
+					//Process Variable
+					//System.out.println(son.code + "|" + content + "|" + match + "|" + proceed);
+					if(!proceed && match.replace("%","") != match){
+						if(variable.containsKey(match.trim().replaceAll("%",""))){
+							if(variable.get(match.trim().replaceAll("%","")).replace(son.code.trim(),"") == son.code.trim()){
+								return false;
+							}
+						}else{
+							if (son.code.length() == 0 || !isWordCharacter(son.code.trim().charAt(0))){
+								return false;
+							}else{
+								variable.put(match.trim().replaceAll("%",""),son.code.trim());
+								hasVariable = true;
+							}
+						}
+						
 						proceed = true;
 						break;
 					}
@@ -211,25 +248,22 @@ public class XMLUtil{
 					// Normal Matches
 					
 					if(!proceed){
-						if(code.replace(match,"") == code){
+						if(!code.trim().equals(match.trim())){
+							//
 							return false;
-						}
+						}/*else if(i == matches.length - 1){
+							break casing;
+						}*/
 					}
 					
-					// End
-					
-					if(j == codes.length - 1 && done){
-						if(son != b){
-							nd.add(son);
-						}
-						if(son.Addons != null){
-							son = son.Addons;
-						}else{
-							return false;
-						}
-						
-					}
-					
+				}
+				if(son != b){
+					nd.add(son);
+				}
+				if(son.Addons != null){
+					son = son.Addons;
+				}else if(i<matches.length - 1){
+					return false;
 				}
 			}
 		}
@@ -264,7 +298,19 @@ public class XMLUtil{
 			if(s.trim() == ""){
 				return false;
 			}
-			b.code = s.trim(); // Replace in 8/1/2017 5:12PM
+			b.code = b.code + s; // Replace in 8/1/2017 5:12PM
+			
+			if(hasVariable){
+				b.refer = content;
+				b.variable = variable;
+			}
+			
+			try{
+				b.refer = ele.getElementsByTagName("refer").item(0).getFirstChild().getNodeValue().trim();
+			}catch(Exception ex){
+					
+			}
+			
 			b.Refresh();
 		}
 		

@@ -51,10 +51,11 @@ public class VisibleEditor {
 				String[] words = s.replaceAll("\\{","").replaceAll("\\}","").split(", ");
 
 				for(int i = 0; i<words.length; i++) {
-					dict.put(words[i].split("=")[0].replaceAll("\\s*", ""),words[i].split("=")[1].replaceAll("\\s*", "")); // Remove THE HECK in the File
+					dict.put(words[i].split("=")[0].trim(),words[i].split("=")[1].trim());
 				}
 			} catch(Exception e1) {
-				System.out.println(e1);
+				e1.printStackTrace();
+				
 			}
 		}
 
@@ -110,10 +111,15 @@ public class VisibleEditor {
 		n.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				for(int i = 0; i<VisibleEditor.cs.size(); i++) {
+					VisibleEditor.cs.get(i).NewFile();
+				}
+				
 				VBlock[] vbs = jf.blocks.toArray(new VBlock[0]);
 				for(int i = 0; i < vbs.length; i++) {
 					jf.remove(vbs[i]);
 					jf.blocks.remove(vbs[i]);
+					vbs[i].onDestroy();
 				}
 				VAttacher[] vas = jf.attachers.toArray(new VAttacher[0]);
 				for(int i = 0; i < vas.length; i++) {
@@ -135,6 +141,10 @@ public class VisibleEditor {
 		open.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				for(int i = 0; i<VisibleEditor.cs.size(); i++) {
+					VisibleEditor.cs.get(i).OpenFile();
+				}
+				
 				JFileChooser jfc = new JFileChooser();
 				jfc.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
 				jfc.showDialog(new JLabel(),"Select");
@@ -149,8 +159,7 @@ public class VisibleEditor {
 					br.close();
 					VBlock[] vbs = jf.blocks.toArray(new VBlock[0]);
 					for(int i = 0; i < vbs.length; i++) {
-						jf.remove(vbs[i]);
-						jf.blocks.remove(vbs[i]);
+						mainFrame.unregisterBlock(vbs[i]);
 					}
 					VAttacher[] vas = jf.attachers.toArray(new VAttacher[0]);
 					for(int i = 0; i < vas.length; i++) {
@@ -159,12 +168,20 @@ public class VisibleEditor {
 					}
 					jf.hscrollbar.setValue(0);
 					jf.vscrollbar.setValue(0);
-					try{
-						jf.loadBlocks(s.toArray(new String[0]));
-					}catch(Exception e1){
-						e1.printStackTrace();
-					}
+					jf.newBlock = new ArrayList<AComponent>();
+					Thread td = new Thread(new Runnable(){
+						@Override
+						public void run(){
+							try{
+								jf.loadBlocks(s.toArray(new String[0]));
+							}catch(Exception e1){
+								e1.printStackTrace();
+							}
+						}
+					});
+					td.start();
 					filename = file.getAbsolutePath();
+					outputString("\\LastFile.cfg",filename);
 				} catch(Exception e1) {
 
 				}
@@ -181,11 +198,13 @@ public class VisibleEditor {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				File file;
-				if(filename == null) {
+				if(filename.trim().equals("")) {
 					JFileChooser jfc = new JFileChooser();
 					jfc.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
 					jfc.showSaveDialog(new JLabel());
 					file = jfc.getSelectedFile();
+					filename = file.getAbsolutePath();
+					outputString("\\LastFile.cfg",filename);
 				} else {
 					file = new File(filename);
 				}
@@ -210,7 +229,7 @@ public class VisibleEditor {
 				jfc.showSaveDialog(new JLabel());
 				file = jfc.getSelectedFile();
 				filename = file.getAbsolutePath();
-
+				outputString("\\LastFile.cfg",filename);
 				try {
 					FileOutputStream out = new FileOutputStream(file,false);
 					out.write(VisibleEditor.mainFrame.export().getBytes());
@@ -393,6 +412,54 @@ public class VisibleEditor {
 						jf.splitpanel.setResizeWeight(0.8);
 						jf.splitpanel.setDividerSize(3);
 						jf.result.setVisible(false);
+						
+						File eg = new File(System.getProperty("user.dir") + "\\LastFile.cfg");
+						if(eg.exists()) {
+							try {
+								BufferedReader brr = new BufferedReader(new FileReader(System.getProperty("user.dir") + "\\LastFile.cfg"));
+								String sz = brr.readLine();
+								File file = new File(sz);
+								try {
+									BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
+									String line = "";
+									ArrayList<String> s = new ArrayList<String>();
+									while((line = br.readLine()) != null) {
+										s.add(line);
+									}
+									br.close();
+									VBlock[] vbs = jf.blocks.toArray(new VBlock[0]);
+									for(int i = 0; i < vbs.length; i++) {
+										mainFrame.unregisterBlock(vbs[i]);
+									}
+									VAttacher[] vas = jf.attachers.toArray(new VAttacher[0]);
+									for(int i = 0; i < vas.length; i++) {
+										jf.remove(vas[i]);
+										jf.attachers.remove(vas[i]);
+									}
+									jf.hscrollbar.setValue(0);
+									jf.vscrollbar.setValue(0);
+									jf.newBlock = new ArrayList<AComponent>();
+									Thread td = new Thread(new Runnable(){
+										@Override
+										public void run(){
+											try{
+												jf.loadBlocks(s.toArray(new String[0]));
+											}catch(Exception e1){
+												e1.printStackTrace();
+											}
+										}
+									});
+									td.start();
+									filename = file.getAbsolutePath();
+									outputString("\\LastFile.cfg",filename);
+								} catch(Exception e1) {
+
+								}
+							} catch(Exception e1) {
+								System.out.println(e1);
+							}
+						}
+						
 					}
 				});
 				
@@ -414,6 +481,9 @@ public class VisibleEditor {
 		}
 		Translating = true;
 		String s = text;
+		if(text == null){
+			return text;
+		}
 		if(isWordCharacter(s.charAt(0)) && s.replaceAll("[a-zA-Z]","") != s && targetLanguage != "") {
 			System.out.println("Translating...");
 			if(mainFrame.TranslateEngine == 1) {
@@ -460,6 +530,18 @@ public class VisibleEditor {
 			out.close();
 		} catch(Exception e1) {
 
+		}
+	}
+	
+	public static void outputString(String filename,String content){
+		try {
+			File output = new File(System.getProperty("user.dir") + filename); // Get Path in Target Folder
+			output.getParentFile().mkdirs();
+			FileWriter out = new FileWriter(output); // Save the dictionary to the Local
+			out.write(content);
+			out.close();
+		} catch(Exception e) {
+			e.printStackTrace();
 		}
 	}
 }
@@ -622,12 +704,12 @@ class PointCalculator extends JFrame {
 	}
 }
 
-class VGroup extends JPanel {
+class VGroup extends JLayeredPane {
 
 	public VGroup(VBlock[] Model,int ID) {
 		this.setLayout(null);
 		for(int i = 0; i<Model.length; i++) {
-			this.add(Model[i]);
+			this.add(Model[i],0);
 			Model[i].Model = true;
 			Model[i].ModelID = ID;
 			Model[i].ModelGroup = this;

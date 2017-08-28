@@ -33,6 +33,21 @@ public class GeneralPaint extends Event {
 			case "void":
 				DrawTwoDirection(b,g,new Color(255,150,0),new Color(48,28,0));
 				return true;
+			case "+":
+				DrawTwoDirection(b,g,new Color(50,200,0),new Color(10,50,0));
+				return true;
+			case "-":
+				DrawTwoDirection(b,g,new Color(50,200,0),new Color(10,50,0));
+				return true;
+			case "*":
+				DrawTwoDirection(b,g,new Color(50,200,0),new Color(10,50,0));
+				return true;
+			case "/":
+				DrawTwoDirection(b,g,new Color(50,200,0),new Color(10,50,0));
+				return true;
+			case "=":
+				DrawTwoDirection(b,g,new Color(50,200,0),new Color(10,50,0));
+				return true;
 		}
 		return false;
 	}

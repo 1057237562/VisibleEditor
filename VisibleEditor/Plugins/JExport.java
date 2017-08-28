@@ -133,7 +133,7 @@ public class JExport extends Event {
 						public void run() {
 							try {
 								Process p = Runtime.getRuntime().exec(inpuz.getText() + "javac \""+VisibleEditor.filename+"\"");
-								System.out.println(inpuz.getText() + "javac \""+VisibleEditor.filename+"\"");//export
+								out(inpuz.getText() + "javac \""+VisibleEditor.filename+"\"");//export
 								p.waitFor(); // Wait Export Complete
 								Console(p.getErrorStream());
 							} catch(Exception e2) {
@@ -170,17 +170,17 @@ public class JExport extends Event {
 							
 								if(impo.size() != 0){
 									p = Runtime.getRuntime().exec(inpuz.getText() + "javac \""+VisibleEditor.filename+"\"");
-									System.out.println(inpuz.getText() + "javac "+String.join(";",impo.toArray(new String[0]))+" \""+VisibleEditor.filename+"\"");//export
+									out(inpuz.getText() + "javac "+String.join(";",impo.toArray(new String[0]))+" \""+VisibleEditor.filename+"\"");//export
 									p.waitFor(); // Wait Export Complete
 									Console(p.getErrorStream());
 								}else{
 									p = Runtime.getRuntime().exec(inpuz.getText() + "javac \""+VisibleEditor.filename+"\"");
-									System.out.println(inpuz.getText() + "javac \""+VisibleEditor.filename+"\"");//export
+									out(inpuz.getText() + "javac \""+VisibleEditor.filename+"\"");//export
 									p.waitFor(); // Wait Export Complete
 									Console(p.getErrorStream());
 								}
 								
-								System.out.println(inpuz.getText() + "java -cp \""+target.getParent()+"\" \"" + target.getName().split("\\.")[0]+"\"");
+								out(inpuz.getText() + "java -cp \""+target.getParent()+"\" \"" + target.getName().split("\\.")[0]+"\"");
 								p = Runtime.getRuntime().exec(inpuz.getText() + "java -cp \""+target.getParent()+"\" "+target.getName().split("\\.")[0]);//run
 								Console(p.getInputStream());
 							} catch(Exception e2) {
@@ -241,6 +241,7 @@ public class JExport extends Event {
 	}
 	
 	public void Console(InputStream p) {
+		jtp.setText(jtp.getText()+"\n-------------------------------------------------------");
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(p));
 			String line = null;
@@ -253,6 +254,10 @@ public class JExport extends Event {
 		} catch(Exception e) {
 			System.out.println(e);
 		}
+	}
+	
+	public void out(String content){
+		jtp.setText(jtp.getText()+"\n"+content);
 	}
 	
 }
